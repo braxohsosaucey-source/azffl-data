@@ -1,0 +1,231 @@
+{
+ "league": "AZ Fantasy Football League (AZFFL)",
+ "espnLeagueId": 1503051722,
+ "season": 2026,
+ "note": "Inaugural season. Reconstructed 2026-09-14; scoring verified against ESPN in the prior session.",
+ "teams": 10,
+ "buyIn": 100,
+ "ppr": 0.75,
+ "scoring": {
+  "receptions_statId_53": 0.75,
+  "interceptions_statId_20": -2.25,
+  "fumblesLost_statId_72": -2.25,
+  "missedPAT_statId_88": -1.75,
+  "missedFG_under40_statId_82": -1.75,
+  "fieldGoalYards_statId_214": 0.1,
+  "patMade_statId_86": 1.0
+ },
+ "fab": {
+  "budget": 100,
+  "tiebreak": "that week's loser, then lowest scorer"
+ },
+ "waivers": "1-day",
+ "waiverClear": {
+  "_note": "THE ONE DEFINITION OF THE WAIVER CLEAR (canon rule 7). His change 2026-09-27: the period went from 48 hours to 24, so the weekly batch clears a day sooner. Every reader takes the day and hour from here — sportsbook.freshness(), the FAAB task and any site copy. ESPN's own field waiverProcessHour is 11 in an undocumented zone and is NOT usable; the authority is status.waiverLastExecutionDate, which is what `measured` records.",
+  "waiverHours": 24,
+  "day": "WEDNESDAY",
+  "dayIndex": 2,
+  "hourAZ": 0,
+  "espnLagMinutes": 60,
+  "rostersTrustworthyHourAZ": 1,
+  "processDays": [
+   "MONDAY",
+   "WEDNESDAY",
+   "THURSDAY",
+   "FRIDAY",
+   "SATURDAY",
+   "SUNDAY"
+  ],
+  "offDay": "TUESDAY",
+  "measured": "2026-09-27 12:44 AM AZ (status.waiverLastExecutionDate 1790495070241 = 2026-09-27T07:44:30Z), read off ESPN by Refinement Chat; board B-38",
+  "previously": "2-day / 48h, cleared THURSDAY 12:00 AM AZ, until his change 2026-09-27"
+ },
+ "mondayText": {
+  "_note": "MONDAY'S MATCHUPS TO WATCH (v71a FIX-1, board B-92 §2): the text is rendered on GitHub the moment Monday's waivers make the rosters trustworthy (waiverClear), and sent to the flagged phones no earlier than this hour, AZ, on the Monday of the game (6.5 = 6:30 AM). The Worker never sends a verdict that does not carry its sendAfterUtc.",
+  "sendHourAZ": 6.5
+ },
+ "draft": "Tue 2026-09-08, snake, 2 min/pick",
+ "tradeDeadline": "2026-11-18 (Week 10)",
+ "veto": "8 votes, no review period",
+ "playoffs": {
+  "weeks": "NFL 15-17",
+  "teams": 6,
+  "byes": 2,
+  "divisions": "none"
+ },
+ "punishment": "loser-of-league punishment set by group vote; relegation if unagreed",
+ "awards": [
+  "Champ",
+  "Bum Ass Nigga Award (loser)",
+  "The \"Him\" Crown (top scorer)",
+  "Bottom Feeder (lowest scorer)",
+  "Luka (most points allowed)"
+ ],
+ "commissioner": "Brastone Ngoma (Daddy Brax)",
+ "coCommissioner": "Caophi Nguyen (Wasabi)",
+ "teamMap": {
+  "1": {
+   "team": "THE NgomaFootballTeam 🤑💸💵",
+   "mgr": "Brastone Ngoma",
+   "abbrev": "NFT",
+   "espnOwnerId": "{EC72FEFB-8D8B-4613-8111-2A449DCC81FA}",
+   "espnLogo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3b8f120-9604-11f1-a52e-2f1b19f5c061",
+   "espnLogoKind": "upload",
+   "display": "THE NgomaFootballTeam 🤑💸💵"
+  },
+  "2": {
+   "team": "The Cigarettes",
+   "mgr": "Anthony Mhilli",
+   "abbrev": "MOB",
+   "espnOwnerId": "{AB84AC44-8C08-47DE-816E-64D8CE83663D}",
+   "espnLogo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85cf8f40-aa1a-11f1-bcd0-ffc758441db5",
+   "espnLogoKind": "upload",
+   "display": "The Cigarettes"
+  },
+  "3": {
+   "team": "Benjamin Netanyahu",
+   "mgr": "David Carrier",
+   "abbrev": "BMC",
+   "espnOwnerId": "{7277F445-05C7-4E21-B7F4-4505C7CE21B1}",
+   "espnLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+   "espnLogoKind": "default",
+   "display": "Benjamin Netanyahu"
+  },
+  "4": {
+   "team": "Puka Nacua D.D.S",
+   "mgr": "Ben Castelli",
+   "abbrev": "PN",
+   "espnOwnerId": "{762E2864-8494-4681-81C7-4357F3240A70}",
+   "espnLogo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/ddaba170-ac06-11f1-8ef0-19c1af2548f8",
+   "espnLogoKind": "upload",
+   "display": "Puka Nacua D.D.S"
+  },
+  "5": {
+   "team": "No Chuck Given",
+   "mgr": "Chuck Sutton",
+   "abbrev": "NCg",
+   "espnOwnerId": "{CD23E5ED-A8CE-487A-A8A5-6EC2772B24E6}",
+   "espnLogo": "https://g.espncdn.com/lm-static/logo-packs/ffl/HelmetAlphabet-ESPN/Helmet-C.svg",
+   "espnLogoKind": "pack",
+   "display": "No Chuck Given"
+  },
+  "6": {
+   "team": "No Deshaun Dont Touchdown There",
+   "mgr": "Carter Moldenhauer",
+   "abbrev": "CCT",
+   "espnOwnerId": "{68FF500A-3446-4F37-8FCA-2997FB67D701}",
+   "espnLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+   "espnLogoKind": "default",
+   "display": "No Deshaun Dont Touchdown There"
+  },
+  "7": {
+   "team": "Mark Davis's Haircut",
+   "mgr": "Oliver Balicanta",
+   "abbrev": "OB",
+   "espnOwnerId": "{71276F1B-E7B6-44A8-8559-9F00C19CF588}",
+   "espnLogo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias-RB/gibbs-01.svg",
+   "espnLogoKind": "pack",
+   "display": "Mark Davis's Haircut"
+  },
+  "8": {
+   "team": "Are you Shedeur she's 18?",
+   "mgr": "Caophi Nguyen",
+   "abbrev": "Pn15",
+   "espnOwnerId": "{EAAB1870-01E8-456D-A98C-5CE9A87ACDCD}",
+   "espnLogo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/5335f780-a174-11f1-8b95-b1e59b7020ef",
+   "espnLogoKind": "upload",
+   "display": "Are you Shedeur she's 18?"
+  },
+  "9": {
+   "team": "1st Down Syndrome",
+   "mgr": "Max Willoughby",
+   "abbrev": "MMA",
+   "espnOwnerId": "{EC48059D-D3F9-4A38-AD18-84429696A3E8}",
+   "espnLogo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3edf990-a939-11f1-8ecc-d1c52c68c30a",
+   "espnLogoKind": "upload",
+   "display": "1st Down Syndrome"
+  },
+  "10": {
+   "team": "Big Bower Brand",
+   "mgr": "Austin Bower",
+   "abbrev": "BBB",
+   "espnOwnerId": "{DC822EA1-E038-490B-980D-C3398E85F7D5}",
+   "espnLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+   "espnLogoKind": "default",
+   "display": "Big Bower Brand"
+  }
+ },
+ "note_austin": "RJ Potts left; Austin Bower replaced him and inherited the #2 slot, making the picks himself. ESPN misspells him 'Austin Bowet' — always write 'Austin Bower'. Confirmed again in the 2026-09-15 live pull: ESPN member record still reads 'Austin Bowet'.",
+ "_teamNamesVerified": "2026-09-15 live ESPN pull. ESPN is the authority for team names.",
+ "_logoPolicy": "HANDS OFF unless the manager changed it on ESPN. espnLogoKind: 'upload' = his own image, never touch. 'pack' = an ESPN logo-pack pick, i.e. a deliberate choice -> use the real ESPN asset (this is why Oliver/t7 now renders the actual Gibbs SVG). 'default' = ESPN's numbered generic crest -> keep the hand-made AZFFL crest. OPEN QUESTION for Brax: team 5 (Chuck) is Helmet-C from the HelmetAlphabet pack, which his 2026-09-15 ruling counted among 'the other 4 people' with generic logos. Crest kept for now; swap only on his word.",
+ "_displayNote": "`team` is ESPN verbatim and `display` is what an issue prints. They are now IDENTICAL for all ten — Brax ruled 2026-09-15 that the emoji in his own team name DO print. The two fields stay separate only so a future carve-out has somewhere to live; do not introduce one without him saying so.",
+ "tiebreaker": {
+  "rule": "most bench points",
+  "appliesTo": "drawnMatchup",
+  "meaning": "A head-to-head level on the scoreboard goes to the manager with more points on his bench. The league has NO ties.",
+  "statedBy": "Brax",
+  "statedUtc": "2026-09-18",
+  "notFabTiebreak": "Distinct from fab.tiebreak, which is waiver bid priority.",
+  "dataLocation": "league_schedule.json -> benchPoints[week][teamId]",
+  "dataNeeded": "Per-team bench totals from a box-score pull taken AFTER all games are final. week1_boxscores.json is a pre-MNF pull and is NOT usable.",
+  "unsettledCase": "If both the scores AND the benches are level, the tiebreaker does not decide. build.py refuses and you ask Brax."
+ },
+ "rosterSlots": {
+  "QB": 1,
+  "RB": 2,
+  "WR": 2,
+  "D/ST": 1,
+  "K": 1,
+  "BE": 5,
+  "IR": 3,
+  "FLEX": 3,
+  "_bySlotId": {
+   "0": 1,
+   "1": 0,
+   "2": 2,
+   "3": 0,
+   "4": 2,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 5,
+   "21": 3,
+   "22": 0,
+   "23": 3,
+   "24": 0
+  },
+  "_source": "ESPN view=mSettings settings.rosterSettings.lineupSlotCounts — written by every pass"
+ },
+ "notes": {
+  "TE_SLOT": "NONE — replaced by a flex"
+ },
+ "tickCadence": {
+  "_source": "Brax's yes, 2026-09-29 (chat 1:05 AM AZ on board B-106 §1; again that afternoon on the measured Actions minutes, board B-123). THE one definition of how often the hosted pass runs outside the game windows; pipeline/tick.py reads it, the Worker's clock follows the pass's own nextDueUtc.",
+  "gameS": 120,
+  "pregameS": 1800,
+  "dayS": 1200,
+  "dayDays": [
+   "Tue",
+   "Wed",
+   "Thu",
+   "Fri",
+   "Sat"
+  ],
+  "dayFromAZ": "06:00",
+  "dayToAZ": "23:00",
+  "otherS": 3600,
+  "_note": "gameS: from 15 minutes before a kickoff until 20 minutes after the last whistle. pregameS: the 3 hours before that. dayS: dayDays between dayFromAZ and dayToAZ (Arizona time). otherS: every other quiet hour — overnight, and Sunday and Monday away from the games."
+ }
+}
