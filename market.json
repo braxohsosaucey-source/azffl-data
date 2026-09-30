@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-09-30T13:45:20Z",
+ "_pulledUtc": "2026-09-30T14:30:34Z",
  "week": 4,
  "books": [
   "Draft Kings"
@@ -108,8 +108,8 @@
     "book": "Draft Kings",
     "details": "IND -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -180,
+     "home": 150
     },
     "moneylineOpen": {
      "away": -110,
@@ -129,8 +129,8 @@
     },
     "total": {
      "line": 47.5,
-     "over": -102,
-     "under": -118
+     "over": -108,
+     "under": -112
     },
     "totalOpen": {
      "line": 48.5,
@@ -139,11 +139,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.616438,
+    "home": 0.383562,
+    "hold": 0.042857,
+    "fairAway": -160.71,
+    "fairHome": 160.71
    },
    "noVigOpen": {
     "away": 0.5,
@@ -463,20 +463,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "ARI -1.5",
+    "details": "ARI -2.5",
     "moneyline": {
-     "away": -125,
-     "home": 105
+     "away": -135,
+     "home": 114
     },
     "moneylineOpen": {
      "away": 260,
      "home": -325
     },
     "spread": {
-     "away": -1.5,
-     "home": 1.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "away": -2.5,
+     "home": 2.5,
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": 7.0,
@@ -496,11 +496,11 @@
     }
    },
    "noVig": {
-    "away": 0.532468,
-    "home": 0.467532,
-    "hold": 0.04336,
-    "fairAway": -113.89,
-    "fairHome": 113.89
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
    },
    "noVigOpen": {
     "away": 0.266458,
@@ -735,8 +735,8 @@
     "book": "Draft Kings",
     "details": "BAL -11.5",
     "moneyline": {
-     "away": 500,
-     "home": -700
+     "away": 490,
+     "home": -675
     },
     "moneylineOpen": {
      "away": 310,
@@ -766,11 +766,11 @@
     }
    },
    "noVig": {
-    "away": 0.16,
-    "home": 0.84,
-    "hold": 0.041667,
-    "fairAway": 525.0,
-    "fairHome": -525.0
+    "away": 0.162901,
+    "home": 0.837099,
+    "hold": 0.040459,
+    "fairAway": 513.87,
+    "fairHome": -513.87
    },
    "noVigOpen": {
     "away": 0.234098,
@@ -896,8 +896,8 @@
     "book": "Draft Kings",
     "details": "MIN -10.5",
     "moneyline": {
-     "away": 470,
-     "home": -650
+     "away": 455,
+     "home": -625
     },
     "moneylineOpen": {
      "away": 310,
@@ -927,11 +927,11 @@
     }
    },
    "noVig": {
-    "away": 0.16835,
-    "home": 0.83165,
-    "hold": 0.042105,
-    "fairAway": 494.0,
-    "fairHome": -494.0
+    "away": 0.172876,
+    "home": 0.827124,
+    "hold": 0.042249,
+    "fairAway": 478.45,
+    "fairHome": -478.45
    },
    "noVigOpen": {
     "away": 0.234098,
@@ -1368,7 +1368,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-09-30T13:23:43Z",
+ "injuriesUtc": "2026-09-30T14:30:30Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2031,9 +2031,9 @@
     "status": "Out",
     "abbr": "O",
     "date": "2026-09-29T00:53Z",
-    "body": "Ankle",
+    "body": "Lower Leg",
     "side": "Not Specified",
-    "returnDate": "2026-11-01",
+    "returnDate": "2026-12-13",
     "fantasy": "OUT"
    },
    {
@@ -2886,13 +2886,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-09-30T13:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-09-30T14:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4431611,
@@ -10735,6 +10735,30 @@
   ],
   "WSH": [
    {
+    "id": 4426348,
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T14:09Z",
+    "body": "Elbow",
+    "side": "Left",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4697815,
+    "name": "Rachaad White",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T13:57Z",
+    "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4426403,
     "name": "Nick Cross",
     "pos": "S",
@@ -10791,18 +10815,6 @@
     "date": "2026-09-30T01:45Z",
     "body": "Hamstring",
     "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4426348,
-    "name": "Jayden Daniels",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-09-30T01:41Z",
-    "body": "Elbow",
-    "side": "Left",
     "returnDate": "2026-10-04",
     "fantasy": "QUESTIONABLE"
    },
@@ -10873,18 +10885,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-28T19:21Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4697815,
-    "name": "Rachaad White",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-28T03:47Z",
     "body": null,
     "side": null,
     "returnDate": null,
