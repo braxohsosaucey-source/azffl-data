@@ -1,0 +1,5768 @@
+{
+ "_source": "ESPN rosters (mRoster: ownership, injury, lineup slot), mPositionalRatings and proTeamSchedules_wl — written by every pass (pipeline/league_meta.py); data only",
+ "_pulledUtc": "2026-09-30T01:24:19.721Z",
+ "week": 4,
+ "players": [
+  {
+   "id": 4362628,
+   "name": "Ja'Marr Chase",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 4,
+   "injury": "ACTIVE",
+   "own": 99.89,
+   "start": 99.53,
+   "bye": 6
+  },
+  {
+   "id": 4567048,
+   "name": "Kenneth Walker III",
+   "tid": 1,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 12,
+   "injury": "ACTIVE",
+   "own": 99.76,
+   "start": 98.14,
+   "bye": 5
+  },
+  {
+   "id": 4595348,
+   "name": "Malik Nabers",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 19,
+   "injury": "ACTIVE",
+   "own": 98.44,
+   "start": 75.43,
+   "bye": 8
+  },
+  {
+   "id": 4696981,
+   "name": "Cam Skattebo",
+   "tid": 1,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 19,
+   "injury": "ACTIVE",
+   "own": 97.95,
+   "start": 83.85,
+   "bye": 8
+  },
+  {
+   "id": 4259545,
+   "name": "D'Andre Swift",
+   "tid": 1,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 3,
+   "injury": "ACTIVE",
+   "own": 96.29,
+   "start": 75.69,
+   "bye": 10
+  },
+  {
+   "id": 3915511,
+   "name": "Joe Burrow",
+   "tid": 1,
+   "pos": "QB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 4,
+   "injury": "ACTIVE",
+   "own": 96.92,
+   "start": 62.8,
+   "bye": 6
+  },
+  {
+   "id": 4432620,
+   "name": "Parker Washington",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 30,
+   "injury": "ACTIVE",
+   "own": 93.59,
+   "start": 71.68,
+   "bye": 7
+  },
+  {
+   "id": 4569987,
+   "name": "Jaylen Warren",
+   "tid": 1,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 23,
+   "injury": "ACTIVE",
+   "own": 89.0,
+   "start": 50.0,
+   "bye": 9
+  },
+  {
+   "id": 4360078,
+   "name": "Alec Pierce",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 11,
+   "injury": "INJURY_RESERVE",
+   "own": 67.57,
+   "start": 1.18,
+   "bye": 13
+  },
+  {
+   "id": 3139477,
+   "name": "Patrick Mahomes",
+   "tid": 1,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 12,
+   "injury": "ACTIVE",
+   "own": 95.44,
+   "start": 66.83,
+   "bye": 5
+  },
+  {
+   "id": 4429205,
+   "name": "Jordan Addison",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 16,
+   "injury": "ACTIVE",
+   "own": 70.72,
+   "start": 13.47,
+   "bye": 6
+  },
+  {
+   "id": 3055899,
+   "name": "Harrison Butker",
+   "tid": 1,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 12,
+   "injury": "ACTIVE",
+   "own": 84.41,
+   "start": 78.42,
+   "bye": 5
+  },
+  {
+   "id": 4695883,
+   "name": "Jalen Coker",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 29,
+   "injury": "QUESTIONABLE",
+   "own": 88.4,
+   "start": 46.34,
+   "bye": 5
+  },
+  {
+   "id": 4569559,
+   "name": "Devaughn Vele",
+   "tid": 1,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 18,
+   "injury": "ACTIVE",
+   "own": 67.99,
+   "start": 23.24,
+   "bye": 8
+  },
+  {
+   "id": -16025,
+   "name": "49ers D/ST",
+   "tid": 1,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 25,
+   "injury": null,
+   "own": 74.61,
+   "start": 65.99,
+   "bye": 8
+  },
+  {
+   "id": -16004,
+   "name": "Bengals D/ST",
+   "tid": 1,
+   "pos": "D/ST",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 4,
+   "injury": null,
+   "own": 36.1,
+   "start": 29.16,
+   "bye": 6
+  },
+  {
+   "id": 4374302,
+   "name": "Amon-Ra St. Brown",
+   "tid": 2,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 8,
+   "injury": "ACTIVE",
+   "own": 99.85,
+   "start": 99.63,
+   "bye": 6
+  },
+  {
+   "id": 4427366,
+   "name": "Breece Hall",
+   "tid": 2,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 20,
+   "injury": "QUESTIONABLE",
+   "own": 98.81,
+   "start": 69.56,
+   "bye": 13
+  },
+  {
+   "id": 4361307,
+   "name": "Trey McBride",
+   "tid": 2,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 22,
+   "injury": "ACTIVE",
+   "own": 99.83,
+   "start": 99.19,
+   "bye": 14
+  },
+  {
+   "id": 4239993,
+   "name": "Tee Higgins",
+   "tid": 2,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 4,
+   "injury": "ACTIVE",
+   "own": 96.58,
+   "start": 73.35,
+   "bye": 6
+  },
+  {
+   "id": 4426388,
+   "name": "Jameson Williams",
+   "tid": 2,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 8,
+   "injury": "ACTIVE",
+   "own": 92.11,
+   "start": 36.86,
+   "bye": 6
+  },
+  {
+   "id": 3916148,
+   "name": "Tony Pollard",
+   "tid": 2,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 10,
+   "injury": "ACTIVE",
+   "own": 84.97,
+   "start": 24.39,
+   "bye": 9
+  },
+  {
+   "id": 4360761,
+   "name": "Michael Wilson",
+   "tid": 2,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 22,
+   "injury": "ACTIVE",
+   "own": 80.07,
+   "start": 24.94,
+   "bye": 14
+  },
+  {
+   "id": 4575131,
+   "name": "Jacory Croskey-Merritt",
+   "tid": 2,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 28,
+   "injury": "ACTIVE",
+   "own": 71.33,
+   "start": 8.29,
+   "bye": 7
+  },
+  {
+   "id": 2971573,
+   "name": "Ka'imi Fairbairn",
+   "tid": 2,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 34,
+   "injury": "ACTIVE",
+   "own": 92.01,
+   "start": 87.86,
+   "bye": 8
+  },
+  {
+   "id": 3054850,
+   "name": "Alvin Kamara",
+   "tid": 2,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 18,
+   "injury": "ACTIVE",
+   "own": 52.2,
+   "start": 9.31,
+   "bye": 8
+  },
+  {
+   "id": 4385690,
+   "name": "Dalton Kincaid",
+   "tid": 2,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 2,
+   "injury": "ACTIVE",
+   "own": 91.46,
+   "start": 64.26,
+   "bye": 7
+  },
+  {
+   "id": 3917315,
+   "name": "Kyler Murray",
+   "tid": 2,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 16,
+   "injury": "ACTIVE",
+   "own": 60.67,
+   "start": 21.94,
+   "bye": 6
+  },
+  {
+   "id": 4361432,
+   "name": "Romeo Doubs",
+   "tid": 2,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 17,
+   "injury": "ACTIVE",
+   "own": 64.92,
+   "start": 13.46,
+   "bye": 11
+  },
+  {
+   "id": -16016,
+   "name": "Vikings D/ST",
+   "tid": 2,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 16,
+   "injury": null,
+   "own": 47.37,
+   "start": 44.16,
+   "bye": 6
+  },
+  {
+   "id": 3929630,
+   "name": "Saquon Barkley",
+   "tid": 3,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 21,
+   "injury": "ACTIVE",
+   "own": 99.6,
+   "start": 92.41,
+   "bye": 10
+  },
+  {
+   "id": 4241389,
+   "name": "CeeDee Lamb",
+   "tid": 3,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 6,
+   "injury": "ACTIVE",
+   "own": 99.87,
+   "start": 99.35,
+   "bye": 14
+  },
+  {
+   "id": 4430737,
+   "name": "Kyren Williams",
+   "tid": 3,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 14,
+   "injury": "ACTIVE",
+   "own": 98.38,
+   "start": 84.88,
+   "bye": 11
+  },
+  {
+   "id": 3916387,
+   "name": "Lamar Jackson",
+   "tid": 3,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 33,
+   "injury": "ACTIVE",
+   "own": 99.81,
+   "start": 93.9,
+   "bye": 13
+  },
+  {
+   "id": 4612826,
+   "name": "Ladd McConkey",
+   "tid": 3,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 24,
+   "injury": "ACTIVE",
+   "own": 96.9,
+   "start": 68.71,
+   "bye": 7
+  },
+  {
+   "id": 4047365,
+   "name": "Josh Jacobs",
+   "tid": 3,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 9,
+   "injury": "DAY_TO_DAY",
+   "own": 83.97,
+   "start": 4.72,
+   "bye": 11
+  },
+  {
+   "id": 4701936,
+   "name": "Matthew Golden",
+   "tid": 3,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 9,
+   "injury": "ACTIVE",
+   "own": 84.26,
+   "start": 34.63,
+   "bye": 11
+  },
+  {
+   "id": 12483,
+   "name": "Matthew Stafford",
+   "tid": 3,
+   "pos": "QB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 14,
+   "injury": "ACTIVE",
+   "own": 89.59,
+   "start": 40.18,
+   "bye": 11
+  },
+  {
+   "id": 4568490,
+   "name": "RJ Harvey",
+   "tid": 3,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 7,
+   "injury": "ACTIVE",
+   "own": 68.79,
+   "start": 7.08,
+   "bye": 10
+  },
+  {
+   "id": -16026,
+   "name": "Seahawks D/ST",
+   "tid": 3,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 26,
+   "injury": null,
+   "own": 98.54,
+   "start": 95.42,
+   "bye": 11
+  },
+  {
+   "id": 4361050,
+   "name": "Isaiah Likely",
+   "tid": 3,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 19,
+   "injury": "ACTIVE",
+   "own": 90.71,
+   "start": 53.63,
+   "bye": 8
+  },
+  {
+   "id": 4428718,
+   "name": "Tre Tucker",
+   "tid": 3,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 13,
+   "injury": "ACTIVE",
+   "own": 42.14,
+   "start": 8.91,
+   "bye": 13
+  },
+  {
+   "id": 4360234,
+   "name": "Evan McPherson",
+   "tid": 3,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 4,
+   "injury": "ACTIVE",
+   "own": 42.24,
+   "start": 38.73,
+   "bye": 6
+  },
+  {
+   "id": 4887558,
+   "name": "Emanuel Wilson",
+   "tid": 3,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 26,
+   "injury": "ACTIVE",
+   "own": 33.92,
+   "start": 5.29,
+   "bye": 11
+  },
+  {
+   "id": 4360939,
+   "name": "Rashod Bateman",
+   "tid": 3,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 33,
+   "injury": "ACTIVE",
+   "own": 34.0,
+   "start": 5.99,
+   "bye": 13
+  },
+  {
+   "id": 4426515,
+   "name": "Puka Nacua",
+   "tid": 4,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 14,
+   "injury": "QUESTIONABLE",
+   "own": 99.78,
+   "start": 35.78,
+   "bye": 11
+  },
+  {
+   "id": 4890973,
+   "name": "Ashton Jeanty",
+   "tid": 4,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 13,
+   "injury": "ACTIVE",
+   "own": 99.68,
+   "start": 97.7,
+   "bye": 13
+  },
+  {
+   "id": 4426502,
+   "name": "Drake London",
+   "tid": 4,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 1,
+   "injury": "ACTIVE",
+   "own": 99.25,
+   "start": 93.03,
+   "bye": 11
+  },
+  {
+   "id": 4685702,
+   "name": "Quinshon Judkins",
+   "tid": 4,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 5,
+   "injury": "ACTIVE",
+   "own": 95.04,
+   "start": 67.18,
+   "bye": 11
+  },
+  {
+   "id": 4882093,
+   "name": "Bhayshul Tuten",
+   "tid": 4,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 30,
+   "injury": "ACTIVE",
+   "own": 91.98,
+   "start": 50.59,
+   "bye": 7
+  },
+  {
+   "id": 4871023,
+   "name": "Carnell Tate",
+   "tid": 4,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 10,
+   "injury": "ACTIVE",
+   "own": 85.81,
+   "start": 24.96,
+   "bye": 9
+  },
+  {
+   "id": 4569173,
+   "name": "Rhamondre Stevenson",
+   "tid": 4,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 17,
+   "injury": "ACTIVE",
+   "own": 90.58,
+   "start": 39.93,
+   "bye": 11
+  },
+  {
+   "id": 4431611,
+   "name": "Caleb Williams",
+   "tid": 4,
+   "pos": "QB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 3,
+   "injury": "DOUBTFUL",
+   "own": 90.24,
+   "start": 5.38,
+   "bye": 10
+  },
+  {
+   "id": 2976212,
+   "name": "Stefon Diggs",
+   "tid": 4,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 28,
+   "injury": "ACTIVE",
+   "own": 85.76,
+   "start": 27.97,
+   "bye": 7
+  },
+  {
+   "id": 4034949,
+   "name": "Eddy Pineiro",
+   "tid": 4,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 25,
+   "injury": "ACTIVE",
+   "own": 81.83,
+   "start": 76.86,
+   "bye": 8
+  },
+  {
+   "id": -16021,
+   "name": "Eagles D/ST",
+   "tid": 4,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 21,
+   "injury": null,
+   "own": 86.64,
+   "start": 77.42,
+   "bye": 10
+  },
+  {
+   "id": 4832800,
+   "name": "Denzel Boston",
+   "tid": 4,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 5,
+   "injury": "ACTIVE",
+   "own": 71.99,
+   "start": 23.26,
+   "bye": 11
+  },
+  {
+   "id": 3046779,
+   "name": "Jared Goff",
+   "tid": 4,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 8,
+   "injury": "ACTIVE",
+   "own": 79.41,
+   "start": 39.73,
+   "bye": 6
+  },
+  {
+   "id": 4702555,
+   "name": "Jonah Coleman",
+   "tid": 4,
+   "pos": "RB",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 7,
+   "injury": "INJURY_RESERVE",
+   "own": 32.15,
+   "start": 0.22,
+   "bye": 10
+  },
+  {
+   "id": 4570037,
+   "name": "Terrance Ferguson",
+   "tid": 4,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 14,
+   "injury": "DOUBTFUL",
+   "own": 33.64,
+   "start": 7.56,
+   "bye": 11
+  },
+  {
+   "id": 4428557,
+   "name": "Tyjae Spears",
+   "tid": 4,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 10,
+   "injury": "ACTIVE",
+   "own": 47.25,
+   "start": 2.66,
+   "bye": 9
+  },
+  {
+   "id": 4242335,
+   "name": "Jonathan Taylor",
+   "tid": 5,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 11,
+   "injury": "ACTIVE",
+   "own": 99.81,
+   "start": 99.34,
+   "bye": 13
+  },
+  {
+   "id": 4262921,
+   "name": "Justin Jefferson",
+   "tid": 5,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 16,
+   "injury": "QUESTIONABLE",
+   "own": 99.76,
+   "start": 95.92,
+   "bye": 6
+  },
+  {
+   "id": 4567750,
+   "name": "Emeka Egbuka",
+   "tid": 5,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 27,
+   "injury": "ACTIVE",
+   "own": 97.41,
+   "start": 69.73,
+   "bye": 10
+  },
+  {
+   "id": 3918298,
+   "name": "Josh Allen",
+   "tid": 5,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 2,
+   "injury": "QUESTIONABLE",
+   "own": 99.83,
+   "start": 98.3,
+   "bye": 7
+  },
+  {
+   "id": 16800,
+   "name": "Davante Adams",
+   "tid": 5,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 14,
+   "injury": "ACTIVE",
+   "own": 98.9,
+   "start": 90.38,
+   "bye": 11
+  },
+  {
+   "id": 3121422,
+   "name": "Terry McLaurin",
+   "tid": 5,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 28,
+   "injury": "ACTIVE",
+   "own": 92.56,
+   "start": 48.27,
+   "bye": 7
+  },
+  {
+   "id": 4432710,
+   "name": "TreVeyon Henderson",
+   "tid": 5,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 17,
+   "injury": "ACTIVE",
+   "own": 90.59,
+   "start": 32.31,
+   "bye": 11
+  },
+  {
+   "id": 4723086,
+   "name": "Colston Loveland",
+   "tid": 5,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 3,
+   "injury": "ACTIVE",
+   "own": 93.73,
+   "start": 50.29,
+   "bye": 10
+  },
+  {
+   "id": 4038941,
+   "name": "Justin Herbert",
+   "tid": 5,
+   "pos": "QB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 24,
+   "injury": "ACTIVE",
+   "own": 83.71,
+   "start": 33.09,
+   "bye": 7
+  },
+  {
+   "id": 4572680,
+   "name": "Tucker Kraft",
+   "tid": 5,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 9,
+   "injury": "ACTIVE",
+   "own": 89.04,
+   "start": 53.65,
+   "bye": 11
+  },
+  {
+   "id": -16014,
+   "name": "Rams D/ST",
+   "tid": 5,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 14,
+   "injury": null,
+   "own": 84.78,
+   "start": 66.26,
+   "bye": 11
+  },
+  {
+   "id": 3126486,
+   "name": "Deebo Samuel Sr.",
+   "tid": 5,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 25,
+   "injury": "ACTIVE",
+   "own": 84.67,
+   "start": 42.3,
+   "bye": 8
+  },
+  {
+   "id": 4362081,
+   "name": "Cameron Dicker",
+   "tid": 5,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 24,
+   "injury": "ACTIVE",
+   "own": 85.79,
+   "start": 78.44,
+   "bye": 7
+  },
+  {
+   "id": 4032473,
+   "name": "Rashid Shaheed",
+   "tid": 5,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 26,
+   "injury": "ACTIVE",
+   "own": 40.53,
+   "start": 7.28,
+   "bye": 11
+  },
+  {
+   "id": 4696044,
+   "name": "Kaelon Black",
+   "tid": 5,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 25,
+   "injury": "ACTIVE",
+   "own": 43.44,
+   "start": 1.59,
+   "bye": 8
+  },
+  {
+   "id": 4379399,
+   "name": "James Cook III",
+   "tid": 6,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 2,
+   "injury": "ACTIVE",
+   "own": 99.87,
+   "start": 98.5,
+   "bye": 7
+  },
+  {
+   "id": 4685382,
+   "name": "Omarion Hampton",
+   "tid": 6,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 24,
+   "injury": "ACTIVE",
+   "own": 99.14,
+   "start": 85.22,
+   "bye": 7
+  },
+  {
+   "id": 4432665,
+   "name": "Brock Bowers",
+   "tid": 6,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 13,
+   "injury": "ACTIVE",
+   "own": 99.75,
+   "start": 77.14,
+   "bye": 13
+  },
+  {
+   "id": 4361370,
+   "name": "Chris Olave",
+   "tid": 6,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 18,
+   "injury": "ACTIVE",
+   "own": 99.57,
+   "start": 96.27,
+   "bye": 8
+  },
+  {
+   "id": 3915416,
+   "name": "DJ Moore",
+   "tid": 6,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 2,
+   "injury": "ACTIVE",
+   "own": 95.09,
+   "start": 51.47,
+   "bye": 7
+  },
+  {
+   "id": 4035538,
+   "name": "David Montgomery",
+   "tid": 6,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 34,
+   "injury": "ACTIVE",
+   "own": 95.19,
+   "start": 68.36,
+   "bye": 8
+  },
+  {
+   "id": 4040715,
+   "name": "Jalen Hurts",
+   "tid": 6,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 21,
+   "injury": "ACTIVE",
+   "own": 98.71,
+   "start": 78.87,
+   "bye": 10
+  },
+  {
+   "id": 4248528,
+   "name": "Christian Watson",
+   "tid": 6,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 9,
+   "injury": "ACTIVE",
+   "own": 93.05,
+   "start": 70.52,
+   "bye": 11
+  },
+  {
+   "id": 4432773,
+   "name": "Brian Thomas Jr.",
+   "tid": 6,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 30,
+   "injury": "ACTIVE",
+   "own": 75.92,
+   "start": 7.44,
+   "bye": 7
+  },
+  {
+   "id": 3953687,
+   "name": "Brandon Aubrey",
+   "tid": 6,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 6,
+   "injury": "ACTIVE",
+   "own": 99.51,
+   "start": 98.39,
+   "bye": 14
+  },
+  {
+   "id": -16034,
+   "name": "Texans D/ST",
+   "tid": 6,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 34,
+   "injury": null,
+   "own": 92.37,
+   "start": 76.1,
+   "bye": 8
+  },
+  {
+   "id": 4360569,
+   "name": "Jordan Mason",
+   "tid": 6,
+   "pos": "RB",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 16,
+   "injury": "INJURY_RESERVE",
+   "own": 56.42,
+   "start": 0.35,
+   "bye": 6
+  },
+  {
+   "id": 4880281,
+   "name": "Jordyn Tyson",
+   "tid": 6,
+   "pos": "WR",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 18,
+   "injury": "INJURY_RESERVE",
+   "own": 33.36,
+   "start": 0.18,
+   "bye": 8
+  },
+  {
+   "id": 4683062,
+   "name": "Xavier Worthy",
+   "tid": 6,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 12,
+   "injury": "ACTIVE",
+   "own": 76.31,
+   "start": 19.4,
+   "bye": 5
+  },
+  {
+   "id": 4360689,
+   "name": "Tyler Shough",
+   "tid": 6,
+   "pos": "QB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 18,
+   "injury": "ACTIVE",
+   "own": 81.94,
+   "start": 50.87,
+   "bye": 8
+  },
+  {
+   "id": 3117256,
+   "name": "Dalton Schultz",
+   "tid": 6,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 34,
+   "injury": "ACTIVE",
+   "own": 66.89,
+   "start": 36.25,
+   "bye": 8
+  },
+  {
+   "id": 4608686,
+   "name": "Kyle Monangai",
+   "tid": 6,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 3,
+   "injury": "ACTIVE",
+   "own": 78.82,
+   "start": 9.01,
+   "bye": 10
+  },
+  {
+   "id": 4429795,
+   "name": "Jahmyr Gibbs",
+   "tid": 7,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 8,
+   "injury": "ACTIVE",
+   "own": 99.94,
+   "start": 99.81,
+   "bye": 6
+  },
+  {
+   "id": 4047646,
+   "name": "A.J. Brown",
+   "tid": 7,
+   "pos": "WR",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 17,
+   "injury": "INJURY_RESERVE",
+   "own": 95.77,
+   "start": 9.91,
+   "bye": 11
+  },
+  {
+   "id": 4258173,
+   "name": "Nico Collins",
+   "tid": 7,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 34,
+   "injury": "QUESTIONABLE",
+   "own": 98.65,
+   "start": 26.9,
+   "bye": 8
+  },
+  {
+   "id": 4569618,
+   "name": "Garrett Wilson",
+   "tid": 7,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 20,
+   "injury": "ACTIVE",
+   "own": 98.84,
+   "start": 91.19,
+   "bye": 13
+  },
+  {
+   "id": 4596448,
+   "name": "Bucky Irving",
+   "tid": 7,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 27,
+   "injury": "ACTIVE",
+   "own": 96.61,
+   "start": 83.0,
+   "bye": 10
+  },
+  {
+   "id": 4431459,
+   "name": "Tyler Warren",
+   "tid": 7,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 11,
+   "injury": "ACTIVE",
+   "own": 98.68,
+   "start": 90.03,
+   "bye": 13
+  },
+  {
+   "id": 4426348,
+   "name": "Jayden Daniels",
+   "tid": 7,
+   "pos": "QB",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 28,
+   "injury": "QUESTIONABLE",
+   "own": 84.99,
+   "start": 16.01,
+   "bye": 7
+  },
+  {
+   "id": 4038815,
+   "name": "Rico Dowdle",
+   "tid": 7,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 23,
+   "injury": "QUESTIONABLE",
+   "own": 77.13,
+   "start": 3.62,
+   "bye": 9
+  },
+  {
+   "id": 3116165,
+   "name": "Chris Godwin Jr.",
+   "tid": 7,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 27,
+   "injury": "ACTIVE",
+   "own": 69.16,
+   "start": 5.83,
+   "bye": 10
+  },
+  {
+   "id": 3042519,
+   "name": "Aaron Jones Sr.",
+   "tid": 7,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 16,
+   "injury": "ACTIVE",
+   "own": 86.12,
+   "start": 51.04,
+   "bye": 6
+  },
+  {
+   "id": 4362249,
+   "name": "Jayden Reed",
+   "tid": 7,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 9,
+   "injury": "DOUBTFUL",
+   "own": 51.5,
+   "start": 1.06,
+   "bye": 11
+  },
+  {
+   "id": 4429059,
+   "name": "Woody Marks",
+   "tid": 7,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 34,
+   "injury": "ACTIVE",
+   "own": 52.11,
+   "start": 4.12,
+   "bye": 8
+  },
+  {
+   "id": 4241474,
+   "name": "Brian Robinson Jr.",
+   "tid": 7,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 1,
+   "injury": "ACTIVE",
+   "own": 21.57,
+   "start": 1.33,
+   "bye": 11
+  },
+  {
+   "id": -16033,
+   "name": "Ravens D/ST",
+   "tid": 7,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 33,
+   "injury": null,
+   "own": 73.1,
+   "start": 58.8,
+   "bye": 13
+  },
+  {
+   "id": 4685720,
+   "name": "Bryce Young",
+   "tid": 7,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 29,
+   "injury": "ACTIVE",
+   "own": 75.94,
+   "start": 51.68,
+   "bye": 5
+  },
+  {
+   "id": 2473037,
+   "name": "Jason Myers",
+   "tid": 7,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 26,
+   "injury": "ACTIVE",
+   "own": 95.24,
+   "start": 91.12,
+   "bye": 11
+  },
+  {
+   "id": 4430878,
+   "name": "Jaxon Smith-Njigba",
+   "tid": 8,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 26,
+   "injury": "ACTIVE",
+   "own": 99.92,
+   "start": 99.77,
+   "bye": 11
+  },
+  {
+   "id": 4362238,
+   "name": "Chase Brown",
+   "tid": 8,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 4,
+   "injury": "ACTIVE",
+   "own": 99.41,
+   "start": 94.66,
+   "bye": 6
+  },
+  {
+   "id": 4372016,
+   "name": "Jaylen Waddle",
+   "tid": 8,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 7,
+   "injury": "QUESTIONABLE",
+   "own": 95.46,
+   "start": 64.29,
+   "bye": 10
+  },
+  {
+   "id": 4685278,
+   "name": "Luther Burden III",
+   "tid": 8,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 3,
+   "injury": "ACTIVE",
+   "own": 89.59,
+   "start": 30.89,
+   "bye": 10
+  },
+  {
+   "id": 4429023,
+   "name": "MarShawn Lloyd",
+   "tid": 8,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 9,
+   "injury": "ACTIVE",
+   "own": 66.91,
+   "start": 7.67,
+   "bye": 11
+  },
+  {
+   "id": 4429096,
+   "name": "Blake Corum",
+   "tid": 8,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 14,
+   "injury": "ACTIVE",
+   "own": 75.07,
+   "start": 7.45,
+   "bye": 11
+  },
+  {
+   "id": 4360310,
+   "name": "Trevor Lawrence",
+   "tid": 8,
+   "pos": "QB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 30,
+   "injury": "ACTIVE",
+   "own": 87.36,
+   "start": 45.36,
+   "bye": 7
+  },
+  {
+   "id": 4361741,
+   "name": "Brock Purdy",
+   "tid": 8,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 25,
+   "injury": "ACTIVE",
+   "own": 95.62,
+   "start": 70.03,
+   "bye": 8
+  },
+  {
+   "id": 4430027,
+   "name": "Sam LaPorta",
+   "tid": 8,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 8,
+   "injury": "ACTIVE",
+   "own": 96.13,
+   "start": 77.32,
+   "bye": 6
+  },
+  {
+   "id": 4574716,
+   "name": "Harrison Mevis",
+   "tid": 8,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 14,
+   "injury": "ACTIVE",
+   "own": 72.79,
+   "start": 65.47,
+   "bye": 11
+  },
+  {
+   "id": 4426385,
+   "name": "Zach Charbonnet",
+   "tid": 8,
+   "pos": "RB",
+   "slot": "IR",
+   "slotId": 21,
+   "proTeamId": 26,
+   "injury": "OUT",
+   "own": 50.36,
+   "start": 0.14,
+   "bye": 11
+  },
+  {
+   "id": -16029,
+   "name": "Panthers D/ST",
+   "tid": 8,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 29,
+   "injury": null,
+   "own": 49.06,
+   "start": 42.5,
+   "bye": 5
+  },
+  {
+   "id": 4597500,
+   "name": "Adonai Mitchell",
+   "tid": 8,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 20,
+   "injury": "QUESTIONABLE",
+   "own": 33.57,
+   "start": 2.51,
+   "bye": 13
+  },
+  {
+   "id": 3117251,
+   "name": "Christian McCaffrey",
+   "tid": 8,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 25,
+   "injury": "ACTIVE",
+   "own": 99.89,
+   "start": 99.51,
+   "bye": 8
+  },
+  {
+   "id": 3116365,
+   "name": "Mark Andrews",
+   "tid": 8,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 33,
+   "injury": "ACTIVE",
+   "own": 81.87,
+   "start": 35.98,
+   "bye": 13
+  },
+  {
+   "id": 4035687,
+   "name": "Michael Pittman Jr.",
+   "tid": 8,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 23,
+   "injury": "ACTIVE",
+   "own": 82.09,
+   "start": 8.75,
+   "bye": 9
+  },
+  {
+   "id": 3043078,
+   "name": "Derrick Henry",
+   "tid": 9,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 33,
+   "injury": "ACTIVE",
+   "own": 99.83,
+   "start": 99.02,
+   "bye": 13
+  },
+  {
+   "id": 4428331,
+   "name": "Rashee Rice",
+   "tid": 9,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 12,
+   "injury": "ACTIVE",
+   "own": 98.9,
+   "start": 85.06,
+   "bye": 5
+  },
+  {
+   "id": 4239996,
+   "name": "Travis Etienne Jr.",
+   "tid": 9,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 18,
+   "injury": "OUT",
+   "own": 96.05,
+   "start": 41.82,
+   "bye": 8
+  },
+  {
+   "id": 16737,
+   "name": "Mike Evans",
+   "tid": 9,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 25,
+   "injury": "QUESTIONABLE",
+   "own": 92.18,
+   "start": 39.17,
+   "bye": 8
+  },
+  {
+   "id": 4685512,
+   "name": "Jadarian Price",
+   "tid": 9,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 26,
+   "injury": "ACTIVE",
+   "own": 91.64,
+   "start": 35.65,
+   "bye": 11
+  },
+  {
+   "id": 3128429,
+   "name": "Courtland Sutton",
+   "tid": 9,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 7,
+   "injury": "ACTIVE",
+   "own": 85.32,
+   "start": 21.27,
+   "bye": 10
+  },
+  {
+   "id": 2577417,
+   "name": "Dak Prescott",
+   "tid": 9,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 6,
+   "injury": "ACTIVE",
+   "own": 94.03,
+   "start": 66.67,
+   "bye": 14
+  },
+  {
+   "id": 4241985,
+   "name": "J.K. Dobbins",
+   "tid": 9,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 7,
+   "injury": "ACTIVE",
+   "own": 79.56,
+   "start": 14.12,
+   "bye": 10
+  },
+  {
+   "id": 4241416,
+   "name": "Chuba Hubbard",
+   "tid": 9,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 29,
+   "injury": "ACTIVE",
+   "own": 91.89,
+   "start": 70.12,
+   "bye": 5
+  },
+  {
+   "id": -16007,
+   "name": "Broncos D/ST",
+   "tid": 9,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 7,
+   "injury": null,
+   "own": 81.61,
+   "start": 53.9,
+   "bye": 10
+  },
+  {
+   "id": 4686361,
+   "name": "Cam Little",
+   "tid": 9,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 30,
+   "injury": "ACTIVE",
+   "own": 85.52,
+   "start": 79.27,
+   "bye": 7
+  },
+  {
+   "id": 4428850,
+   "name": "Dontayvion Wicks",
+   "tid": 9,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 21,
+   "injury": "ACTIVE",
+   "own": 49.2,
+   "start": 11.51,
+   "bye": 10
+  },
+  {
+   "id": 4241478,
+   "name": "DeVonta Smith",
+   "tid": 9,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 21,
+   "injury": "ACTIVE",
+   "own": 99.24,
+   "start": 91.41,
+   "bye": 10
+  },
+  {
+   "id": 4361579,
+   "name": "Javonte Williams",
+   "tid": 9,
+   "pos": "RB",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 6,
+   "injury": "ACTIVE",
+   "own": 98.89,
+   "start": 89.51,
+   "bye": 14
+  },
+  {
+   "id": 4047650,
+   "name": "DK Metcalf",
+   "tid": 9,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 23,
+   "injury": "ACTIVE",
+   "own": 88.96,
+   "start": 28.21,
+   "bye": 9
+  },
+  {
+   "id": 4430807,
+   "name": "Bijan Robinson",
+   "tid": 10,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 1,
+   "injury": "ACTIVE",
+   "own": 99.9,
+   "start": 99.68,
+   "bye": 11
+  },
+  {
+   "id": 4870808,
+   "name": "Jeremiyah Love",
+   "tid": 10,
+   "pos": "RB",
+   "slot": "RB",
+   "slotId": 2,
+   "proTeamId": 22,
+   "injury": "ACTIVE",
+   "own": 98.49,
+   "start": 80.74,
+   "bye": 14
+  },
+  {
+   "id": 4426354,
+   "name": "George Pickens",
+   "tid": 10,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 6,
+   "injury": "ACTIVE",
+   "own": 99.28,
+   "start": 87.94,
+   "bye": 14
+  },
+  {
+   "id": 4429615,
+   "name": "Zay Flowers",
+   "tid": 10,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 33,
+   "injury": "ACTIVE",
+   "own": 98.41,
+   "start": 64.39,
+   "bye": 13
+  },
+  {
+   "id": 4685472,
+   "name": "Tetairoa McMillan",
+   "tid": 10,
+   "pos": "WR",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 29,
+   "injury": "ACTIVE",
+   "own": 98.06,
+   "start": 85.55,
+   "bye": 5
+  },
+  {
+   "id": 4431299,
+   "name": "Rome Odunze",
+   "tid": 10,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 3,
+   "injury": "ACTIVE",
+   "own": 90.7,
+   "start": 24.24,
+   "bye": 10
+  },
+  {
+   "id": 4431452,
+   "name": "Drake Maye",
+   "tid": 10,
+   "pos": "QB",
+   "slot": "QB",
+   "slotId": 0,
+   "proTeamId": 17,
+   "injury": "ACTIVE",
+   "own": 97.35,
+   "start": 48.55,
+   "bye": 11
+  },
+  {
+   "id": 4678008,
+   "name": "Jonathon Brooks",
+   "tid": 10,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 29,
+   "injury": "INJURY_RESERVE",
+   "own": 56.61,
+   "start": 1.05,
+   "bye": 5
+  },
+  {
+   "id": 5083076,
+   "name": "Harold Fannin Jr.",
+   "tid": 10,
+   "pos": "TE",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 5,
+   "injury": "ACTIVE",
+   "own": 88.91,
+   "start": 60.01,
+   "bye": 11
+  },
+  {
+   "id": 3040151,
+   "name": "George Kittle",
+   "tid": 10,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 25,
+   "injury": "ACTIVE",
+   "own": 95.73,
+   "start": 78.73,
+   "bye": 8
+  },
+  {
+   "id": 4697815,
+   "name": "Rachaad White",
+   "tid": 10,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 28,
+   "injury": "ACTIVE",
+   "own": 67.41,
+   "start": 6.69,
+   "bye": 7
+  },
+  {
+   "id": 15847,
+   "name": "Travis Kelce",
+   "tid": 10,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 12,
+   "injury": "ACTIVE",
+   "own": 94.48,
+   "start": 78.64,
+   "bye": 5
+  },
+  {
+   "id": 4688813,
+   "name": "Josh Downs",
+   "tid": 10,
+   "pos": "WR",
+   "slot": "WR",
+   "slotId": 4,
+   "proTeamId": 11,
+   "injury": "ACTIVE",
+   "own": 76.91,
+   "start": 30.24,
+   "bye": 13
+  },
+  {
+   "id": -16023,
+   "name": "Steelers D/ST",
+   "tid": 10,
+   "pos": "D/ST",
+   "slot": "D/ST",
+   "slotId": 16,
+   "proTeamId": 23,
+   "injury": null,
+   "own": 89.69,
+   "start": 80.17,
+   "bye": 9
+  },
+  {
+   "id": 4697745,
+   "name": "Tyler Loop",
+   "tid": 10,
+   "pos": "K",
+   "slot": "K",
+   "slotId": 17,
+   "proTeamId": 33,
+   "injury": "ACTIVE",
+   "own": 54.01,
+   "start": 49.04,
+   "bye": 13
+  }
+ ],
+ "nfl": {
+  "11": {
+   "abbrev": "IND",
+   "bye": 13,
+   "schedule": {
+    "1": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1789950000000
+    },
+    "3": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1791120600000
+    },
+    "5": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1795137300000
+    },
+    "12": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1795975200000
+    },
+    "14": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 17,
+     "avg": 6.33
+    },
+    "QB": {
+     "rank": 28,
+     "avg": 21.79
+    },
+    "RB": {
+     "rank": 27,
+     "avg": 27.02
+    },
+    "WR": {
+     "rank": 22,
+     "avg": 32.33
+    },
+    "TE": {
+     "rank": 26,
+     "avg": 15.8
+    },
+    "K": {
+     "rank": 28,
+     "avg": 12.03
+    }
+   }
+  },
+  "12": {
+   "abbrev": "KC",
+   "bye": 5,
+   "schedule": {
+    "1": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1789431300000
+    },
+    "2": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1789950000000
+    },
+    "3": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1791145500000
+    },
+    "6": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1792355100000
+    },
+    "7": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1792974000000
+    },
+    "8": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1793568300000
+    },
+    "9": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1795742400000
+    },
+    "13": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1796346900000
+    },
+    "14": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1797197100000
+    },
+    "15": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1797902100000
+    },
+    "16": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1798406700000
+    },
+    "17": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 2,
+     "avg": -0.33
+    },
+    "QB": {
+     "rank": 1,
+     "avg": 8.53
+    },
+    "RB": {
+     "rank": 14,
+     "avg": 18.12
+    },
+    "WR": {
+     "rank": 2,
+     "avg": 20.05
+    },
+    "TE": {
+     "rank": 18,
+     "avg": 12.65
+    },
+    "K": {
+     "rank": 17,
+     "avg": 8.23
+    }
+   }
+  },
+  "13": {
+   "abbrev": "LV",
+   "bye": 13,
+   "schedule": {
+    "1": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1789934700000
+    },
+    "3": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1790540700000
+    },
+    "4": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1791145500000
+    },
+    "5": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1792355100000
+    },
+    "7": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1792959900000
+    },
+    "8": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1794171900000
+    },
+    "10": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1794776700000
+    },
+    "11": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1795382700000
+    },
+    "12": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1795975200000
+    },
+    "14": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1797195900000
+    },
+    "15": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1797801900000
+    },
+    "16": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1798405500000
+    },
+    "17": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1799010300000
+    },
+    "18": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 12,
+     "avg": 4.0
+    },
+    "QB": {
+     "rank": 11,
+     "avg": 15.63
+    },
+    "RB": {
+     "rank": 10,
+     "avg": 16.05
+    },
+    "WR": {
+     "rank": 3,
+     "avg": 20.43
+    },
+    "TE": {
+     "rank": 30,
+     "avg": 19.32
+    },
+    "K": {
+     "rank": 2,
+     "avg": 3.35
+    }
+   }
+  },
+  "14": {
+   "abbrev": "LAR",
+   "bye": 11,
+   "schedule": {
+    "1": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1789086900000
+    },
+    "2": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1790036100000
+    },
+    "3": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1790554800000
+    },
+    "4": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1791850500000
+    },
+    "6": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1792353900000
+    },
+    "7": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1792959900000
+    },
+    "8": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1793567100000
+    },
+    "9": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1794776700000
+    },
+    "12": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1795654800000
+    },
+    "13": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1796346900000
+    },
+    "14": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1797197100000
+    },
+    "15": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1797801900000
+    },
+    "16": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1798247700000
+    },
+    "17": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 15,
+     "avg": 5.67
+    },
+    "QB": {
+     "rank": 13,
+     "avg": 15.94
+    },
+    "RB": {
+     "rank": 9,
+     "avg": 15.9
+    },
+    "WR": {
+     "rank": 16,
+     "avg": 28.52
+    },
+    "TE": {
+     "rank": 5,
+     "avg": 6.9
+    },
+    "K": {
+     "rank": 8,
+     "avg": 6.07
+    }
+   }
+  },
+  "15": {
+   "abbrev": "MIA",
+   "bye": 6,
+   "schedule": {
+    "1": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1789935900000
+    },
+    "3": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1791144300000
+    },
+    "5": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "7": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1793568300000
+    },
+    "9": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1796591100000
+    },
+    "14": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 29,
+     "avg": 10.0
+    },
+    "QB": {
+     "rank": 24,
+     "avg": 19.09
+    },
+    "RB": {
+     "rank": 32,
+     "avg": 31.62
+    },
+    "WR": {
+     "rank": 5,
+     "avg": 21.65
+    },
+    "TE": {
+     "rank": 23,
+     "avg": 14.75
+    },
+    "K": {
+     "rank": 13,
+     "avg": 7.03
+    }
+   }
+  },
+  "16": {
+   "abbrev": "MIN",
+   "bye": 6,
+   "schedule": {
+    "1": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1790539500000
+    },
+    "4": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1791144300000
+    },
+    "5": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "7": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1794273300000
+    },
+    "10": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1795396800000
+    },
+    "12": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1796592300000
+    },
+    "14": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1796951700000
+    },
+    "15": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1797816000000
+    },
+    "16": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 17,
+     "avg": 6.33
+    },
+    "QB": {
+     "rank": 7,
+     "avg": 12.76
+    },
+    "RB": {
+     "rank": 4,
+     "avg": 11.7
+    },
+    "WR": {
+     "rank": 23,
+     "avg": 32.65
+    },
+    "TE": {
+     "rank": 9,
+     "avg": 8.6
+    },
+    "K": {
+     "rank": 21,
+     "avg": 9.43
+    }
+   }
+  },
+  "17": {
+   "abbrev": "NE",
+   "bye": 11,
+   "schedule": {
+    "1": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1788999600000
+    },
+    "2": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1792714500000
+    },
+    "8": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1793568300000
+    },
+    "9": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1794173100000
+    },
+    "10": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1794753000000
+    },
+    "12": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1796001600000
+    },
+    "13": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1796592300000
+    },
+    "14": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1796951700000
+    },
+    "15": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1797902100000
+    },
+    "16": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 30,
+     "avg": 11.67
+    },
+    "QB": {
+     "rank": 6,
+     "avg": 12.2
+    },
+    "RB": {
+     "rank": 19,
+     "avg": 19.83
+    },
+    "WR": {
+     "rank": 18,
+     "avg": 29.82
+    },
+    "TE": {
+     "rank": 1,
+     "avg": 5.37
+    },
+    "K": {
+     "rank": 5,
+     "avg": 5.4
+    }
+   }
+  },
+  "18": {
+   "abbrev": "NO",
+   "bye": 8,
+   "schedule": {
+    "1": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1790540700000
+    },
+    "4": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1791245700000
+    },
+    "5": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1792935000000
+    },
+    "9": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 22,
+     "avg": 7.0
+    },
+    "QB": {
+     "rank": 21,
+     "avg": 17.74
+    },
+    "RB": {
+     "rank": 26,
+     "avg": 25.2
+    },
+    "WR": {
+     "rank": 12,
+     "avg": 26.5
+    },
+    "TE": {
+     "rank": 29,
+     "avg": 18.58
+    },
+    "K": {
+     "rank": 16,
+     "avg": 8.17
+    }
+   }
+  },
+  "19": {
+   "abbrev": "NYG",
+   "bye": 8,
+   "schedule": {
+    "1": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1789345200000
+    },
+    "2": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1790036100000
+    },
+    "3": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "9": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1794532500000
+    },
+    "11": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1797197100000
+    },
+    "15": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1798506900000
+    },
+    "17": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 22,
+     "avg": 7.0
+    },
+    "QB": {
+     "rank": 16,
+     "avg": 16.69
+    },
+    "RB": {
+     "rank": 22,
+     "avg": 20.78
+    },
+    "WR": {
+     "rank": 20,
+     "avg": 32.07
+    },
+    "TE": {
+     "rank": 15,
+     "avg": 11.1
+    },
+    "K": {
+     "rank": 1,
+     "avg": 1.08
+    }
+   }
+  },
+  "20": {
+   "abbrev": "NYJ",
+   "bye": 13,
+   "schedule": {
+    "1": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1795381500000
+    },
+    "12": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1795975200000
+    },
+    "14": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1797800700000
+    },
+    "16": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 13,
+     "avg": 4.33
+    },
+    "QB": {
+     "rank": 10,
+     "avg": 14.95
+    },
+    "RB": {
+     "rank": 24,
+     "avg": 22.18
+    },
+    "WR": {
+     "rank": 8,
+     "avg": 24.73
+    },
+    "TE": {
+     "rank": 4,
+     "avg": 6.88
+    },
+    "K": {
+     "rank": 11,
+     "avg": 6.73
+    }
+   }
+  },
+  "21": {
+   "abbrev": "PHI",
+   "bye": 10,
+   "schedule": {
+    "1": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1790640900000
+    },
+    "4": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1791725400000
+    },
+    "6": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1793060100000
+    },
+    "8": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1793582400000
+    },
+    "9": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "11": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1795382700000
+    },
+    "12": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1795728600000
+    },
+    "13": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1796591100000
+    },
+    "14": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1797717600000
+    },
+    "16": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1798161300000
+    },
+    "17": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1799025600000
+    },
+    "18": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 24,
+     "avg": 7.67
+    },
+    "QB": {
+     "rank": 27,
+     "avg": 20.72
+    },
+    "RB": {
+     "rank": 11,
+     "avg": 16.1
+    },
+    "WR": {
+     "rank": 24,
+     "avg": 33.0
+    },
+    "TE": {
+     "rank": 2,
+     "avg": 5.72
+    },
+    "K": {
+     "rank": 14,
+     "avg": 7.82
+    }
+   }
+  },
+  "22": {
+   "abbrev": "ARI",
+   "bye": 14,
+   "schedule": {
+    "1": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1789935900000
+    },
+    "3": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1790539500000
+    },
+    "4": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1791750300000
+    },
+    "6": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1792353900000
+    },
+    "7": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1792958700000
+    },
+    "8": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1794173100000
+    },
+    "10": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1794776700000
+    },
+    "11": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1795987500000
+    },
+    "13": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1796591100000
+    },
+    "15": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1797800700000
+    },
+    "16": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1799010300000
+    },
+    "18": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 10,
+     "avg": 3.33
+    },
+    "QB": {
+     "rank": 29,
+     "avg": 21.9
+    },
+    "RB": {
+     "rank": 6,
+     "avg": 15.73
+    },
+    "WR": {
+     "rank": 30,
+     "avg": 36.62
+    },
+    "TE": {
+     "rank": 28,
+     "avg": 16.27
+    },
+    "K": {
+     "rank": 4,
+     "avg": 4.83
+    }
+   }
+  },
+  "23": {
+   "abbrev": "PIT",
+   "bye": 9,
+   "schedule": {
+    "1": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1790900100000
+    },
+    "5": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1792935000000
+    },
+    "8": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "10": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1794792000000
+    },
+    "11": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1795382700000
+    },
+    "12": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1795809600000
+    },
+    "13": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1796606400000
+    },
+    "14": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1797297300000
+    },
+    "15": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 27,
+     "avg": 9.0
+    },
+    "QB": {
+     "rank": 4,
+     "avg": 11.77
+    },
+    "RB": {
+     "rank": 21,
+     "avg": 20.27
+    },
+    "WR": {
+     "rank": 7,
+     "avg": 24.63
+    },
+    "TE": {
+     "rank": 8,
+     "avg": 8.5
+    },
+    "K": {
+     "rank": 22,
+     "avg": 9.57
+    }
+   }
+  },
+  "24": {
+   "abbrev": "LAC",
+   "bye": 7,
+   "schedule": {
+    "1": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1789934700000
+    },
+    "3": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1791145500000
+    },
+    "5": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1791749100000
+    },
+    "6": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1792355100000
+    },
+    "8": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1793567100000
+    },
+    "9": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1794171900000
+    },
+    "10": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1794878100000
+    },
+    "11": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1795381500000
+    },
+    "12": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1796001600000
+    },
+    "13": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1797195900000
+    },
+    "15": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1797556500000
+    },
+    "16": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 28,
+     "avg": 9.67
+    },
+    "QB": {
+     "rank": 20,
+     "avg": 17.64
+    },
+    "RB": {
+     "rank": 18,
+     "avg": 19.42
+    },
+    "WR": {
+     "rank": 19,
+     "avg": 30.18
+    },
+    "TE": {
+     "rank": 14,
+     "avg": 10.98
+    },
+    "K": {
+     "rank": 24,
+     "avg": 10.37
+    }
+   }
+  },
+  "25": {
+   "abbrev": "SF",
+   "bye": 8,
+   "schedule": {
+    "1": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1789086900000
+    },
+    "2": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1789935900000
+    },
+    "3": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1790539500000
+    },
+    "4": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1791145500000
+    },
+    "5": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1791750300000
+    },
+    "6": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1792455300000
+    },
+    "7": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "9": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1794171900000
+    },
+    "10": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1794777900000
+    },
+    "11": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1795396800000
+    },
+    "12": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1795987500000
+    },
+    "13": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1797197100000
+    },
+    "15": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1797556500000
+    },
+    "16": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1798406700000
+    },
+    "17": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1799025600000
+    },
+    "18": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 1,
+     "avg": -2.33
+    },
+    "QB": {
+     "rank": 8,
+     "avg": 14.45
+    },
+    "RB": {
+     "rank": 23,
+     "avg": 21.25
+    },
+    "WR": {
+     "rank": 11,
+     "avg": 25.4
+    },
+    "TE": {
+     "rank": 10,
+     "avg": 9.32
+    },
+    "K": {
+     "rank": 12,
+     "avg": 6.93
+    }
+   }
+  },
+  "26": {
+   "abbrev": "SEA",
+   "bye": 11,
+   "schedule": {
+    "1": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1788999600000
+    },
+    "2": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1789935900000
+    },
+    "3": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1791145500000
+    },
+    "5": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1791750300000
+    },
+    "6": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1792109700000
+    },
+    "7": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1792974000000
+    },
+    "8": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1793668500000
+    },
+    "9": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1794173100000
+    },
+    "10": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1794776700000
+    },
+    "12": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1795987500000
+    },
+    "13": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1796692500000
+    },
+    "14": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1797197100000
+    },
+    "15": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1797717600000
+    },
+    "16": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1798247700000
+    },
+    "17": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 14,
+     "avg": 5.33
+    },
+    "QB": {
+     "rank": 5,
+     "avg": 11.91
+    },
+    "RB": {
+     "rank": 5,
+     "avg": 15.07
+    },
+    "WR": {
+     "rank": 4,
+     "avg": 21.25
+    },
+    "TE": {
+     "rank": 12,
+     "avg": 10.17
+    },
+    "K": {
+     "rank": 6,
+     "avg": 5.85
+    }
+   }
+  },
+  "27": {
+   "abbrev": "TB",
+   "bye": 10,
+   "schedule": {
+    "1": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1790539500000
+    },
+    "4": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1791504900000
+    },
+    "6": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1794187200000
+    },
+    "11": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1796087700000
+    },
+    "13": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 32,
+     "avg": 14.67
+    },
+    "QB": {
+     "rank": 9,
+     "avg": 14.6
+    },
+    "RB": {
+     "rank": 12,
+     "avg": 16.25
+    },
+    "WR": {
+     "rank": 9,
+     "avg": 25.03
+    },
+    "TE": {
+     "rank": 22,
+     "avg": 14.35
+    },
+    "K": {
+     "rank": 32,
+     "avg": 16.87
+    }
+   }
+  },
+  "28": {
+   "abbrev": "WAS",
+   "bye": 7,
+   "schedule": {
+    "1": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1789935900000
+    },
+    "3": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1791120600000
+    },
+    "5": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1792455300000
+    },
+    "8": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1793582400000
+    },
+    "9": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1794532500000
+    },
+    "11": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1795482900000
+    },
+    "12": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1795987500000
+    },
+    "13": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 10,
+     "avg": 3.33
+    },
+    "QB": {
+     "rank": 31,
+     "avg": 27.21
+    },
+    "RB": {
+     "rank": 2,
+     "avg": 11.18
+    },
+    "WR": {
+     "rank": 32,
+     "avg": 42.82
+    },
+    "TE": {
+     "rank": 31,
+     "avg": 20.23
+    },
+    "K": {
+     "rank": 27,
+     "avg": 11.03
+    }
+   }
+  },
+  "29": {
+   "abbrev": "CAR",
+   "bye": 5,
+   "schedule": {
+    "1": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1791159600000
+    },
+    "6": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1793319300000
+    },
+    "9": {
+     "opp": 7,
+     "home": true,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1796087700000
+    },
+    "13": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1796592300000
+    },
+    "14": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 7,
+     "avg": 2.33
+    },
+    "QB": {
+     "rank": 23,
+     "avg": 18.56
+    },
+    "RB": {
+     "rank": 30,
+     "avg": 29.37
+    },
+    "WR": {
+     "rank": 1,
+     "avg": 19.83
+    },
+    "TE": {
+     "rank": 19,
+     "avg": 13.03
+    },
+    "K": {
+     "rank": 19,
+     "avg": 8.47
+    }
+   }
+  },
+  "30": {
+   "abbrev": "JAX",
+   "bye": 7,
+   "schedule": {
+    "1": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1789934700000
+    },
+    "3": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1791725400000
+    },
+    "6": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1792330200000
+    },
+    "8": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1793927700000
+    },
+    "10": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1795986300000
+    },
+    "13": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1797297300000
+    },
+    "15": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1798420800000
+    },
+    "17": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 9,
+     "avg": 2.67
+    },
+    "QB": {
+     "rank": 3,
+     "avg": 10.68
+    },
+    "RB": {
+     "rank": 7,
+     "avg": 15.83
+    },
+    "WR": {
+     "rank": 14,
+     "avg": 28.06
+    },
+    "TE": {
+     "rank": 6,
+     "avg": 7.17
+    },
+    "K": {
+     "rank": 7,
+     "avg": 5.95
+    }
+   }
+  },
+  "33": {
+   "abbrev": "BAL",
+   "bye": 13,
+   "schedule": {
+    "1": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1790540700000
+    },
+    "4": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1791764400000
+    },
+    "6": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1793927700000
+    },
+    "10": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1794878100000
+    },
+    "11": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1795975200000
+    },
+    "14": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1798766100000
+    },
+    "18": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 3,
+     "avg": 0.33
+    },
+    "QB": {
+     "rank": 17,
+     "avg": 16.7
+    },
+    "RB": {
+     "rank": 17,
+     "avg": 19.28
+    },
+    "WR": {
+     "rank": 25,
+     "avg": 33.3
+    },
+    "TE": {
+     "rank": 15,
+     "avg": 11.1
+    },
+    "K": {
+     "rank": 23,
+     "avg": 9.68
+    }
+   }
+  },
+  "34": {
+   "abbrev": "HOU",
+   "bye": 8,
+   "schedule": {
+    "1": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1792330200000
+    },
+    "7": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "9": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1794171900000
+    },
+    "10": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1795137300000
+    },
+    "12": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1796606400000
+    },
+    "14": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1798161300000
+    },
+    "17": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1799111700000
+    },
+    "18": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 16,
+     "avg": 6.0
+    },
+    "QB": {
+     "rank": 26,
+     "avg": 19.66
+    },
+    "RB": {
+     "rank": 1,
+     "avg": 11.08
+    },
+    "WR": {
+     "rank": 31,
+     "avg": 36.88
+    },
+    "TE": {
+     "rank": 17,
+     "avg": 11.67
+    },
+    "K": {
+     "rank": 30,
+     "avg": 15.6
+    }
+   }
+  },
+  "1": {
+   "abbrev": "ATL",
+   "bye": 11,
+   "schedule": {
+    "1": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1790295300000
+    },
+    "4": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1791245700000
+    },
+    "5": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1791764400000
+    },
+    "6": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1794148200000
+    },
+    "10": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "12": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 31,
+     "avg": 12.33
+    },
+    "QB": {
+     "rank": 22,
+     "avg": 18.15
+    },
+    "RB": {
+     "rank": 3,
+     "avg": 11.55
+    },
+    "WR": {
+     "rank": 27,
+     "avg": 34.88
+    },
+    "TE": {
+     "rank": 24,
+     "avg": 15.7
+    },
+    "K": {
+     "rank": 9,
+     "avg": 6.43
+    }
+   }
+  },
+  "2": {
+   "abbrev": "BUF",
+   "bye": 7,
+   "schedule": {
+    "1": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1789690500000
+    },
+    "3": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1791850500000
+    },
+    "6": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1792355100000
+    },
+    "8": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1794273300000
+    },
+    "10": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1795742400000
+    },
+    "13": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1796592300000
+    },
+    "14": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1797211200000
+    },
+    "15": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1797729600000
+    },
+    "16": {
+     "opp": 7,
+     "home": false,
+     "dateMs": 1798234200000
+    },
+    "17": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 6,
+     "avg": 1.67
+    },
+    "QB": {
+     "rank": 25,
+     "avg": 19.41
+    },
+    "RB": {
+     "rank": 29,
+     "avg": 28.17
+    },
+    "WR": {
+     "rank": 28,
+     "avg": 35.43
+    },
+    "TE": {
+     "rank": 11,
+     "avg": 9.37
+    },
+    "K": {
+     "rank": 19,
+     "avg": 8.47
+    }
+   }
+  },
+  "3": {
+   "abbrev": "CHI",
+   "bye": 10,
+   "schedule": {
+    "1": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1790640900000
+    },
+    "4": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1792714500000
+    },
+    "8": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1793668500000
+    },
+    "9": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1794187200000
+    },
+    "11": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1795716000000
+    },
+    "13": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1797729600000
+    },
+    "16": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1798221600000
+    },
+    "17": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1799011500000
+    },
+    "18": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 7,
+     "avg": 2.33
+    },
+    "QB": {
+     "rank": 15,
+     "avg": 16.68
+    },
+    "RB": {
+     "rank": 16,
+     "avg": 18.83
+    },
+    "WR": {
+     "rank": 6,
+     "avg": 23.58
+    },
+    "TE": {
+     "rank": 7,
+     "avg": 7.27
+    },
+    "K": {
+     "rank": 10,
+     "avg": 6.65
+    }
+   }
+  },
+  "4": {
+   "abbrev": "CIN",
+   "bye": 6,
+   "schedule": {
+    "1": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "7": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1794148200000
+    },
+    "10": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1794792000000
+    },
+    "11": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1795482900000
+    },
+    "12": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 5,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1797197100000
+    },
+    "15": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1798358460000
+    },
+    "17": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1798766100000
+    },
+    "18": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 17,
+     "avg": 6.33
+    },
+    "QB": {
+     "rank": 18,
+     "avg": 16.78
+    },
+    "RB": {
+     "rank": 13,
+     "avg": 17.28
+    },
+    "WR": {
+     "rank": 15,
+     "avg": 28.18
+    },
+    "TE": {
+     "rank": 25,
+     "avg": 15.75
+    },
+    "K": {
+     "rank": 26,
+     "avg": 11.0
+    }
+   }
+  },
+  "5": {
+   "abbrev": "CLE",
+   "bye": 11,
+   "schedule": {
+    "1": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1790900100000
+    },
+    "5": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 10,
+     "home": false,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "12": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1795975200000
+    },
+    "13": {
+     "opp": 4,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1798394400000
+    },
+    "17": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 25,
+     "avg": 8.0
+    },
+    "QB": {
+     "rank": 19,
+     "avg": 17.04
+    },
+    "RB": {
+     "rank": 8,
+     "avg": 15.9
+    },
+    "WR": {
+     "rank": 26,
+     "avg": 34.0
+    },
+    "TE": {
+     "rank": 20,
+     "avg": 13.35
+    },
+    "K": {
+     "rank": 31,
+     "avg": 15.63
+    }
+   }
+  },
+  "6": {
+   "abbrev": "DAL",
+   "bye": 14,
+   "schedule": {
+    "1": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1789345200000
+    },
+    "2": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1789935900000
+    },
+    "3": {
+     "opp": 33,
+     "home": true,
+     "dateMs": 1790540700000
+    },
+    "4": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1791504900000
+    },
+    "6": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1792369200000
+    },
+    "7": {
+     "opp": 21,
+     "home": false,
+     "dateMs": 1793060100000
+    },
+    "8": {
+     "opp": 22,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 25,
+     "home": true,
+     "dateMs": 1794777900000
+    },
+    "11": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1795728600000
+    },
+    "13": {
+     "opp": 26,
+     "home": false,
+     "dateMs": 1796692500000
+    },
+    "15": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1797801900000
+    },
+    "16": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1798420800000
+    },
+    "17": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 28,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 5,
+     "avg": 1.33
+    },
+    "QB": {
+     "rank": 30,
+     "avg": 23.51
+    },
+    "RB": {
+     "rank": 25,
+     "avg": 23.92
+    },
+    "WR": {
+     "rank": 13,
+     "avg": 26.85
+    },
+    "TE": {
+     "rank": 27,
+     "avg": 15.85
+    },
+    "K": {
+     "rank": 17,
+     "avg": 8.23
+    }
+   }
+  },
+  "7": {
+   "abbrev": "DEN",
+   "bye": 10,
+   "schedule": {
+    "1": {
+     "opp": 12,
+     "home": false,
+     "dateMs": 1789431300000
+    },
+    "2": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1789934700000
+    },
+    "3": {
+     "opp": 14,
+     "home": true,
+     "dateMs": 1790554800000
+    },
+    "4": {
+     "opp": 25,
+     "home": false,
+     "dateMs": 1791145500000
+    },
+    "5": {
+     "opp": 24,
+     "home": false,
+     "dateMs": 1791749100000
+    },
+    "6": {
+     "opp": 26,
+     "home": true,
+     "dateMs": 1792109700000
+    },
+    "7": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1792958700000
+    },
+    "8": {
+     "opp": 12,
+     "home": true,
+     "dateMs": 1793568300000
+    },
+    "9": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "11": {
+     "opp": 13,
+     "home": true,
+     "dateMs": 1795382700000
+    },
+    "12": {
+     "opp": 23,
+     "home": false,
+     "dateMs": 1795809600000
+    },
+    "13": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1796591100000
+    },
+    "14": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1797801900000
+    },
+    "16": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1798234200000
+    },
+    "17": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1798963260000
+    },
+    "18": {
+     "opp": 24,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 21,
+     "avg": 6.67
+    },
+    "QB": {
+     "rank": 12,
+     "avg": 15.91
+    },
+    "RB": {
+     "rank": 28,
+     "avg": 27.33
+    },
+    "WR": {
+     "rank": 10,
+     "avg": 25.18
+    },
+    "TE": {
+     "rank": 21,
+     "avg": 13.38
+    },
+    "K": {
+     "rank": 25,
+     "avg": 10.47
+    }
+   }
+  },
+  "8": {
+   "abbrev": "DET",
+   "bye": 6,
+   "schedule": {
+    "1": {
+     "opp": 18,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 2,
+     "home": false,
+     "dateMs": 1789690500000
+    },
+    "3": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 29,
+     "home": false,
+     "dateMs": 1791159600000
+    },
+    "5": {
+     "opp": 22,
+     "home": false,
+     "dateMs": 1791750300000
+    },
+    "7": {
+     "opp": 9,
+     "home": true,
+     "dateMs": 1792959900000
+    },
+    "8": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1793556000000
+    },
+    "9": {
+     "opp": 15,
+     "home": false,
+     "dateMs": 1794160800000
+    },
+    "10": {
+     "opp": 17,
+     "home": true,
+     "dateMs": 1794753000000
+    },
+    "11": {
+     "opp": 27,
+     "home": true,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1795716000000
+    },
+    "13": {
+     "opp": 1,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 10,
+     "home": true,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1797816000000
+    },
+    "16": {
+     "opp": 19,
+     "home": true,
+     "dateMs": 1798506900000
+    },
+    "17": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1799011500000
+    },
+    "18": {
+     "opp": 9,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 4,
+     "avg": 1.0
+    },
+    "QB": {
+     "rank": 32,
+     "avg": 29.69
+    },
+    "RB": {
+     "rank": 15,
+     "avg": 18.45
+    },
+    "WR": {
+     "rank": 29,
+     "avg": 36.17
+    },
+    "TE": {
+     "rank": 32,
+     "avg": 30.95
+    },
+    "K": {
+     "rank": 3,
+     "avg": 4.75
+    }
+   }
+  },
+  "9": {
+   "abbrev": "GB",
+   "bye": 11,
+   "schedule": {
+    "1": {
+     "opp": 16,
+     "home": false,
+     "dateMs": 1789331100000
+    },
+    "2": {
+     "opp": 20,
+     "home": false,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 1,
+     "home": true,
+     "dateMs": 1790295300000
+    },
+    "4": {
+     "opp": 27,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 3,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 6,
+     "home": true,
+     "dateMs": 1792369200000
+    },
+    "7": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1792959900000
+    },
+    "8": {
+     "opp": 29,
+     "home": true,
+     "dateMs": 1793319300000
+    },
+    "9": {
+     "opp": 17,
+     "home": false,
+     "dateMs": 1794173100000
+    },
+    "10": {
+     "opp": 16,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "12": {
+     "opp": 14,
+     "home": false,
+     "dateMs": 1795654800000
+    },
+    "13": {
+     "opp": 18,
+     "home": false,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 2,
+     "home": true,
+     "dateMs": 1797211200000
+    },
+    "15": {
+     "opp": 15,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 3,
+     "home": false,
+     "dateMs": 1798221600000
+    },
+    "17": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1799111700000
+    },
+    "18": {
+     "opp": 8,
+     "home": true,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 17,
+     "avg": 6.33
+    },
+    "QB": {
+     "rank": 14,
+     "avg": 15.99
+    },
+    "RB": {
+     "rank": 31,
+     "avg": 29.92
+    },
+    "WR": {
+     "rank": 21,
+     "avg": 32.2
+    },
+    "TE": {
+     "rank": 13,
+     "avg": 10.45
+    },
+    "K": {
+     "rank": 15,
+     "avg": 7.83
+    }
+   }
+  },
+  "10": {
+   "abbrev": "TEN",
+   "bye": 9,
+   "schedule": {
+    "1": {
+     "opp": 20,
+     "home": true,
+     "dateMs": 1789318800000
+    },
+    "2": {
+     "opp": 21,
+     "home": true,
+     "dateMs": 1789923600000
+    },
+    "3": {
+     "opp": 19,
+     "home": false,
+     "dateMs": 1790528400000
+    },
+    "4": {
+     "opp": 33,
+     "home": false,
+     "dateMs": 1791133200000
+    },
+    "5": {
+     "opp": 34,
+     "home": true,
+     "dateMs": 1791738000000
+    },
+    "6": {
+     "opp": 11,
+     "home": false,
+     "dateMs": 1792342800000
+    },
+    "7": {
+     "opp": 5,
+     "home": true,
+     "dateMs": 1792947600000
+    },
+    "8": {
+     "opp": 4,
+     "home": false,
+     "dateMs": 1793556000000
+    },
+    "10": {
+     "opp": 30,
+     "home": true,
+     "dateMs": 1794765600000
+    },
+    "11": {
+     "opp": 6,
+     "home": false,
+     "dateMs": 1795370400000
+    },
+    "12": {
+     "opp": 30,
+     "home": false,
+     "dateMs": 1795986300000
+    },
+    "13": {
+     "opp": 28,
+     "home": true,
+     "dateMs": 1796580000000
+    },
+    "14": {
+     "opp": 8,
+     "home": false,
+     "dateMs": 1797184800000
+    },
+    "15": {
+     "opp": 11,
+     "home": true,
+     "dateMs": 1797789600000
+    },
+    "16": {
+     "opp": 13,
+     "home": false,
+     "dateMs": 1798405500000
+    },
+    "17": {
+     "opp": 23,
+     "home": true,
+     "dateMs": 1798999200000
+    },
+    "18": {
+     "opp": 34,
+     "home": false,
+     "dateMs": 1799568060000
+    }
+   },
+   "vsPosition": {
+    "D/ST": {
+     "rank": 25,
+     "avg": 8.0
+    },
+    "QB": {
+     "rank": 2,
+     "avg": 10.36
+    },
+    "RB": {
+     "rank": 20,
+     "avg": 19.83
+    },
+    "WR": {
+     "rank": 17,
+     "avg": 29.77
+    },
+    "TE": {
+     "rank": 3,
+     "avg": 6.45
+    },
+    "K": {
+     "rank": 29,
+     "avg": 12.3
+    }
+   }
+  }
+ }
+}
