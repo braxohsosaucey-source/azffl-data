@@ -1,8 +1,9 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-09-30T16:45:19Z",
+ "_pulledUtc": "2026-09-30T17:28:19Z",
  "week": 4,
  "books": [
+  "Draft Kings",
   "DraftKings"
  ],
  "games": [
@@ -549,10 +550,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-04T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "LAR -3",
     "moneyline": {
      "away": -162,
@@ -655,8 +656,8 @@
     "spread": {
      "away": -3.5,
      "home": 3.5,
-     "awayOdds": -120,
-     "homeOdds": 100
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": -1.5,
@@ -735,8 +736,8 @@
     "book": "DraftKings",
     "details": "BAL -11.5",
     "moneyline": {
-     "away": 525,
-     "home": -750
+     "away": 500,
+     "home": -700
     },
     "moneylineOpen": {
      "away": 310,
@@ -766,11 +767,11 @@
     }
    },
    "noVig": {
-    "away": 0.153499,
-    "home": 0.846501,
-    "hold": 0.042353,
-    "fairAway": 551.47,
-    "fairHome": -551.47
+    "away": 0.16,
+    "home": 0.84,
+    "hold": 0.041667,
+    "fairAway": 525.0,
+    "fairHome": -525.0
    },
    "noVigOpen": {
     "away": 0.234098,
@@ -1218,8 +1219,8 @@
     "book": "DraftKings",
     "details": "DET -3.5",
     "moneyline": {
-     "away": -180,
-     "home": 150
+     "away": -185,
+     "home": 154
     },
     "moneylineOpen": {
      "away": -162,
@@ -1249,11 +1250,11 @@
     }
    },
    "noVig": {
-    "away": 0.616438,
-    "home": 0.383562,
-    "hold": 0.042857,
-    "fairAway": -160.71,
-    "fairHome": 160.71
+    "away": 0.622467,
+    "home": 0.377533,
+    "hold": 0.042824,
+    "fairAway": -164.88,
+    "fairHome": 164.88
    },
    "noVigOpen": {
     "away": 0.59337,
