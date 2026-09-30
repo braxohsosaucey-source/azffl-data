@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-09-30T10:09:18Z",
+ "_pulledUtc": "2026-09-30T11:11:33Z",
  "week": 4,
  "books": [
   "Draft Kings"
@@ -193,20 +193,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "BUF -7",
+    "details": "BUF -6.5",
     "moneyline": {
-     "away": 240,
-     "home": -298
+     "away": 235,
+     "home": -290
     },
     "moneylineOpen": {
      "away": 136,
      "home": -162
     },
     "spread": {
-     "away": 7.0,
-     "home": -7.0,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "away": 6.5,
+     "home": -6.5,
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 3.0,
@@ -226,11 +226,11 @@
     }
    },
    "noVig": {
-    "away": 0.282029,
-    "home": 0.717971,
-    "hold": 0.042861,
-    "fairAway": 254.57,
-    "fairHome": -254.57
+    "away": 0.286449,
+    "home": 0.713551,
+    "hold": 0.042097,
+    "fairAway": 249.1,
+    "fairHome": -249.1
    },
    "noVigOpen": {
     "away": 0.40663,
@@ -1361,14 +1361,14 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Thunderstorms",
-    "tempF": 78
+    "text": "Rain",
+    "tempF": 79
    },
    "weather": null,
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-09-30T10:09:25Z",
+ "injuriesUtc": "2026-09-30T11:11:28Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2886,13 +2886,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-09-30T08:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-09-30T11:01Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4431611,
