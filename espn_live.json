@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-09-30T16:45:20.982Z",
+ "_pulledUtc": "2026-09-30T17:28:21.248Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 4,
@@ -489,7 +489,7 @@
      "slotId": 2,
      "proTeamId": 10,
      "id": 3916148,
-     "injury": "ACTIVE",
+     "injury": "QUESTIONABLE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 85.45,
@@ -2792,7 +2792,7 @@
     "acquisitions": 8,
     "drops": 7,
     "trades": 1,
-    "moveToActive": 20,
+    "moveToActive": 21,
     "acquisitionBudgetSpent": 25
    },
    "roster": [
@@ -2872,8 +2872,8 @@
     {
      "name": "Mike Evans",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 25,
      "id": 16737,
      "injury": "QUESTIONABLE",
@@ -2951,8 +2951,8 @@
     {
      "name": "Chuba Hubbard",
      "pos": "RB",
-     "slot": "RB",
-     "slotId": 2,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 29,
      "id": 4241416,
      "injury": "ACTIVE",
@@ -3030,8 +3030,8 @@
     {
      "name": "DeVonta Smith",
      "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "WR",
+     "slotId": 4,
      "proTeamId": 21,
      "id": 4241478,
      "injury": "ACTIVE",
@@ -3047,8 +3047,8 @@
     {
      "name": "Javonte Williams",
      "pos": "RB",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "RB",
+     "slotId": 2,
      "proTeamId": 6,
      "id": 4361579,
      "injury": "ACTIVE",
@@ -3075,8 +3075,8 @@
     {
      "name": "DK Metcalf",
      "pos": "WR",
-     "slot": "WR",
-     "slotId": 4,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 23,
      "id": 4047650,
      "injury": "ACTIVE",
