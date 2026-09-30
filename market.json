@@ -1,9 +1,8 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-09-30T17:28:19Z",
+ "_pulledUtc": "2026-09-30T18:11:36Z",
  "week": 4,
  "books": [
-  "Draft Kings",
   "DraftKings"
  ],
  "games": [
@@ -550,10 +549,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-04T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "LAR -3",
     "moneyline": {
      "away": -162,
@@ -646,8 +645,8 @@
     "book": "DraftKings",
     "details": "GB -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -180,
+     "home": 150
     },
     "moneylineOpen": {
      "away": -125,
@@ -677,11 +676,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.616438,
+    "home": 0.383562,
+    "hold": 0.042857,
+    "fairAway": -160.71,
+    "fairHome": 160.71
    },
    "noVigOpen": {
     "away": 0.532468,
@@ -1369,7 +1368,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-09-30T16:45:20Z",
+ "injuriesUtc": "2026-09-30T17:50:14Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2582,6 +2581,18 @@
   ],
   "CAR": [
    {
+    "id": 4695883,
+    "name": "Jalen Coker",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T17:31Z",
+    "body": "Quadriceps",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4212909,
     "name": "David Moore",
     "pos": "WR",
@@ -2738,18 +2749,6 @@
     "fantasy": null
    },
    {
-    "id": 4695883,
-    "name": "Jalen Coker",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-09-28T15:16Z",
-    "body": "Quadriceps",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4568263,
     "name": "Ryan Fitzgerald",
     "pos": "PK",
@@ -2889,7 +2888,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-09-30T16:31Z",
+    "date": "2026-09-30T17:18Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -4696,15 +4695,27 @@
   ],
   "GB": [
    {
+    "id": 4430191,
+    "name": "Skyy Moore",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-09-30T16:58Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4362249,
     "name": "Jayden Reed",
     "pos": "WR",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-09-30T15:55Z",
+    "date": "2026-09-30T16:39Z",
     "body": "Neck",
     "side": "Not Specified",
-    "returnDate": "2026-10-29",
+    "returnDate": "2027-02-15",
     "fantasy": "OUT"
    },
    {
@@ -4834,18 +4845,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-27T01:04Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4430191,
-    "name": "Skyy Moore",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-27T00:51Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7112,6 +7111,30 @@
   ],
   "MIA": [
    {
+    "id": 4869645,
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T16:56Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4682745,
+    "name": "Jaylen Wright",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T16:49Z",
+    "body": "Foot",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4043130,
     "name": "Jordyn Brooks",
     "pos": "LB",
@@ -7206,30 +7229,6 @@
     "side": "Left",
     "returnDate": "2027-02-15",
     "fantasy": "IR"
-   },
-   {
-    "id": 4869645,
-    "name": "Caleb Douglas",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-09-28T19:24Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4682745,
-    "name": "Jaylen Wright",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-09-28T19:14Z",
-    "body": "Foot",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4875079,
@@ -8622,16 +8621,40 @@
   ],
   "NYJ": [
    {
+    "id": 4035537,
+    "name": "Kene Nwangwu",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T17:34Z",
+    "body": "Back",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 3925345,
+    "name": "Minkah Fitzpatrick",
+    "pos": "S",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T17:23Z",
+    "body": "Groin",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 5083315,
     "name": "Kenyon Sadiq",
     "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-09-30T16:37Z",
-    "body": null,
+    "body": "Undisclosed",
     "side": null,
-    "returnDate": null,
-    "fantasy": null
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4243375,
@@ -8713,30 +8736,6 @@
     "abbr": "Q",
     "date": "2026-09-29T16:45Z",
     "body": "Quadriceps",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4035537,
-    "name": "Kene Nwangwu",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-09-29T16:45Z",
-    "body": "Back",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3925345,
-    "name": "Minkah Fitzpatrick",
-    "pos": "S",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-09-29T16:45Z",
-    "body": "Groin",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
     "fantasy": "QUESTIONABLE"
@@ -10434,6 +10433,42 @@
   ],
   "TEN": [
    {
+    "id": 3932244,
+    "name": "Andre James",
+    "pos": "C",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-09-30T17:18Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3916148,
+    "name": "Tony Pollard",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T16:45Z",
+    "body": "Ankle",
+    "side": null,
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4428557,
+    "name": "Tyjae Spears",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T16:41Z",
+    "body": "Ankle",
+    "side": null,
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4685555,
     "name": "Nicholas Singleton",
     "pos": "RB",
@@ -10614,18 +10649,6 @@
     "fantasy": null
    },
    {
-    "id": 3916148,
-    "name": "Tony Pollard",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-27T21:54Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4688380,
     "name": "Cam Ward",
     "pos": "QB",
@@ -10636,18 +10659,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4428557,
-    "name": "Tyjae Spears",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-27T21:26Z",
-    "body": "Ankle",
-    "side": null,
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4429607,
@@ -10716,18 +10727,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-24T00:19Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4570469,
-    "name": "Marcus Harris",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-23T02:51Z",
     "body": null,
     "side": null,
     "returnDate": null,
