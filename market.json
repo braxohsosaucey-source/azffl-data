@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-01T05:53:18Z",
+ "_pulledUtc": "2026-10-01T07:03:22Z",
  "week": 4,
  "books": [
   "DraftKings"
@@ -1368,7 +1368,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-01T05:53:10Z",
+ "injuriesUtc": "2026-10-01T07:03:22Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1977,18 +1977,6 @@
   ],
   "BAL": [
    {
-    "id": 2576581,
-    "name": "Chris Moore",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-01T05:01Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4362845,
     "name": "Jovaughn Gwyn",
     "pos": "G",
@@ -1999,6 +1987,18 @@
     "side": "Not Specified",
     "returnDate": "2026-12-13",
     "fantasy": "OUT"
+   },
+   {
+    "id": 2576581,
+    "name": "Chris Moore",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-09-30T23:31Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3052897,
@@ -9249,18 +9249,6 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 4426506,
-    "name": "Joey Porter Jr.",
-    "pos": "CB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-09-30T19:10Z",
-    "body": "Back",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "OUT"
-   },
-   {
     "id": 4038815,
     "name": "Rico Dowdle",
     "pos": "RB",
@@ -9519,6 +9507,18 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-26T20:54Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685261,
+    "name": "Germie Bernard",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-09-21T22:38Z",
     "body": null,
     "side": null,
     "returnDate": null,
