@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-01T02:57:16Z",
+ "_pulledUtc": "2026-10-01T03:41:22Z",
  "week": 4,
  "books": [
   "DraftKings"
@@ -465,8 +465,8 @@
     "book": "DraftKings",
     "details": "ARI -2.5",
     "moneyline": {
-     "away": -135,
-     "home": 114
+     "away": -142,
+     "home": 120
     },
     "moneylineOpen": {
      "away": 260,
@@ -496,11 +496,11 @@
     }
    },
    "noVig": {
-    "away": 0.551441,
-    "home": 0.448559,
-    "hold": 0.041758,
-    "fairAway": -122.94,
-    "fairHome": 122.94
+    "away": 0.563492,
+    "home": 0.436508,
+    "hold": 0.041322,
+    "fairAway": -129.09,
+    "fairHome": 129.09
    },
    "noVigOpen": {
     "away": 0.266458,
@@ -1368,10 +1368,22 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-01T02:28:10Z",
+ "injuriesUtc": "2026-10-01T03:41:16Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
+   {
+    "id": 3918331,
+    "name": "Andrew Wingard",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:15Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4428633,
     "name": "Dadrion Taylor-Demerson",
@@ -1655,18 +1667,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-20T19:34Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4249739,
-    "name": "Jack Gibbens",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-19T00:22Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -1982,7 +1982,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-01T02:00Z",
+    "date": "2026-10-01T03:01Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2886,13 +2886,25 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-01T02:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-01T03:01Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
+   },
+   {
+    "id": 4954445,
+    "name": "Dillon Thieneman",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:26Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4251007,
@@ -3169,21 +3181,33 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
+   }
+  ],
+  "CIN": [
    {
-    "id": 4258595,
-    "name": "Cole Kmet",
-    "pos": "TE",
+    "id": 4427729,
+    "name": "Demetrius Knight Jr.",
+    "pos": "LB",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-09-21T20:45Z",
+    "date": "2026-10-01T02:24Z",
     "body": null,
     "side": null,
     "returnDate": null,
     "fantasy": null
-   }
-  ],
-  "CIN": [
+   },
+   {
+    "id": 4035483,
+    "name": "Dexter Lawrence II",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:21Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4401811,
     "name": "Kyle Dugger",
@@ -3455,30 +3479,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-25T00:38Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4427834,
-    "name": "Erick All Jr.",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-23T03:36Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3127310,
-    "name": "Drew Sample",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-23T03:24Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -5299,6 +5299,18 @@
   ],
   "IND": [
    {
+    "id": 2971282,
+    "name": "DeForest Buckner",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:16Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 2998565,
     "name": "Mo Alie-Cox",
     "pos": "TE",
@@ -5581,18 +5593,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-15T00:39Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4722908,
-    "name": "Drew Ogletree",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-10T23:20Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8319,6 +8319,18 @@
   ],
   "NYG": [
    {
+    "id": 3929950,
+    "name": "Tremaine Edmunds",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:10Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4431321,
     "name": "Dru Phillips",
     "pos": "CB",
@@ -8601,18 +8613,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-27T16:19Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 16837,
-    "name": "Shelby Harris",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-25T21:03Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -10735,6 +10735,30 @@
   ],
   "WSH": [
    {
+    "id": 5081807,
+    "name": "Sonny Styles",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:38Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4427984,
+    "name": "Kain Medrano",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-01T02:35Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3127273,
     "name": "Frankie Luvu",
     "pos": "LB",
@@ -11005,30 +11029,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-27T23:43Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4602667,
-    "name": "Jaylin Lane",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-25T21:22Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3928979,
-    "name": "Dorance Armstrong",
-    "pos": "DE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-25T21:22Z",
     "body": null,
     "side": null,
     "returnDate": null,
