@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-02T03:23:16Z",
+ "_pulledUtc": "2026-10-02T03:53:16Z",
  "week": 4,
  "books": [
   "Draft Kings"
@@ -11,7 +11,7 @@
    "away": "PIT",
    "home": "CLE",
    "kickoffUtc": "2026-10-02T00:15Z",
-   "state": "in",
+   "state": "post",
    "book": "Draft Kings",
    "lines": {
     "src": "core",
@@ -70,10 +70,7 @@
     "country": "USA"
    },
    "indoor": false,
-   "espnWeather": {
-    "text": "7",
-    "tempF": 79
-   },
+   "espnWeather": null,
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-02T00:00",
@@ -1368,7 +1365,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-02T02:49:11Z",
+ "injuriesUtc": "2026-10-02T03:49:10Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -3492,7 +3489,7 @@
     "pos": "DT",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-10-02T02:32Z",
+    "date": "2026-10-02T02:35Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9225,6 +9222,18 @@
   ],
   "PIT": [
    {
+    "id": 4682980,
+    "name": "Derrick Harmon",
+    "pos": "DT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-02T02:41Z",
+    "body": "Foot",
+    "side": null,
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3873935,
     "name": "Jamel Dean",
     "pos": "CB",
@@ -9232,18 +9241,6 @@
     "abbr": "Q",
     "date": "2026-10-02T02:22Z",
     "body": "Ankle",
-    "side": null,
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4682980,
-    "name": "Derrick Harmon",
-    "pos": "DT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-02T01:16Z",
-    "body": "Foot",
     "side": null,
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
