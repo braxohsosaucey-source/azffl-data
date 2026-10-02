@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-01T23:46:20.925Z",
+ "_pulledUtc": "2026-10-02T00:17:15.261Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 4,
@@ -196,7 +196,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.35,
      "start": 64.3,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 15.71,
      "projSeason": 187.93,
      "actSeason": 37.85,
@@ -209,7 +209,7 @@
        "23": 211.0,
        "210": 16.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -1120,7 +1120,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.76,
      "start": 63.8,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 11.93,
      "projSeason": 170.67,
      "actSeason": 24.45,
@@ -1133,7 +1133,7 @@
        "23": 230.0,
        "210": 14.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -1255,7 +1255,7 @@
      "acqUtc": "2026-09-24T07:32:10.323000Z",
      "own": 69.65,
      "start": 17.02,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.57,
      "projSeason": 138.6,
      "actSeason": 40.25
@@ -2252,7 +2252,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 71.91,
      "start": 2.53,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 0.0,
      "projSeason": 109.97,
      "actSeason": 9.5,
@@ -2265,7 +2265,7 @@
        "23": 236.0,
        "210": 17.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -2738,7 +2738,7 @@
      "acqUtc": "2026-09-27T14:03:09.312000Z",
      "own": 78.34,
      "start": 7.79,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 8.64,
      "projSeason": 125.57,
      "actSeason": 11.15
@@ -3092,7 +3092,7 @@
      "acqUtc": "2026-09-26T07:10:28.884000Z",
      "own": 88.38,
      "start": 26.43,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.28,
      "projSeason": 134.29,
      "actSeason": 24.05
@@ -3165,7 +3165,7 @@
     "acquisitions": 0,
     "drops": 0,
     "trades": 0,
-    "moveToActive": 4,
+    "moveToActive": 5,
     "acquisitionBudgetSpent": 0
    },
    "roster": [
@@ -3242,8 +3242,8 @@
     {
      "name": "Zay Flowers",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 33,
      "id": 4429615,
      "injury": "ACTIVE",
@@ -3344,7 +3344,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.66,
      "start": 68.04,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 10.05,
      "projSeason": 144.61,
      "actSeason": 35.1
@@ -3352,8 +3352,8 @@
     {
      "name": "George Kittle",
      "pos": "TE",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 25,
      "id": 3040151,
      "injury": "ACTIVE",
@@ -3440,10 +3440,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.7,
      "start": 88.03,
-     "livePts": null,
+     "livePts": 10.0,
      "weekProj": 8.06,
      "projSeason": 92.92,
-     "actSeason": 31.0
+     "actSeason": 41.0
     },
     {
      "name": "Tyler Loop",
@@ -3631,7 +3631,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 0.0,
-    "homeLive": 0.0
+    "homeLive": 10.0
    },
    {
     "away": 8,
