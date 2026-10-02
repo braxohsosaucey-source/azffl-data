@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-02T06:41:27Z",
+ "_pulledUtc": "2026-10-02T07:11:21Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -553,8 +553,8 @@
     "book": "DraftKings",
     "details": "LAR -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -180,
+     "home": 150
     },
     "moneylineOpen": {
      "away": -118,
@@ -574,8 +574,8 @@
     },
     "total": {
      "line": 42.5,
-     "over": -118,
-     "under": -102
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 47.5,
@@ -584,11 +584,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.616438,
+    "home": 0.383562,
+    "hold": 0.042857,
+    "fairAway": -160.71,
+    "fairHome": 160.71
    },
    "noVigOpen": {
     "away": 0.517364,
@@ -1366,7 +1366,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-02T05:51:15Z",
+ "injuriesUtc": "2026-10-02T06:51:15Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1980,7 +1980,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-02T05:00Z",
+    "date": "2026-10-02T06:01Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2884,13 +2884,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-02T05:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-02T06:01Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4259545,
@@ -10431,6 +10431,18 @@
   ],
   "TEN": [
    {
+    "id": 4428557,
+    "name": "Tyjae Spears",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-01T20:28Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3916148,
     "name": "Tony Pollard",
     "pos": "RB",
@@ -10441,18 +10453,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4428557,
-    "name": "Tyjae Spears",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-01T16:52Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4870805,
