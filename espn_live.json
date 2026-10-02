@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-02T01:49:16.482Z",
+ "_pulledUtc": "2026-10-02T02:19:16.950Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 4,
@@ -202,7 +202,7 @@
      "actSeason": 47.45,
      "usage": {
       "season": {
-       "23": 48.0,
+       "23": 50.0,
        "210": 4.0
       },
       "prior": {
@@ -210,7 +210,7 @@
        "210": 16.0
       },
       "week": {
-       "23": 10.0,
+       "23": 12.0,
        "210": 1.0
       }
      }
@@ -384,8 +384,8 @@
    "tx": {
     "acquisitions": 7,
     "drops": 7,
-    "trades": 0,
-    "moveToActive": 29,
+    "trades": 1,
+    "moveToActive": 30,
     "acquisitionBudgetSpent": 100
    },
    "roster": [
@@ -623,8 +623,8 @@
     {
      "name": "Kyler Murray",
      "pos": "QB",
-     "slot": "QB",
-     "slotId": 0,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 16,
      "id": 3917315,
      "injury": "ACTIVE",
@@ -672,21 +672,21 @@
      "actSeason": 40.0
     },
     {
-     "name": "Kalif Raymond",
-     "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 3,
-     "id": 2973405,
+     "name": "Matthew Stafford",
+     "pos": "QB",
+     "slot": "QB",
+     "slotId": 0,
+     "proTeamId": 14,
+     "id": 12483,
      "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-09-30T07:35:33.141000Z",
-     "own": 47.11,
-     "start": 11.88,
+     "acq": "TRADE",
+     "acqUtc": "2026-10-02T01:52:33.885000Z",
+     "own": 89.76,
+     "start": 41.56,
      "livePts": null,
-     "weekProj": 8.93,
-     "projSeason": 123.65,
-     "actSeason": 41.65
+     "weekProj": 16.27,
+     "projSeason": 243.05,
+     "actSeason": 50.98
     }
    ]
   },
@@ -710,7 +710,7 @@
    "tx": {
     "acquisitions": 4,
     "drops": 4,
-    "trades": 0,
+    "trades": 1,
     "moveToActive": 10,
     "acquisitionBudgetSpent": 0
    },
@@ -865,23 +865,6 @@
      "actSeason": 42.55
     },
     {
-     "name": "Matthew Stafford",
-     "pos": "QB",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 14,
-     "id": 12483,
-     "injury": "ACTIVE",
-     "acq": "DRAFT",
-     "acqUtc": "2026-09-09T03:19:42.913000Z",
-     "own": 89.76,
-     "start": 41.56,
-     "livePts": null,
-     "weekProj": 16.27,
-     "projSeason": 243.05,
-     "actSeason": 50.98
-    },
-    {
      "name": "RJ Harvey",
      "pos": "RB",
      "slot": "FLEX",
@@ -1021,6 +1004,23 @@
      "weekProj": 7.31,
      "projSeason": 101.02,
      "actSeason": 25.25
+    },
+    {
+     "name": "Kalif Raymond",
+     "pos": "WR",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 3,
+     "id": 2973405,
+     "injury": "ACTIVE",
+     "acq": "TRADE",
+     "acqUtc": "2026-10-02T01:52:33.885000Z",
+     "own": 47.11,
+     "start": 11.88,
+     "livePts": null,
+     "weekProj": 8.93,
+     "projSeason": 123.65,
+     "actSeason": 41.65
     }
    ]
   },
@@ -1123,13 +1123,13 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.75,
      "start": 63.73,
-     "livePts": 13.6,
+     "livePts": 13.7,
      "weekProj": 11.93,
      "projSeason": 170.67,
-     "actSeason": 38.05,
+     "actSeason": 38.15,
      "usage": {
       "season": {
-       "23": 50.0,
+       "23": 51.0,
        "210": 4.0
       },
       "prior": {
@@ -1137,7 +1137,7 @@
        "210": 14.0
       },
       "week": {
-       "23": 8.0,
+       "23": 9.0,
        "210": 1.0
       }
      }
@@ -3636,7 +3636,7 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 13.6,
+    "awayLive": 13.7,
     "homeLive": 2.0
    },
    {
