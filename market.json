@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-02T02:19:15Z",
+ "_pulledUtc": "2026-10-02T02:51:17Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -73,7 +73,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "7",
-    "tempF": 80
+    "tempF": 79
    },
    "weather": {
     "kickoff": {
@@ -1369,7 +1369,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-02T01:49:10Z",
+ "injuriesUtc": "2026-10-02T02:49:11Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1983,7 +1983,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-02T01:39Z",
+    "date": "2026-10-02T02:33Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2889,7 +2889,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-02T01:39Z",
+    "date": "2026-10-02T02:33Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -3488,15 +3488,27 @@
   ],
   "CLE": [
    {
+    "id": 4600415,
+    "name": "Mike Hall Jr.",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-02T02:32Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4873232,
     "name": "Mason Graham",
     "pos": "DT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-02T00:45Z",
+    "date": "2026-10-02T02:19Z",
     "body": "Knee",
     "side": null,
-    "returnDate": "2026-10-01",
+    "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -3770,18 +3782,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-23T03:03Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4035505,
-    "name": "Daniel Thomas",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-21T18:44Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9226,15 +9226,27 @@
   ],
   "PIT": [
    {
+    "id": 3873935,
+    "name": "Jamel Dean",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-02T02:22Z",
+    "body": "Ankle",
+    "side": null,
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4682980,
     "name": "Derrick Harmon",
     "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-02T01:16Z",
     "body": "Foot",
     "side": null,
-    "returnDate": "2026-10-01",
+    "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -9488,18 +9500,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3873935,
-    "name": "Jamel Dean",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-27T16:04Z",
-    "body": "Ankle",
-    "side": null,
-    "returnDate": "2026-10-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4241087,
@@ -9830,6 +9830,18 @@
   ],
   "SEA": [
    {
+    "id": 4259651,
+    "name": "Brandon Pili",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-02T01:40Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4247808,
     "name": "Ty Okada",
     "pos": "S",
@@ -9856,18 +9868,6 @@
    {
     "id": 3115312,
     "name": "Jarran Reed",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-01T23:32Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4259651,
-    "name": "Brandon Pili",
     "pos": "DT",
     "status": "Active",
     "abbr": "A",
