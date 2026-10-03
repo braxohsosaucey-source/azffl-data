@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-03T13:45:27Z",
+ "_pulledUtc": "2026-10-03T14:29:38Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -193,8 +193,8 @@
     "book": "DraftKings",
     "details": "BUF -7",
     "moneyline": {
-     "away": 245,
-     "home": -305
+     "away": 250,
+     "home": -310
     },
     "moneylineOpen": {
      "away": 136,
@@ -224,11 +224,11 @@
     }
    },
    "noVig": {
-    "away": 0.277921,
-    "home": 0.722079,
-    "hold": 0.042941,
-    "fairAway": 259.81,
-    "fairHome": -259.81
+    "away": 0.274247,
+    "home": 0.725753,
+    "hold": 0.041812,
+    "fairAway": 264.63,
+    "fairHome": -264.63
    },
    "noVigOpen": {
     "away": 0.40663,
@@ -894,8 +894,8 @@
     "book": "DraftKings",
     "details": "MIN -10",
     "moneyline": {
-     "away": 410,
-     "home": -550
+     "away": 400,
+     "home": -535
     },
     "moneylineOpen": {
      "away": 310,
@@ -904,8 +904,8 @@
     "spread": {
      "away": 10.0,
      "home": -10.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": 7.5,
@@ -925,11 +925,11 @@
     }
    },
    "noVig": {
-    "away": 0.188133,
-    "home": 0.811867,
-    "hold": 0.042232,
-    "fairAway": 431.54,
-    "fairHome": -431.54
+    "away": 0.191843,
+    "home": 0.808157,
+    "hold": 0.04252,
+    "fairAway": 421.26,
+    "fairHome": -421.26
    },
    "noVigOpen": {
     "away": 0.234098,
@@ -965,8 +965,8 @@
     "book": "DraftKings",
     "details": "KC -4.5",
     "moneyline": {
-     "away": -218,
-     "home": 180
+     "away": -225,
+     "home": 185
     },
     "moneylineOpen": {
      "away": -258,
@@ -975,8 +975,8 @@
     "spread": {
      "away": -4.5,
      "home": 4.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": -5.5,
@@ -996,11 +996,11 @@
     }
    },
    "noVig": {
-    "away": 0.657475,
-    "home": 0.342525,
-    "hold": 0.042677,
-    "fairAway": -191.95,
-    "fairHome": 191.95
+    "away": 0.663648,
+    "home": 0.336352,
+    "hold": 0.043185,
+    "fairAway": -197.31,
+    "fairHome": 197.31
    },
    "noVigOpen": {
     "away": 0.690793,
@@ -1366,7 +1366,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-03T13:22:59Z",
+ "injuriesUtc": "2026-10-03T14:29:40Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1980,7 +1980,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-03T13:01Z",
+    "date": "2026-10-03T14:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2884,13 +2884,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-03T13:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-03T14:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4251007,
@@ -7411,6 +7411,18 @@
   ],
   "MIN": [
    {
+    "id": 4262921,
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-03T13:33Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-10-11",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4799994,
     "name": "Brett Thorson",
     "pos": "P",
@@ -7457,18 +7469,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4262921,
-    "name": "Justin Jefferson",
-    "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-02T18:35Z",
-    "body": "Ankle",
-    "side": "Left",
-    "returnDate": "2026-10-11",
-    "fantasy": "OUT"
    },
    {
     "id": 4046537,
