@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-03T15:13:29Z",
+ "_pulledUtc": "2026-10-03T15:57:29Z",
  "week": 4,
  "books": [
   "Draft Kings"
@@ -516,7 +516,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 63
+    "tempF": 62
    },
    "weather": {
     "kickoff": {
@@ -1365,7 +1365,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-03T14:29:40Z",
+ "injuriesUtc": "2026-10-03T15:35:22Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1979,7 +1979,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-03T14:00Z",
+    "date": "2026-10-03T15:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2883,13 +2883,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-03T14:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-03T15:00Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4251007,
@@ -5299,13 +5299,13 @@
     "id": 15818,
     "name": "Keenan Allen",
     "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-02T17:23Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-03T14:37Z",
     "body": "Groin",
     "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
+    "returnDate": "2026-10-11",
+    "fantasy": "OUT"
    },
    {
     "id": 2998565,
@@ -10732,6 +10732,42 @@
   ],
   "WSH": [
    {
+    "id": 5081432,
+    "name": "Antonio Williams",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T15:05Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 2976212,
+    "name": "Stefon Diggs",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T14:54Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3121422,
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-03T14:42Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4575131,
     "name": "Jacory Croskey-Merritt",
     "pos": "RB",
@@ -10840,18 +10876,6 @@
     "fantasy": null
    },
    {
-    "id": 3121422,
-    "name": "Terry McLaurin",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-02T17:06Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 2576980,
     "name": "Marcus Mariota",
     "pos": "QB",
@@ -10924,18 +10948,6 @@
     "fantasy": "OUT"
    },
    {
-    "id": 5081432,
-    "name": "Antonio Williams",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-30T02:02Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4262199,
     "name": "Sam Cosmi",
     "pos": "G",
@@ -10990,18 +11002,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-29T20:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 2976212,
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-29T00:14Z",
     "body": null,
     "side": null,
     "returnDate": null,
