@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-03T08:05:27Z",
+ "_pulledUtc": "2026-10-03T09:07:27Z",
  "week": 4,
  "books": [
   "Draft Kings"
@@ -246,7 +246,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 66
+    "tempF": 67
    },
    "weather": {
     "kickoff": {
@@ -426,7 +426,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 68
+    "tempF": 69
    },
    "weather": {
     "kickoff": {
@@ -696,7 +696,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 88
+    "tempF": 87
    },
    "weather": {
     "kickoff": {
@@ -785,7 +785,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Rain",
+    "text": "Cloudy",
     "tempF": 63
    },
    "weather": {
@@ -947,7 +947,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 64
+    "tempF": 67
    },
    "weather": null,
    "wxNote": "indoor"
@@ -1088,7 +1088,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly sunny",
+    "text": "Sunny",
     "tempF": 91
    },
    "weather": {
@@ -1215,8 +1215,8 @@
     "book": "Draft Kings",
     "details": "DET -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -180,
+     "home": 150
     },
     "moneylineOpen": {
      "away": -162,
@@ -1246,11 +1246,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.616438,
+    "home": 0.383562,
+    "hold": 0.042857,
+    "fairAway": -160.71,
+    "fairHome": 160.71
    },
    "noVigOpen": {
     "away": 0.59337,
@@ -1269,7 +1269,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 67
+    "tempF": 65
    },
    "weather": {
     "kickoff": {
@@ -1358,14 +1358,14 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Cloudy",
-    "tempF": 80
+    "text": "Mostly cloudy w/ t-storms",
+    "tempF": 79
    },
    "weather": null,
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-03T08:05:22Z",
+ "injuriesUtc": "2026-10-03T09:07:29Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2883,13 +2883,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-03T06:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-03T09:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4251007,
