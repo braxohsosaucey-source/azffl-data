@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-03T03:55:27Z",
+ "_pulledUtc": "2026-10-03T04:39:27Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -106,8 +106,8 @@
     "book": "DraftKings",
     "details": "IND -4.5",
     "moneyline": {
-     "away": -198,
-     "home": 164
+     "away": -205,
+     "home": 170
     },
     "moneylineOpen": {
      "away": -110,
@@ -137,11 +137,11 @@
     }
    },
    "noVig": {
-    "away": 0.636904,
-    "home": 0.363096,
-    "hold": 0.043217,
-    "fairAway": -175.41,
-    "fairHome": 175.41
+    "away": 0.644729,
+    "home": 0.355271,
+    "hold": 0.042502,
+    "fairAway": -181.48,
+    "fairHome": 181.48
    },
    "noVigOpen": {
     "away": 0.5,
@@ -1366,7 +1366,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-03T03:33:24Z",
+ "injuriesUtc": "2026-10-03T04:39:26Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1980,7 +1980,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-03T03:01Z",
+    "date": "2026-10-03T04:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2884,13 +2884,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-03T03:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-03T04:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4251007,
@@ -6843,18 +6843,6 @@
     "fantasy": null
    },
    {
-    "id": 4570037,
-    "name": "Terrance Ferguson",
-    "pos": "TE",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-02T21:56Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "IR"
-   },
-   {
     "id": 4572371,
     "name": "Josh Wallace",
     "pos": "CB",
@@ -6901,6 +6889,18 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
+   },
+   {
+    "id": 4570037,
+    "name": "Terrance Ferguson",
+    "pos": "TE",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-02T18:41Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "IR"
    },
    {
     "id": 16716,
