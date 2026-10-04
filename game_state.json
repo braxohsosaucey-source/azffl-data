@@ -1,35 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-04T23:12:29.545Z",
+ "_pulledUtc": "2026-10-04T23:44:30.528Z",
  "week": 4,
  "games": [
-  {
-   "id": "401872974",
-   "name": "MIA @ MIN",
-   "dateUtc": "2026-10-04T20:05Z",
-   "market": null,
-   "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "MIN",
-     "id": 16,
-     "home": true,
-     "score": 15
-    },
-    {
-     "abbrev": "MIA",
-     "id": 15,
-     "home": false,
-     "score": 10
-    }
-   ]
-  },
   {
    "id": "401872976",
    "name": "KC @ LV",
@@ -38,22 +11,22 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "3:25 - 4th",
+   "detail": "0:01 - 4th",
    "period": 4,
-   "clock": "3:25",
-   "clockSec": 205.0,
+   "clock": "0:01",
+   "clockSec": 1.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 19
+     "score": 27
     },
     {
      "abbrev": "KC",
      "id": 12,
      "home": false,
-     "score": 17
+     "score": 30
     }
    ]
   },
@@ -63,24 +36,24 @@
    "dateUtc": "2026-10-04T20:25Z",
    "market": null,
    "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "4:49 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "4:49",
-   "clockSec": 289.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "SF",
      "id": 25,
      "home": true,
-     "score": 17
+     "score": 24
     },
     {
      "abbrev": "DEN",
      "id": 7,
      "home": false,
-     "score": 6
+     "score": 14
     }
    ]
   },
@@ -92,10 +65,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "7:52 - 4th",
+   "detail": "0:32 - 4th",
    "period": 4,
-   "clock": "7:52",
-   "clockSec": 472.0,
+   "clock": "0:32",
+   "clockSec": 32.0,
    "teams": [
     {
      "abbrev": "SEA",
@@ -107,7 +80,7 @@
      "abbrev": "LAC",
      "id": 24,
      "home": false,
-     "score": 19
+     "score": 23
     }
    ]
   },
@@ -355,6 +328,33 @@
    ]
   },
   {
+   "id": "401872974",
+   "name": "MIA @ MIN",
+   "dateUtc": "2026-10-04T20:05Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "MIN",
+     "id": 16,
+     "home": true,
+     "score": 15
+    },
+    {
+     "abbrev": "MIA",
+     "id": 15,
+     "home": false,
+     "score": 10
+    }
+   ]
+  },
+  {
    "id": "401872978",
    "name": "DET @ CAR",
    "dateUtc": "2026-10-05T00:20Z",
@@ -366,7 +366,7 @@
      "CAR": 23.5,
      "DET": 28.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -429,7 +429,7 @@
      "NO": 24.5,
      "ATL": 23.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": true,
    "state": "pre",
