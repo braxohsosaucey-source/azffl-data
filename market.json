@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-04T01:28:27Z",
+ "_pulledUtc": "2026-10-04T02:12:27Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -106,8 +106,8 @@
     "book": "DraftKings",
     "details": "IND -4.5",
     "moneyline": {
-     "away": -198,
-     "home": 164
+     "away": -205,
+     "home": 170
     },
     "moneylineOpen": {
      "away": -110,
@@ -137,11 +137,11 @@
     }
    },
    "noVig": {
-    "away": 0.636904,
-    "home": 0.363096,
-    "hold": 0.043217,
-    "fairAway": -175.41,
-    "fairHome": 175.41
+    "away": 0.644729,
+    "home": 0.355271,
+    "hold": 0.042502,
+    "fairAway": -181.48,
+    "fairHome": 181.48
    },
    "noVigOpen": {
     "away": 0.5,
@@ -193,8 +193,8 @@
     "book": "DraftKings",
     "details": "BUF -7",
     "moneyline": {
-     "away": 240,
-     "home": -298
+     "away": 245,
+     "home": -305
     },
     "moneylineOpen": {
      "away": 136,
@@ -213,9 +213,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 49.5,
-     "over": -112,
-     "under": -108
+     "line": 50.5,
+     "over": -105,
+     "under": -115
     },
     "totalOpen": {
      "line": 49.5,
@@ -224,11 +224,11 @@
     }
    },
    "noVig": {
-    "away": 0.282029,
-    "home": 0.717971,
-    "hold": 0.042861,
-    "fairAway": 254.57,
-    "fairHome": -254.57
+    "away": 0.277921,
+    "home": 0.722079,
+    "hold": 0.042941,
+    "fairAway": 259.81,
+    "fairHome": -259.81
    },
    "noVigOpen": {
     "away": 0.40663,
@@ -553,8 +553,8 @@
     "book": "DraftKings",
     "details": "LAR -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -180,
+     "home": 150
     },
     "moneylineOpen": {
      "away": -118,
@@ -584,11 +584,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.616438,
+    "home": 0.383562,
+    "hold": 0.042857,
+    "fairAway": -160.71,
+    "fairHome": 160.71
    },
    "noVigOpen": {
     "away": 0.517364,
@@ -643,8 +643,8 @@
     "book": "DraftKings",
     "details": "GB -3",
     "moneyline": {
-     "away": -162,
-     "home": 136
+     "away": -166,
+     "home": 140
     },
     "moneylineOpen": {
      "away": -125,
@@ -674,11 +674,11 @@
     }
    },
    "noVig": {
-    "away": 0.59337,
-    "home": 0.40663,
-    "hold": 0.042049,
-    "fairAway": -145.92,
-    "fairHome": 145.92
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
    },
    "noVigOpen": {
     "away": 0.532468,
@@ -844,8 +844,8 @@
     },
     "total": {
      "line": 48.5,
-     "over": -110,
-     "under": -110
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 47.5,
@@ -1304,20 +1304,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "DraftKings",
-    "details": "NO -2.5",
+    "details": "NO -1.5",
     "moneyline": {
-     "away": 114,
-     "home": -135
+     "away": 110,
+     "home": -130
     },
     "moneylineOpen": {
      "away": 114,
      "home": -135
     },
     "spread": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 2.5,
@@ -1337,11 +1337,11 @@
     }
    },
    "noVig": {
-    "away": 0.448559,
-    "home": 0.551441,
-    "hold": 0.041758,
-    "fairAway": 122.94,
-    "fairHome": -122.94
+    "away": 0.457256,
+    "home": 0.542744,
+    "hold": 0.041408,
+    "fairAway": 118.7,
+    "fairHome": -118.7
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -1366,7 +1366,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-04T01:06:26Z",
+ "injuriesUtc": "2026-10-04T02:12:21Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1975,6 +1975,18 @@
   ],
   "BAL": [
    {
+    "id": 2576581,
+    "name": "Chris Moore",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-04T02:00Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3042738,
     "name": "Ethan Pocic",
     "pos": "C",
@@ -1997,18 +2009,6 @@
     "side": "Not Specified",
     "returnDate": "2026-12-13",
     "fantasy": "IR"
-   },
-   {
-    "id": 2576581,
-    "name": "Chris Moore",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-04T00:01Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 2980153,
@@ -2579,6 +2579,18 @@
   ],
   "CAR": [
    {
+    "id": 4870694,
+    "name": "Monroe Freeling",
+    "pos": "OT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-04T01:15Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4876995,
     "name": "Ja'seem Reed",
     "pos": "WR",
@@ -2601,18 +2613,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-08",
     "fantasy": "IR"
-   },
-   {
-    "id": 4870694,
-    "name": "Monroe Freeling",
-    "pos": "OT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-03T01:03Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4362647,
@@ -2886,7 +2886,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-04T00:01Z",
+    "date": "2026-10-04T02:00Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -2898,7 +2898,7 @@
     "pos": "OT",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-03T01:12Z",
+    "date": "2026-10-04T01:02Z",
     "body": "Knee",
     "side": "Not Specified",
     "returnDate": "2026-11-02",
@@ -4995,6 +4995,18 @@
   ],
   "HOU": [
    {
+    "id": 4837286,
+    "name": "Wade Woodaz",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-04T01:10Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4033812,
     "name": "Jake Hansen",
     "pos": "LB",
@@ -5277,18 +5289,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-27T16:07Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4686422,
-    "name": "Xavier Hutchinson",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-27T15:56Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7718,7 +7718,7 @@
     "pos": "CB",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-03T20:54Z",
+    "date": "2026-10-04T01:26Z",
     "body": "Hamstring",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
