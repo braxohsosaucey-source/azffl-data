@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-04T22:40:31.197Z",
+ "_pulledUtc": "2026-10-04T23:12:29.545Z",
  "week": 4,
  "games": [
   {
@@ -9,12 +9,12 @@
    "dateUtc": "2026-10-04T20:05Z",
    "market": null,
    "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "6:39 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "6:39",
-   "clockSec": 399.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "MIN",
@@ -38,22 +38,22 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 4th",
+   "detail": "3:25 - 4th",
    "period": 4,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "3:25",
+   "clockSec": 205.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 13
+     "score": 19
     },
     {
      "abbrev": "KC",
      "id": 12,
      "home": false,
-     "score": 10
+     "score": 17
     }
    ]
   },
@@ -65,22 +65,22 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "2:47 - 3rd",
-   "period": 3,
-   "clock": "2:47",
-   "clockSec": 167.0,
+   "detail": "4:49 - 4th",
+   "period": 4,
+   "clock": "4:49",
+   "clockSec": 289.0,
    "teams": [
     {
      "abbrev": "SF",
      "id": 25,
      "home": true,
-     "score": 10
+     "score": 17
     },
     {
      "abbrev": "DEN",
      "id": 7,
      "home": false,
-     "score": 3
+     "score": 6
     }
    ]
   },
@@ -92,22 +92,22 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "4:53 - 3rd",
-   "period": 3,
-   "clock": "4:53",
-   "clockSec": 293.0,
+   "detail": "7:52 - 4th",
+   "period": 4,
+   "clock": "7:52",
+   "clockSec": 472.0,
    "teams": [
     {
      "abbrev": "SEA",
      "id": 26,
      "home": true,
-     "score": 27
+     "score": 30
     },
     {
      "abbrev": "LAC",
      "id": 24,
      "home": false,
-     "score": 13
+     "score": 19
     }
    ]
   },
@@ -361,12 +361,12 @@
    "market": {
     "total": 51.5,
     "favorite": "DET",
-    "spread": 3.5,
+    "spread": 4.5,
     "implied": {
-     "CAR": 24.0,
-     "DET": 27.5
+     "CAR": 23.5,
+     "DET": 28.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -429,7 +429,7 @@
      "NO": 24.5,
      "ATL": 23.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
