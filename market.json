@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-04T05:51:27Z",
+ "_pulledUtc": "2026-10-04T07:03:28Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -1039,8 +1039,8 @@
     "book": "DraftKings",
     "details": "SEA -7",
     "moneyline": {
-     "away": 285,
-     "home": -360
+     "away": 295,
+     "home": -375
     },
     "moneylineOpen": {
      "away": 136,
@@ -1049,8 +1049,8 @@
     "spread": {
      "away": 7.0,
      "home": -7.0,
-     "awayOdds": -108,
-     "homeOdds": -112
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 3.0,
@@ -1070,11 +1070,11 @@
     }
    },
    "noVig": {
-    "away": 0.249187,
-    "home": 0.750813,
-    "hold": 0.042349,
-    "fairAway": 301.3,
-    "fairHome": -301.3
+    "away": 0.242812,
+    "home": 0.757188,
+    "hold": 0.042638,
+    "fairAway": 311.84,
+    "fairHome": -311.84
    },
    "noVigOpen": {
     "away": 0.40663,
@@ -1366,7 +1366,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-04T05:30:21Z",
+ "injuriesUtc": "2026-10-04T07:03:22Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1980,7 +1980,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-04T05:01Z",
+    "date": "2026-10-04T06:48Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2884,13 +2884,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-04T05:01Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-04T06:48Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4251007,
@@ -5062,7 +5062,7 @@
     "abbr": "Q",
     "date": "2026-10-02T20:13Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-04",
     "fantasy": "QUESTIONABLE"
    },
@@ -5339,10 +5339,10 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-01T21:25Z",
-    "body": "Illness",
-    "side": "Not Specified",
-    "returnDate": "2026-10-04",
-    "fantasy": "QUESTIONABLE"
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4061956,
@@ -5351,10 +5351,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-01T21:08Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3917142,
@@ -10129,6 +10129,18 @@
   ],
   "TB": [
    {
+    "id": 4912847,
+    "name": "Jacob Parrish",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-04T06:43Z",
+    "body": "Personal",
+    "side": "Not Specified",
+    "returnDate": "2026-10-04",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3120590,
     "name": "Easton Stick",
     "pos": "QB",
@@ -10411,18 +10423,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-28T01:24Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3894856,
-    "name": "Anthony Nelson",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-25T20:09Z",
     "body": null,
     "side": null,
     "returnDate": null,
