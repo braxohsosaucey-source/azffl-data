@@ -1,80 +1,12 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-04T23:12:27Z",
+ "_pulledUtc": "2026-10-04T23:44:28Z",
  "week": 4,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
-  {
-   "id": "401872974",
-   "away": "MIA",
-   "home": "MIN",
-   "kickoffUtc": "2026-10-04T20:05Z",
-   "state": "post",
-   "book": "DraftKings",
-   "lines": {
-    "src": "core",
-    "book": "DraftKings",
-    "details": "MIN -10",
-    "moneyline": {
-     "away": 400,
-     "home": -535
-    },
-    "moneylineOpen": {
-     "away": 310,
-     "home": -395
-    },
-    "spread": {
-     "away": 10.0,
-     "home": -10.0,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": 7.5,
-     "home": -7.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 38.5,
-     "over": -108,
-     "under": -112
-    },
-    "totalOpen": {
-     "line": 43.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.191843,
-    "home": 0.808157,
-    "hold": 0.04252,
-    "fairAway": 421.26,
-    "fairHome": -421.26
-   },
-   "noVigOpen": {
-    "away": 0.234098,
-    "home": 0.765902,
-    "hold": 0.041882,
-    "fairAway": 327.17,
-    "fairHome": -327.17
-   },
-   "venue": {
-    "id": "5239",
-    "name": "U.S. Bank Stadium",
-    "city": "Minneapolis",
-    "state": "MN",
-    "country": "USA"
-   },
-   "indoor": true,
-   "espnWeather": null,
-   "weather": null,
-   "wxNote": "indoor"
-  },
   {
    "id": "401872976",
    "away": "KC",
@@ -151,7 +83,7 @@
    "away": "DEN",
    "home": "SF",
    "kickoffUtc": "2026-10-04T20:25Z",
-   "state": "in",
+   "state": "post",
    "book": "DraftKings",
    "lines": {
     "src": "core",
@@ -210,10 +142,7 @@
     "country": "USA"
    },
    "indoor": false,
-   "espnWeather": {
-    "text": "3",
-    "tempF": 91
-   },
+   "espnWeather": null,
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-04T20:00",
@@ -1091,19 +1020,87 @@
    "wxNote": "indoor"
   },
   {
+   "id": "401872974",
+   "away": "MIA",
+   "home": "MIN",
+   "kickoffUtc": "2026-10-04T20:05Z",
+   "state": "post",
+   "book": "DraftKings",
+   "lines": {
+    "src": "core",
+    "book": "DraftKings",
+    "details": "MIN -10",
+    "moneyline": {
+     "away": 400,
+     "home": -535
+    },
+    "moneylineOpen": {
+     "away": 310,
+     "home": -395
+    },
+    "spread": {
+     "away": 10.0,
+     "home": -10.0,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "spreadOpen": {
+     "away": 7.5,
+     "home": -7.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 38.5,
+     "over": -108,
+     "under": -112
+    },
+    "totalOpen": {
+     "line": 43.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.191843,
+    "home": 0.808157,
+    "hold": 0.04252,
+    "fairAway": 421.26,
+    "fairHome": -421.26
+   },
+   "noVigOpen": {
+    "away": 0.234098,
+    "home": 0.765902,
+    "hold": 0.041882,
+    "fairAway": 327.17,
+    "fairHome": -327.17
+   },
+   "venue": {
+    "id": "5239",
+    "name": "U.S. Bank Stadium",
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA"
+   },
+   "indoor": true,
+   "espnWeather": null,
+   "weather": null,
+   "wxNote": "indoor"
+  },
+  {
    "id": "401872978",
    "away": "DET",
    "home": "CAR",
    "kickoffUtc": "2026-10-05T00:20Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "DET -4.5",
     "moneyline": {
-     "away": -198,
-     "home": 164
+     "away": -218,
+     "home": 180
     },
     "moneylineOpen": {
      "away": -162,
@@ -1112,8 +1109,8 @@
     "spread": {
      "away": -4.5,
      "home": 4.5,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "awayOdds": -102,
+     "homeOdds": -118
     },
     "spreadOpen": {
      "away": -3.0,
@@ -1133,11 +1130,11 @@
     }
    },
    "noVig": {
-    "away": 0.636904,
-    "home": 0.363096,
-    "hold": 0.043217,
-    "fairAway": -175.41,
-    "fairHome": 175.41
+    "away": 0.657475,
+    "home": 0.342525,
+    "hold": 0.042677,
+    "fairAway": -191.95,
+    "fairHome": 191.95
    },
    "noVigOpen": {
     "away": 0.59337,
@@ -1273,10 +1270,10 @@
    "home": "NO",
    "kickoffUtc": "2026-10-06T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "NO -1.5",
     "moneyline": {
      "away": 110,
