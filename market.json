@@ -1,98 +1,11 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-04T03:40:28Z",
+ "_pulledUtc": "2026-10-04T04:24:27Z",
  "week": 4,
  "books": [
   "Draft Kings"
  ],
  "games": [
-  {
-   "id": "401872964",
-   "away": "PIT",
-   "home": "CLE",
-   "kickoffUtc": "2026-10-02T00:15Z",
-   "state": "post",
-   "book": "Draft Kings",
-   "lines": {
-    "src": "core",
-    "book": "Draft Kings",
-    "details": "PIT -2.5",
-    "moneyline": {
-     "away": -148,
-     "home": 124
-    },
-    "moneylineOpen": {
-     "away": -135,
-     "home": 114
-    },
-    "spread": {
-     "away": -2.5,
-     "home": 2.5,
-     "awayOdds": -120,
-     "homeOdds": 100
-    },
-    "spreadOpen": {
-     "away": -2.5,
-     "home": 2.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 38.5,
-     "over": -105,
-     "under": -115
-    },
-    "totalOpen": {
-     "line": 40.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.57206,
-    "home": 0.42794,
-    "hold": 0.043203,
-    "fairAway": -133.68,
-    "fairHome": 133.68
-   },
-   "noVigOpen": {
-    "away": 0.551441,
-    "home": 0.448559,
-    "hold": 0.041758,
-    "fairAway": -122.94,
-    "fairHome": 122.94
-   },
-   "venue": {
-    "id": "3679",
-    "name": "Huntington Bank Field",
-    "city": "Cleveland",
-    "state": "OH",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": null,
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-02T00:00",
-     "tempF": 79.2,
-     "windMph": 10.3,
-     "gustMph": 19.9,
-     "precipIn": 0.0,
-     "precipProb": 2
-    },
-    "game": {
-     "maxWindMph": 11.5,
-     "maxGustMph": 20.8,
-     "precipIn": 0.0,
-     "maxPrecipProb": 3
-    },
-    "src": "open-meteo",
-    "lat": 41.4995,
-    "lon": -81.69541,
-    "t": "2026-10-01T22:43:41Z"
-   },
-   "wxNote": null
-  },
   {
    "id": "401872965",
    "away": "IND",
@@ -832,8 +745,8 @@
     "spread": {
      "away": 3.0,
      "home": -3.0,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": 2.5,
@@ -1294,6 +1207,93 @@
    "wxNote": null
   },
   {
+   "id": "401872964",
+   "away": "PIT",
+   "home": "CLE",
+   "kickoffUtc": "2026-10-02T00:15Z",
+   "state": "post",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "core",
+    "book": "Draft Kings",
+    "details": "PIT -2.5",
+    "moneyline": {
+     "away": -148,
+     "home": 124
+    },
+    "moneylineOpen": {
+     "away": -135,
+     "home": 114
+    },
+    "spread": {
+     "away": -2.5,
+     "home": 2.5,
+     "awayOdds": -120,
+     "homeOdds": 100
+    },
+    "spreadOpen": {
+     "away": -2.5,
+     "home": 2.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 38.5,
+     "over": -105,
+     "under": -115
+    },
+    "totalOpen": {
+     "line": 40.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.57206,
+    "home": 0.42794,
+    "hold": 0.043203,
+    "fairAway": -133.68,
+    "fairHome": 133.68
+   },
+   "noVigOpen": {
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
+   },
+   "venue": {
+    "id": "3679",
+    "name": "Huntington Bank Field",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-02T00:00",
+     "tempF": 79.2,
+     "windMph": 10.3,
+     "gustMph": 19.9,
+     "precipIn": 0.0,
+     "precipProb": 2
+    },
+    "game": {
+     "maxWindMph": 11.5,
+     "maxGustMph": 20.8,
+     "precipIn": 0.0,
+     "maxPrecipProb": 3
+    },
+    "src": "open-meteo",
+    "lat": 41.4995,
+    "lon": -81.69541,
+    "t": "2026-10-01T22:43:41Z"
+   },
+   "wxNote": null
+  },
+  {
    "id": "401872979",
    "away": "ATL",
    "home": "NO",
@@ -1365,7 +1365,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-04T03:18:21Z",
+ "injuriesUtc": "2026-10-04T04:24:24Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1979,7 +1979,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-04T03:00Z",
+    "date": "2026-10-04T04:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2885,7 +2885,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-04T03:00Z",
+    "date": "2026-10-04T04:00Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
