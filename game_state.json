@@ -1,35 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-04T03:40:29.752Z",
+ "_pulledUtc": "2026-10-04T04:24:28.841Z",
  "week": 4,
  "games": [
-  {
-   "id": "401872964",
-   "name": "PIT @ CLE",
-   "dateUtc": "2026-10-02T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CLE",
-     "id": 5,
-     "home": true,
-     "score": 27
-    },
-    {
-     "abbrev": "PIT",
-     "id": 23,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
   {
    "id": "401872965",
    "name": "IND VS WSH",
@@ -531,6 +504,33 @@
      "id": 8,
      "home": false,
      "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872964",
+   "name": "PIT @ CLE",
+   "dateUtc": "2026-10-02T00:15Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "CLE",
+     "id": 5,
+     "home": true,
+     "score": 27
+    },
+    {
+     "abbrev": "PIT",
+     "id": 23,
+     "home": false,
+     "score": 24
     }
    ]
   },
