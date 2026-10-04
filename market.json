@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-03T23:16:26Z",
+ "_pulledUtc": "2026-10-04T00:00:28Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -904,8 +904,8 @@
     "spread": {
      "away": 10.0,
      "home": -10.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": 7.5,
@@ -1366,7 +1366,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-03T22:54:21Z",
+ "injuriesUtc": "2026-10-04T00:00:24Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1980,7 +1980,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-03T22:34Z",
+    "date": "2026-10-03T23:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-04",
@@ -2886,7 +2886,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-03T22:34Z",
+    "date": "2026-10-03T23:00Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -4089,6 +4089,18 @@
   ],
   "DEN": [
    {
+    "id": 3929914,
+    "name": "Adam Prentice",
+    "pos": "FB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T23:03Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 5216101,
     "name": "Dondrea Tillman",
     "pos": "LB",
@@ -4371,18 +4383,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-16T00:38Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3911853,
-    "name": "Adam Trautman",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-16T00:13Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -4693,6 +4693,18 @@
   ],
   "GB": [
    {
+    "id": 4429136,
+    "name": "Warren Brinson",
+    "pos": "DT",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-03T23:49Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-29",
+    "fantasy": "IR"
+   },
+   {
     "id": 4430438,
     "name": "Edgerrin Cooper",
     "pos": "LB",
@@ -4751,18 +4763,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "OUT"
-   },
-   {
-    "id": 4429136,
-    "name": "Warren Brinson",
-    "pos": "DT",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-03T01:17Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-29",
-    "fantasy": "IR"
    },
    {
     "id": 4686906,
@@ -6807,6 +6807,18 @@
   ],
   "LAR": [
    {
+    "id": 3919510,
+    "name": "Alex Bachman",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T23:35Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4596363,
     "name": "Kamren Kinchens",
     "pos": "S",
@@ -7093,18 +7105,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4243003,
-    "name": "Ronnie Rivers",
-    "pos": "RB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-09-24T00:22Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "IR"
    }
   ],
   "MIA": [
@@ -8015,16 +8015,16 @@
   ],
   "NO": [
    {
-    "id": 4685479,
-    "name": "Christen Miller",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-03T19:14Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
+    "id": 3925350,
+    "name": "Anfernee Jennings",
+    "pos": "LB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-03T23:41Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "OUT"
    },
    {
     "id": 4698597,
@@ -8032,7 +8032,19 @@
     "pos": "WR",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-10-03T19:13Z",
+    "date": "2026-10-03T23:15Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685479,
+    "name": "Christen Miller",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T19:14Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8085,18 +8097,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-05",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3925350,
-    "name": "Anfernee Jennings",
-    "pos": "LB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-03T18:03Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "OUT"
    },
    {
     "id": 4599739,
@@ -8316,6 +8316,18 @@
    }
   ],
   "NYG": [
+   {
+    "id": 4243322,
+    "name": "Jake Haener",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T23:28Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4259566,
     "name": "Andrew Thomas",
@@ -8599,18 +8611,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-27T23:52Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4595348,
-    "name": "Malik Nabers",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-27T21:04Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9525,6 +9525,18 @@
   ],
   "SF": [
    {
+    "id": 3115928,
+    "name": "Malik Turner",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-03T23:09Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 13241,
     "name": "Trent Williams",
     "pos": "OT",
@@ -9807,18 +9819,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-28T01:47Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4361741,
-    "name": "Brock Purdy",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-28T01:35Z",
     "body": null,
     "side": null,
     "returnDate": null,
