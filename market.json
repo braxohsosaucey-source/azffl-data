@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-05T15:07:48Z",
+ "_pulledUtc": "2026-10-05T15:38:30Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -13,10 +13,10 @@
    "home": "NO",
    "kickoffUtc": "2026-10-06T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "NO -1.5",
     "moneyline": {
      "away": 100,
@@ -1327,7 +1327,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-05T14:08:27Z",
+ "injuriesUtc": "2026-10-05T15:08:29Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1941,7 +1941,7 @@
     "pos": "WR",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-05T14:00Z",
+    "date": "2026-10-05T15:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -2845,13 +2845,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-05T14:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-05T15:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 17427,
@@ -4050,6 +4050,18 @@
   ],
   "DEN": [
    {
+    "id": 4372012,
+    "name": "Pat Surtain II",
+    "pos": "CB",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-05T14:00Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 3128429,
     "name": "Courtland Sutton",
     "pos": "WR",
@@ -4060,18 +4072,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4372012,
-    "name": "Pat Surtain II",
-    "pos": "CB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-05T03:56Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 2985659,
@@ -5941,7 +5941,7 @@
     "abbr": "Q",
     "date": "2026-10-04T22:05Z",
     "body": "Hamstring",
-    "side": "Left",
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -6556,7 +6556,7 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-04T23:31Z",
-    "body": "Head",
+    "body": "Concussion",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
@@ -8598,7 +8598,7 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-05T03:25Z",
-    "body": "Head",
+    "body": "Concussion",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
@@ -8882,6 +8882,18 @@
   ],
   "PHI": [
    {
+    "id": 4686273,
+    "name": "Quinyon Mitchell",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-05T14:20Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3929630,
     "name": "Saquon Barkley",
     "pos": "RB",
@@ -8889,7 +8901,7 @@
     "abbr": "Q",
     "date": "2026-10-05T13:44Z",
     "body": "Hamstring",
-    "side": "Not Specified",
+    "side": "Right",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -8972,19 +8984,7 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-04T20:04Z",
-    "body": "Undisclosed",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4686273,
-    "name": "Quinyon Mitchell",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-04T19:48Z",
-    "body": "Knee",
+    "body": "Lower Body",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
@@ -9486,6 +9486,18 @@
   ],
   "SF": [
    {
+    "id": 16002,
+    "name": "Kyle Juszczyk",
+    "pos": "FB",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-05T14:13Z",
+    "body": "Knee",
+    "side": "Right",
+    "returnDate": "2026-10-11",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4034949,
     "name": "Eddy Pineiro",
     "pos": "PK",
@@ -9580,18 +9592,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 16002,
-    "name": "Kyle Juszczyk",
-    "pos": "FB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-04T23:08Z",
-    "body": "Knee",
-    "side": "Right",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 3916903,
