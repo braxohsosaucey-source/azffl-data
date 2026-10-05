@@ -1,35 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-05T03:20:30.726Z",
+ "_pulledUtc": "2026-10-05T03:52:29.381Z",
  "week": 4,
  "games": [
-  {
-   "id": "401872978",
-   "name": "DET @ CAR",
-   "dateUtc": "2026-10-05T00:20Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "5:06 - 4th",
-   "period": 4,
-   "clock": "5:06",
-   "clockSec": 306.0,
-   "teams": [
-    {
-     "abbrev": "CAR",
-     "id": 29,
-     "home": true,
-     "score": 32
-    },
-    {
-     "abbrev": "DET",
-     "id": 8,
-     "home": false,
-     "score": 19
-    }
-   ]
-  },
   {
    "id": "401872965",
    "name": "IND VS WSH",
@@ -378,6 +351,33 @@
      "id": 24,
      "home": false,
      "score": 23
+    }
+   ]
+  },
+  {
+   "id": "401872978",
+   "name": "DET @ CAR",
+   "dateUtc": "2026-10-05T00:20Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "CAR",
+     "id": 29,
+     "home": true,
+     "score": 32
+    },
+    {
+     "abbrev": "DET",
+     "id": 8,
+     "home": false,
+     "score": 26
     }
    ]
   },
