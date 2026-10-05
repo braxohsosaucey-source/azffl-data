@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-05T05:25:28Z",
+ "_pulledUtc": "2026-10-05T05:55:28Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -19,8 +19,8 @@
     "book": "DraftKings",
     "details": "NO -1.5",
     "moneyline": {
-     "away": 110,
-     "home": -130
+     "away": 105,
+     "home": -125
     },
     "moneylineOpen": {
      "away": 114,
@@ -50,11 +50,11 @@
     }
    },
    "noVig": {
-    "away": 0.457256,
-    "home": 0.542744,
-    "hold": 0.041408,
-    "fairAway": 118.7,
-    "fairHome": -118.7
+    "away": 0.467532,
+    "home": 0.532468,
+    "hold": 0.04336,
+    "fairAway": 113.89,
+    "fairHome": -113.89
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -1327,7 +1327,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-05T04:54:23Z",
+ "injuriesUtc": "2026-10-05T05:55:20Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -4352,6 +4352,18 @@
   ],
   "DET": [
    {
+    "id": 4430027,
+    "name": "Sam LaPorta",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-05T04:40Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4426388,
     "name": "Jameson Williams",
     "pos": "WR",
@@ -4403,13 +4415,13 @@
     "id": 3910229,
     "name": "Rock Ya-Sin",
     "pos": "CB",
-    "status": "Out",
-    "abbr": "O",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-05T02:47Z",
     "body": "Hamstring",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-11",
-    "fantasy": "OUT"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3139387,
@@ -4494,18 +4506,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4430027,
-    "name": "Sam LaPorta",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T11:47Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4692025,
@@ -5874,18 +5874,6 @@
     "fantasy": null
    },
    {
-    "id": 4362921,
-    "name": "Tyquan Thornton",
-    "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-05T02:12Z",
-    "body": "Ankle",
-    "side": "Left",
-    "returnDate": "2026-10-18",
-    "fantasy": "OUT"
-   },
-   {
     "id": 15847,
     "name": "Travis Kelce",
     "pos": "TE",
@@ -5932,6 +5920,18 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
+   },
+   {
+    "id": 4362921,
+    "name": "Tyquan Thornton",
+    "pos": "WR",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-04T23:16Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-10-18",
+    "fantasy": "OUT"
    },
    {
     "id": 4428331,
