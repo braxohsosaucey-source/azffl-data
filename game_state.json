@@ -1,8 +1,71 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-05T03:52:29.381Z",
+ "_pulledUtc": "2026-10-05T04:24:30.374Z",
  "week": 4,
  "games": [
+  {
+   "id": "401872979",
+   "name": "ATL @ NO",
+   "dateUtc": "2026-10-06T00:15Z",
+   "market": {
+    "total": 47.5,
+    "favorite": "NO",
+    "spread": 1.5,
+    "implied": {
+     "NO": 24.5,
+     "ATL": 23.0
+    },
+    "provider": "Draft Kings"
+   },
+   "indoor": true,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/5 - 8:15 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "NO",
+     "id": 18,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "ATL",
+     "id": 1,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872964",
+   "name": "PIT @ CLE",
+   "dateUtc": "2026-10-02T00:15Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "CLE",
+     "id": 5,
+     "home": true,
+     "score": 27
+    },
+    {
+     "abbrev": "PIT",
+     "id": 23,
+     "home": false,
+     "score": 24
+    }
+   ]
+  },
   {
    "id": "401872965",
    "name": "IND VS WSH",
@@ -378,69 +441,6 @@
      "id": 8,
      "home": false,
      "score": 26
-    }
-   ]
-  },
-  {
-   "id": "401872964",
-   "name": "PIT @ CLE",
-   "dateUtc": "2026-10-02T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CLE",
-     "id": 5,
-     "home": true,
-     "score": 27
-    },
-    {
-     "abbrev": "PIT",
-     "id": 23,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
-  {
-   "id": "401872979",
-   "name": "ATL @ NO",
-   "dateUtc": "2026-10-06T00:15Z",
-   "market": {
-    "total": 47.5,
-    "favorite": "NO",
-    "spread": 1.5,
-    "implied": {
-     "NO": 24.5,
-     "ATL": 23.0
-    },
-    "provider": "Draft Kings"
-   },
-   "indoor": true,
-   "state": "pre",
-   "completed": false,
-   "detail": "10/5 - 8:15 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "NO",
-     "id": 18,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "ATL",
-     "id": 1,
-     "home": false,
-     "score": 0
     }
    ]
   }
