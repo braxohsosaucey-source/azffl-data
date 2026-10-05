@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-05T16:50:31Z",
+ "_pulledUtc": "2026-10-05T17:52:31Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -13,10 +13,10 @@
    "home": "NO",
    "kickoffUtc": "2026-10-06T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "NO -1.5",
     "moneyline": {
      "away": 102,
@@ -1327,7 +1327,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-05T16:50:28Z",
+ "injuriesUtc": "2026-10-05T17:52:32Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1941,7 +1941,7 @@
     "pos": "WR",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-05T16:41Z",
+    "date": "2026-10-05T17:18Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -2847,7 +2847,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-05T16:41Z",
+    "date": "2026-10-05T17:18Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -2874,8 +2874,8 @@
     "date": "2026-10-05T16:30Z",
     "body": "Hamstring",
     "side": "Right",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
+    "returnDate": "2026-10-18",
+    "fantasy": "OUT"
    },
    {
     "id": 4434153,
@@ -4062,18 +4062,6 @@
     "fantasy": "DOUBTFUL"
    },
    {
-    "id": 4372012,
-    "name": "Pat Surtain II",
-    "pos": "CB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-05T14:00Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
-   },
-   {
     "id": 3128429,
     "name": "Courtland Sutton",
     "pos": "WR",
@@ -4156,6 +4144,18 @@
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4372012,
+    "name": "Pat Surtain II",
+    "pos": "CB",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-04T22:16Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "DOUBTFUL"
    },
    {
     "id": 5159802,
@@ -4654,6 +4654,18 @@
   ],
   "GB": [
    {
+    "id": 4430438,
+    "name": "Edgerrin Cooper",
+    "pos": "LB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-05T17:23Z",
+    "body": "Achilles",
+    "side": "Not Specified",
+    "returnDate": "2027-02-15",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4869461,
     "name": "Trey Smack",
     "pos": "PK",
@@ -4736,18 +4748,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4430438,
-    "name": "Edgerrin Cooper",
-    "pos": "LB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-04T20:39Z",
-    "body": "Achilles",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4361791,
@@ -4955,6 +4955,18 @@
    }
   ],
   "HOU": [
+   {
+    "id": 4366031,
+    "name": "Tank Dell",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-05T16:48Z",
+    "body": "Knee - ACL + MCL",
+    "side": "Left",
+    "returnDate": "2026-10-11",
+    "fantasy": "IR-R"
+   },
    {
     "id": 4362910,
     "name": "Jaden Crumedy",
@@ -5242,18 +5254,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 2969921,
-    "name": "Mario Edwards Jr.",
-    "pos": "DT",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-01T01:18Z",
-    "body": "Knee - ACL",
-    "side": "Not Specified",
-    "returnDate": "2027-02-15",
-    "fantasy": "IR"
    }
   ],
   "IND": [
@@ -9788,6 +9788,18 @@
   ],
   "SEA": [
    {
+    "id": 4426385,
+    "name": "Zach Charbonnet",
+    "pos": "RB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-05T17:05Z",
+    "body": "Knee - ACL",
+    "side": "Left",
+    "returnDate": "2026-10-15",
+    "fantasy": "PUP-R"
+   },
+   {
     "id": 2473037,
     "name": "Jason Myers",
     "pos": "PK",
@@ -9990,18 +10002,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4426385,
-    "name": "Zach Charbonnet",
-    "pos": "RB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-02T21:12Z",
-    "body": "Knee - ACL",
-    "side": "Left",
-    "returnDate": "2026-10-11",
-    "fantasy": "PUP-R"
    },
    {
     "id": 4693346,
@@ -10694,6 +10694,18 @@
   ],
   "WSH": [
    {
+    "id": 2576980,
+    "name": "Marcus Mariota",
+    "pos": "QB",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-05T16:58Z",
+    "body": "Knee - MCL",
+    "side": "Right",
+    "returnDate": "2026-10-11",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4602667,
     "name": "Jaylin Lane",
     "pos": "WR",
@@ -10800,18 +10812,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 2576980,
-    "name": "Marcus Mariota",
-    "pos": "QB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-04T16:28Z",
-    "body": "Knee - MCL",
-    "side": "Right",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4572460,
