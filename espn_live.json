@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-04T23:44:30.290Z",
+ "_pulledUtc": "2026-10-05T00:16:31.326Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 4,
@@ -253,10 +253,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.82,
      "start": 65.87,
-     "livePts": 17.1,
+     "livePts": 17.0,
      "weekProj": 18.49,
      "projSeason": 256.8,
-     "actSeason": 83.18
+     "actSeason": 83.08
     },
     {
      "name": "Jordan Addison",
@@ -386,10 +386,10 @@
      "acqUtc": "2026-10-03T19:00:09.337000Z",
      "own": 11.72,
      "start": 6.56,
-     "livePts": -2.0,
+     "livePts": 0.0,
      "weekProj": 3.69,
      "projSeason": 70.75,
-     "actSeason": 35.0
+     "actSeason": 37.0
     }
    ]
   },
@@ -853,7 +853,7 @@
      "slotId": 20,
      "proTeamId": 24,
      "id": 4612826,
-     "injury": "OUT",
+     "injury": "QUESTIONABLE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.08,
@@ -2152,10 +2152,12 @@
      "usage": {
       "season": {
        "23": 28.0,
-       "210": 3.0
+       "210": 4.0
       },
       "prior": null,
-      "week": {}
+      "week": {
+       "210": 1.0
+      }
      }
     }
    ]
@@ -3739,7 +3741,7 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 123.4,
+    "awayLive": 123.3,
     "homeLive": 83.7
    },
    {
