@@ -1,89 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-04T23:44:30.528Z",
+ "_pulledUtc": "2026-10-05T00:16:31.829Z",
  "week": 4,
  "games": [
-  {
-   "id": "401872976",
-   "name": "KC @ LV",
-   "dateUtc": "2026-10-04T20:25Z",
-   "market": null,
-   "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "0:01 - 4th",
-   "period": 4,
-   "clock": "0:01",
-   "clockSec": 1.0,
-   "teams": [
-    {
-     "abbrev": "LV",
-     "id": 13,
-     "home": true,
-     "score": 27
-    },
-    {
-     "abbrev": "KC",
-     "id": 12,
-     "home": false,
-     "score": 30
-    }
-   ]
-  },
-  {
-   "id": "401872975",
-   "name": "DEN @ SF",
-   "dateUtc": "2026-10-04T20:25Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "SF",
-     "id": 25,
-     "home": true,
-     "score": 24
-    },
-    {
-     "abbrev": "DEN",
-     "id": 7,
-     "home": false,
-     "score": 14
-    }
-   ]
-  },
-  {
-   "id": "401872977",
-   "name": "LAC @ SEA",
-   "dateUtc": "2026-10-04T20:25Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "0:32 - 4th",
-   "period": 4,
-   "clock": "0:32",
-   "clockSec": 32.0,
-   "teams": [
-    {
-     "abbrev": "SEA",
-     "id": 26,
-     "home": true,
-     "score": 30
-    },
-    {
-     "abbrev": "LAC",
-     "id": 24,
-     "home": false,
-     "score": 23
-    }
-   ]
-  },
   {
    "id": "401872965",
    "name": "IND VS WSH",
@@ -355,18 +274,99 @@
    ]
   },
   {
+   "id": "401872976",
+   "name": "KC @ LV",
+   "dateUtc": "2026-10-04T20:25Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LV",
+     "id": 13,
+     "home": true,
+     "score": 27
+    },
+    {
+     "abbrev": "KC",
+     "id": 12,
+     "home": false,
+     "score": 30
+    }
+   ]
+  },
+  {
+   "id": "401872975",
+   "name": "DEN @ SF",
+   "dateUtc": "2026-10-04T20:25Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "SF",
+     "id": 25,
+     "home": true,
+     "score": 24
+    },
+    {
+     "abbrev": "DEN",
+     "id": 7,
+     "home": false,
+     "score": 14
+    }
+   ]
+  },
+  {
+   "id": "401872977",
+   "name": "LAC @ SEA",
+   "dateUtc": "2026-10-04T20:25Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "SEA",
+     "id": 26,
+     "home": true,
+     "score": 30
+    },
+    {
+     "abbrev": "LAC",
+     "id": 24,
+     "home": false,
+     "score": 23
+    }
+   ]
+  },
+  {
    "id": "401872978",
    "name": "DET @ CAR",
    "dateUtc": "2026-10-05T00:20Z",
    "market": {
-    "total": 51.5,
+    "total": 52.5,
     "favorite": "DET",
     "spread": 4.5,
     "implied": {
-     "CAR": 23.5,
-     "DET": 28.0
+     "CAR": 24.0,
+     "DET": 28.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -429,7 +429,7 @@
      "NO": 24.5,
      "ATL": 23.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
