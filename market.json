@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-05T13:57:30Z",
+ "_pulledUtc": "2026-10-05T14:28:29Z",
  "week": 4,
  "books": [
   "Draft Kings",
@@ -1327,7 +1327,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-05T13:08:25Z",
+ "injuriesUtc": "2026-10-05T14:08:27Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1941,11 +1941,23 @@
     "pos": "WR",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-05T12:00Z",
+    "date": "2026-10-05T14:00Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "INACTIVE"
+   },
+   {
+    "id": 3916387,
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-05T13:52Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4697745,
@@ -2016,18 +2028,6 @@
     "date": "2026-10-04T21:22Z",
     "body": "Toe",
     "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3916387,
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-04T21:10Z",
-    "body": "Ankle",
-    "side": "Left",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -2847,7 +2847,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-05T12:00Z",
+    "date": "2026-10-05T14:00Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -4065,13 +4065,13 @@
     "id": 4372012,
     "name": "Pat Surtain II",
     "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Doubtful",
+    "abbr": "D",
     "date": "2026-10-05T03:56Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "DOUBTFUL"
    },
    {
     "id": 2985659,
@@ -4151,7 +4151,7 @@
     "pos": "CB",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-04T22:52Z",
+    "date": "2026-10-04T22:27Z",
     "body": "Ribs",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -5874,6 +5874,18 @@
     "fantasy": null
    },
    {
+    "id": 4362921,
+    "name": "Tyquan Thornton",
+    "pos": "WR",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-05T02:12Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-11-15",
+    "fantasy": "OUT"
+   },
+   {
     "id": 15847,
     "name": "Travis Kelce",
     "pos": "TE",
@@ -5920,18 +5932,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4362921,
-    "name": "Tyquan Thornton",
-    "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-04T23:16Z",
-    "body": "Ankle",
-    "side": "Left",
-    "returnDate": "2026-10-18",
-    "fantasy": "OUT"
    },
    {
     "id": 4428331,
@@ -7976,6 +7976,18 @@
   ],
   "NO": [
    {
+    "id": 4880281,
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-05T13:36Z",
+    "body": "Hamstring",
+    "side": "Right",
+    "returnDate": "2026-10-25",
+    "fantasy": "IR-R"
+   },
+   {
     "id": 4685479,
     "name": "Christen Miller",
     "pos": "DT",
@@ -8118,18 +8130,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4880281,
-    "name": "Jordyn Tyson",
-    "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-01T20:53Z",
-    "body": "Hamstring",
-    "side": "Right",
-    "returnDate": "2026-10-11",
-    "fantasy": "IR-R"
    },
    {
     "id": 4239996,
@@ -8882,6 +8882,18 @@
   ],
   "PHI": [
    {
+    "id": 3929630,
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-05T13:44Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4715355,
     "name": "Darius Cooper",
     "pos": "WR",
@@ -8973,18 +8985,6 @@
     "abbr": "Q",
     "date": "2026-10-04T19:48Z",
     "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3929630,
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-04T18:23Z",
-    "body": "Hamstring",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
@@ -9585,13 +9585,13 @@
     "id": 16002,
     "name": "Kyle Juszczyk",
     "pos": "FB",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Doubtful",
+    "abbr": "D",
     "date": "2026-10-04T23:08Z",
     "body": "Knee",
-    "side": "Not Specified",
+    "side": "Right",
     "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "DOUBTFUL"
    },
    {
     "id": 3916903,
