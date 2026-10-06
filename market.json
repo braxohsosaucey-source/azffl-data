@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-06T21:48:29Z",
+ "_pulledUtc": "2026-10-06T22:32:30Z",
  "week": 5,
  "books": [
   "Draft Kings"
@@ -320,7 +320,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Rain",
-    "tempF": 74
+    "tempF": 71
    },
    "weather": {
     "kickoff": {
@@ -410,7 +410,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly cloudy",
-    "tempF": 88
+    "tempF": 89
    },
    "weather": {
     "kickoff": {
@@ -500,7 +500,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 62
+    "tempF": 66
    },
    "weather": {
     "kickoff": {
@@ -590,7 +590,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 82
+    "tempF": 81
    },
    "weather": null,
    "wxNote": "indoor"
@@ -931,7 +931,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 78
+    "tempF": 79
    },
    "weather": {
     "kickoff": {
@@ -967,8 +967,8 @@
     "book": "Draft Kings",
     "details": "DET -4.5",
     "moneyline": {
-     "away": -218,
-     "home": 180
+     "away": -238,
+     "home": 195
     },
     "moneylineOpen": {
      "away": -395,
@@ -977,8 +977,8 @@
     "spread": {
      "away": -4.5,
      "home": 4.5,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": -8.5,
@@ -998,11 +998,11 @@
     }
    },
    "noVig": {
-    "away": 0.657475,
-    "home": 0.342525,
-    "hold": 0.042677,
-    "fairAway": -191.95,
-    "fairHome": 191.95
+    "away": 0.675031,
+    "home": 0.324969,
+    "hold": 0.043125,
+    "fairAway": -207.72,
+    "fairHome": 207.72
    },
    "noVigOpen": {
     "away": 0.765902,
@@ -1021,7 +1021,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Mostly cloudy",
-    "tempF": 88
+    "tempF": 86
    },
    "weather": null,
    "wxNote": "indoor"
@@ -1092,7 +1092,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 57
+    "tempF": 62
    },
    "weather": {
     "kickoff": {
@@ -1253,7 +1253,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 68
+    "tempF": 72
    },
    "weather": {
     "kickoff": {
@@ -1278,7 +1278,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-06T21:04:30Z",
+ "injuriesUtc": "2026-10-06T22:10:25Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1892,9 +1892,21 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-06T20:38Z",
+    "date": "2026-10-06T21:31Z",
     "body": "Ankle",
     "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 3916387,
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-06T20:50Z",
+    "body": "Ankle",
+    "side": "Left",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -1921,18 +1933,6 @@
     "side": "Not Specified",
     "returnDate": "2027-02-15",
     "fantasy": "OUT"
-   },
-   {
-    "id": 3916387,
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-06T13:11Z",
-    "body": "Ankle",
-    "side": "Left",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4696882,
@@ -2798,7 +2798,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-06T20:38Z",
+    "date": "2026-10-06T22:01Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -4907,6 +4907,18 @@
   ],
   "HOU": [
    {
+    "id": 4594277,
+    "name": "Jaylin Smith",
+    "pos": "CB",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-06T21:03Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-11-15",
+    "fantasy": "IR"
+   },
+   {
     "id": 3919117,
     "name": "Azeez Al-Shaair",
     "pos": "LB",
@@ -5049,18 +5061,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4594277,
-    "name": "Jaylin Smith",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-05T00:52Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 2971573,
@@ -7398,13 +7398,13 @@
     "id": 4431553,
     "name": "Donovan Jackson",
     "pos": "G",
-    "status": "Out",
-    "abbr": "O",
+    "status": "Injured Reserve",
+    "abbr": "IR",
     "date": "2026-10-06T00:30Z",
     "body": "Knee - Meniscus",
     "side": "Not Specified",
     "returnDate": "2027-01-17",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4696782,
@@ -8833,18 +8833,6 @@
   ],
   "PHI": [
    {
-    "id": 15797,
-    "name": "Lane Johnson",
-    "pos": "OT",
-    "status": "Reserve-Ret",
-    "abbr": "RR",
-    "date": "2026-10-06T20:06Z",
-    "body": "Personal",
-    "side": "Not Specified",
-    "returnDate": "2027-02-15",
-    "fantasy": "RESERVE-RET"
-   },
-   {
     "id": 4241478,
     "name": "DeVonta Smith",
     "pos": "WR",
@@ -9127,6 +9115,18 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-30T23:34Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4218312,
+    "name": "Kenny Moore II",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-09-29T23:22Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9739,18 +9739,6 @@
   ],
   "SEA": [
    {
-    "id": 4428943,
-    "name": "Jacardia Wright",
-    "pos": "RB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-06T19:49Z",
-    "body": "Foot",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "OUT"
-   },
-   {
     "id": 4037521,
     "name": "Chazz Surratt",
     "pos": "LB",
@@ -10037,16 +10025,64 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
+   },
+   {
+    "id": 4605491,
+    "name": "Connor O'Toole",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-09-28T19:07Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    }
   ],
   "TB": [
+   {
+    "id": 4816107,
+    "name": "Benjamin Morrison",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-06T21:48Z",
+    "body": "Quadriceps",
+    "side": "Not Specified",
+    "returnDate": "2026-10-08",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4034779,
+    "name": "Ko Kieft",
+    "pos": "TE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-06T21:42Z",
+    "body": "Elbow",
+    "side": "Not Specified",
+    "returnDate": "2026-10-08",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4870998,
+    "name": "Josiah Trotter",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-06T21:32Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 3150744,
     "name": "Chase McLaughlin",
     "pos": "PK",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-06T19:55Z",
+    "date": "2026-10-06T21:08Z",
     "body": "Groin",
     "side": "Right",
     "returnDate": "2026-10-08",
@@ -10060,30 +10096,6 @@
     "abbr": "Q",
     "date": "2026-10-06T19:54Z",
     "body": "Illness",
-    "side": "Not Specified",
-    "returnDate": "2026-10-08",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4816107,
-    "name": "Benjamin Morrison",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-06T18:21Z",
-    "body": "Quadriceps",
-    "side": "Not Specified",
-    "returnDate": "2026-10-08",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4034779,
-    "name": "Ko Kieft",
-    "pos": "TE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-06T18:21Z",
-    "body": "Elbow",
     "side": "Not Specified",
     "returnDate": "2026-10-08",
     "fantasy": "QUESTIONABLE"
@@ -10167,18 +10179,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-06T00:10Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4870998,
-    "name": "Josiah Trotter",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-06T00:07Z",
     "body": null,
     "side": null,
     "returnDate": null,
