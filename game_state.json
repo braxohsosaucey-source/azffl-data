@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-06T03:02:29.609Z",
+ "_pulledUtc": "2026-10-06T03:34:29.433Z",
  "week": 4,
  "games": [
   {
@@ -9,24 +9,24 @@
    "dateUtc": "2026-10-06T00:15Z",
    "market": null,
    "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "9:50 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "9:50",
-   "clockSec": 590.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "NO",
      "id": 18,
      "home": true,
-     "score": 17
+     "score": 24
     },
     {
      "abbrev": "ATL",
      "id": 1,
      "home": false,
-     "score": 38
+     "score": 45
     }
    ]
   },
