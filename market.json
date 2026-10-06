@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-06T15:12:27Z",
+ "_pulledUtc": "2026-10-06T15:56:28Z",
  "week": 5,
  "books": [
   "DraftKings"
@@ -16,20 +16,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "DraftKings",
-    "details": "DAL -9.5",
+    "details": "DAL -8.5",
     "moneyline": {
-     "away": 370,
-     "home": -485
+     "away": 350,
+     "home": -455
     },
     "moneylineOpen": {
      "away": 170,
      "home": -205
     },
     "spread": {
-     "away": 9.5,
-     "home": -9.5,
-     "awayOdds": -118,
-     "homeOdds": -102
+     "away": 8.5,
+     "home": -8.5,
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": 3.5,
@@ -49,11 +49,11 @@
     }
    },
    "noVig": {
-    "away": 0.204224,
-    "home": 0.795776,
-    "hold": 0.041826,
-    "fairAway": 389.66,
-    "fairHome": -389.66
+    "away": 0.213256,
+    "home": 0.786744,
+    "hold": 0.042042,
+    "fairAway": 368.92,
+    "fairHome": -368.92
    },
    "noVigOpen": {
     "away": 0.355271,
@@ -89,8 +89,8 @@
     "book": "DraftKings",
     "details": "JAX -6.5",
     "moneyline": {
-     "away": 225,
-     "home": -278
+     "away": 230,
+     "home": -285
     },
     "moneylineOpen": {
      "away": -130,
@@ -120,11 +120,11 @@
     }
    },
    "noVig": {
-    "away": 0.294967,
-    "home": 0.705033,
-    "hold": 0.043142,
-    "fairAway": 239.02,
-    "fairHome": -239.02
+    "away": 0.290456,
+    "home": 0.709544,
+    "hold": 0.04329,
+    "fairAway": 244.29,
+    "fairHome": -244.29
    },
    "noVigOpen": {
     "away": 0.542744,
@@ -264,20 +264,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "DraftKings",
-    "details": "HOU -7",
+    "details": "HOU -6.5",
     "moneyline": {
-     "away": -325,
-     "home": 260
+     "away": -310,
+     "home": 250
     },
     "moneylineOpen": {
      "away": -192,
      "home": 160
     },
     "spread": {
-     "away": -7.0,
-     "home": 7.0,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "away": -6.5,
+     "home": 6.5,
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": -3.5,
@@ -287,8 +287,8 @@
     },
     "total": {
      "line": 38.5,
-     "over": -115,
-     "under": -105
+     "over": -110,
+     "under": -110
     },
     "totalOpen": {
      "line": 43.5,
@@ -297,11 +297,11 @@
     }
    },
    "noVig": {
-    "away": 0.733542,
-    "home": 0.266458,
-    "hold": 0.042484,
-    "fairAway": -275.29,
-    "fairHome": 275.29
+    "away": 0.725753,
+    "home": 0.274247,
+    "hold": 0.041812,
+    "fairAway": -264.63,
+    "fairHome": 264.63
    },
    "noVigOpen": {
     "away": 0.63094,
@@ -718,8 +718,8 @@
     },
     "total": {
      "line": 44.5,
-     "over": -102,
-     "under": -118
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 47.5,
@@ -1278,7 +1278,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-06T14:28:34Z",
+ "injuriesUtc": "2026-10-06T15:34:28Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1590,7 +1590,7 @@
     "pos": "LB",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-06T14:19Z",
+    "date": "2026-10-06T15:19Z",
     "body": "Coach's Decision",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -1892,7 +1892,7 @@
     "pos": "WR",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-06T14:19Z",
+    "date": "2026-10-06T15:19Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -2796,13 +2796,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-06T14:15Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-06T15:19Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4258595,
@@ -3711,18 +3711,6 @@
     "fantasy": null
    },
    {
-    "id": 4568652,
-    "name": "Tyler Smith",
-    "pos": "G",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-06T01:04Z",
-    "body": "Thumb",
-    "side": "Not Specified",
-    "returnDate": "2026-10-08",
-    "fantasy": "IR-R"
-   },
-   {
     "id": 4362088,
     "name": "DeMarvion Overshown",
     "pos": "LB",
@@ -3757,6 +3745,18 @@
     "side": null,
     "returnDate": "2026-10-08",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4568652,
+    "name": "Tyler Smith",
+    "pos": "G",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-05T21:31Z",
+    "body": "Thumb",
+    "side": "Not Specified",
+    "returnDate": "2026-10-08",
+    "fantasy": "IR-R"
    },
    {
     "id": 4696203,
@@ -4001,6 +4001,18 @@
   ],
   "DEN": [
    {
+    "id": 4600981,
+    "name": "Pat Bryant",
+    "pos": "WR",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-06T14:49Z",
+    "body": "Ankle",
+    "side": "Right",
+    "returnDate": "2026-10-11",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4362748,
     "name": "Tyler Badie",
     "pos": "RB",
@@ -4093,18 +4105,6 @@
     "date": "2026-10-05T18:28Z",
     "body": "Ankle",
     "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "DOUBTFUL"
-   },
-   {
-    "id": 4600981,
-    "name": "Pat Bryant",
-    "pos": "WR",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-05T16:15Z",
-    "body": "Ankle",
-    "side": "Right",
     "returnDate": "2026-10-11",
     "fantasy": "DOUBTFUL"
    },
