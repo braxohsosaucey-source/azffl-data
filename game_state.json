@@ -1,423 +1,243 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-06T06:28:29.739Z",
- "week": 4,
+ "_pulledUtc": "2026-10-06T07:08:32.114Z",
+ "week": 5,
  "games": [
   {
-   "id": "401872964",
-   "name": "PIT @ CLE",
-   "dateUtc": "2026-10-02T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CLE",
-     "id": 5,
-     "home": true,
-     "score": 27
+   "id": "401872980",
+   "name": "TB @ DAL",
+   "dateUtc": "2026-10-09T00:15Z",
+   "market": {
+    "total": 47.5,
+    "favorite": "DAL",
+    "spread": 9.5,
+    "implied": {
+     "DAL": 28.5,
+     "TB": 19.0
     },
-    {
-     "abbrev": "PIT",
-     "id": 23,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
-  {
-   "id": "401872965",
-   "name": "IND VS WSH",
-   "dateUtc": "2026-10-04T13:30Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "WSH",
-     "id": 28,
-     "home": true,
-     "score": 13
-    },
-    {
-     "abbrev": "IND",
-     "id": 11,
-     "home": false,
-     "score": 30
-    }
-   ]
-  },
-  {
-   "id": "401872971",
-   "name": "NE @ BUF",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "BUF",
-     "id": 2,
-     "home": true,
-     "score": 26
-    },
-    {
-     "abbrev": "NE",
-     "id": 17,
-     "home": false,
-     "score": 29
-    }
-   ]
-  },
-  {
-   "id": "401872972",
-   "name": "NYJ @ CHI",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CHI",
-     "id": 3,
-     "home": true,
-     "score": 23
-    },
-    {
-     "abbrev": "NYJ",
-     "id": 20,
-     "home": false,
-     "score": 12
-    }
-   ]
-  },
-  {
-   "id": "401872969",
-   "name": "JAX @ CIN",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CIN",
-     "id": 4,
-     "home": true,
-     "score": 17
-    },
-    {
-     "abbrev": "JAX",
-     "id": 30,
-     "home": false,
-     "score": 22
-    }
-   ]
-  },
-  {
-   "id": "401872966",
-   "name": "ARI @ NYG",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "NYG",
-     "id": 19,
-     "home": true,
-     "score": 36
-    },
-    {
-     "abbrev": "ARI",
-     "id": 22,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
-  {
-   "id": "401872970",
-   "name": "LAR @ PHI",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "PHI",
-     "id": 21,
-     "home": true,
-     "score": 20
-    },
-    {
-     "abbrev": "LAR",
-     "id": 14,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
-  {
-   "id": "401872968",
-   "name": "GB @ TB",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "TB",
-     "id": 27,
-     "home": true,
-     "score": 14
-    },
-    {
-     "abbrev": "GB",
-     "id": 9,
-     "home": false,
-     "score": 17
-    }
-   ]
-  },
-  {
-   "id": "401872973",
-   "name": "TEN @ BAL",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "BAL",
-     "id": 33,
-     "home": true,
-     "score": 24
-    },
-    {
-     "abbrev": "TEN",
-     "id": 10,
-     "home": false,
-     "score": 18
-    }
-   ]
-  },
-  {
-   "id": "401872967",
-   "name": "DAL @ HOU",
-   "dateUtc": "2026-10-04T17:00Z",
-   "market": null,
+    "provider": "DraftKings"
+   },
    "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/8 - 8:15 PM EDT",
+   "period": 0,
    "clock": "0:00",
    "clockSec": 0.0,
    "teams": [
-    {
-     "abbrev": "HOU",
-     "id": 34,
-     "home": true,
-     "score": 30
-    },
     {
      "abbrev": "DAL",
      "id": 6,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "TB",
+     "id": 27,
      "home": false,
-     "score": 34
+     "score": 0
     }
    ]
   },
   {
-   "id": "401872974",
-   "name": "MIA @ MIN",
-   "dateUtc": "2026-10-04T20:05Z",
-   "market": null,
-   "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
+   "id": "401872981",
+   "name": "PHI VS JAX",
+   "dateUtc": "2026-10-11T13:30Z",
+   "market": {
+    "total": 42.5,
+    "favorite": "JAX",
+    "spread": 7.0,
+    "implied": {
+     "JAX": 24.75,
+     "PHI": 17.75
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 9:30 AM EDT",
+   "period": 0,
    "clock": "0:00",
    "clockSec": 0.0,
    "teams": [
     {
-     "abbrev": "MIN",
-     "id": 16,
+     "abbrev": "JAX",
+     "id": 30,
      "home": true,
-     "score": 15
+     "score": 0
     },
+    {
+     "abbrev": "PHI",
+     "id": 21,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872990",
+   "name": "CHI @ GB",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 45.5,
+    "favorite": "CHI",
+    "spread": 3.0,
+    "implied": {
+     "GB": 21.25,
+     "CHI": 24.25
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "GB",
+     "id": 9,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "CHI",
+     "id": 3,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872984",
+   "name": "HOU @ TEN",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 39.5,
+    "favorite": "HOU",
+    "spread": 7.0,
+    "implied": {
+     "TEN": 16.25,
+     "HOU": 23.25
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "TEN",
+     "id": 10,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "HOU",
+     "id": 34,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872982",
+   "name": "CIN @ MIA",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 42.5,
+    "favorite": "CIN",
+    "spread": 7.0,
+    "implied": {
+     "MIA": 17.75,
+     "CIN": 24.75
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
     {
      "abbrev": "MIA",
      "id": 15,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "CIN",
+     "id": 4,
      "home": false,
-     "score": 10
+     "score": 0
     }
    ]
   },
   {
-   "id": "401872976",
-   "name": "KC @ LV",
-   "dateUtc": "2026-10-04T20:25Z",
-   "market": null,
-   "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
+   "id": "401872986",
+   "name": "LV @ NE",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 45.5,
+    "favorite": "NE",
+    "spread": 3.5,
+    "implied": {
+     "NE": 24.5,
+     "LV": 21.0
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
    "clock": "0:00",
    "clockSec": 0.0,
    "teams": [
+    {
+     "abbrev": "NE",
+     "id": 17,
+     "home": true,
+     "score": 0
+    },
     {
      "abbrev": "LV",
      "id": 13,
-     "home": true,
-     "score": 27
-    },
-    {
-     "abbrev": "KC",
-     "id": 12,
      "home": false,
-     "score": 30
+     "score": 0
     }
    ]
   },
   {
-   "id": "401872975",
-   "name": "DEN @ SF",
-   "dateUtc": "2026-10-04T20:25Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "SF",
-     "id": 25,
-     "home": true,
-     "score": 24
+   "id": "401872987",
+   "name": "MIN @ NO",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 42.5,
+    "favorite": "MIN",
+    "spread": 1.5,
+    "implied": {
+     "NO": 20.5,
+     "MIN": 22.0
     },
-    {
-     "abbrev": "DEN",
-     "id": 7,
-     "home": false,
-     "score": 14
-    }
-   ]
-  },
-  {
-   "id": "401872977",
-   "name": "LAC @ SEA",
-   "dateUtc": "2026-10-04T20:25Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "SEA",
-     "id": 26,
-     "home": true,
-     "score": 30
-    },
-    {
-     "abbrev": "LAC",
-     "id": 24,
-     "home": false,
-     "score": 23
-    }
-   ]
-  },
-  {
-   "id": "401872978",
-   "name": "DET @ CAR",
-   "dateUtc": "2026-10-05T00:20Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CAR",
-     "id": 29,
-     "home": true,
-     "score": 32
-    },
-    {
-     "abbrev": "DET",
-     "id": 8,
-     "home": false,
-     "score": 26
-    }
-   ]
-  },
-  {
-   "id": "401872979",
-   "name": "ATL @ NO",
-   "dateUtc": "2026-10-06T00:15Z",
-   "market": null,
+    "provider": "DraftKings"
+   },
    "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
    "clock": "0:00",
    "clockSec": 0.0,
    "teams": [
@@ -425,13 +245,301 @@
      "abbrev": "NO",
      "id": 18,
      "home": true,
-     "score": 24
+     "score": 0
     },
+    {
+     "abbrev": "MIN",
+     "id": 16,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872983",
+   "name": "CLE @ NYJ",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 39.5,
+    "favorite": "NYJ",
+    "spread": 2.5,
+    "implied": {
+     "NYJ": 21.0,
+     "CLE": 18.5
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "NYJ",
+     "id": 20,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "CLE",
+     "id": 5,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872985",
+   "name": "IND @ PIT",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 44.5,
+    "favorite": "PIT",
+    "spread": 2.5,
+    "implied": {
+     "PIT": 23.5,
+     "IND": 21.0
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "PIT",
+     "id": 23,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "IND",
+     "id": 11,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872988",
+   "name": "NYG @ WSH",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": {
+    "total": 43.5,
+    "favorite": "WSH",
+    "spread": 3.0,
+    "implied": {
+     "WSH": 23.25,
+     "NYG": 20.25
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 1:00 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "WSH",
+     "id": 28,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "NYG",
+     "id": 19,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872989",
+   "name": "DEN @ LAC",
+   "dateUtc": "2026-10-11T20:05Z",
+   "market": {
+    "total": 42.5,
+    "favorite": "DEN",
+    "spread": 3.5,
+    "implied": {
+     "LAC": 19.5,
+     "DEN": 23.0
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 4:05 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LAC",
+     "id": 24,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "DEN",
+     "id": 7,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872991",
+   "name": "DET @ ARI",
+   "dateUtc": "2026-10-11T20:25Z",
+   "market": {
+    "total": 54.5,
+    "favorite": "DET",
+    "spread": 4.5,
+    "implied": {
+     "ARI": 25.0,
+     "DET": 29.5
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": true,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 4:25 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "ARI",
+     "id": 22,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "DET",
+     "id": 8,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872992",
+   "name": "SF @ SEA",
+   "dateUtc": "2026-10-11T20:25Z",
+   "market": {
+    "total": 47.5,
+    "favorite": "SEA",
+    "spread": 2.5,
+    "implied": {
+     "SEA": 25.0,
+     "SF": 22.5
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 4:25 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "SEA",
+     "id": 26,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "SF",
+     "id": 25,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872993",
+   "name": "BAL @ ATL",
+   "dateUtc": "2026-10-12T00:20Z",
+   "market": {
+    "total": 45.5,
+    "favorite": "BAL",
+    "spread": 2.5,
+    "implied": {
+     "ATL": 21.5,
+     "BAL": 24.0
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": true,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/11 - 8:20 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
     {
      "abbrev": "ATL",
      "id": 1,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "BAL",
+     "id": 33,
      "home": false,
-     "score": 45
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872994",
+   "name": "BUF @ LAR",
+   "dateUtc": "2026-10-13T00:15Z",
+   "market": {
+    "total": 54.5,
+    "favorite": "LAR",
+    "spread": 2.5,
+    "implied": {
+     "LAR": 28.5,
+     "BUF": 26.0
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/12 - 8:15 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LAR",
+     "id": 14,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "BUF",
+     "id": 2,
+     "home": false,
+     "score": 0
     }
    ]
   }
