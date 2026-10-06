@@ -1,9 +1,8 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-06T12:20:28Z",
+ "_pulledUtc": "2026-10-06T13:00:31Z",
  "week": 5,
  "books": [
-  "Draft Kings",
   "DraftKings"
  ],
  "games": [
@@ -320,8 +319,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Cloudy",
-    "tempF": 70
+    "text": "Rain",
+    "tempF": 69
    },
    "weather": {
     "kickoff": {
@@ -447,8 +446,8 @@
     "book": "DraftKings",
     "details": "NE -3.5",
     "moneyline": {
-     "away": 160,
-     "home": -192
+     "away": 164,
+     "home": -198
     },
     "moneylineOpen": {
      "away": 330,
@@ -457,8 +456,8 @@
     "spread": {
      "away": 3.5,
      "home": -3.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": 8.5,
@@ -478,11 +477,11 @@
     }
    },
    "noVig": {
-    "away": 0.36906,
-    "home": 0.63094,
-    "hold": 0.04215,
-    "fairAway": 170.96,
-    "fairHome": -170.96
+    "away": 0.363096,
+    "home": 0.636904,
+    "hold": 0.043217,
+    "fairAway": 175.41,
+    "fairHome": -175.41
    },
    "noVigOpen": {
     "away": 0.223167,
@@ -602,10 +601,10 @@
    "home": "NYJ",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NYJ -2.5",
     "moneyline": {
      "away": 110,
@@ -629,8 +628,8 @@
     },
     "total": {
      "line": 39.5,
-     "over": -115,
-     "under": -105
+     "over": -118,
+     "under": -102
     },
     "totalOpen": {
      "line": 38.5,
@@ -1182,7 +1181,7 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Rain",
+    "text": "Cloudy",
     "tempF": 71
    },
    "weather": null,
