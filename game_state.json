@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-06T12:20:30.359Z",
+ "_pulledUtc": "2026-10-06T13:00:33.097Z",
  "week": 5,
  "games": [
   {
@@ -259,7 +259,16 @@
    "id": "401872983",
    "name": "CLE @ NYJ",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
+   "market": {
+    "total": 39.5,
+    "favorite": "NYJ",
+    "spread": 2.5,
+    "implied": {
+     "NYJ": 21.0,
+     "CLE": 18.5
+    },
+    "provider": "DraftKings"
+   },
    "indoor": false,
    "state": "pre",
    "completed": false,
