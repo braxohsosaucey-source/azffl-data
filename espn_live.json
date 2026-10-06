@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-05T23:53:34.022Z",
+ "_pulledUtc": "2026-10-06T00:24:30.552Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 4,
@@ -622,7 +622,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 64.77,
      "start": 20.87,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.87,
      "projSeason": 96.36,
      "actSeason": 10.8,
@@ -635,7 +635,7 @@
        "23": 131.0,
        "210": 11.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -1156,10 +1156,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.64,
      "start": 96.48,
-     "livePts": null,
+     "livePts": 1.95,
      "weekProj": 15.21,
      "projSeason": 191.14,
-     "actSeason": 39.05
+     "actSeason": 41.0
     },
     {
      "name": "Quinshon Judkins",
@@ -1787,7 +1787,7 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 10,
+    "acquisitions": 11,
     "drops": 8,
     "trades": 0,
     "moveToActive": 9,
@@ -1885,7 +1885,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.7,
      "start": 97.16,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 16.63,
      "projSeason": 188.0,
      "actSeason": 63.75
@@ -2046,7 +2046,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 34.1,
      "start": 0.18,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 0.0,
      "projSeason": 95.38,
      "actSeason": 0.0
@@ -2080,7 +2080,7 @@
      "acqUtc": "2026-09-24T07:32:10.325000Z",
      "own": 87.15,
      "start": 58.77,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 18.33,
      "projSeason": 230.0,
      "actSeason": 67.88
@@ -2159,6 +2159,23 @@
        "210": 1.0
       }
      }
+    },
+    {
+     "name": "Tyreek Hill",
+     "pos": "WR",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 0,
+     "id": 3116406,
+     "injury": "OUT",
+     "acq": "ADD",
+     "acqUtc": "2026-10-06T00:23:59.343000Z",
+     "own": 28.81,
+     "start": 0.09,
+     "livePts": null,
+     "weekProj": null,
+     "projSeason": null,
+     "actSeason": 0.0
     }
    ]
   },
@@ -2470,7 +2487,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 26.95,
      "start": 3.41,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 5.92,
      "projSeason": 74.24,
      "actSeason": 22.3,
@@ -2483,7 +2500,7 @@
        "23": 92.0,
        "210": 17.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -2864,7 +2881,7 @@
      "acqUtc": "2026-09-30T14:24:51.871000Z",
      "own": 75.38,
      "start": 46.23,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.58,
      "projSeason": 116.85,
      "actSeason": 44.3
@@ -2973,7 +2990,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 90.07,
      "start": 11.75,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 0.0,
      "projSeason": 117.63,
      "actSeason": 28.15,
@@ -2986,7 +3003,7 @@
        "23": 260.0,
        "210": 17.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -3261,7 +3278,7 @@
      "acqUtc": "2026-10-02T07:35:21.477000Z",
      "own": 64.94,
      "start": 22.84,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.67,
      "projSeason": 85.49,
      "actSeason": 34.45
@@ -3305,20 +3322,23 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.92,
      "start": 99.75,
-     "livePts": null,
+     "livePts": 11.9,
      "weekProj": 20.42,
      "projSeason": 257.06,
-     "actSeason": 74.45,
+     "actSeason": 86.35,
      "usage": {
       "season": {
-       "23": 66.0,
-       "210": 3.0
+       "23": 67.0,
+       "210": 4.0
       },
       "prior": {
        "23": 287.0,
        "210": 17.0
       },
-      "week": null
+      "week": {
+       "23": 1.0,
+       "210": 1.0
+      }
      }
     },
     {
@@ -3757,8 +3777,8 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 136.18,
-    "homeLive": 126.66
+    "awayLive": 138.13,
+    "homeLive": 138.56
    },
    {
     "away": 8,
