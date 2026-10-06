@@ -1,80 +1,12 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-06T03:34:28Z",
+ "_pulledUtc": "2026-10-06T04:08:27Z",
  "week": 4,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
-  {
-   "id": "401872979",
-   "away": "ATL",
-   "home": "NO",
-   "kickoffUtc": "2026-10-06T00:15Z",
-   "state": "post",
-   "book": "Draft Kings",
-   "lines": {
-    "src": "core",
-    "book": "Draft Kings",
-    "details": "NO -1.5",
-    "moneyline": {
-     "away": -105,
-     "home": -115
-    },
-    "moneylineOpen": {
-     "away": 114,
-     "home": -135
-    },
-    "spread": {
-     "away": 1.5,
-     "home": -1.5,
-     "awayOdds": -120,
-     "homeOdds": 100
-    },
-    "spreadOpen": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 48.5,
-     "over": -105,
-     "under": -115
-    },
-    "totalOpen": {
-     "line": 45.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.489166,
-    "home": 0.510834,
-    "hold": 0.047079,
-    "fairAway": 104.43,
-    "fairHome": -104.43
-   },
-   "noVigOpen": {
-    "away": 0.448559,
-    "home": 0.551441,
-    "hold": 0.041758,
-    "fairAway": 122.94,
-    "fairHome": -122.94
-   },
-   "venue": {
-    "id": "3493",
-    "name": "Caesars Superdome",
-    "city": "New Orleans",
-    "state": "LA",
-    "country": "USA"
-   },
-   "indoor": true,
-   "espnWeather": null,
-   "weather": null,
-   "wxNote": "indoor"
-  },
   {
    "id": "401872964",
    "away": "PIT",
@@ -1322,6 +1254,74 @@
     "t": "2026-10-04T21:30:27Z"
    },
    "wxNote": null
+  },
+  {
+   "id": "401872979",
+   "away": "ATL",
+   "home": "NO",
+   "kickoffUtc": "2026-10-06T00:15Z",
+   "state": "post",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "core",
+    "book": "Draft Kings",
+    "details": "NO -1.5",
+    "moneyline": {
+     "away": -105,
+     "home": -115
+    },
+    "moneylineOpen": {
+     "away": 114,
+     "home": -135
+    },
+    "spread": {
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -120,
+     "homeOdds": 100
+    },
+    "spreadOpen": {
+     "away": 2.5,
+     "home": -2.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 48.5,
+     "over": -105,
+     "under": -115
+    },
+    "totalOpen": {
+     "line": 45.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.489166,
+    "home": 0.510834,
+    "hold": 0.047079,
+    "fairAway": 104.43,
+    "fairHome": -104.43
+   },
+   "noVigOpen": {
+    "away": 0.448559,
+    "home": 0.551441,
+    "hold": 0.041758,
+    "fairAway": 122.94,
+    "fairHome": -122.94
+   },
+   "venue": {
+    "id": "3493",
+    "name": "Caesars Superdome",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "USA"
+   },
+   "indoor": true,
+   "espnWeather": null,
+   "weather": null,
+   "wxNote": "indoor"
   }
  ],
  "injuriesUtc": "2026-10-06T03:26:22Z",
