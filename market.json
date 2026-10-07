@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-07T15:19:04Z",
+ "_pulledUtc": "2026-10-07T16:03:29Z",
  "week": 5,
  "books": [
   "DraftKings"
@@ -266,8 +266,8 @@
     "book": "DraftKings",
     "details": "HOU -7.5",
     "moneyline": {
-     "away": -360,
-     "home": 285
+     "away": -375,
+     "home": 295
     },
     "moneylineOpen": {
      "away": -192,
@@ -297,11 +297,11 @@
     }
    },
    "noVig": {
-    "away": 0.750813,
-    "home": 0.249187,
-    "hold": 0.042349,
-    "fairAway": -301.3,
-    "fairHome": 301.3
+    "away": 0.757188,
+    "home": 0.242812,
+    "hold": 0.042638,
+    "fairAway": -311.84,
+    "fairHome": 311.84
    },
    "noVigOpen": {
     "away": 0.63094,
@@ -1253,7 +1253,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 68
+    "tempF": 65
    },
    "weather": {
     "kickoff": {
@@ -1278,7 +1278,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-07T14:28:20Z",
+ "injuriesUtc": "2026-10-07T15:41:23Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1892,7 +1892,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-07T14:03Z",
+    "date": "2026-10-07T15:26Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -2491,6 +2491,18 @@
   ],
   "CAR": [
    {
+    "id": 4695883,
+    "name": "Jalen Coker",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-07T14:53Z",
+    "body": "Quadriceps",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4243256,
     "name": "Devin Lloyd",
     "pos": "LB",
@@ -2534,18 +2546,6 @@
     "abbr": "Q",
     "date": "2026-10-06T18:21Z",
     "body": "Elbow",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4695883,
-    "name": "Jalen Coker",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-06T18:21Z",
-    "body": "Quadriceps",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
@@ -2798,7 +2798,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-07T14:03Z",
+    "date": "2026-10-07T15:26Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -10041,6 +10041,18 @@
   ],
   "TB": [
    {
+    "id": 4429511,
+    "name": "SirVocea Dennis",
+    "pos": "LB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-07T15:26Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4428522,
     "name": "Tykee Smith",
     "pos": "S",
@@ -10068,13 +10080,13 @@
     "id": 4816107,
     "name": "Benjamin Morrison",
     "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Out",
+    "abbr": "O",
     "date": "2026-10-06T21:48Z",
     "body": "Quadriceps",
     "side": "Not Specified",
-    "returnDate": "2026-10-08",
-    "fantasy": "QUESTIONABLE"
+    "returnDate": "2026-10-18",
+    "fantasy": "OUT"
    },
    {
     "id": 4034779,
@@ -10159,18 +10171,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4429511,
-    "name": "SirVocea Dennis",
-    "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-06T00:51Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-08",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4243331,
