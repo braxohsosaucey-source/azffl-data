@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-07T13:44:30Z",
+ "_pulledUtc": "2026-10-07T14:28:29Z",
  "week": 5,
  "books": [
   "Draft Kings"
@@ -71,7 +71,7 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Partly sunny",
+    "text": "Mostly sunny",
     "tempF": 84
    },
    "weather": null,
@@ -1278,7 +1278,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-07T13:22:25Z",
+ "injuriesUtc": "2026-10-07T14:28:20Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1892,7 +1892,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-07T13:00Z",
+    "date": "2026-10-07T14:03Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -2796,13 +2796,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-07T13:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-07T14:03Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4954445,
@@ -8531,6 +8531,18 @@
   ],
   "NYJ": [
    {
+    "id": 4429005,
+    "name": "Braiden McGregor",
+    "pos": "DE",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-07T14:03Z",
+    "body": "Pectoral",
+    "side": "Not Specified",
+    "returnDate": "2027-02-15",
+    "fantasy": "IR"
+   },
+   {
     "id": 4808766,
     "name": "Mason Taylor",
     "pos": "TE",
@@ -8613,18 +8625,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4429005,
-    "name": "Braiden McGregor",
-    "pos": "DE",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-06T00:30Z",
-    "body": "Pectoral",
-    "side": "Not Specified",
-    "returnDate": "2027-02-15",
-    "fantasy": "OUT"
    },
    {
     "id": 4426817,
