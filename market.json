@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-08T15:12:56Z",
+ "_pulledUtc": "2026-10-08T16:33:21Z",
  "week": 5,
  "books": [
   "DraftKings"
@@ -356,8 +356,8 @@
     "book": "DraftKings",
     "details": "CIN -6.5",
     "moneyline": {
-     "away": -305,
-     "home": 245
+     "away": -325,
+     "home": 260
     },
     "moneylineOpen": {
      "away": -250,
@@ -387,11 +387,11 @@
     }
    },
    "noVig": {
-    "away": 0.722079,
-    "home": 0.277921,
-    "hold": 0.042941,
-    "fairAway": -259.81,
-    "fairHome": 259.81
+    "away": 0.733542,
+    "home": 0.266458,
+    "hold": 0.042484,
+    "fairAway": -275.29,
+    "fairHome": 275.29
    },
    "noVigOpen": {
     "away": 0.685393,
@@ -500,7 +500,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Hazy sunshine",
-    "tempF": 66
+    "tempF": 67
    },
    "weather": {
     "kickoff": {
@@ -628,8 +628,8 @@
     },
     "total": {
      "line": 39.5,
-     "over": -118,
-     "under": -102
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 38.5,
@@ -750,7 +750,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Cloudy",
+    "text": "Rain",
     "tempF": 63
    },
    "weather": {
@@ -787,8 +787,8 @@
     "book": "DraftKings",
     "details": "WSH -3.5",
     "moneyline": {
-     "away": 150,
-     "home": -180
+     "away": 154,
+     "home": -185
     },
     "moneylineOpen": {
      "away": 114,
@@ -818,11 +818,11 @@
     }
    },
    "noVig": {
-    "away": 0.383562,
-    "home": 0.616438,
-    "hold": 0.042857,
-    "fairAway": 160.71,
-    "fairHome": -160.71
+    "away": 0.377533,
+    "home": 0.622467,
+    "hold": 0.042824,
+    "fairAway": 164.88,
+    "fairHome": -164.88
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -841,7 +841,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Rain",
-    "tempF": 65
+    "tempF": 66
    },
    "weather": {
     "kickoff": {
@@ -887,8 +887,8 @@
     "spread": {
      "away": -3.5,
      "home": 3.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": 2.5,
@@ -931,7 +931,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly cloudy",
-    "tempF": 72
+    "tempF": 71
    },
    "weather": {
     "kickoff": {
@@ -1128,8 +1128,8 @@
     "book": "DraftKings",
     "details": "ATL -3.5",
     "moneyline": {
-     "away": 145,
-     "home": -175
+     "away": 150,
+     "home": -180
     },
     "moneylineOpen": {
      "away": -218,
@@ -1138,8 +1138,8 @@
     "spread": {
      "away": 3.5,
      "home": -3.5,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": -4.5,
@@ -1159,11 +1159,11 @@
     }
    },
    "noVig": {
-    "away": 0.390764,
-    "home": 0.609236,
-    "hold": 0.044527,
-    "fairAway": 155.91,
-    "fairHome": -155.91
+    "away": 0.383562,
+    "home": 0.616438,
+    "hold": 0.042857,
+    "fairAway": 160.71,
+    "fairHome": -160.71
    },
    "noVigOpen": {
     "away": 0.657475,
@@ -1252,8 +1252,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly cloudy",
-    "tempF": 69
+    "text": "Intermittent clouds",
+    "tempF": 70
    },
    "weather": {
     "kickoff": {
@@ -1278,7 +1278,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-08T14:28:17Z",
+ "injuriesUtc": "2026-10-08T15:35:23Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1892,7 +1892,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-08T14:00Z",
+    "date": "2026-10-08T15:08Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
@@ -2798,9 +2798,21 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-08T14:00Z",
+    "date": "2026-10-08T15:08Z",
     "body": "Undisclosed",
     "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "OUT"
+   },
+   {
+    "id": 4431611,
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-08T14:28Z",
+    "body": "Hamstring",
+    "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "OUT"
    },
@@ -2947,18 +2959,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4431611,
-    "name": "Caleb Williams",
-    "pos": "QB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-05T21:13Z",
-    "body": "Hamstring",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "OUT"
    },
    {
     "id": 4432595,
@@ -7378,7 +7378,7 @@
     "abbr": "Q",
     "date": "2026-10-07T18:32Z",
     "body": "Hamstring",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -10645,6 +10645,18 @@
   ],
   "WSH": [
    {
+    "id": 4426348,
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-08T14:57Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3125248,
     "name": "Jeremy Reaves",
     "pos": "S",
@@ -10799,18 +10811,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4426348,
-    "name": "Jayden Daniels",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-07T20:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4575131,
