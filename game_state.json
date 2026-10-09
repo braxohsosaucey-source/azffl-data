@@ -1,35 +1,26 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-08T23:22:33.584Z",
+ "_pulledUtc": "2026-10-09T00:35:21.981Z",
  "week": 5,
  "games": [
   {
    "id": "401872980",
    "name": "TB @ DAL",
    "dateUtc": "2026-10-09T00:15Z",
-   "market": {
-    "total": 48.5,
-    "favorite": "DAL",
-    "spread": 8.5,
-    "implied": {
-     "DAL": 28.5,
-     "TB": 20.0
-    },
-    "provider": "DraftKings"
-   },
+   "market": null,
    "indoor": true,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/8 - 8:15 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "4:27 - 1st",
+   "period": 1,
+   "clock": "4:27",
+   "clockSec": 267.0,
    "teams": [
     {
      "abbrev": "DAL",
      "id": 6,
      "home": true,
-     "score": 0
+     "score": 7
     },
     {
      "abbrev": "TB",
@@ -37,7 +28,11 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 27,
+    "rz": false
+   }
   },
   {
    "id": "401872981",
