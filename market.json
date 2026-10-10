@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-10T11:16:21Z",
+ "_pulledUtc": "2026-10-10T12:18:19Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -87,8 +87,8 @@
     "book": "DraftKings",
     "details": "JAX -7.5",
     "moneyline": {
-     "away": 320,
-     "home": -410
+     "away": 310,
+     "home": -395
     },
     "moneylineOpen": {
      "away": -130,
@@ -118,11 +118,11 @@
     }
    },
    "noVig": {
-    "away": 0.228495,
-    "home": 0.771505,
-    "hold": 0.042017,
-    "fairAway": 337.65,
-    "fairHome": -337.65
+    "away": 0.234098,
+    "home": 0.765902,
+    "hold": 0.041882,
+    "fairAway": 327.17,
+    "fairHome": -327.17
    },
    "noVigOpen": {
     "away": 0.542744,
@@ -264,8 +264,8 @@
     "book": "DraftKings",
     "details": "HOU -7",
     "moneyline": {
-     "away": -375,
-     "home": 295
+     "away": -360,
+     "home": 285
     },
     "moneylineOpen": {
      "away": -192,
@@ -274,8 +274,8 @@
     "spread": {
      "away": -7.0,
      "home": 7.0,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": -3.5,
@@ -295,11 +295,11 @@
     }
    },
    "noVig": {
-    "away": 0.757188,
-    "home": 0.242812,
-    "hold": 0.042638,
-    "fairAway": -311.84,
-    "fairHome": 311.84
+    "away": 0.750813,
+    "home": 0.249187,
+    "hold": 0.042349,
+    "fairAway": -301.3,
+    "fairHome": 301.3
    },
    "noVigOpen": {
     "away": 0.63094,
@@ -1276,7 +1276,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-10T11:16:32Z",
+ "injuriesUtc": "2026-10-10T12:18:17Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2796,7 +2796,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-10T11:00Z",
+    "date": "2026-10-10T11:58Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -5262,7 +5262,7 @@
     "abbr": "Q",
     "date": "2026-10-09T21:06Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -6542,7 +6542,7 @@
     "abbr": "Q",
     "date": "2026-10-09T21:19Z",
     "body": "Hamstring",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -6637,7 +6637,7 @@
     "status": "Injured Reserve",
     "abbr": "IR",
     "date": "2026-10-07T00:23Z",
-    "body": "Undisclosed",
+    "body": "Neck",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "IR-R"
@@ -6649,7 +6649,7 @@
     "status": "Injured Reserve",
     "abbr": "IR",
     "date": "2026-10-06T00:02Z",
-    "body": "Undisclosed",
+    "body": "Foot",
     "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "IR-R"
@@ -7925,6 +7925,18 @@
   ],
   "NO": [
    {
+    "id": 4685479,
+    "name": "Christen Miller",
+    "pos": "DT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-10T11:57Z",
+    "body": "Illness",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4433938,
     "name": "Jeremiah Wright",
     "pos": "G",
@@ -8028,7 +8040,7 @@
     "abbr": "Q",
     "date": "2026-10-09T18:13Z",
     "body": "Back",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
@@ -8183,18 +8195,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-06T04:11Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4685479,
-    "name": "Christen Miller",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T23:12Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -10384,7 +10384,7 @@
     "abbr": "Q",
     "date": "2026-10-09T20:15Z",
     "body": "Back",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
    },
