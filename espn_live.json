@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-10T14:38:21.093Z",
+ "_pulledUtc": "2026-10-10T15:22:21.504Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 5,
@@ -46,7 +46,7 @@
      "start": 91.96,
      "livePts": null,
      "weekProj": 19.77,
-     "projSeason": 249.74,
+     "projSeason": 249.73,
      "actSeason": 54.95
     },
     {
@@ -90,8 +90,8 @@
      "own": 98.35,
      "start": 81.61,
      "livePts": null,
-     "weekProj": 12.34,
-     "projSeason": 156.32,
+     "weekProj": 12.35,
+     "projSeason": 156.34,
      "actSeason": 40.3
     },
     {
@@ -399,7 +399,7 @@
     "acquisitions": 11,
     "drops": 9,
     "trades": 1,
-    "moveToActive": 34,
+    "moveToActive": 35,
     "acquisitionBudgetSpent": 100
    },
    "roster": [
@@ -468,8 +468,8 @@
     {
      "name": "Tee Higgins",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "WR",
+     "slotId": 4,
      "proTeamId": 4,
      "id": 4239993,
      "injury": "QUESTIONABLE",
@@ -637,8 +637,8 @@
     {
      "name": "Romeo Doubs",
      "pos": "WR",
-     "slot": "WR",
-     "slotId": 4,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 17,
      "id": 4361432,
      "injury": "ACTIVE",
@@ -978,8 +978,8 @@
      "own": 89.92,
      "start": 58.67,
      "livePts": null,
-     "weekProj": 11.6,
-     "projSeason": 147.09,
+     "weekProj": 11.61,
+     "projSeason": 147.1,
      "actSeason": 47.5
     },
     {
@@ -1638,8 +1638,8 @@
      "own": 61.57,
      "start": 17.32,
      "livePts": null,
-     "weekProj": 13.65,
-     "projSeason": 176.81,
+     "weekProj": 13.68,
+     "projSeason": 176.85,
      "actSeason": 41.69
     },
     {
@@ -1927,7 +1927,7 @@
      "own": 96.43,
      "start": 59.57,
      "livePts": null,
-     "weekProj": 15.88,
+     "weekProj": 15.87,
      "projSeason": 229.97,
      "actSeason": 66.27
     },
@@ -2315,8 +2315,8 @@
      "own": 91.1,
      "start": 52.9,
      "livePts": null,
-     "weekProj": 20.27,
-     "projSeason": 255.62,
+     "weekProj": 20.25,
+     "projSeason": 255.59,
      "actSeason": 32.4
     },
     {
@@ -2573,7 +2573,7 @@
      "own": 99.52,
      "start": 96.34,
      "livePts": null,
-     "weekProj": 16.36,
+     "weekProj": 16.35,
      "projSeason": 202.61,
      "actSeason": 52.75,
      "usage": {
@@ -2876,8 +2876,8 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 10,
-    "drops": 8,
+    "acquisitions": 11,
+    "drops": 9,
     "trades": 1,
     "moveToActive": 35,
     "acquisitionBudgetSpent": 48
@@ -3076,8 +3076,8 @@
      "own": 82.31,
      "start": 67.31,
      "livePts": null,
-     "weekProj": 6.24,
-     "projSeason": 77.45,
+     "weekProj": 6.23,
+     "projSeason": 77.44,
      "actSeason": 21.0
     },
     {
@@ -3180,34 +3180,6 @@
      "actSeason": 39.3
     },
     {
-     "name": "Jaylen Wright",
-     "pos": "RB",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 15,
-     "id": 4682745,
-     "injury": "QUESTIONABLE",
-     "acq": "ADD",
-     "acqUtc": "2026-09-30T07:35:33.139000Z",
-     "own": 14.15,
-     "start": 1.64,
-     "livePts": null,
-     "weekProj": 7.33,
-     "projSeason": 95.5,
-     "actSeason": 1.7,
-     "usage": {
-      "season": {
-       "23": 8.0,
-       "210": 3.0
-      },
-      "prior": {
-       "23": 70.0,
-       "210": 10.0
-      },
-      "week": null
-     }
-    },
-    {
      "name": "Devaughn Vele",
      "pos": "WR",
      "slot": "WR",
@@ -3251,6 +3223,23 @@
       },
       "week": null
      }
+    },
+    {
+     "name": "Marvin Harrison Jr.",
+     "pos": "WR",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 22,
+     "id": 4432708,
+     "injury": "OUT",
+     "acq": "ADD",
+     "acqUtc": "2026-10-10T15:07:42.612000Z",
+     "own": 68.37,
+     "start": 8.79,
+     "livePts": null,
+     "weekProj": 6.19,
+     "projSeason": 72.66,
+     "actSeason": 18.25
     }
    ]
   },
