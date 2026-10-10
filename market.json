@@ -1,9 +1,10 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-10T20:37:19Z",
+ "_pulledUtc": "2026-10-10T21:21:19Z",
  "week": 5,
  "books": [
-  "Draft Kings"
+  "Draft Kings",
+  "DraftKings"
  ],
  "games": [
   {
@@ -80,10 +81,10 @@
    "home": "JAX",
    "kickoffUtc": "2026-10-11T13:30Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "JAX -7.5",
     "moneyline": {
      "away": 320,
@@ -167,14 +168,14 @@
    "home": "GB",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CHI -1.5",
     "moneyline": {
-     "away": -125,
-     "home": 105
+     "away": -130,
+     "home": 110
     },
     "moneylineOpen": {
      "away": 140,
@@ -204,11 +205,11 @@
     }
    },
    "noVig": {
-    "away": 0.532468,
-    "home": 0.467532,
-    "hold": 0.04336,
-    "fairAway": -113.89,
-    "fairHome": 113.89
+    "away": 0.542744,
+    "home": 0.457256,
+    "hold": 0.041408,
+    "fairAway": -118.7,
+    "fairHome": 118.7
    },
    "noVigOpen": {
     "away": 0.400361,
@@ -257,10 +258,10 @@
    "home": "TEN",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "HOU -7",
     "moneyline": {
      "away": -355,
@@ -347,14 +348,14 @@
    "home": "MIA",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CIN -7",
     "moneyline": {
-     "away": -355,
-     "home": 280
+     "away": -345,
+     "home": 275
     },
     "moneylineOpen": {
      "away": -250,
@@ -384,11 +385,11 @@
     }
    },
    "noVig": {
-    "away": 0.747783,
-    "home": 0.252217,
-    "hold": 0.043378,
-    "fairAway": -296.48,
-    "fairHome": 296.48
+    "away": 0.744069,
+    "home": 0.255931,
+    "hold": 0.041948,
+    "fairAway": -290.73,
+    "fairHome": 290.73
    },
    "noVigOpen": {
     "away": 0.685393,
@@ -407,7 +408,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Partly sunny",
-    "tempF": 92
+    "tempF": 93
    },
    "weather": {
     "kickoff": {
@@ -437,10 +438,10 @@
    "home": "NE",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NE -3.5",
     "moneyline": {
      "away": 160,
@@ -527,14 +528,14 @@
    "home": "NO",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "MIN -2.5",
     "moneyline": {
-     "away": -142,
-     "home": 120
+     "away": -135,
+     "home": 114
     },
     "moneylineOpen": {
      "away": -120,
@@ -564,11 +565,11 @@
     }
    },
    "noVig": {
-    "away": 0.563492,
-    "home": 0.436508,
-    "hold": 0.041322,
-    "fairAway": -129.09,
-    "fairHome": 129.09
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
    },
    "noVigOpen": {
     "away": 0.521739,
@@ -598,10 +599,10 @@
    "home": "NYJ",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NYJ -2.5",
     "moneyline": {
      "away": 114,
@@ -688,10 +689,10 @@
    "home": "PIT",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "PIT -3",
     "moneyline": {
      "away": 124,
@@ -778,14 +779,14 @@
    "home": "WSH",
    "kickoffUtc": "2026-10-11T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "WSH -3.5",
     "moneyline": {
-     "away": 154,
-     "home": -185
+     "away": 150,
+     "home": -180
     },
     "moneylineOpen": {
      "away": 114,
@@ -815,11 +816,11 @@
     }
    },
    "noVig": {
-    "away": 0.377533,
-    "home": 0.622467,
-    "hold": 0.042824,
-    "fairAway": 164.88,
-    "fairHome": -164.88
+    "away": 0.383562,
+    "home": 0.616438,
+    "hold": 0.042857,
+    "fairAway": 160.71,
+    "fairHome": -160.71
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -868,10 +869,10 @@
    "home": "LAC",
    "kickoffUtc": "2026-10-11T20:05Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DEN -3.5",
     "moneyline": {
      "away": -192,
@@ -958,14 +959,14 @@
    "home": "ARI",
    "kickoffUtc": "2026-10-11T20:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DET -5.5",
     "moneyline": {
-     "away": -250,
-     "home": 205
+     "away": -258,
+     "home": 210
     },
     "moneylineOpen": {
      "away": -395,
@@ -974,8 +975,8 @@
     "spread": {
      "away": -5.5,
      "home": 5.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": -8.5,
@@ -995,11 +996,11 @@
     }
    },
    "noVig": {
-    "away": 0.685393,
-    "home": 0.314607,
-    "hold": 0.042155,
-    "fairAway": -217.86,
-    "fairHome": 217.86
+    "away": 0.690793,
+    "home": 0.309207,
+    "hold": 0.043251,
+    "fairAway": -223.41,
+    "fairHome": 223.41
    },
    "noVigOpen": {
     "away": 0.765902,
@@ -1029,10 +1030,10 @@
    "home": "SEA",
    "kickoffUtc": "2026-10-11T20:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "SEA -3",
     "moneyline": {
      "away": 136,
@@ -1119,10 +1120,10 @@
    "home": "ATL",
    "kickoffUtc": "2026-10-12T00:20Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "ATL -3",
     "moneyline": {
      "away": 150,
@@ -1190,24 +1191,24 @@
    "home": "LAR",
    "kickoffUtc": "2026-10-13T00:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
-    "details": "LAR -3",
+    "book": "DraftKings",
+    "details": "LAR -3.5",
     "moneyline": {
-     "away": 145,
-     "home": -175
+     "away": 150,
+     "home": -180
     },
     "moneylineOpen": {
      "away": 130,
      "home": -155
     },
     "spread": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": 100,
-     "homeOdds": -120
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": 3.0,
@@ -1217,8 +1218,8 @@
     },
     "total": {
      "line": 54.5,
-     "over": -118,
-     "under": -102
+     "over": -110,
+     "under": -110
     },
     "totalOpen": {
      "line": 53.5,
@@ -1227,11 +1228,11 @@
     }
    },
    "noVig": {
-    "away": 0.390764,
-    "home": 0.609236,
-    "hold": 0.044527,
-    "fairAway": 155.91,
-    "fairHome": -155.91
+    "away": 0.383562,
+    "home": 0.616438,
+    "hold": 0.042857,
+    "fairAway": 160.71,
+    "fairHome": -160.71
    },
    "noVigOpen": {
     "away": 0.417007,
