@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-10T05:30:19Z",
+ "_pulledUtc": "2026-10-10T06:01:21Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -87,8 +87,8 @@
     "book": "DraftKings",
     "details": "JAX -7.5",
     "moneyline": {
-     "away": 310,
-     "home": -395
+     "away": 320,
+     "home": -410
     },
     "moneylineOpen": {
      "away": -130,
@@ -118,11 +118,11 @@
     }
    },
    "noVig": {
-    "away": 0.234098,
-    "home": 0.765902,
-    "hold": 0.041882,
-    "fairAway": 327.17,
-    "fairHome": -327.17
+    "away": 0.228495,
+    "home": 0.771505,
+    "hold": 0.042017,
+    "fairAway": 337.65,
+    "fairHome": -337.65
    },
    "noVigOpen": {
     "away": 0.542744,
@@ -1276,7 +1276,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-10T04:46:23Z",
+ "injuriesUtc": "2026-10-10T05:52:16Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2796,7 +2796,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-10T02:46Z",
+    "date": "2026-10-10T05:00Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -10039,6 +10039,18 @@
   ],
   "TB": [
    {
+    "id": 4608810,
+    "name": "Tez Johnson",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-10T04:43Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4430871,
     "name": "Sean Tucker",
     "pos": "RB",
@@ -10273,18 +10285,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-06T21:32Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4608810,
-    "name": "Tez Johnson",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-06T03:55Z",
     "body": null,
     "side": null,
     "returnDate": null,
