@@ -1,8 +1,244 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T17:16:42.943Z",
+ "_pulledUtc": "2026-10-11T17:46:44.610Z",
  "week": 5,
  "games": [
+  {
+   "id": "401872990",
+   "name": "CHI @ GB",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "11:03 - 2nd",
+   "period": 2,
+   "clock": "11:03",
+   "clockSec": 663.0,
+   "teams": [
+    {
+     "abbrev": "GB",
+     "id": 9,
+     "home": true,
+     "score": 14
+    },
+    {
+     "abbrev": "CHI",
+     "id": 3,
+     "home": false,
+     "score": 0
+    }
+   ],
+   "sit": {
+    "poss": 3,
+    "rz": false
+   }
+  },
+  {
+   "id": "401872984",
+   "name": "HOU @ TEN",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "13:33 - 2nd",
+   "period": 2,
+   "clock": "13:33",
+   "clockSec": 813.0,
+   "teams": [
+    {
+     "abbrev": "TEN",
+     "id": 10,
+     "home": true,
+     "score": 3
+    },
+    {
+     "abbrev": "HOU",
+     "id": 34,
+     "home": false,
+     "score": 6
+    }
+   ]
+  },
+  {
+   "id": "401872982",
+   "name": "CIN @ MIA",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "15:00 - 2nd",
+   "period": 2,
+   "clock": "15:00",
+   "clockSec": 900.0,
+   "teams": [
+    {
+     "abbrev": "MIA",
+     "id": 15,
+     "home": true,
+     "score": 7
+    },
+    {
+     "abbrev": "CIN",
+     "id": 4,
+     "home": false,
+     "score": 7
+    }
+   ],
+   "sit": {
+    "poss": 4,
+    "rz": true
+   }
+  },
+  {
+   "id": "401872986",
+   "name": "LV @ NE",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "14:37 - 2nd",
+   "period": 2,
+   "clock": "14:37",
+   "clockSec": 877.0,
+   "teams": [
+    {
+     "abbrev": "NE",
+     "id": 17,
+     "home": true,
+     "score": 14
+    },
+    {
+     "abbrev": "LV",
+     "id": 13,
+     "home": false,
+     "score": 7
+    }
+   ],
+   "sit": {
+    "poss": 17,
+    "rz": false
+   }
+  },
+  {
+   "id": "401872987",
+   "name": "MIN @ NO",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": true,
+   "state": "in",
+   "completed": false,
+   "detail": "8:23 - 2nd",
+   "period": 2,
+   "clock": "8:23",
+   "clockSec": 503.0,
+   "teams": [
+    {
+     "abbrev": "NO",
+     "id": 18,
+     "home": true,
+     "score": 6
+    },
+    {
+     "abbrev": "MIN",
+     "id": 16,
+     "home": false,
+     "score": 3
+    }
+   ]
+  },
+  {
+   "id": "401872983",
+   "name": "CLE @ NYJ",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "15:00 - 2nd",
+   "period": 2,
+   "clock": "15:00",
+   "clockSec": 900.0,
+   "teams": [
+    {
+     "abbrev": "NYJ",
+     "id": 20,
+     "home": true,
+     "score": 7
+    },
+    {
+     "abbrev": "CLE",
+     "id": 5,
+     "home": false,
+     "score": 3
+    }
+   ],
+   "sit": {
+    "poss": 20,
+    "rz": false
+   }
+  },
+  {
+   "id": "401872985",
+   "name": "IND @ PIT",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "13:17 - 2nd",
+   "period": 2,
+   "clock": "13:17",
+   "clockSec": 797.0,
+   "teams": [
+    {
+     "abbrev": "PIT",
+     "id": 23,
+     "home": true,
+     "score": 14
+    },
+    {
+     "abbrev": "IND",
+     "id": 11,
+     "home": false,
+     "score": 6
+    }
+   ]
+  },
+  {
+   "id": "401872988",
+   "name": "NYG @ WSH",
+   "dateUtc": "2026-10-11T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "15:00 - 2nd",
+   "period": 2,
+   "clock": "15:00",
+   "clockSec": 900.0,
+   "teams": [
+    {
+     "abbrev": "WSH",
+     "id": 28,
+     "home": true,
+     "score": 6
+    },
+    {
+     "abbrev": "NYG",
+     "id": 19,
+     "home": false,
+     "score": 3
+    }
+   ],
+   "sit": {
+    "poss": 28,
+    "rz": false
+   }
+  },
   {
    "id": "401872981",
    "name": "PHI VS JAX",
@@ -29,246 +265,6 @@
      "score": 17
     }
    ]
-  },
-  {
-   "id": "401872990",
-   "name": "CHI @ GB",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "5:51 - 1st",
-   "period": 1,
-   "clock": "5:51",
-   "clockSec": 351.0,
-   "teams": [
-    {
-     "abbrev": "GB",
-     "id": 9,
-     "home": true,
-     "score": 7
-    },
-    {
-     "abbrev": "CHI",
-     "id": 3,
-     "home": false,
-     "score": 0
-    }
-   ],
-   "sit": {
-    "poss": 9,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872984",
-   "name": "HOU @ TEN",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "9:01 - 1st",
-   "period": 1,
-   "clock": "9:01",
-   "clockSec": 541.0,
-   "teams": [
-    {
-     "abbrev": "TEN",
-     "id": 10,
-     "home": true,
-     "score": 3
-    },
-    {
-     "abbrev": "HOU",
-     "id": 34,
-     "home": false,
-     "score": 0
-    }
-   ],
-   "sit": {
-    "poss": 10,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872982",
-   "name": "CIN @ MIA",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "10:32 - 1st",
-   "period": 1,
-   "clock": "10:32",
-   "clockSec": 632.0,
-   "teams": [
-    {
-     "abbrev": "MIA",
-     "id": 15,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "CIN",
-     "id": 4,
-     "home": false,
-     "score": 7
-    }
-   ],
-   "sit": {
-    "poss": 15,
-    "rz": true
-   }
-  },
-  {
-   "id": "401872986",
-   "name": "LV @ NE",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "10:11 - 1st",
-   "period": 1,
-   "clock": "10:11",
-   "clockSec": 611.0,
-   "teams": [
-    {
-     "abbrev": "NE",
-     "id": 17,
-     "home": true,
-     "score": 7
-    },
-    {
-     "abbrev": "LV",
-     "id": 13,
-     "home": false,
-     "score": 0
-    }
-   ],
-   "sit": {
-    "poss": 13,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872987",
-   "name": "MIN @ NO",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "9:04 - 1st",
-   "period": 1,
-   "clock": "9:04",
-   "clockSec": 544.0,
-   "teams": [
-    {
-     "abbrev": "NO",
-     "id": 18,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "MIN",
-     "id": 16,
-     "home": false,
-     "score": 3
-    }
-   ]
-  },
-  {
-   "id": "401872983",
-   "name": "CLE @ NYJ",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "9:12 - 1st",
-   "period": 1,
-   "clock": "9:12",
-   "clockSec": 552.0,
-   "teams": [
-    {
-     "abbrev": "NYJ",
-     "id": 20,
-     "home": true,
-     "score": 7
-    },
-    {
-     "abbrev": "CLE",
-     "id": 5,
-     "home": false,
-     "score": 0
-    }
-   ],
-   "sit": {
-    "poss": 5,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872985",
-   "name": "IND @ PIT",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "8:57 - 1st",
-   "period": 1,
-   "clock": "8:57",
-   "clockSec": 537.0,
-   "teams": [
-    {
-     "abbrev": "PIT",
-     "id": 23,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "IND",
-     "id": 11,
-     "home": false,
-     "score": 3
-    }
-   ]
-  },
-  {
-   "id": "401872988",
-   "name": "NYG @ WSH",
-   "dateUtc": "2026-10-11T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "9:27 - 1st",
-   "period": 1,
-   "clock": "9:27",
-   "clockSec": 567.0,
-   "teams": [
-    {
-     "abbrev": "WSH",
-     "id": 28,
-     "home": true,
-     "score": 6
-    },
-    {
-     "abbrev": "NYG",
-     "id": 19,
-     "home": false,
-     "score": 0
-    }
-   ],
-   "sit": {
-    "poss": 19,
-    "rz": false
-   }
   },
   {
    "id": "401872989",
