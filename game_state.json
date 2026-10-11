@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T13:40:39.631Z",
+ "_pulledUtc": "2026-10-11T14:10:39.455Z",
  "week": 5,
  "games": [
   {
@@ -11,16 +11,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "14:02 - 1st",
+   "detail": "3:02 - 1st",
    "period": 1,
-   "clock": "14:02",
-   "clockSec": 842.0,
+   "clock": "3:02",
+   "clockSec": 182.0,
    "teams": [
     {
      "abbrev": "JAX",
      "id": 30,
      "home": true,
-     "score": 0
+     "score": 7
     },
     {
      "abbrev": "PHI",
@@ -77,10 +77,10 @@
    "market": {
     "total": 37.5,
     "favorite": "HOU",
-    "spread": 7.0,
+    "spread": 6.5,
     "implied": {
-     "TEN": 15.25,
-     "HOU": 22.25
+     "TEN": 15.5,
+     "HOU": 22.0
     },
     "provider": "DraftKings"
    },
@@ -219,12 +219,12 @@
    "name": "CLE @ NYJ",
    "dateUtc": "2026-10-11T17:00Z",
    "market": {
-    "total": 39.5,
+    "total": 38.5,
     "favorite": "NYJ",
     "spread": 2.5,
     "implied": {
-     "NYJ": 21.0,
-     "CLE": 18.5
+     "NYJ": 20.5,
+     "CLE": 18.0
     },
     "provider": "DraftKings"
    },
@@ -255,12 +255,12 @@
    "name": "IND @ PIT",
    "dateUtc": "2026-10-11T17:00Z",
    "market": {
-    "total": 43.5,
+    "total": 41.5,
     "favorite": "PIT",
     "spread": 3.0,
     "implied": {
-     "PIT": 23.25,
-     "IND": 20.25
+     "PIT": 22.25,
+     "IND": 19.25
     },
     "provider": "DraftKings"
    },
@@ -500,10 +500,10 @@
    "market": {
     "total": 54.5,
     "favorite": "LAR",
-    "spread": 3.5,
+    "spread": 3.0,
     "implied": {
-     "LAR": 29.0,
-     "BUF": 25.5
+     "LAR": 28.75,
+     "BUF": 25.75
     },
     "provider": "DraftKings"
    },
