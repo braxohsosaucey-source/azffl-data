@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T21:50:41.098Z",
+ "_pulledUtc": "2026-10-11T22:20:40.843Z",
  "week": 5,
  "games": [
   {
@@ -11,16 +11,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:27 - 3rd",
+   "detail": "0:57 - 3rd",
    "period": 3,
-   "clock": "11:27",
-   "clockSec": 687.0,
+   "clock": "0:57",
+   "clockSec": 57.0,
    "teams": [
     {
      "abbrev": "LAC",
      "id": 24,
      "home": true,
-     "score": 3
+     "score": 17
     },
     {
      "abbrev": "DEN",
@@ -42,10 +42,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "2:00 - 2nd",
-   "period": 2,
-   "clock": "2:00",
-   "clockSec": 120.0,
+   "detail": "12:19 - 3rd",
+   "period": 3,
+   "clock": "12:19",
+   "clockSec": 739.0,
    "teams": [
     {
      "abbrev": "ARI",
@@ -57,7 +57,7 @@
      "abbrev": "DET",
      "id": 8,
      "home": false,
-     "score": 21
+     "score": 24
     }
    ],
    "sit": {
@@ -73,10 +73,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:30 - 2nd",
-   "period": 2,
-   "clock": "1:30",
-   "clockSec": 90.0,
+   "detail": "14:11 - 3rd",
+   "period": 3,
+   "clock": "14:11",
+   "clockSec": 851.0,
    "teams": [
     {
      "abbrev": "SEA",
@@ -88,7 +88,7 @@
      "abbrev": "SF",
      "id": 25,
      "home": false,
-     "score": 14
+     "score": 21
     }
    ],
    "sit": {
@@ -409,10 +409,10 @@
    "market": {
     "total": 54.5,
     "favorite": "LAR",
-    "spread": 3.0,
+    "spread": 3.5,
     "implied": {
-     "LAR": 28.75,
-     "BUF": 25.75
+     "LAR": 29.0,
+     "BUF": 25.5
     },
     "provider": "Draft Kings"
    },
