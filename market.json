@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-11T07:06:40Z",
+ "_pulledUtc": "2026-10-11T08:08:39Z",
  "week": 5,
  "books": [
   "Draft Kings"
@@ -105,8 +105,8 @@
     "book": "Draft Kings",
     "details": "CHI -1.5",
     "moneyline": {
-     "away": -125,
-     "home": 105
+     "away": -122,
+     "home": 102
     },
     "moneylineOpen": {
      "away": 140,
@@ -127,20 +127,20 @@
     "total": {
      "line": 46.5,
      "over": -118,
-     "under": -102
+     "under": null
     },
     "totalOpen": {
      "line": 49.5,
      "over": -110,
-     "under": -110
+     "under": null
     }
    },
    "noVig": {
-    "away": 0.532468,
-    "home": 0.467532,
-    "hold": 0.04336,
-    "fairAway": -113.89,
-    "fairHome": 113.89
+    "away": 0.526087,
+    "home": 0.473913,
+    "hold": 0.044599,
+    "fairAway": -111.01,
+    "fairHome": 111.01
    },
    "noVigOpen": {
     "away": 0.400361,
@@ -285,8 +285,8 @@
     "book": "Draft Kings",
     "details": "CIN -7",
     "moneyline": {
-     "away": -355,
-     "home": 280
+     "away": -345,
+     "home": 275
     },
     "moneylineOpen": {
      "away": -250,
@@ -295,8 +295,8 @@
     "spread": {
      "away": -7.0,
      "home": 7.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": -5.5,
@@ -316,11 +316,11 @@
     }
    },
    "noVig": {
-    "away": 0.747783,
-    "home": 0.252217,
-    "hold": 0.043378,
-    "fairAway": -296.48,
-    "fairHome": 296.48
+    "away": 0.744069,
+    "home": 0.255931,
+    "hold": 0.041948,
+    "fairAway": -290.73,
+    "fairHome": 290.73
    },
    "noVigOpen": {
     "away": 0.685393,
@@ -375,8 +375,8 @@
     "book": "Draft Kings",
     "details": "NE -3.5",
     "moneyline": {
-     "away": 160,
-     "home": -192
+     "away": 164,
+     "home": -198
     },
     "moneylineOpen": {
      "away": 330,
@@ -385,8 +385,8 @@
     "spread": {
      "away": 3.5,
      "home": -3.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": 8.5,
@@ -406,11 +406,11 @@
     }
    },
    "noVig": {
-    "away": 0.36906,
-    "home": 0.63094,
-    "hold": 0.04215,
-    "fairAway": 170.96,
-    "fairHome": -170.96
+    "away": 0.363096,
+    "home": 0.636904,
+    "hold": 0.043217,
+    "fairAway": 175.41,
+    "fairHome": -175.41
    },
    "noVigOpen": {
     "away": 0.223167,
@@ -590,7 +590,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Rain",
-    "tempF": 60
+    "tempF": 61
    },
    "weather": {
     "kickoff": {
@@ -859,8 +859,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly cloudy",
-    "tempF": 72
+    "text": "Rain",
+    "tempF": 70
    },
    "weather": {
     "kickoff": {
@@ -1111,7 +1111,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Mostly clear",
-    "tempF": 64
+    "tempF": 65
    },
    "weather": null,
    "wxNote": "indoor"
@@ -1249,7 +1249,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly cloudy w/ showers",
+    "text": "Intermittent clouds",
     "tempF": 67
    },
    "weather": {
@@ -1275,7 +1275,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-11T07:06:37Z",
+ "injuriesUtc": "2026-10-11T08:08:37Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2795,7 +2795,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-11T06:37Z",
+    "date": "2026-10-11T07:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
