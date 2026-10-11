@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-11T14:10:38Z",
+ "_pulledUtc": "2026-10-11T14:40:38Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -430,7 +430,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 59
+    "tempF": 58
    },
    "weather": {
     "kickoff": {
@@ -466,8 +466,8 @@
     "book": "DraftKings",
     "details": "MIN -1.5",
     "moneyline": {
-     "away": -130,
-     "home": 110
+     "away": -135,
+     "home": 114
     },
     "moneylineOpen": {
      "away": -120,
@@ -476,8 +476,8 @@
     "spread": {
      "away": -1.5,
      "home": 1.5,
-     "awayOdds": -118,
-     "homeOdds": -102
+     "awayOdds": -120,
+     "homeOdds": 100
     },
     "spreadOpen": {
      "away": -1.5,
@@ -497,11 +497,11 @@
     }
    },
    "noVig": {
-    "away": 0.542744,
-    "home": 0.457256,
-    "hold": 0.041408,
-    "fairAway": -118.7,
-    "fairHome": 118.7
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
    },
    "noVigOpen": {
     "away": 0.521739,
@@ -558,8 +558,8 @@
     },
     "total": {
      "line": 38.5,
-     "over": -118,
-     "under": -102
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 38.5,
@@ -627,8 +627,8 @@
     "book": "DraftKings",
     "details": "PIT -3",
     "moneyline": {
-     "away": 130,
-     "home": -155
+     "away": 136,
+     "home": -162
     },
     "moneylineOpen": {
      "away": 114,
@@ -658,11 +658,11 @@
     }
    },
    "noVig": {
-    "away": 0.417007,
-    "home": 0.582993,
-    "hold": 0.042626,
-    "fairAway": 139.8,
-    "fairHome": -139.8
+    "away": 0.40663,
+    "home": 0.59337,
+    "hold": 0.042049,
+    "fairAway": 145.92,
+    "fairHome": -145.92
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -1276,7 +1276,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-11T13:38:33Z",
+ "injuriesUtc": "2026-10-11T14:40:33Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2794,13 +2794,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-11T13:30Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-11T14:02Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4431611,
@@ -5509,6 +5509,30 @@
   ],
   "JAX": [
    {
+    "id": 3928931,
+    "name": "Ross Matiscik",
+    "pos": "LS",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-11T14:01Z",
+    "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4836472,
+    "name": "Bryan Thomas Jr.",
+    "pos": "DE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-11T13:43Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 2970716,
     "name": "Eric Murray",
     "pos": "S",
@@ -5779,30 +5803,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-04T22:20Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4432773,
-    "name": "Brian Thomas Jr.",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T22:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4360310,
-    "name": "Trevor Lawrence",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T21:58Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8831,6 +8831,18 @@
   ],
   "PHI": [
    {
+    "id": 4432777,
+    "name": "Jeremiah Trotter Jr.",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-11T13:41Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3916409,
     "name": "Jonathan Greenard",
     "pos": "LB",
@@ -9041,18 +9053,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-07T02:08Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4432777,
-    "name": "Jeremiah Trotter Jr.",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-07T02:02Z",
     "body": null,
     "side": null,
     "returnDate": null,
