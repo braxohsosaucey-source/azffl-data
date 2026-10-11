@@ -1,35 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T03:23:41.377Z",
+ "_pulledUtc": "2026-10-11T04:07:42.047Z",
  "week": 5,
  "games": [
-  {
-   "id": "401872980",
-   "name": "TB @ DAL",
-   "dateUtc": "2026-10-09T00:15Z",
-   "market": null,
-   "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "DAL",
-     "id": 6,
-     "home": true,
-     "score": 16
-    },
-    {
-     "abbrev": "TB",
-     "id": 27,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
   {
    "id": "401872981",
    "name": "PHI VS JAX",
@@ -42,7 +15,7 @@
      "JAX": 24.5,
      "PHI": 17.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -78,7 +51,7 @@
      "GB": 22.5,
      "CHI": 24.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -114,7 +87,7 @@
      "TEN": 15.25,
      "HOU": 22.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -150,7 +123,7 @@
      "MIA": 18.25,
      "CIN": 25.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -186,7 +159,7 @@
      "NE": 24.5,
      "LV": 21.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -222,7 +195,7 @@
      "NO": 19.5,
      "MIN": 22.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -258,7 +231,7 @@
      "NYJ": 21.0,
      "CLE": 18.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -294,7 +267,7 @@
      "PIT": 23.0,
      "IND": 20.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -330,7 +303,7 @@
      "WSH": 22.5,
      "NYG": 19.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -366,7 +339,7 @@
      "LAC": 19.0,
      "DEN": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -402,7 +375,7 @@
      "ARI": 24.5,
      "DET": 30.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -438,7 +411,7 @@
      "SEA": 24.25,
      "SF": 21.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -474,7 +447,7 @@
      "ATL": 23.25,
      "BAL": 20.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -499,6 +472,33 @@
    ]
   },
   {
+   "id": "401872980",
+   "name": "TB @ DAL",
+   "dateUtc": "2026-10-09T00:15Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "DAL",
+     "id": 6,
+     "home": true,
+     "score": 16
+    },
+    {
+     "abbrev": "TB",
+     "id": 27,
+     "home": false,
+     "score": 24
+    }
+   ]
+  },
+  {
    "id": "401872994",
    "name": "BUF @ LAR",
    "dateUtc": "2026-10-13T00:15Z",
@@ -510,7 +510,7 @@
      "LAR": 29.0,
      "BUF": 25.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
