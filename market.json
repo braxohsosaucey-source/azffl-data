@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-11T11:01:52Z",
+ "_pulledUtc": "2026-10-11T11:33:39Z",
  "week": 5,
  "books": [
   "Draft Kings"
@@ -18,8 +18,8 @@
     "book": "Draft Kings",
     "details": "JAX -7.5",
     "moneyline": {
-     "away": 310,
-     "home": -395
+     "away": 300,
+     "home": -380
     },
     "moneylineOpen": {
      "away": -130,
@@ -49,11 +49,11 @@
     }
    },
    "noVig": {
-    "away": 0.234098,
-    "home": 0.765902,
-    "hold": 0.041882,
-    "fairAway": 327.17,
-    "fairHome": -327.17
+    "away": 0.24,
+    "home": 0.76,
+    "hold": 0.041667,
+    "fairAway": 316.67,
+    "fairHome": -316.67
    },
    "noVigOpen": {
     "away": 0.542744,
@@ -115,8 +115,8 @@
     "spread": {
      "away": -1.5,
      "home": 1.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": 3.0,
@@ -125,9 +125,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 46.5,
-     "over": -118,
-     "under": -102
+     "line": 47.5,
+     "over": -102,
+     "under": -118
     },
     "totalOpen": {
      "line": 49.5,
@@ -295,8 +295,8 @@
     "spread": {
      "away": -7.0,
      "home": 7.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": -5.5,
@@ -306,8 +306,8 @@
     },
     "total": {
      "line": 43.5,
-     "over": -112,
-     "under": -108
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 48.5,
@@ -626,8 +626,8 @@
     "book": "Draft Kings",
     "details": "PIT -2.5",
     "moneyline": {
-     "away": 120,
-     "home": -142
+     "away": 124,
+     "home": -148
     },
     "moneylineOpen": {
      "away": 114,
@@ -657,11 +657,11 @@
     }
    },
    "noVig": {
-    "away": 0.436508,
-    "home": 0.563492,
-    "hold": 0.041322,
-    "fairAway": 129.09,
-    "fairHome": -129.09
+    "away": 0.42794,
+    "home": 0.57206,
+    "hold": 0.043203,
+    "fairAway": 133.68,
+    "fairHome": -133.68
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -806,8 +806,8 @@
     "book": "Draft Kings",
     "details": "DEN -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -192,
+     "home": 160
     },
     "moneylineOpen": {
      "away": 120,
@@ -837,11 +837,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.63094,
+    "home": 0.36906,
+    "hold": 0.04215,
+    "fairAway": -170.96,
+    "fairHome": 170.96
    },
    "noVigOpen": {
     "away": 0.436508,
@@ -1055,7 +1055,7 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "ATL -3",
+    "details": "ATL -3.5",
     "moneyline": {
      "away": 145,
      "home": -175
@@ -1065,10 +1065,10 @@
      "home": 180
     },
     "spread": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": 102,
-     "homeOdds": -122
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": -4.5,
@@ -1078,8 +1078,8 @@
     },
     "total": {
      "line": 43.5,
-     "over": -110,
-     "under": -110
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 48.5,
@@ -1275,7 +1275,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-11T10:12:39Z",
+ "injuriesUtc": "2026-10-11T11:33:41Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2793,13 +2793,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-11T10:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-11T11:01Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4432804,
@@ -6112,6 +6112,18 @@
   ],
   "LV": [
    {
+    "id": 4890973,
+    "name": "Ashton Jeanty",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-11T11:11Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4374187,
     "name": "Deven Thompkins",
     "pos": "WR",
@@ -6194,18 +6206,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4890973,
-    "name": "Ashton Jeanty",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-09T18:02Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4875295,
@@ -7622,6 +7622,18 @@
   ],
   "NE": [
    {
+    "id": 4569173,
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-11T11:21Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4036651,
     "name": "Kindle Vildor",
     "pos": "CB",
@@ -7790,18 +7802,6 @@
     "fantasy": null
    },
    {
-    "id": 4569173,
-    "name": "Rhamondre Stevenson",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-09T18:46Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4831959,
     "name": "Eli Raridon",
     "pos": "TE",
@@ -7923,6 +7923,18 @@
    }
   ],
   "NO": [
+   {
+    "id": 3054850,
+    "name": "Alvin Kamara",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-11T11:28Z",
+    "body": "Back",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
    {
     "id": 4432768,
     "name": "Lorenzo Styles Jr.",
@@ -8114,18 +8126,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3054850,
-    "name": "Alvin Kamara",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-09T18:13Z",
-    "body": "Back",
-    "side": "Not Specified",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4775268,
@@ -9132,6 +9132,18 @@
   ],
   "PIT": [
    {
+    "id": 4038815,
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-11T11:16Z",
+    "body": "Toe",
+    "side": "Right",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4240577,
     "name": "Brandon Smith",
     "pos": "WR",
@@ -9211,18 +9223,6 @@
     "abbr": "Q",
     "date": "2026-10-09T23:20Z",
     "body": "Wrist",
-    "side": "Right",
-    "returnDate": "2026-10-11",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4038815,
-    "name": "Rico Dowdle",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-09T20:14Z",
-    "body": "Toe",
     "side": "Right",
     "returnDate": "2026-10-11",
     "fantasy": "QUESTIONABLE"
