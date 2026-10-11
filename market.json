@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-11T05:35:39Z",
+ "_pulledUtc": "2026-10-11T07:06:40Z",
  "week": 5,
  "books": [
   "Draft Kings"
@@ -16,20 +16,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "JAX -7.5",
+    "details": "JAX -8.5",
     "moneyline": {
-     "away": 320,
-     "home": -410
+     "away": 330,
+     "home": -425
     },
     "moneylineOpen": {
      "away": -130,
      "home": 110
     },
     "spread": {
-     "away": 7.5,
-     "home": -7.5,
-     "awayOdds": -108,
-     "homeOdds": -112
+     "away": 8.5,
+     "home": -8.5,
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": -2.5,
@@ -39,8 +39,8 @@
     },
     "total": {
      "line": 41.5,
-     "over": -112,
-     "under": -108
+     "over": -108,
+     "under": -112
     },
     "totalOpen": {
      "line": 44.5,
@@ -49,11 +49,11 @@
     }
    },
    "noVig": {
-    "away": 0.228495,
-    "home": 0.771505,
-    "hold": 0.042017,
-    "fairAway": 337.65,
-    "fairHome": -337.65
+    "away": 0.223167,
+    "home": 0.776833,
+    "hold": 0.042082,
+    "fairAway": 348.1,
+    "fairHome": -348.1
    },
    "noVigOpen": {
     "away": 0.542744,
@@ -105,8 +105,8 @@
     "book": "Draft Kings",
     "details": "CHI -1.5",
     "moneyline": {
-     "away": -122,
-     "home": 102
+     "away": -125,
+     "home": 105
     },
     "moneylineOpen": {
      "away": 140,
@@ -136,11 +136,11 @@
     }
    },
    "noVig": {
-    "away": 0.526087,
-    "home": 0.473913,
-    "hold": 0.044599,
-    "fairAway": -111.01,
-    "fairHome": 111.01
+    "away": 0.532468,
+    "home": 0.467532,
+    "hold": 0.04336,
+    "fairAway": -113.89,
+    "fairHome": 113.89
    },
    "noVigOpen": {
     "away": 0.400361,
@@ -1275,7 +1275,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-11T05:35:37Z",
+ "injuriesUtc": "2026-10-11T07:06:37Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2793,13 +2793,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-11T05:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-11T06:37Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4432804,
@@ -8830,6 +8830,18 @@
   ],
   "PHI": [
    {
+    "id": 4372051,
+    "name": "Chance Campbell",
+    "pos": "LB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-11T05:31Z",
+    "body": "Undisclosed",
+    "side": "Not Specified",
+    "returnDate": "2026-10-11",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 15835,
     "name": "Zach Ertz",
     "pos": "TE",
@@ -9112,18 +9124,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-04T21:11Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4685201,
-    "name": "Tanner McKee",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T12:55Z",
     "body": null,
     "side": null,
     "returnDate": null,
