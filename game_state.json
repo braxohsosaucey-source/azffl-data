@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T21:20:40.472Z",
+ "_pulledUtc": "2026-10-11T21:50:41.098Z",
  "week": 5,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:48 - 2nd",
-   "period": 2,
-   "clock": "1:48",
-   "clockSec": 108.0,
+   "detail": "11:27 - 3rd",
+   "period": 3,
+   "clock": "11:27",
+   "clockSec": 687.0,
    "teams": [
     {
      "abbrev": "LAC",
@@ -28,7 +28,11 @@
      "home": false,
      "score": 10
     }
-   ]
+   ],
+   "sit": {
+    "poss": 24,
+    "rz": false
+   }
   },
   {
    "id": "401872991",
@@ -38,10 +42,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "10:51 - 2nd",
+   "detail": "2:00 - 2nd",
    "period": 2,
-   "clock": "10:51",
-   "clockSec": 651.0,
+   "clock": "2:00",
+   "clockSec": 120.0,
    "teams": [
     {
      "abbrev": "ARI",
@@ -53,7 +57,7 @@
      "abbrev": "DET",
      "id": 8,
      "home": false,
-     "score": 7
+     "score": 21
     }
    ],
    "sit": {
@@ -69,22 +73,22 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "9:27 - 2nd",
+   "detail": "1:30 - 2nd",
    "period": 2,
-   "clock": "9:27",
-   "clockSec": 567.0,
+   "clock": "1:30",
+   "clockSec": 90.0,
    "teams": [
     {
      "abbrev": "SEA",
      "id": 26,
      "home": true,
-     "score": 10
+     "score": 13
     },
     {
      "abbrev": "SF",
      "id": 25,
      "home": false,
-     "score": 7
+     "score": 14
     }
    ],
    "sit": {
