@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T14:40:40.232Z",
+ "_pulledUtc": "2026-10-11T15:12:41.570Z",
  "week": 5,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "6:26 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "6:26",
-   "clockSec": 386.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "JAX",
@@ -26,13 +26,9 @@
      "abbrev": "PHI",
      "id": 21,
      "home": false,
-     "score": 7
+     "score": 14
     }
-   ],
-   "sit": {
-    "poss": 21,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401872990",
@@ -111,12 +107,12 @@
    "name": "CIN @ MIA",
    "dateUtc": "2026-10-11T17:00Z",
    "market": {
-    "total": 43.5,
+    "total": 44.5,
     "favorite": "CIN",
     "spread": 7.0,
     "implied": {
-     "MIA": 18.25,
-     "CIN": 25.25
+     "MIA": 18.75,
+     "CIN": 25.75
     },
     "provider": "DraftKings"
    },
