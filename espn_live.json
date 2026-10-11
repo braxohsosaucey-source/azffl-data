@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T15:42:41.047Z",
+ "_pulledUtc": "2026-10-11T16:14:40.887Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 5,
@@ -253,7 +253,7 @@
      "slotId": 20,
      "proTeamId": 16,
      "id": 4429205,
-     "injury": "QUESTIONABLE",
+     "injury": "OUT",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 79.63,
@@ -596,7 +596,7 @@
      "slotId": 2,
      "proTeamId": 18,
      "id": 3054850,
-     "injury": "QUESTIONABLE",
+     "injury": "ACTIVE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 68.88,
@@ -731,13 +731,13 @@
      "acqUtc": "2026-10-09T15:02:17.380000Z",
      "own": 2.41,
      "start": 0.7,
-     "livePts": 1.25,
+     "livePts": 3.0,
      "weekProj": 6.96,
      "projSeason": 6.96,
-     "actSeason": 1.25,
+     "actSeason": 3.0,
      "usage": {
       "season": {
-       "23": 4.0,
+       "23": 8.0,
        "210": 1.0
       },
       "prior": {
@@ -745,7 +745,7 @@
        "210": 5.0
       },
       "week": {
-       "23": 4.0,
+       "23": 8.0,
        "210": 1.0
       }
      }
@@ -1219,7 +1219,7 @@
      "actSeason": 56.45,
      "usage": {
       "season": {
-       "23": 72.0,
+       "23": 73.0,
        "210": 5.0
       },
       "prior": {
@@ -1227,7 +1227,7 @@
        "210": 15.0
       },
       "week": {
-       "23": 12.0,
+       "23": 13.0,
        "210": 1.0
       }
      }
@@ -1284,7 +1284,7 @@
      "slotId": 20,
      "proTeamId": 3,
      "id": 4431611,
-     "injury": "QUESTIONABLE",
+     "injury": "OUT",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.79,
@@ -1579,7 +1579,7 @@
      "slotId": 23,
      "proTeamId": 28,
      "id": 3121422,
-     "injury": "QUESTIONABLE",
+     "injury": "ACTIVE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.79,
@@ -1781,10 +1781,10 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 11,
-    "drops": 8,
+    "acquisitions": 12,
+    "drops": 9,
     "trades": 0,
-    "moveToActive": 9,
+    "moveToActive": 10,
     "acquisitionBudgetSpent": 60
    },
    "roster": [
@@ -1881,8 +1881,8 @@
     {
      "name": "DJ Moore",
      "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 2,
      "id": 3915416,
      "injury": "QUESTIONABLE",
@@ -1935,10 +1935,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.27,
      "start": 58.38,
-     "livePts": 9.36,
+     "livePts": 10.88,
      "weekProj": 15.87,
      "projSeason": 229.97,
-     "actSeason": 75.63
+     "actSeason": 77.15
     },
     {
      "name": "Christian Watson",
@@ -2035,23 +2035,6 @@
      "weekProj": 0.0,
      "projSeason": 92.64,
      "actSeason": 0.0
-    },
-    {
-     "name": "Xavier Worthy",
-     "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 12,
-     "id": 4683062,
-     "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-09-24T07:32:10.324000Z",
-     "own": 68.25,
-     "start": 2.16,
-     "livePts": null,
-     "weekProj": 0.0,
-     "projSeason": 117.65,
-     "actSeason": 29.8
     },
     {
      "name": "Tyler Shough",
@@ -2156,6 +2139,23 @@
      "weekProj": null,
      "projSeason": null,
      "actSeason": 0.0
+    },
+    {
+     "name": "T.J. Hockenson",
+     "pos": "TE",
+     "slot": "FLEX",
+     "slotId": 23,
+     "proTeamId": 16,
+     "id": 4036133,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-11T16:04:40.791000Z",
+     "own": 70.48,
+     "start": 37.44,
+     "livePts": null,
+     "weekProj": 9.1,
+     "projSeason": 113.92,
+     "actSeason": 42.0
     }
    ]
   },
@@ -2671,10 +2671,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 90.26,
      "start": 63.05,
-     "livePts": 13.3,
+     "livePts": 12.05,
      "weekProj": 18.72,
      "projSeason": 246.74,
-     "actSeason": 77.92
+     "actSeason": 76.67
     },
     {
      "name": "Brock Purdy",
@@ -3109,10 +3109,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 85.91,
      "start": 81.4,
-     "livePts": 1.0,
+     "livePts": 4.4,
      "weekProj": 10.01,
      "projSeason": 129.93,
-     "actSeason": 40.1
+     "actSeason": 43.5
     },
     {
      "name": "Dontayvion Wicks",
@@ -3126,10 +3126,10 @@
      "acqUtc": "2026-09-17T13:35:48.423000Z",
      "own": 44.6,
      "start": 12.48,
-     "livePts": 4.3,
+     "livePts": 6.95,
      "weekProj": 9.12,
      "projSeason": 102.94,
-     "actSeason": 39.0
+     "actSeason": 41.65
     },
     {
      "name": "DeVonta Smith",
@@ -3220,7 +3220,7 @@
      "slotId": 23,
      "proTeamId": 21,
      "id": 4431545,
-     "injury": "QUESTIONABLE",
+     "injury": "OUT",
      "acq": "ADD",
      "acqUtc": "2026-10-07T07:43:59.650000Z",
      "own": 43.85,
@@ -3782,7 +3782,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 25.75,
-    "homeLive": 34.89
+    "homeLive": 38.29
    },
    {
     "away": 2,
