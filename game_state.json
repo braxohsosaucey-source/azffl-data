@@ -1,66 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T23:22:40.516Z",
+ "_pulledUtc": "2026-10-11T23:54:39.251Z",
  "week": 5,
  "games": [
-  {
-   "id": "401872991",
-   "name": "DET @ ARI",
-   "dateUtc": "2026-10-11T20:25Z",
-   "market": null,
-   "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "2:11 - 4th",
-   "period": 4,
-   "clock": "2:11",
-   "clockSec": 131.0,
-   "teams": [
-    {
-     "abbrev": "ARI",
-     "id": 22,
-     "home": true,
-     "score": 21
-    },
-    {
-     "abbrev": "DET",
-     "id": 8,
-     "home": false,
-     "score": 45
-    }
-   ],
-   "sit": {
-    "poss": 22,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872992",
-   "name": "SF @ SEA",
-   "dateUtc": "2026-10-11T20:25Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "6:55 - 4th",
-   "period": 4,
-   "clock": "6:55",
-   "clockSec": 415.0,
-   "teams": [
-    {
-     "abbrev": "SEA",
-     "id": 26,
-     "home": true,
-     "score": 29
-    },
-    {
-     "abbrev": "SF",
-     "id": 25,
-     "home": false,
-     "score": 29
-    }
-   ]
-  },
   {
    "id": "401872981",
    "name": "PHI VS JAX",
@@ -332,16 +274,70 @@
    ]
   },
   {
+   "id": "401872991",
+   "name": "DET @ ARI",
+   "dateUtc": "2026-10-11T20:25Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "ARI",
+     "id": 22,
+     "home": true,
+     "score": 21
+    },
+    {
+     "abbrev": "DET",
+     "id": 8,
+     "home": false,
+     "score": 45
+    }
+   ]
+  },
+  {
+   "id": "401872992",
+   "name": "SF @ SEA",
+   "dateUtc": "2026-10-11T20:25Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "SEA",
+     "id": 26,
+     "home": true,
+     "score": 29
+    },
+    {
+     "abbrev": "SF",
+     "id": 25,
+     "home": false,
+     "score": 32
+    }
+   ]
+  },
+  {
    "id": "401872993",
    "name": "BAL @ ATL",
    "dateUtc": "2026-10-12T00:20Z",
    "market": {
-    "total": 44.5,
+    "total": 43.5,
     "favorite": "ATL",
-    "spread": 3.5,
+    "spread": 3.0,
     "implied": {
-     "ATL": 24.0,
-     "BAL": 20.5
+     "ATL": 23.25,
+     "BAL": 20.25
     },
     "provider": "DraftKings"
    },
