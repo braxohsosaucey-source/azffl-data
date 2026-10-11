@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T18:48:39.685Z",
+ "_pulledUtc": "2026-10-11T19:18:40.032Z",
  "week": 5,
  "games": [
   {
@@ -11,16 +11,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:48 - 3rd",
+   "detail": "0:34 - 3rd",
    "period": 3,
-   "clock": "11:48",
-   "clockSec": 708.0,
+   "clock": "0:34",
+   "clockSec": 34.0,
    "teams": [
     {
      "abbrev": "GB",
      "id": 9,
      "home": true,
-     "score": 20
+     "score": 23
     },
     {
      "abbrev": "CHI",
@@ -30,8 +30,8 @@
     }
    ],
    "sit": {
-    "poss": 3,
-    "rz": false
+    "poss": 9,
+    "rz": true
    }
   },
   {
@@ -42,10 +42,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "9:30 - 3rd",
-   "period": 3,
-   "clock": "9:30",
-   "clockSec": 570.0,
+   "detail": "14:09 - 4th",
+   "period": 4,
+   "clock": "14:09",
+   "clockSec": 849.0,
    "teams": [
     {
      "abbrev": "TEN",
@@ -57,13 +57,9 @@
      "abbrev": "HOU",
      "id": 34,
      "home": false,
-     "score": 12
+     "score": 26
     }
-   ],
-   "sit": {
-    "poss": 34,
-    "rz": true
-   }
+   ]
   },
   {
    "id": "401872982",
@@ -73,16 +69,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "3:38 - 3rd",
+   "period": 3,
+   "clock": "3:38",
+   "clockSec": 218.0,
    "teams": [
     {
      "abbrev": "MIA",
      "id": 15,
      "home": true,
-     "score": 7
+     "score": 10
     },
     {
      "abbrev": "CIN",
@@ -90,7 +86,11 @@
      "home": false,
      "score": 21
     }
-   ]
+   ],
+   "sit": {
+    "poss": 4,
+    "rz": false
+   }
   },
   {
    "id": "401872986",
@@ -100,10 +100,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "12:58 - 3rd",
+   "detail": "3:51 - 3rd",
    "period": 3,
-   "clock": "12:58",
-   "clockSec": 778.0,
+   "clock": "3:51",
+   "clockSec": 231.0,
    "teams": [
     {
      "abbrev": "NE",
@@ -115,9 +115,13 @@
      "abbrev": "LV",
      "id": 13,
      "home": false,
-     "score": 7
+     "score": 10
     }
-   ]
+   ],
+   "sit": {
+    "poss": 17,
+    "rz": true
+   }
   },
   {
    "id": "401872987",
@@ -127,26 +131,26 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "7:35 - 3rd",
-   "period": 3,
-   "clock": "7:35",
-   "clockSec": 455.0,
+   "detail": "13:04 - 4th",
+   "period": 4,
+   "clock": "13:04",
+   "clockSec": 784.0,
    "teams": [
     {
      "abbrev": "NO",
      "id": 18,
      "home": true,
-     "score": 7
+     "score": 13
     },
     {
      "abbrev": "MIN",
      "id": 16,
      "home": false,
-     "score": 13
+     "score": 20
     }
    ],
    "sit": {
-    "poss": 16,
+    "poss": 18,
     "rz": false
    }
   },
@@ -158,10 +162,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:47 - 3rd",
-   "period": 3,
-   "clock": "11:47",
-   "clockSec": 707.0,
+   "detail": "14:57 - 4th",
+   "period": 4,
+   "clock": "14:57",
+   "clockSec": 897.0,
    "teams": [
     {
      "abbrev": "NYJ",
@@ -177,7 +181,7 @@
     }
    ],
    "sit": {
-    "poss": 5,
+    "poss": 20,
     "rz": false
    }
   },
@@ -189,27 +193,27 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:46 - 3rd",
-   "period": 3,
-   "clock": "11:46",
-   "clockSec": 706.0,
+   "detail": "15:00 - 4th",
+   "period": 4,
+   "clock": "15:00",
+   "clockSec": 900.0,
    "teams": [
     {
      "abbrev": "PIT",
      "id": 23,
      "home": true,
-     "score": 17
+     "score": 24
     },
     {
      "abbrev": "IND",
      "id": 11,
      "home": false,
-     "score": 13
+     "score": 19
     }
    ],
    "sit": {
     "poss": 11,
-    "rz": true
+    "rz": false
    }
   },
   {
@@ -220,24 +224,28 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "1:46 - 3rd",
+   "period": 3,
+   "clock": "1:46",
+   "clockSec": 106.0,
    "teams": [
     {
      "abbrev": "WSH",
      "id": 28,
      "home": true,
-     "score": 12
+     "score": 19
     },
     {
      "abbrev": "NYG",
      "id": 19,
      "home": false,
-     "score": 3
+     "score": 6
     }
-   ]
+   ],
+   "sit": {
+    "poss": 19,
+    "rz": true
+   }
   },
   {
    "id": "401872981",
