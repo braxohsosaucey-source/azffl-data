@@ -1,99 +1,12 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-11T20:50:39Z",
+ "_pulledUtc": "2026-10-11T21:20:39Z",
  "week": 5,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
-  {
-   "id": "401872988",
-   "away": "NYG",
-   "home": "WSH",
-   "kickoffUtc": "2026-10-11T17:00Z",
-   "state": "post",
-   "book": "DraftKings",
-   "lines": {
-    "src": "core",
-    "book": "DraftKings",
-    "details": "WSH -3.5",
-    "moneyline": {
-     "away": 150,
-     "home": -180
-    },
-    "moneylineOpen": {
-     "away": 114,
-     "home": -135
-    },
-    "spread": {
-     "away": 3.5,
-     "home": -3.5,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 41.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 48.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.383562,
-    "home": 0.616438,
-    "hold": 0.042857,
-    "fairAway": 160.71,
-    "fairHome": -160.71
-   },
-   "noVigOpen": {
-    "away": 0.448559,
-    "home": 0.551441,
-    "hold": 0.041758,
-    "fairAway": 122.94,
-    "fairHome": -122.94
-   },
-   "venue": {
-    "id": "3719",
-    "name": "Northwest Stadium",
-    "city": "Landover",
-    "state": "MD",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": null,
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-11T17:00",
-     "tempF": 66.9,
-     "windMph": 12.8,
-     "gustMph": 28.0,
-     "precipIn": 0.0,
-     "precipProb": 75
-    },
-    "game": {
-     "maxWindMph": 15.9,
-     "maxGustMph": 34.9,
-     "precipIn": 0.032,
-     "maxPrecipProb": 75
-    },
-    "src": "open-meteo",
-    "lat": 38.934,
-    "lon": -76.89664,
-    "t": "2026-10-11T15:38:40Z"
-   },
-   "wxNote": null
-  },
   {
    "id": "401872989",
    "away": "DEN",
@@ -160,7 +73,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "6",
-    "tempF": 71
+    "tempF": 69
    },
    "weather": {
     "kickoff": {
@@ -250,7 +163,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "7",
-    "tempF": 81
+    "tempF": 79
    },
    "weather": null,
    "wxNote": "indoor"
@@ -321,7 +234,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "2",
-    "tempF": 58
+    "tempF": 60
    },
    "weather": {
     "kickoff": {
@@ -1023,6 +936,93 @@
    "wxNote": null
   },
   {
+   "id": "401872988",
+   "away": "NYG",
+   "home": "WSH",
+   "kickoffUtc": "2026-10-11T17:00Z",
+   "state": "post",
+   "book": "DraftKings",
+   "lines": {
+    "src": "core",
+    "book": "DraftKings",
+    "details": "WSH -3.5",
+    "moneyline": {
+     "away": 150,
+     "home": -180
+    },
+    "moneylineOpen": {
+     "away": 114,
+     "home": -135
+    },
+    "spread": {
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "spreadOpen": {
+     "away": 2.5,
+     "home": -2.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 41.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 48.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.383562,
+    "home": 0.616438,
+    "hold": 0.042857,
+    "fairAway": 160.71,
+    "fairHome": -160.71
+   },
+   "noVigOpen": {
+    "away": 0.448559,
+    "home": 0.551441,
+    "hold": 0.041758,
+    "fairAway": 122.94,
+    "fairHome": -122.94
+   },
+   "venue": {
+    "id": "3719",
+    "name": "Northwest Stadium",
+    "city": "Landover",
+    "state": "MD",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-11T17:00",
+     "tempF": 66.9,
+     "windMph": 12.8,
+     "gustMph": 28.0,
+     "precipIn": 0.0,
+     "precipProb": 75
+    },
+    "game": {
+     "maxWindMph": 15.9,
+     "maxGustMph": 34.9,
+     "precipIn": 0.032,
+     "maxPrecipProb": 75
+    },
+    "src": "open-meteo",
+    "lat": 38.934,
+    "lon": -76.89664,
+    "t": "2026-10-11T15:38:40Z"
+   },
+   "wxNote": null
+  },
+  {
    "id": "401872993",
    "away": "BAL",
    "home": "ATL",
@@ -1227,7 +1227,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 67
+    "tempF": 68
    },
    "weather": {
     "kickoff": {
