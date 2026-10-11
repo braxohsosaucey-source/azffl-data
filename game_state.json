@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T16:44:41.006Z",
+ "_pulledUtc": "2026-10-11T17:16:42.943Z",
  "week": 5,
  "games": [
   {
@@ -9,58 +9,45 @@
    "dateUtc": "2026-10-11T13:30Z",
    "market": null,
    "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "6:35 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "6:35",
-   "clockSec": 395.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "JAX",
      "id": 30,
      "home": true,
-     "score": 10
+     "score": 19
     },
     {
      "abbrev": "PHI",
      "id": 21,
      "home": false,
-     "score": 14
+     "score": 17
     }
-   ],
-   "sit": {
-    "poss": 21,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401872990",
    "name": "CHI @ GB",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 46.5,
-    "favorite": "CHI",
-    "spread": 1.5,
-    "implied": {
-     "GB": 22.5,
-     "CHI": 24.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "5:51 - 1st",
+   "period": 1,
+   "clock": "5:51",
+   "clockSec": 351.0,
    "teams": [
     {
      "abbrev": "GB",
      "id": 9,
      "home": true,
-     "score": 0
+     "score": 7
     },
     {
      "abbrev": "CHI",
@@ -68,35 +55,30 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 9,
+    "rz": false
+   }
   },
   {
    "id": "401872984",
    "name": "HOU @ TEN",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 37.5,
-    "favorite": "HOU",
-    "spread": 6.5,
-    "implied": {
-     "TEN": 15.5,
-     "HOU": 22.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "9:01 - 1st",
+   "period": 1,
+   "clock": "9:01",
+   "clockSec": 541.0,
    "teams": [
     {
      "abbrev": "TEN",
      "id": 10,
      "home": true,
-     "score": 0
+     "score": 3
     },
     {
      "abbrev": "HOU",
@@ -104,29 +86,24 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 10,
+    "rz": false
+   }
   },
   {
    "id": "401872982",
    "name": "CIN @ MIA",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 44.5,
-    "favorite": "CIN",
-    "spread": 7.0,
-    "implied": {
-     "MIA": 18.75,
-     "CIN": 25.75
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "10:32 - 1st",
+   "period": 1,
+   "clock": "10:32",
+   "clockSec": 632.0,
    "teams": [
     {
      "abbrev": "MIA",
@@ -138,37 +115,32 @@
      "abbrev": "CIN",
      "id": 4,
      "home": false,
-     "score": 0
+     "score": 7
     }
-   ]
+   ],
+   "sit": {
+    "poss": 15,
+    "rz": true
+   }
   },
   {
    "id": "401872986",
    "name": "LV @ NE",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 45.5,
-    "favorite": "NE",
-    "spread": 3.5,
-    "implied": {
-     "NE": 24.5,
-     "LV": 21.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "10:11 - 1st",
+   "period": 1,
+   "clock": "10:11",
+   "clockSec": 611.0,
    "teams": [
     {
      "abbrev": "NE",
      "id": 17,
      "home": true,
-     "score": 0
+     "score": 7
     },
     {
      "abbrev": "LV",
@@ -176,29 +148,24 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 13,
+    "rz": false
+   }
   },
   {
    "id": "401872987",
    "name": "MIN @ NO",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 41.5,
-    "favorite": "MIN",
-    "spread": 2.5,
-    "implied": {
-     "NO": 19.5,
-     "MIN": 22.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": true,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "9:04 - 1st",
+   "period": 1,
+   "clock": "9:04",
+   "clockSec": 544.0,
    "teams": [
     {
      "abbrev": "NO",
@@ -210,7 +177,7 @@
      "abbrev": "MIN",
      "id": 16,
      "home": false,
-     "score": 0
+     "score": 3
     }
    ]
   },
@@ -218,29 +185,20 @@
    "id": "401872983",
    "name": "CLE @ NYJ",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 38.5,
-    "favorite": "NYJ",
-    "spread": 2.5,
-    "implied": {
-     "NYJ": 20.5,
-     "CLE": 18.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "9:12 - 1st",
+   "period": 1,
+   "clock": "9:12",
+   "clockSec": 552.0,
    "teams": [
     {
      "abbrev": "NYJ",
      "id": 20,
      "home": true,
-     "score": 0
+     "score": 7
     },
     {
      "abbrev": "CLE",
@@ -248,29 +206,24 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 5,
+    "rz": false
+   }
   },
   {
    "id": "401872985",
    "name": "IND @ PIT",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 41.5,
-    "favorite": "PIT",
-    "spread": 3.0,
-    "implied": {
-     "PIT": 22.25,
-     "IND": 19.25
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "8:57 - 1st",
+   "period": 1,
+   "clock": "8:57",
+   "clockSec": 537.0,
    "teams": [
     {
      "abbrev": "PIT",
@@ -282,7 +235,7 @@
      "abbrev": "IND",
      "id": 11,
      "home": false,
-     "score": 0
+     "score": 3
     }
    ]
   },
@@ -290,29 +243,20 @@
    "id": "401872988",
    "name": "NYG @ WSH",
    "dateUtc": "2026-10-11T17:00Z",
-   "market": {
-    "total": 41.5,
-    "favorite": "WSH",
-    "spread": 3.5,
-    "implied": {
-     "WSH": 22.5,
-     "NYG": 19.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/11 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "9:27 - 1st",
+   "period": 1,
+   "clock": "9:27",
+   "clockSec": 567.0,
    "teams": [
     {
      "abbrev": "WSH",
      "id": 28,
      "home": true,
-     "score": 0
+     "score": 6
     },
     {
      "abbrev": "NYG",
@@ -320,7 +264,11 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 19,
+    "rz": false
+   }
   },
   {
    "id": "401872989",
@@ -334,7 +282,7 @@
      "LAC": 19.0,
      "DEN": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -370,7 +318,7 @@
      "ARI": 24.5,
      "DET": 30.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -406,7 +354,7 @@
      "SEA": 24.75,
      "SF": 21.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -442,7 +390,7 @@
      "ATL": 23.25,
      "BAL": 20.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -505,7 +453,7 @@
      "LAR": 28.75,
      "BUF": 25.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
