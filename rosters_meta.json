@@ -1,6 +1,6 @@
 {
  "_source": "ESPN rosters (mRoster: ownership, injury, lineup slot), mPositionalRatings and proTeamSchedules_wl — written by every pass (pipeline/league_meta.py); data only",
- "_pulledUtc": "2026-10-11T15:42:41.047Z",
+ "_pulledUtc": "2026-10-11T16:14:40.887Z",
  "week": 5,
  "players": [
   {
@@ -141,7 +141,7 @@
    "slot": "BE",
    "slotId": 20,
    "proTeamId": 16,
-   "injury": "QUESTIONABLE",
+   "injury": "OUT",
    "own": 79.63,
    "start": 24.03,
    "bye": 6
@@ -349,7 +349,7 @@
    "slot": "RB",
    "slotId": 2,
    "proTeamId": 18,
-   "injury": "QUESTIONABLE",
+   "injury": "ACTIVE",
    "own": 68.88,
    "start": 25.1,
    "bye": 8
@@ -739,7 +739,7 @@
    "slot": "BE",
    "slotId": 20,
    "proTeamId": 3,
-   "injury": "QUESTIONABLE",
+   "injury": "OUT",
    "own": 86.79,
    "start": 3.78,
    "bye": 10
@@ -921,7 +921,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 28,
-   "injury": "QUESTIONABLE",
+   "injury": "ACTIVE",
    "own": 91.79,
    "start": 36.07,
    "bye": 7
@@ -1100,8 +1100,8 @@
    "name": "DJ Moore",
    "tid": 6,
    "pos": "WR",
-   "slot": "FLEX",
-   "slotId": 23,
+   "slot": "BE",
+   "slotId": 20,
    "proTeamId": 2,
    "injury": "QUESTIONABLE",
    "own": 93.46,
@@ -1200,19 +1200,6 @@
    "bye": 8
   },
   {
-   "id": 4683062,
-   "name": "Xavier Worthy",
-   "tid": 6,
-   "pos": "WR",
-   "slot": "BE",
-   "slotId": 20,
-   "proTeamId": 12,
-   "injury": "ACTIVE",
-   "own": 68.25,
-   "start": 2.16,
-   "bye": 5
-  },
-  {
    "id": 4360689,
    "name": "Tyler Shough",
    "tid": 6,
@@ -1276,6 +1263,19 @@
    "own": 45.17,
    "start": 0.08,
    "bye": null
+  },
+  {
+   "id": 4036133,
+   "name": "T.J. Hockenson",
+   "tid": 6,
+   "pos": "TE",
+   "slot": "FLEX",
+   "slotId": 23,
+   "proTeamId": 16,
+   "injury": "ACTIVE",
+   "own": 70.48,
+   "start": 37.44,
+   "bye": 6
   },
   {
    "id": 4429795,
@@ -1896,7 +1896,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 21,
-   "injury": "QUESTIONABLE",
+   "injury": "OUT",
    "own": 43.85,
    "start": 21.85,
    "bye": 10
