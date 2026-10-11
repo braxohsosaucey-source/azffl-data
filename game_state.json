@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T18:18:41.589Z",
+ "_pulledUtc": "2026-10-11T18:48:39.685Z",
  "week": 5,
  "games": [
   {
@@ -11,16 +11,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "0:14 - 2nd",
-   "period": 2,
-   "clock": "0:14",
-   "clockSec": 14.0,
+   "detail": "11:48 - 3rd",
+   "period": 3,
+   "clock": "11:48",
+   "clockSec": 708.0,
    "teams": [
     {
      "abbrev": "GB",
      "id": 9,
      "home": true,
-     "score": 14
+     "score": 20
     },
     {
      "abbrev": "CHI",
@@ -30,7 +30,7 @@
     }
    ],
    "sit": {
-    "poss": 9,
+    "poss": 3,
     "rz": false
    }
   },
@@ -42,10 +42,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:06 - 2nd",
-   "period": 2,
-   "clock": "1:06",
-   "clockSec": 66.0,
+   "detail": "9:30 - 3rd",
+   "period": 3,
+   "clock": "9:30",
+   "clockSec": 570.0,
    "teams": [
     {
      "abbrev": "TEN",
@@ -61,8 +61,8 @@
     }
    ],
    "sit": {
-    "poss": 10,
-    "rz": false
+    "poss": 34,
+    "rz": true
    }
   },
   {
@@ -73,10 +73,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "5:15 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "5:15",
-   "clockSec": 315.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "MIA",
@@ -88,13 +88,9 @@
      "abbrev": "CIN",
      "id": 4,
      "home": false,
-     "score": 14
+     "score": 21
     }
-   ],
-   "sit": {
-    "poss": 4,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401872986",
@@ -104,16 +100,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "2:00 - 2nd",
-   "period": 2,
-   "clock": "2:00",
-   "clockSec": 120.0,
+   "detail": "12:58 - 3rd",
+   "period": 3,
+   "clock": "12:58",
+   "clockSec": 778.0,
    "teams": [
     {
      "abbrev": "NE",
      "id": 17,
      "home": true,
-     "score": 14
+     "score": 28
     },
     {
      "abbrev": "LV",
@@ -121,11 +117,7 @@
      "home": false,
      "score": 7
     }
-   ],
-   "sit": {
-    "poss": 13,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401872987",
@@ -135,10 +127,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "7:35 - 3rd",
+   "period": 3,
+   "clock": "7:35",
+   "clockSec": 455.0,
    "teams": [
     {
      "abbrev": "NO",
@@ -150,9 +142,13 @@
      "abbrev": "MIN",
      "id": 16,
      "home": false,
-     "score": 6
+     "score": 13
     }
-   ]
+   ],
+   "sit": {
+    "poss": 16,
+    "rz": false
+   }
   },
   {
    "id": "401872983",
@@ -162,10 +158,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "2:00 - 2nd",
-   "period": 2,
-   "clock": "2:00",
-   "clockSec": 120.0,
+   "detail": "11:47 - 3rd",
+   "period": 3,
+   "clock": "11:47",
+   "clockSec": 707.0,
    "teams": [
     {
      "abbrev": "NYJ",
@@ -181,7 +177,7 @@
     }
    ],
    "sit": {
-    "poss": 20,
+    "poss": 5,
     "rz": false
    }
   },
@@ -193,16 +189,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:33 - 2nd",
-   "period": 2,
-   "clock": "1:33",
-   "clockSec": 93.0,
+   "detail": "11:46 - 3rd",
+   "period": 3,
+   "clock": "11:46",
+   "clockSec": 706.0,
    "teams": [
     {
      "abbrev": "PIT",
      "id": 23,
      "home": true,
-     "score": 14
+     "score": 17
     },
     {
      "abbrev": "IND",
@@ -212,8 +208,8 @@
     }
    ],
    "sit": {
-    "poss": 23,
-    "rz": false
+    "poss": 11,
+    "rz": true
    }
   },
   {
@@ -224,16 +220,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:58 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "1:58",
-   "clockSec": 118.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "WSH",
      "id": 28,
      "home": true,
-     "score": 9
+     "score": 12
     },
     {
      "abbrev": "NYG",
@@ -241,11 +237,7 @@
      "home": false,
      "score": 3
     }
-   ],
-   "sit": {
-    "poss": 28,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401872981",
@@ -315,12 +307,12 @@
    "name": "DET @ ARI",
    "dateUtc": "2026-10-11T20:25Z",
    "market": {
-    "total": 54.5,
+    "total": 55.5,
     "favorite": "DET",
     "spread": 5.5,
     "implied": {
-     "ARI": 24.5,
-     "DET": 30.0
+     "ARI": 25.0,
+     "DET": 30.5
     },
     "provider": "DraftKings"
    },
