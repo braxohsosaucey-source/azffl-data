@@ -1,6 +1,6 @@
 {
  "_source": "ESPN rosters (mRoster: ownership, injury, lineup slot), mPositionalRatings and proTeamSchedules_wl — written by every pass (pipeline/league_meta.py); data only",
- "_pulledUtc": "2026-10-11T19:48:39.619Z",
+ "_pulledUtc": "2026-10-11T20:18:41.193Z",
  "week": 5,
  "players": [
   {
@@ -489,8 +489,8 @@
    "name": "Lamar Jackson",
    "tid": 3,
    "pos": "QB",
-   "slot": "BE",
-   "slotId": 20,
+   "slot": "IR",
+   "slotId": 21,
    "proTeamId": 33,
    "injury": "OUT",
    "own": 99.25,
@@ -622,7 +622,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 23,
-   "injury": "OUT",
+   "injury": "QUESTIONABLE",
    "own": 34.18,
    "start": 15.5,
    "bye": 9
@@ -639,6 +639,19 @@
    "own": 19.32,
    "start": 13.25,
    "bye": 9
+  },
+  {
+   "id": 4686612,
+   "name": "Tre' Harris",
+   "tid": 3,
+   "pos": "WR",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 24,
+   "injury": "ACTIVE",
+   "own": 10.6,
+   "start": 4.5,
+   "bye": 7
   },
   {
    "id": 4426515,
@@ -1116,7 +1129,7 @@
    "slot": "RB",
    "slotId": 2,
    "proTeamId": 34,
-   "injury": "OUT",
+   "injury": "QUESTIONABLE",
    "own": 93.21,
    "start": 58.14,
    "bye": 8
@@ -1272,7 +1285,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 16,
-   "injury": "OUT",
+   "injury": "QUESTIONABLE",
    "own": 70.67,
    "start": 37.97,
    "bye": 6
