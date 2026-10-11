@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-11T17:46:44.610Z",
+ "_pulledUtc": "2026-10-11T18:18:41.589Z",
  "week": 5,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:03 - 2nd",
+   "detail": "0:14 - 2nd",
    "period": 2,
-   "clock": "11:03",
-   "clockSec": 663.0,
+   "clock": "0:14",
+   "clockSec": 14.0,
    "teams": [
     {
      "abbrev": "GB",
@@ -26,11 +26,11 @@
      "abbrev": "CHI",
      "id": 3,
      "home": false,
-     "score": 0
+     "score": 7
     }
    ],
    "sit": {
-    "poss": 3,
+    "poss": 9,
     "rz": false
    }
   },
@@ -42,10 +42,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "13:33 - 2nd",
+   "detail": "1:06 - 2nd",
    "period": 2,
-   "clock": "13:33",
-   "clockSec": 813.0,
+   "clock": "1:06",
+   "clockSec": 66.0,
    "teams": [
     {
      "abbrev": "TEN",
@@ -57,9 +57,13 @@
      "abbrev": "HOU",
      "id": 34,
      "home": false,
-     "score": 6
+     "score": 12
     }
-   ]
+   ],
+   "sit": {
+    "poss": 10,
+    "rz": false
+   }
   },
   {
    "id": "401872982",
@@ -69,10 +73,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 2nd",
+   "detail": "5:15 - 2nd",
    "period": 2,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "5:15",
+   "clockSec": 315.0,
    "teams": [
     {
      "abbrev": "MIA",
@@ -84,12 +88,12 @@
      "abbrev": "CIN",
      "id": 4,
      "home": false,
-     "score": 7
+     "score": 14
     }
    ],
    "sit": {
     "poss": 4,
-    "rz": true
+    "rz": false
    }
   },
   {
@@ -100,10 +104,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "14:37 - 2nd",
+   "detail": "2:00 - 2nd",
    "period": 2,
-   "clock": "14:37",
-   "clockSec": 877.0,
+   "clock": "2:00",
+   "clockSec": 120.0,
    "teams": [
     {
      "abbrev": "NE",
@@ -119,7 +123,7 @@
     }
    ],
    "sit": {
-    "poss": 17,
+    "poss": 13,
     "rz": false
    }
   },
@@ -131,22 +135,22 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "8:23 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "8:23",
-   "clockSec": 503.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "NO",
      "id": 18,
      "home": true,
-     "score": 6
+     "score": 7
     },
     {
      "abbrev": "MIN",
      "id": 16,
      "home": false,
-     "score": 3
+     "score": 6
     }
    ]
   },
@@ -158,10 +162,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 2nd",
+   "detail": "2:00 - 2nd",
    "period": 2,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "2:00",
+   "clockSec": 120.0,
    "teams": [
     {
      "abbrev": "NYJ",
@@ -173,7 +177,7 @@
      "abbrev": "CLE",
      "id": 5,
      "home": false,
-     "score": 3
+     "score": 6
     }
    ],
    "sit": {
@@ -189,10 +193,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "13:17 - 2nd",
+   "detail": "1:33 - 2nd",
    "period": 2,
-   "clock": "13:17",
-   "clockSec": 797.0,
+   "clock": "1:33",
+   "clockSec": 93.0,
    "teams": [
     {
      "abbrev": "PIT",
@@ -204,9 +208,13 @@
      "abbrev": "IND",
      "id": 11,
      "home": false,
-     "score": 6
+     "score": 13
     }
-   ]
+   ],
+   "sit": {
+    "poss": 23,
+    "rz": false
+   }
   },
   {
    "id": "401872988",
@@ -216,16 +224,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 2nd",
+   "detail": "1:58 - 2nd",
    "period": 2,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "1:58",
+   "clockSec": 118.0,
    "teams": [
     {
      "abbrev": "WSH",
      "id": 28,
      "home": true,
-     "score": 6
+     "score": 9
     },
     {
      "abbrev": "NYG",
@@ -271,12 +279,12 @@
    "name": "DEN @ LAC",
    "dateUtc": "2026-10-11T20:05Z",
    "market": {
-    "total": 41.5,
+    "total": 42.5,
     "favorite": "DEN",
     "spread": 3.5,
     "implied": {
-     "LAC": 19.0,
-     "DEN": 22.5
+     "LAC": 19.5,
+     "DEN": 23.0
     },
     "provider": "DraftKings"
    },
