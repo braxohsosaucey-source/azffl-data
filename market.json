@@ -1,12 +1,170 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-12T04:04:39Z",
+ "_pulledUtc": "2026-10-12T04:35:38Z",
  "week": 5,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
+  {
+   "id": "401872994",
+   "away": "BUF",
+   "home": "LAR",
+   "kickoffUtc": "2026-10-13T00:15Z",
+   "state": "pre",
+   "book": "DraftKings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "DraftKings",
+    "details": "LAR -3",
+    "moneyline": {
+     "away": 145,
+     "home": -175
+    },
+    "moneylineOpen": {
+     "away": 130,
+     "home": -155
+    },
+    "spread": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": 100,
+     "homeOdds": -120
+    },
+    "spreadOpen": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 54.5,
+     "over": -115,
+     "under": -105
+    },
+    "totalOpen": {
+     "line": 53.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.390764,
+    "home": 0.609236,
+    "hold": 0.044527,
+    "fairAway": 155.91,
+    "fairHome": -155.91
+   },
+   "noVigOpen": {
+    "away": 0.417007,
+    "home": 0.582993,
+    "hold": 0.042626,
+    "fairAway": 139.8,
+    "fairHome": -139.8
+   },
+   "venue": {
+    "id": "7065",
+    "name": "SoFi Stadium",
+    "city": "Inglewood",
+    "state": "CA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Intermittent clouds",
+    "tempF": 68
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-13T00:00",
+     "tempF": 61.7,
+     "windMph": 7.5,
+     "gustMph": 15.4,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 7.5,
+     "maxGustMph": 15.4,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 33.96168,
+    "lon": -118.35313,
+    "t": "2026-10-12T03:42:39Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401872980",
+   "away": "TB",
+   "home": "DAL",
+   "kickoffUtc": "2026-10-09T00:15Z",
+   "state": "post",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "core",
+    "book": "Draft Kings",
+    "details": "DAL -8.5",
+    "moneyline": {
+     "away": 380,
+     "home": -500
+    },
+    "moneylineOpen": {
+     "away": 170,
+     "home": -205
+    },
+    "spread": {
+     "away": 8.5,
+     "home": -8.5,
+     "awayOdds": -102,
+     "homeOdds": -118
+    },
+    "spreadOpen": {
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 49.5,
+     "over": -110,
+     "under": -110
+    },
+    "totalOpen": {
+     "line": 52.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.2,
+    "home": 0.8,
+    "hold": 0.041667,
+    "fairAway": 400.0,
+    "fairHome": -400.0
+   },
+   "noVigOpen": {
+    "away": 0.355271,
+    "home": 0.644729,
+    "hold": 0.042502,
+    "fairAway": 181.48,
+    "fairHome": -181.48
+   },
+   "venue": {
+    "id": "3687",
+    "name": "AT&T Stadium",
+    "city": "Arlington",
+    "state": "TX",
+    "country": "USA"
+   },
+   "indoor": true,
+   "espnWeather": null,
+   "weather": null,
+   "wxNote": "indoor"
+  },
   {
    "id": "401872981",
    "away": "PHI",
@@ -1080,164 +1238,6 @@
    "espnWeather": null,
    "weather": null,
    "wxNote": "indoor"
-  },
-  {
-   "id": "401872980",
-   "away": "TB",
-   "home": "DAL",
-   "kickoffUtc": "2026-10-09T00:15Z",
-   "state": "post",
-   "book": "Draft Kings",
-   "lines": {
-    "src": "core",
-    "book": "Draft Kings",
-    "details": "DAL -8.5",
-    "moneyline": {
-     "away": 380,
-     "home": -500
-    },
-    "moneylineOpen": {
-     "away": 170,
-     "home": -205
-    },
-    "spread": {
-     "away": 8.5,
-     "home": -8.5,
-     "awayOdds": -102,
-     "homeOdds": -118
-    },
-    "spreadOpen": {
-     "away": 3.5,
-     "home": -3.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 49.5,
-     "over": -110,
-     "under": -110
-    },
-    "totalOpen": {
-     "line": 52.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.2,
-    "home": 0.8,
-    "hold": 0.041667,
-    "fairAway": 400.0,
-    "fairHome": -400.0
-   },
-   "noVigOpen": {
-    "away": 0.355271,
-    "home": 0.644729,
-    "hold": 0.042502,
-    "fairAway": 181.48,
-    "fairHome": -181.48
-   },
-   "venue": {
-    "id": "3687",
-    "name": "AT&T Stadium",
-    "city": "Arlington",
-    "state": "TX",
-    "country": "USA"
-   },
-   "indoor": true,
-   "espnWeather": null,
-   "weather": null,
-   "wxNote": "indoor"
-  },
-  {
-   "id": "401872994",
-   "away": "BUF",
-   "home": "LAR",
-   "kickoffUtc": "2026-10-13T00:15Z",
-   "state": "pre",
-   "book": "Draft Kings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "Draft Kings",
-    "details": "LAR -3.5",
-    "moneyline": {
-     "away": 150,
-     "home": -180
-    },
-    "moneylineOpen": {
-     "away": 130,
-     "home": -155
-    },
-    "spread": {
-     "away": 3.5,
-     "home": -3.5,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 54.5,
-     "over": -115,
-     "under": -105
-    },
-    "totalOpen": {
-     "line": 53.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.383562,
-    "home": 0.616438,
-    "hold": 0.042857,
-    "fairAway": 160.71,
-    "fairHome": -160.71
-   },
-   "noVigOpen": {
-    "away": 0.417007,
-    "home": 0.582993,
-    "hold": 0.042626,
-    "fairAway": 139.8,
-    "fairHome": -139.8
-   },
-   "venue": {
-    "id": "7065",
-    "name": "SoFi Stadium",
-    "city": "Inglewood",
-    "state": "CA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Intermittent clouds",
-    "tempF": 68
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-13T00:00",
-     "tempF": 61.7,
-     "windMph": 7.5,
-     "gustMph": 15.4,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 7.5,
-     "maxGustMph": 15.4,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 33.96168,
-    "lon": -118.35313,
-    "t": "2026-10-12T03:42:39Z"
-   },
-   "wxNote": null
   }
  ],
  "injuriesUtc": "2026-10-12T03:54:36Z",
