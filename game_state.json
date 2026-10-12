@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-12T01:28:41.027Z",
+ "_pulledUtc": "2026-10-12T02:00:39.573Z",
  "week": 5,
  "games": [
   {
@@ -11,28 +11,24 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "2:28 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "2:28",
-   "clockSec": 148.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "ATL",
      "id": 1,
      "home": true,
-     "score": 7
+     "score": 14
     },
     {
      "abbrev": "BAL",
      "id": 33,
      "home": false,
-     "score": 6
+     "score": 9
     }
-   ],
-   "sit": {
-    "poss": 1,
-    "rz": true
-   }
+   ]
   },
   {
    "id": "401872981",
@@ -397,7 +393,7 @@
      "LAR": 29.0,
      "BUF": 25.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
