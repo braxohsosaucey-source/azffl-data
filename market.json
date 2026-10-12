@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-11T23:54:38Z",
+ "_pulledUtc": "2026-10-12T00:26:38Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -1018,25 +1018,25 @@
    "away": "BAL",
    "home": "ATL",
    "kickoffUtc": "2026-10-12T00:20Z",
-   "state": "pre",
-   "book": "DraftKings",
+   "state": "in",
+   "book": "Draft Kings",
    "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "ATL -3",
+    "src": "core",
+    "book": "Draft Kings",
+    "details": "ATL -3.5",
     "moneyline": {
-     "away": 145,
-     "home": -175
+     "away": 150,
+     "home": -180
     },
     "moneylineOpen": {
      "away": -218,
      "home": 180
     },
     "spread": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": 100,
-     "homeOdds": -120
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -125,
+     "homeOdds": 105
     },
     "spreadOpen": {
      "away": -4.5,
@@ -1045,9 +1045,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 43.5,
-     "over": -115,
-     "under": -105
+     "line": 44.5,
+     "over": -102,
+     "under": -118
     },
     "totalOpen": {
      "line": 48.5,
@@ -1056,11 +1056,11 @@
     }
    },
    "noVig": {
-    "away": 0.390764,
-    "home": 0.609236,
-    "hold": 0.044527,
-    "fairAway": 155.91,
-    "fairHome": -155.91
+    "away": 0.383562,
+    "home": 0.616438,
+    "hold": 0.042857,
+    "fairAway": 160.71,
+    "fairHome": -160.71
    },
    "noVigOpen": {
     "away": 0.657475,
@@ -1078,7 +1078,7 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Partly cloudy",
+    "text": "38",
     "tempF": 65
    },
    "weather": null,
