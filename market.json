@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-12T14:47:40Z",
+ "_pulledUtc": "2026-10-12T15:17:41Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -19,8 +19,8 @@
     "book": "Draft Kings",
     "details": "LAR -3.5",
     "moneyline": {
-     "away": 150,
-     "home": -180
+     "away": 145,
+     "home": -175
     },
     "moneylineOpen": {
      "away": 130,
@@ -50,11 +50,11 @@
     }
    },
    "noVig": {
-    "away": 0.383562,
-    "home": 0.616438,
-    "hold": 0.042857,
-    "fairAway": 160.71,
-    "fairHome": -160.71
+    "away": 0.390764,
+    "home": 0.609236,
+    "hold": 0.044527,
+    "fairAway": 155.91,
+    "fairHome": -155.91
    },
    "noVigOpen": {
     "away": 0.417007,
@@ -1240,7 +1240,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-12T14:17:41Z",
+ "injuriesUtc": "2026-10-12T15:17:41Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2755,6 +2755,30 @@
   ],
   "CHI": [
    {
+    "id": 4361748,
+    "name": "Anthony Johnson Jr.",
+    "pos": "S",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-12T15:04Z",
+    "body": "Undisclosed",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "OUT"
+   },
+   {
+    "id": 17427,
+    "name": "Cairo Santos",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:37Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4431611,
     "name": "Caleb Williams",
     "pos": "QB",
@@ -2765,18 +2789,6 @@
     "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4361748,
-    "name": "Anthony Johnson Jr.",
-    "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-12T13:45Z",
-    "body": "Undisclosed",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "OUT"
    },
    {
     "id": 4434153,
@@ -3041,21 +3053,21 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
+   }
+  ],
+  "CIN": [
    {
-    "id": 4258595,
-    "name": "Cole Kmet",
-    "pos": "TE",
+    "id": 4360234,
+    "name": "Evan McPherson",
+    "pos": "PK",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-10-06T04:01Z",
+    "date": "2026-10-12T14:59Z",
     "body": null,
     "side": null,
     "returnDate": null,
     "fantasy": null
-   }
-  ],
-  "CIN": [
+   },
    {
     "id": 3116389,
     "name": "Samaje Perine",
@@ -3309,18 +3321,6 @@
     "fantasy": null
    },
    {
-    "id": 4360234,
-    "name": "Evan McPherson",
-    "pos": "PK",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T04:06Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4384852,
     "name": "Dohnte Meyers",
     "pos": "WR",
@@ -3358,6 +3358,18 @@
    }
   ],
   "CLE": [
+   {
+    "id": 4258620,
+    "name": "Andre Szmyt",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:52Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4832800,
     "name": "Denzel Boston",
@@ -3641,18 +3653,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-03T02:14Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4569620,
-    "name": "Ronnie Hickman",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-03T02:12Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -4567,6 +4567,18 @@
   ],
   "GB": [
    {
+    "id": 4869461,
+    "name": "Trey Smack",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:41Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4429023,
     "name": "MarShawn Lloyd",
     "pos": "RB",
@@ -4853,21 +4865,21 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4361423,
-    "name": "Micah Parsons",
-    "pos": "DE",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-05T21:10Z",
-    "body": "Knee - ACL",
-    "side": "Left",
-    "returnDate": "2026-10-18",
-    "fantasy": "PUP-R"
    }
   ],
   "HOU": [
+   {
+    "id": 2971573,
+    "name": "Ka'imi Fairbairn",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:21Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 3117256,
     "name": "Dalton Schultz",
@@ -5155,18 +5167,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4366031,
-    "name": "Tank Dell",
-    "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-09T21:09Z",
-    "body": "Knee - ACL + MCL",
-    "side": "Left",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    }
   ],
   "IND": [
@@ -5473,6 +5473,18 @@
   ],
   "JAX": [
    {
+    "id": 4686361,
+    "name": "Cam Little",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:08Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3916433,
     "name": "Jakobi Meyers",
     "pos": "WR",
@@ -5759,18 +5771,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4683347,
-    "name": "Caleb Ransaw",
-    "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-07T00:42Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-15",
-    "fantasy": "IR"
    }
   ],
   "KC": [
@@ -6077,6 +6077,18 @@
   ],
   "LV": [
    {
+    "id": 4249087,
+    "name": "Matt Gay",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:27Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4428718,
     "name": "Tre Tucker",
     "pos": "WR",
@@ -6363,21 +6375,21 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4373956,
-    "name": "Jonah Laulu",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T18:47Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "LAC": [
+   {
+    "id": 4612826,
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T14:36Z",
+    "body": "Foot",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
    {
     "id": 4430968,
     "name": "Kimani Vidal",
@@ -6557,18 +6569,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4612826,
-    "name": "Ladd McConkey",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T18:49Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4248627,
@@ -6983,6 +6983,18 @@
   ],
   "MIA": [
    {
+    "id": 4243371,
+    "name": "Riley Patterson",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T15:08Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4685307,
     "name": "Kevin Coleman Jr.",
     "pos": "WR",
@@ -7269,21 +7281,21 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
+   }
+  ],
+  "MIN": [
    {
-    "id": 4566094,
-    "name": "Jacob Rodriguez",
-    "pos": "LB",
+    "id": 4567104,
+    "name": "Will Reichard",
+    "pos": "PK",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-10-07T01:12Z",
+    "date": "2026-10-12T15:13Z",
     "body": null,
     "side": null,
     "returnDate": null,
     "fantasy": null
-   }
-  ],
-  "MIN": [
+   },
    {
     "id": 3917315,
     "name": "Kyler Murray",
@@ -7525,18 +7537,6 @@
     "fantasy": null
    },
    {
-    "id": 4567104,
-    "name": "Will Reichard",
-    "pos": "PK",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T01:32Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4046537,
     "name": "Joshua Metellus",
     "pos": "S",
@@ -7586,6 +7586,30 @@
    }
   ],
   "NE": [
+   {
+    "id": 4569923,
+    "name": "Andy Borregales",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:31Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4432710,
+    "name": "TreVeyon Henderson",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T14:28Z",
+    "body": "Ankle",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
    {
     "id": 4695193,
     "name": "Efton Chism III",
@@ -7703,18 +7727,6 @@
     "date": "2026-10-11T19:31Z",
     "body": "Shoulder",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4432710,
-    "name": "TreVeyon Henderson",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-11T19:12Z",
-    "body": "Ankle",
-    "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -7870,18 +7882,6 @@
     "abbr": "IR",
     "date": "2026-10-11T00:36Z",
     "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "IR"
-   },
-   {
-    "id": 2991662,
-    "name": "Mack Hollins",
-    "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-10T20:09Z",
-    "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-11-08",
     "fantasy": "IR"
@@ -8196,7 +8196,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-12T13:45Z",
+    "date": "2026-10-12T15:04Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8493,6 +8493,30 @@
   ],
   "NYJ": [
    {
+    "id": 3124679,
+    "name": "Jason Sanders",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:55Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685248,
+    "name": "David Bailey",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:47Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4569371,
     "name": "Isaiah Williams",
     "pos": "WR",
@@ -8767,33 +8791,21 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3124679,
-    "name": "Jason Sanders",
-    "pos": "PK",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T03:55Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4361372,
-    "name": "Jeremy Ruckert",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-02T23:11Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "PHI": [
+   {
+    "id": 3050478,
+    "name": "Jake Elliott",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:13Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4870795,
     "name": "Makai Lemon",
@@ -9081,18 +9093,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4686273,
-    "name": "Quinyon Mitchell",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-09T00:31Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "PIT": [
@@ -9104,7 +9104,7 @@
     "abbr": "D",
     "date": "2026-10-12T13:04Z",
     "body": "Finger",
-    "side": "Not Specified",
+    "side": "Left",
     "returnDate": "2026-10-18",
     "fantasy": "DOUBTFUL"
    },
@@ -10305,6 +10305,18 @@
   ],
   "TEN": [
    {
+    "id": 3124084,
+    "name": "Joey Slye",
+    "pos": "PK",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T14:17Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4428557,
     "name": "Tyjae Spears",
     "pos": "RB",
@@ -10584,18 +10596,6 @@
     "id": 4879480,
     "name": "Drew Moss",
     "pos": "G",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T19:07Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4039160,
-    "name": "Kylen Granson",
-    "pos": "TE",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-05T19:07Z",
