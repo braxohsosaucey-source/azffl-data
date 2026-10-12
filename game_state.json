@@ -1,8 +1,71 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-12T04:04:41.551Z",
+ "_pulledUtc": "2026-10-12T04:35:39.843Z",
  "week": 5,
  "games": [
+  {
+   "id": "401872994",
+   "name": "BUF @ LAR",
+   "dateUtc": "2026-10-13T00:15Z",
+   "market": {
+    "total": 54.5,
+    "favorite": "LAR",
+    "spread": 3.0,
+    "implied": {
+     "LAR": 28.75,
+     "BUF": 25.75
+    },
+    "provider": "DraftKings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/12 - 8:15 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LAR",
+     "id": 14,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "BUF",
+     "id": 2,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401872980",
+   "name": "TB @ DAL",
+   "dateUtc": "2026-10-09T00:15Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "DAL",
+     "id": 6,
+     "home": true,
+     "score": 16
+    },
+    {
+     "abbrev": "TB",
+     "id": 27,
+     "home": false,
+     "score": 24
+    }
+   ]
+  },
   {
    "id": "401872981",
    "name": "PHI VS JAX",
@@ -351,69 +414,6 @@
      "id": 33,
      "home": false,
      "score": 30
-    }
-   ]
-  },
-  {
-   "id": "401872980",
-   "name": "TB @ DAL",
-   "dateUtc": "2026-10-09T00:15Z",
-   "market": null,
-   "indoor": true,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "DAL",
-     "id": 6,
-     "home": true,
-     "score": 16
-    },
-    {
-     "abbrev": "TB",
-     "id": 27,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
-  {
-   "id": "401872994",
-   "name": "BUF @ LAR",
-   "dateUtc": "2026-10-13T00:15Z",
-   "market": {
-    "total": 54.5,
-    "favorite": "LAR",
-    "spread": 3.5,
-    "implied": {
-     "LAR": 29.0,
-     "BUF": 25.5
-    },
-    "provider": "Draft Kings"
-   },
-   "indoor": false,
-   "state": "pre",
-   "completed": false,
-   "detail": "10/12 - 8:15 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "LAR",
-     "id": 14,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "BUF",
-     "id": 2,
-     "home": false,
-     "score": 0
     }
    ]
   }
