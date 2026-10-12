@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-12T13:07:40Z",
+ "_pulledUtc": "2026-10-12T13:38:45Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -1240,7 +1240,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-12T12:08:45Z",
+ "injuriesUtc": "2026-10-12T13:17:36Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2758,13 +2758,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-12T11:01Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-12T13:05Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4434153,
@@ -8196,7 +8196,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-12T12:00Z",
+    "date": "2026-10-12T13:05Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9097,6 +9097,18 @@
   ],
   "PIT": [
    {
+    "id": 4431492,
+    "name": "Roman Wilson",
+    "pos": "WR",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-12T13:05Z",
+    "body": "Finger",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4685261,
     "name": "Germie Bernard",
     "pos": "WR",
@@ -9164,18 +9176,6 @@
     "abbr": "Q",
     "date": "2026-10-11T18:49Z",
     "body": "Leg",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4431492,
-    "name": "Roman Wilson",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-11T18:47Z",
-    "body": "Finger",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
