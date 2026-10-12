@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-12T14:08:39Z",
+ "_pulledUtc": "2026-10-12T14:47:40Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -13,10 +13,10 @@
    "home": "LAR",
    "kickoffUtc": "2026-10-13T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "LAR -3.5",
     "moneyline": {
      "away": 150,
@@ -1240,7 +1240,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-12T13:17:36Z",
+ "injuriesUtc": "2026-10-12T14:17:41Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1547,6 +1547,18 @@
   ],
   "ATL": [
    {
+    "id": 4360423,
+    "name": "Michael Penix Jr.",
+    "pos": "QB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T13:22Z",
+    "body": "Ribs",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4360248,
     "name": "Kyle Pitts Sr.",
     "pos": "TE",
@@ -1593,18 +1605,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4360423,
-    "name": "Michael Penix Jr.",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-12T03:55Z",
-    "body": "Ribs",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4240596,
@@ -2755,12 +2755,24 @@
   ],
   "CHI": [
    {
+    "id": 4431611,
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-12T13:45Z",
+    "body": "Hamstring",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "INACTIVE"
+   },
+   {
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-12T13:05Z",
+    "date": "2026-10-12T13:45Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -2825,18 +2837,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4431611,
-    "name": "Caleb Williams",
-    "pos": "QB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-11T21:05Z",
-    "body": "Hamstring",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "INACTIVE"
    },
    {
     "id": 4242659,
@@ -7659,6 +7659,18 @@
     "fantasy": null
    },
    {
+    "id": 4685298,
+    "name": "Will Campbell",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T00:55Z",
+    "body": "Knee",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4613202,
     "name": "Kyle Williams",
     "pos": "WR",
@@ -7702,18 +7714,6 @@
     "abbr": "Q",
     "date": "2026-10-11T19:12Z",
     "body": "Ankle",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4685298,
-    "name": "Will Campbell",
-    "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-11T18:04Z",
-    "body": "Knee",
     "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
@@ -8196,7 +8196,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-12T13:05Z",
+    "date": "2026-10-12T13:45Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9102,7 +9102,7 @@
     "pos": "WR",
     "status": "Doubtful",
     "abbr": "D",
-    "date": "2026-10-12T13:05Z",
+    "date": "2026-10-12T13:04Z",
     "body": "Finger",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9399,6 +9399,18 @@
   ],
   "SF": [
    {
+    "id": 3126486,
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T13:14Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-19",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3040151,
     "name": "George Kittle",
     "pos": "TE",
@@ -9445,18 +9457,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3126486,
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-11T23:06Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4565200,
