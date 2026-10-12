@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-12T21:47:38Z",
+ "_pulledUtc": "2026-10-12T22:19:39Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -29,8 +29,8 @@
     "spread": {
      "away": 3.5,
      "home": -3.5,
-     "awayOdds": -118,
-     "homeOdds": -102
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": 3.0,
@@ -39,9 +39,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 54.5,
-     "over": -118,
-     "under": -102
+     "line": 55.5,
+     "over": -110,
+     "under": -110
     },
     "totalOpen": {
      "line": 53.5,
@@ -73,7 +73,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 67
+    "tempF": 64
    },
    "weather": {
     "kickoff": {
@@ -1240,7 +1240,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-12T20:56:34Z",
+ "injuriesUtc": "2026-10-12T22:19:39Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2151,6 +2151,18 @@
   ],
   "BUF": [
    {
+    "id": 3122168,
+    "name": "Trent Sherfield",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T20:59Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4832035,
     "name": "Davison Igbinosun",
     "pos": "CB",
@@ -2437,18 +2449,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-12",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4044133,
-    "name": "Sam Franklin Jr.",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T07:56Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "CAR": [
@@ -2760,11 +2760,35 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-12T20:44Z",
+    "date": "2026-10-12T22:13Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "OUT"
+   },
+   {
+    "id": 4240655,
+    "name": "Jonathan Garvin",
+    "pos": "DE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T21:55Z",
+    "body": "Undisclosed",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 15168,
+    "name": "Case Keenum",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T21:54Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4434153,
@@ -3029,56 +3053,32 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3916577,
-    "name": "Cam Lewis",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-07T23:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4954445,
-    "name": "Dillon Thieneman",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-07T02:49Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "CIN": [
-   {
-    "id": 4570546,
-    "name": "Swayze Bozeman",
-    "pos": "LB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-12T20:47Z",
-    "body": "Arm",
-    "side": "Right",
-    "returnDate": "2026-11-23",
-    "fantasy": "IR"
-   },
    {
     "id": 3050481,
     "name": "Tanner Hudson",
     "pos": "TE",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-12T19:02Z",
+    "date": "2026-10-12T22:03Z",
     "body": "Pectoral",
     "side": null,
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4570546,
+    "name": "Swayze Bozeman",
+    "pos": "LB",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-12T21:04Z",
+    "body": "Forearm",
+    "side": "Right",
+    "returnDate": "2026-11-23",
+    "fantasy": "IR"
    },
    {
     "id": 5092508,
@@ -3963,6 +3963,18 @@
   ],
   "DEN": [
    {
+    "id": 4603189,
+    "name": "Sai'vion Jones",
+    "pos": "DE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-12T20:52Z",
+    "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-10-15",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4372012,
     "name": "Pat Surtain II",
     "pos": "CB",
@@ -4249,18 +4261,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4603189,
-    "name": "Sai'vion Jones",
-    "pos": "DE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-28T18:25Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "DET": [
@@ -4412,13 +4412,13 @@
     "id": 4035434,
     "name": "Devin White",
     "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Doubtful",
+    "abbr": "D",
     "date": "2026-10-12T00:11Z",
     "body": "Forearm",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4431615,
@@ -6077,6 +6077,18 @@
   ],
   "LV": [
    {
+    "id": 4565908,
+    "name": "Tyler Scott",
+    "pos": "WR",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-12T20:55Z",
+    "body": "Undisclosed",
+    "side": "Not Specified",
+    "returnDate": "2026-11-15",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4382466,
     "name": "Jalen Nailor",
     "pos": "WR",
@@ -6359,18 +6371,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-07T01:50Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4685978,
-    "name": "Darrell Luter Jr.",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T18:47Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8196,7 +8196,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-12T20:52Z",
+    "date": "2026-10-12T22:09Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9399,6 +9399,30 @@
   ],
   "SF": [
    {
+    "id": 3895856,
+    "name": "Christian Kirk",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-12T21:48Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "IR-R"
+   },
+   {
+    "id": 4241807,
+    "name": "Garret Wallow",
+    "pos": "LB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-12T21:19Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
+    "fantasy": "OUT"
+   },
+   {
     "id": 3126486,
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
@@ -9406,8 +9430,8 @@
     "abbr": "O",
     "date": "2026-10-12T19:45Z",
     "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
+    "side": "Right",
+    "returnDate": "2026-11-08",
     "fantasy": "OUT"
    },
    {
@@ -9493,18 +9517,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-19",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4241807,
-    "name": "Garret Wallow",
-    "pos": "LB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-12T19:33Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "OUT"
    },
    {
     "id": 3916903,
@@ -9678,18 +9690,6 @@
     "id": 4243493,
     "name": "Keion White",
     "pos": "DE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T19:00Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 5086161,
-    "name": "Jaden Dugger",
-    "pos": "LB",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-04T19:00Z",
