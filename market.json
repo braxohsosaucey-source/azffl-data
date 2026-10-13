@@ -1,102 +1,12 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-13T03:36:44Z",
+ "_pulledUtc": "2026-10-13T04:08:39Z",
  "week": 5,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
-  {
-   "id": "401872994",
-   "away": "BUF",
-   "home": "LAR",
-   "kickoffUtc": "2026-10-13T00:15Z",
-   "state": "in",
-   "book": "DraftKings",
-   "lines": {
-    "src": "core",
-    "book": "DraftKings",
-    "details": "LAR -3.5",
-    "moneyline": {
-     "away": 154,
-     "home": -185
-    },
-    "moneylineOpen": {
-     "away": 130,
-     "home": -155
-    },
-    "spread": {
-     "away": 3.5,
-     "home": -3.5,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 55.5,
-     "over": -110,
-     "under": -110
-    },
-    "totalOpen": {
-     "line": 53.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.377533,
-    "home": 0.622467,
-    "hold": 0.042824,
-    "fairAway": 164.88,
-    "fairHome": -164.88
-   },
-   "noVigOpen": {
-    "away": 0.417007,
-    "home": 0.582993,
-    "hold": 0.042626,
-    "fairAway": 139.8,
-    "fairHome": -139.8
-   },
-   "venue": {
-    "id": "7065",
-    "name": "SoFi Stadium",
-    "city": "Inglewood",
-    "state": "CA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "35",
-    "tempF": 63
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-13T00:00",
-     "tempF": 65.2,
-     "windMph": 4.8,
-     "gustMph": 8.3,
-     "precipIn": 0.0,
-     "precipProb": 1
-    },
-    "game": {
-     "maxWindMph": 4.8,
-     "maxGustMph": 9.8,
-     "precipIn": 0.0,
-     "maxPrecipProb": 1
-    },
-    "src": "open-meteo",
-    "lat": 33.96168,
-    "lon": -118.35313,
-    "t": "2026-10-12T23:23:40Z"
-   },
-   "wxNote": null
-  },
   {
    "id": "401872980",
    "away": "TB",
@@ -1238,6 +1148,93 @@
    "espnWeather": null,
    "weather": null,
    "wxNote": "indoor"
+  },
+  {
+   "id": "401872994",
+   "away": "BUF",
+   "home": "LAR",
+   "kickoffUtc": "2026-10-13T00:15Z",
+   "state": "post",
+   "book": "DraftKings",
+   "lines": {
+    "src": "core",
+    "book": "DraftKings",
+    "details": "LAR -3.5",
+    "moneyline": {
+     "away": 154,
+     "home": -185
+    },
+    "moneylineOpen": {
+     "away": 130,
+     "home": -155
+    },
+    "spread": {
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "spreadOpen": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 55.5,
+     "over": -110,
+     "under": -110
+    },
+    "totalOpen": {
+     "line": 53.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.377533,
+    "home": 0.622467,
+    "hold": 0.042824,
+    "fairAway": 164.88,
+    "fairHome": -164.88
+   },
+   "noVigOpen": {
+    "away": 0.417007,
+    "home": 0.582993,
+    "hold": 0.042626,
+    "fairAway": 139.8,
+    "fairHome": -139.8
+   },
+   "venue": {
+    "id": "7065",
+    "name": "SoFi Stadium",
+    "city": "Inglewood",
+    "state": "CA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-13T00:00",
+     "tempF": 65.2,
+     "windMph": 4.8,
+     "gustMph": 8.3,
+     "precipIn": 0.0,
+     "precipProb": 1
+    },
+    "game": {
+     "maxWindMph": 4.8,
+     "maxGustMph": 9.8,
+     "precipIn": 0.0,
+     "maxPrecipProb": 1
+    },
+    "src": "open-meteo",
+    "lat": 33.96168,
+    "lon": -118.35313,
+    "t": "2026-10-12T23:23:40Z"
+   },
+   "wxNote": null
   }
  ],
  "injuriesUtc": "2026-10-13T03:28:35Z",
