@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-13T03:06:39Z",
+ "_pulledUtc": "2026-10-13T03:36:44Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -1240,7 +1240,7 @@
    "wxNote": "indoor"
   }
  ],
- "injuriesUtc": "2026-10-13T02:28:39Z",
+ "injuriesUtc": "2026-10-13T03:28:35Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2156,10 +2156,10 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-13T01:21Z",
+    "date": "2026-10-13T02:54Z",
     "body": "Back",
     "side": null,
-    "returnDate": "2026-10-12",
+    "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -2758,13 +2758,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-13T02:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-13T03:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 15168,
@@ -6149,18 +6149,6 @@
     "fantasy": null
    },
    {
-    "id": 4688835,
-    "name": "Roman Hemby",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T19:16Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4682488,
     "name": "Dalton Johnson",
     "pos": "S",
@@ -6293,18 +6281,6 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 4374187,
-    "name": "Deven Thompkins",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T00:49Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4432775,
     "name": "Dont'e Thornton Jr.",
     "pos": "WR",
@@ -6371,6 +6347,30 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-07T01:50Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685978,
+    "name": "Darrell Luter Jr.",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-05T18:47Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4373956,
+    "name": "Jonah Laulu",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-05T18:47Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7223,18 +7223,6 @@
     "fantasy": "PUP-R"
    },
    {
-    "id": 4248425,
-    "name": "Carlos Washington Jr.",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T00:38Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4894654,
     "name": "Kenneth Grant",
     "pos": "DT",
@@ -7277,6 +7265,18 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-09T20:34Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4034729,
+    "name": "Tucker Addington",
+    "pos": "LS",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-09T20:30Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8196,7 +8196,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-13T02:21Z",
+    "date": "2026-10-13T03:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
