@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-13T05:17:40Z",
+ "_pulledUtc": "2026-10-13T05:47:40Z",
  "week": 5,
  "books": [
   "Draft Kings",
@@ -1237,7 +1237,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-13T04:37:30Z",
+ "injuriesUtc": "2026-10-13T05:37:37Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2148,6 +2148,42 @@
   ],
   "BUF": [
    {
+    "id": 4385690,
+    "name": "Dalton Kincaid",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T05:27Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4373678,
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T05:22Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3918298,
+    "name": "Josh Allen",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T04:50Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4379399,
     "name": "James Cook III",
     "pos": "RB",
@@ -2352,18 +2388,6 @@
     "fantasy": null
    },
    {
-    "id": 4373678,
-    "name": "Khalil Shakir",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-06T00:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4429501,
     "name": "Ray Davis",
     "pos": "RB",
@@ -2400,36 +2424,12 @@
     "fantasy": null
    },
    {
-    "id": 4385690,
-    "name": "Dalton Kincaid",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T23:59Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4635008,
     "name": "Keon Coleman",
     "pos": "WR",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-04T23:53Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3918298,
-    "name": "Josh Allen",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T21:34Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -2757,7 +2757,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-13T04:00Z",
+    "date": "2026-10-13T05:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -6678,6 +6678,66 @@
   ],
   "LAR": [
    {
+    "id": 2573401,
+    "name": "Tyler Higbee",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T05:17Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4429096,
+    "name": "Blake Corum",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T05:13Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 16800,
+    "name": "Davante Adams",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T05:08Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4430737,
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T05:04Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 12483,
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T04:58Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4426515,
     "name": "Puka Nacua",
     "pos": "WR",
@@ -6882,18 +6942,6 @@
     "fantasy": "IR"
    },
    {
-    "id": 2573401,
-    "name": "Tyler Higbee",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-06T02:00Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4427752,
     "name": "Cam Lampkin",
     "pos": "CB",
@@ -6912,54 +6960,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-05T03:17Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4429096,
-    "name": "Blake Corum",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-05T03:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 12483,
-    "name": "Matthew Stafford",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T21:08Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 16800,
-    "name": "Davante Adams",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T21:06Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4430737,
-    "name": "Kyren Williams",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-04T20:37Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8193,7 +8193,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-13T04:00Z",
+    "date": "2026-10-13T05:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
