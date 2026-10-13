@@ -1,39 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-13T03:36:45.767Z",
+ "_pulledUtc": "2026-10-13T04:08:43.121Z",
  "week": 5,
  "games": [
-  {
-   "id": "401872994",
-   "name": "BUF @ LAR",
-   "dateUtc": "2026-10-13T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "5:41 - OT",
-   "period": 5,
-   "clock": "5:41",
-   "clockSec": 341.0,
-   "teams": [
-    {
-     "abbrev": "LAR",
-     "id": 14,
-     "home": true,
-     "score": 34
-    },
-    {
-     "abbrev": "BUF",
-     "id": 2,
-     "home": false,
-     "score": 34
-    }
-   ],
-   "sit": {
-    "poss": 14,
-    "rz": false
-   }
-  },
   {
    "id": "401872980",
    "name": "TB @ DAL",
@@ -409,6 +378,33 @@
      "id": 33,
      "home": false,
      "score": 30
+    }
+   ]
+  },
+  {
+   "id": "401872994",
+   "name": "BUF @ LAR",
+   "dateUtc": "2026-10-13T00:15Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final/OT",
+   "period": 5,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LAR",
+     "id": 14,
+     "home": true,
+     "score": 34
+    },
+    {
+     "abbrev": "BUF",
+     "id": 2,
+     "home": false,
+     "score": 37
     }
    ]
   }
