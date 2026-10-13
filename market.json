@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-13T20:13:38Z",
+ "_pulledUtc": "2026-10-13T20:57:39Z",
  "week": 6,
  "books": [
   "DraftKings"
@@ -195,8 +195,8 @@
     "book": "DraftKings",
     "details": "CHI -3",
     "moneyline": {
-     "away": -180,
-     "home": 150
+     "away": -175,
+     "home": 145
     },
     "moneylineOpen": {
      "away": -166,
@@ -226,11 +226,11 @@
     }
    },
    "noVig": {
-    "away": 0.616438,
-    "home": 0.383562,
-    "hold": 0.042857,
-    "fairAway": -160.71,
-    "fairHome": 160.71
+    "away": 0.609236,
+    "home": 0.390764,
+    "hold": 0.044527,
+    "fairAway": -155.91,
+    "fairHome": 155.91
    },
    "noVigOpen": {
     "away": 0.599639,
@@ -877,8 +877,8 @@
     "book": "DraftKings",
     "details": "KC -8.5",
     "moneyline": {
-     "away": 380,
-     "home": -500
+     "away": 390,
+     "home": -520
     },
     "moneylineOpen": {
      "away": 114,
@@ -908,11 +908,11 @@
     }
    },
    "noVig": {
-    "away": 0.2,
-    "home": 0.8,
-    "hold": 0.041667,
-    "fairAway": 400.0,
-    "fairHome": -400.0
+    "away": 0.195707,
+    "home": 0.804293,
+    "hold": 0.042791,
+    "fairAway": 410.97,
+    "fairHome": -410.97
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -1207,7 +1207,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-13T19:51:58Z",
+ "injuriesUtc": "2026-10-13T20:57:35Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2727,11 +2727,35 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-13T19:48Z",
+    "date": "2026-10-13T20:47Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "OUT"
+   },
+   {
+    "id": 4432804,
+    "name": "Shemar Turner",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-13T20:47Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3134690,
+    "name": "Montez Sweat",
+    "pos": "DE",
+    "status": "Suspension",
+    "abbr": "SUSP",
+    "date": "2026-10-13T20:16Z",
+    "body": "Suspension",
+    "side": "Not Specified",
+    "returnDate": "2026-11-02",
+    "fantasy": "RESERVE-SUS"
    },
    {
     "id": 4431611,
@@ -2938,18 +2962,6 @@
     "fantasy": null
    },
    {
-    "id": 4432804,
-    "name": "Shemar Turner",
-    "pos": "DT",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-10T19:58Z",
-    "body": "Knee - ACL",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "PUP-R"
-   },
-   {
     "id": 4361093,
     "name": "Kyler Gordon",
     "pos": "CB",
@@ -3004,18 +3016,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-07T23:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4954445,
-    "name": "Dillon Thieneman",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-07T02:49Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -3326,6 +3326,18 @@
   ],
   "CLE": [
    {
+    "id": 4601080,
+    "name": "Raheim Sanders",
+    "pos": "RB",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-13T20:36Z",
+    "body": "Hip",
+    "side": "Not Specified",
+    "returnDate": "2026-11-15",
+    "fantasy": "IR"
+   },
+   {
     "id": 4241424,
     "name": "Tylan Wallace",
     "pos": "WR",
@@ -3513,18 +3525,6 @@
     "abbr": "Q",
     "date": "2026-10-11T20:48Z",
     "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4601080,
-    "name": "Raheim Sanders",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-11T20:01Z",
-    "body": "Hip",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
@@ -5443,13 +5443,13 @@
     "id": 4692525,
     "name": "Anton Harrison",
     "pos": "OT",
-    "status": "Out",
-    "abbr": "O",
+    "status": "Injured Reserve",
+    "abbr": "IR",
     "date": "2026-10-13T19:12Z",
     "body": "Knee",
     "side": "Right",
-    "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "returnDate": "2026-11-22",
+    "fantasy": "IR"
    },
    {
     "id": 2970716,
@@ -6648,6 +6648,18 @@
   ],
   "LAR": [
    {
+    "id": 4036135,
+    "name": "Alaric Jackson",
+    "pos": "OT",
+    "status": "Suspension",
+    "abbr": "SUSP",
+    "date": "2026-10-13T20:46Z",
+    "body": "Suspension",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "RESERVE-SUS"
+   },
+   {
     "id": 4574716,
     "name": "Harrison Mevis",
     "pos": "PK",
@@ -6930,18 +6942,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-05T18:50Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3919510,
-    "name": "Alex Bachman",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-03T23:35Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8163,7 +8163,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-13T19:41Z",
+    "date": "2026-10-13T20:36Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8762,6 +8762,18 @@
   ],
   "PHI": [
    {
+    "id": 4571162,
+    "name": "Jalyx Hunt",
+    "pos": "LB",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-13T20:28Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4241478,
     "name": "DeVonta Smith",
     "pos": "WR",
@@ -8832,18 +8844,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4571162,
-    "name": "Jalyx Hunt",
-    "pos": "LB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-13T15:31Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 15835,
@@ -9755,13 +9755,13 @@
     "id": 3929636,
     "name": "Irv Charles",
     "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
+    "status": "Active",
+    "abbr": "A",
     "date": "2026-10-12T23:18Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-15",
-    "fantasy": "IR-R"
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 2971622,
