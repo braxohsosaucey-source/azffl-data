@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-14T15:45:39.416Z",
+ "_pulledUtc": "2026-10-14T16:29:38.048Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 6,
@@ -765,14 +765,15 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 7,
-    "drops": 6,
+    "acquisitions": 10,
+    "drops": 7,
     "trades": 1,
-    "moveToActive": 16,
+    "moveToActive": 19,
     "acquisitionBudgetSpent": 7,
     "matchupAcquisitionTotals": {
      "3": 4,
-     "5": 3
+     "5": 3,
+     "6": 3
     }
    },
    "roster": [
@@ -1084,21 +1085,55 @@
      "actSeason": 81.91
     },
     {
-     "name": "Tre' Harris",
+     "name": "Mike Gesicki",
+     "pos": "TE",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 4,
+     "id": 3116164,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-14T16:14:51.673000Z",
+     "own": 19.54,
+     "start": 4.6,
+     "livePts": null,
+     "weekProj": 0.0,
+     "projSeason": 70.77,
+     "actSeason": 48.9
+    },
+    {
+     "name": "Adonai Mitchell",
      "pos": "WR",
      "slot": "BE",
      "slotId": 20,
-     "proTeamId": 24,
-     "id": 4686612,
-     "injury": "DOUBTFUL",
+     "proTeamId": 20,
+     "id": 4597500,
+     "injury": "QUESTIONABLE",
      "acq": "ADD",
-     "acqUtc": "2026-10-11T19:55:23.980000Z",
-     "own": 6.75,
-     "start": 1.53,
+     "acqUtc": "2026-10-14T16:20:23.825000Z",
+     "own": 21.33,
+     "start": 1.31,
      "livePts": null,
-     "weekProj": 0.0,
-     "projSeason": 62.24,
-     "actSeason": 33.75
+     "weekProj": 8.51,
+     "projSeason": 104.95,
+     "actSeason": 19.05
+    },
+    {
+     "name": "Germie Bernard",
+     "pos": "WR",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 23,
+     "id": 4685261,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-14T16:27:00.740000Z",
+     "own": 30.35,
+     "start": 10.73,
+     "livePts": null,
+     "weekProj": 9.57,
+     "projSeason": 103.26,
+     "actSeason": 24.15
     }
    ]
   },
@@ -1120,16 +1155,17 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 11,
-    "drops": 10,
+    "acquisitions": 13,
+    "drops": 12,
     "trades": 0,
-    "moveToActive": 20,
+    "moveToActive": 22,
     "acquisitionBudgetSpent": 62,
     "matchupAcquisitionTotals": {
      "2": 1,
      "3": 5,
      "4": 4,
-     "5": 1
+     "5": 1,
+     "6": 2
     }
    },
    "roster": [
@@ -1390,23 +1426,6 @@
      }
     },
     {
-     "name": "Kenyon Sadiq",
-     "pos": "TE",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 20,
-     "id": 5083315,
-     "injury": "QUESTIONABLE",
-     "acq": "ADD",
-     "acqUtc": "2026-09-30T07:35:33.139000Z",
-     "own": 41.61,
-     "start": 8.32,
-     "livePts": null,
-     "weekProj": 5.64,
-     "projSeason": 69.09,
-     "actSeason": 35.15
-    },
-    {
      "name": "Braelon Allen",
      "pos": "RB",
      "slot": "BE",
@@ -1437,8 +1456,8 @@
     {
      "name": "Will Reichard",
      "pos": "K",
-     "slot": "K",
-     "slotId": 17,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 16,
      "id": 4567104,
      "injury": "ACTIVE",
@@ -1452,21 +1471,38 @@
      "actSeason": 74.3
     },
     {
-     "name": "Bengals D/ST",
+     "name": "Jets D/ST",
      "pos": "D/ST",
      "slot": "D/ST",
      "slotId": 16,
-     "proTeamId": 4,
-     "id": -16004,
+     "proTeamId": 20,
+     "id": -16020,
      "injury": null,
      "acq": "ADD",
-     "acqUtc": "2026-10-07T16:28:41.770000Z",
-     "own": 32.72,
-     "start": 20.7,
+     "acqUtc": "2026-10-14T16:16:30.742000Z",
+     "own": 29.73,
+     "start": 25.69,
      "livePts": null,
-     "weekProj": 0.0,
-     "projSeason": 63.95,
-     "actSeason": 40.0
+     "weekProj": 5.29,
+     "projSeason": 74.81,
+     "actSeason": 37.0
+    },
+    {
+     "name": "Harrison Butker",
+     "pos": "K",
+     "slot": "K",
+     "slotId": 17,
+     "proTeamId": 12,
+     "id": 3055899,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-14T16:18:01.534000Z",
+     "own": 53.75,
+     "start": 33.12,
+     "livePts": null,
+     "weekProj": 9.66,
+     "projSeason": 122.31,
+     "actSeason": 34.5
     }
    ]
   },
