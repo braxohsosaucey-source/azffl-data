@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-14T04:56:10.730Z",
+ "_pulledUtc": "2026-10-14T05:28:25.926Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 6,
@@ -29,7 +29,14 @@
     "drops": 11,
     "trades": 0,
     "moveToActive": 17,
-    "acquisitionBudgetSpent": 78
+    "acquisitionBudgetSpent": 78,
+    "matchupAcquisitionTotals": {
+     "1": 2,
+     "2": 3,
+     "3": 1,
+     "4": 5,
+     "5": 1
+    }
    },
    "roster": [
     {
@@ -383,7 +390,14 @@
     "drops": 9,
     "trades": 1,
     "moveToActive": 36,
-    "acquisitionBudgetSpent": 100
+    "acquisitionBudgetSpent": 100,
+    "matchupAcquisitionTotals": {
+     "1": 1,
+     "2": 1,
+     "3": 4,
+     "4": 2,
+     "5": 3
+    }
    },
    "roster": [
     {
@@ -754,7 +768,11 @@
     "drops": 6,
     "trades": 1,
     "moveToActive": 16,
-    "acquisitionBudgetSpent": 7
+    "acquisitionBudgetSpent": 7,
+    "matchupAcquisitionTotals": {
+     "3": 4,
+     "5": 3
+    }
    },
    "roster": [
     {
@@ -1105,7 +1123,13 @@
     "drops": 10,
     "trades": 0,
     "moveToActive": 20,
-    "acquisitionBudgetSpent": 62
+    "acquisitionBudgetSpent": 62,
+    "matchupAcquisitionTotals": {
+     "2": 1,
+     "3": 5,
+     "4": 4,
+     "5": 1
+    }
    },
    "roster": [
     {
@@ -1467,7 +1491,11 @@
     "drops": 2,
     "trades": 0,
     "moveToActive": 8,
-    "acquisitionBudgetSpent": 0
+    "acquisitionBudgetSpent": 0,
+    "matchupAcquisitionTotals": {
+     "2": 1,
+     "4": 1
+    }
    },
    "roster": [
     {
@@ -1779,7 +1807,14 @@
     "drops": 9,
     "trades": 0,
     "moveToActive": 10,
-    "acquisitionBudgetSpent": 60
+    "acquisitionBudgetSpent": 60,
+    "matchupAcquisitionTotals": {
+     "1": 2,
+     "2": 2,
+     "3": 4,
+     "4": 3,
+     "5": 1
+    }
    },
    "roster": [
     {
@@ -2175,7 +2210,11 @@
     "drops": 2,
     "trades": 0,
     "moveToActive": 13,
-    "acquisitionBudgetSpent": 1
+    "acquisitionBudgetSpent": 1,
+    "matchupAcquisitionTotals": {
+     "2": 1,
+     "3": 2
+    }
    },
    "roster": [
     {
@@ -2540,7 +2579,13 @@
     "drops": 12,
     "trades": 1,
     "moveToActive": 12,
-    "acquisitionBudgetSpent": 0
+    "acquisitionBudgetSpent": 0,
+    "matchupAcquisitionTotals": {
+     "2": 3,
+     "3": 4,
+     "4": 3,
+     "5": 3
+    }
    },
    "roster": [
     {
@@ -2871,7 +2916,13 @@
     "drops": 9,
     "trades": 1,
     "moveToActive": 36,
-    "acquisitionBudgetSpent": 48
+    "acquisitionBudgetSpent": 48,
+    "matchupAcquisitionTotals": {
+     "2": 3,
+     "3": 2,
+     "4": 4,
+     "5": 2
+    }
    },
    "roster": [
     {
@@ -3253,7 +3304,8 @@
     "drops": 0,
     "trades": 0,
     "moveToActive": 7,
-    "acquisitionBudgetSpent": 0
+    "acquisitionBudgetSpent": 0,
+    "matchupAcquisitionTotals": {}
    },
    "roster": [
     {
@@ -4638,6 +4690,20 @@
    "22": 0,
    "23": 3,
    "24": 0
+  },
+  "acquisition": {
+   "acquisitionBudget": 100,
+   "minimumBid": 0,
+   "acquisitionType": "WAIVERS_TRADITIONAL",
+   "waiverProcessDays": [
+    "MONDAY",
+    "WEDNESDAY",
+    "THURSDAY",
+    "FRIDAY",
+    "SATURDAY",
+    "SUNDAY"
+   ],
+   "waiverHours": 24
   }
  },
  "rules": {
