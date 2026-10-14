@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-14T15:45:39.416Z",
+ "_pulledUtc": "2026-10-14T16:29:38.048Z",
  "_matchupPeriod": 6,
  "_scoringPeriodId": 6,
  "_budget": 100,
@@ -14,9 +14,9 @@
  "leagueTotals": {
   "spent": 395,
   "remaining": 605,
-  "acquisitionsSeason": 88,
-  "dropsSeason": 75,
-  "acquisitionsThisPeriod": 6,
+  "acquisitionsSeason": 93,
+  "dropsSeason": 78,
+  "acquisitionsThisPeriod": 11,
   "managersWhoHaveSpent": 9
  },
  "teams": [
@@ -64,12 +64,13 @@
    "manager": "David Carrier",
    "spent": 7,
    "remaining": 93,
-   "acquisitionsSeason": 7,
-   "dropsSeason": 6,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsSeason": 10,
+   "dropsSeason": 7,
+   "acquisitionsThisPeriod": 3,
    "acquisitionsByMatchupPeriod": {
     "3": 4,
-    "5": 3
+    "5": 3,
+    "6": 3
    }
   },
   {
@@ -79,14 +80,15 @@
    "manager": "Ben Castelli",
    "spent": 62,
    "remaining": 38,
-   "acquisitionsSeason": 11,
-   "dropsSeason": 10,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsSeason": 13,
+   "dropsSeason": 12,
+   "acquisitionsThisPeriod": 2,
    "acquisitionsByMatchupPeriod": {
     "2": 1,
     "3": 5,
     "4": 4,
-    "5": 1
+    "5": 1,
+    "6": 2
    }
   },
   {
