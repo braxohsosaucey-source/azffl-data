@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-14T07:03:11.491Z",
+ "_pulledUtc": "2026-10-14T08:04:19.047Z",
  "_matchupPeriod": 6,
  "_scoringPeriodId": 6,
  "_budget": 100,
@@ -12,12 +12,12 @@
   "No per-claim bid amounts: this pass reads no transaction rows (B-243)."
  ],
  "leagueTotals": {
-  "spent": 356,
-  "remaining": 644,
-  "acquisitionsSeason": 82,
-  "dropsSeason": 70,
-  "acquisitionsThisPeriod": 0,
-  "managersWhoHaveSpent": 7
+  "spent": 395,
+  "remaining": 605,
+  "acquisitionsSeason": 88,
+  "dropsSeason": 75,
+  "acquisitionsThisPeriod": 6,
+  "managersWhoHaveSpent": 9
  },
  "teams": [
   {
@@ -25,17 +25,18 @@
    "team": "THE NgomaFootballTeam 🤑💸💵",
    "abbrev": "NFT",
    "manager": "Brastone Ngoma",
-   "spent": 78,
-   "remaining": 22,
-   "acquisitionsSeason": 12,
-   "dropsSeason": 11,
-   "acquisitionsThisPeriod": 0,
+   "spent": 80,
+   "remaining": 20,
+   "acquisitionsSeason": 13,
+   "dropsSeason": 12,
+   "acquisitionsThisPeriod": 1,
    "acquisitionsByMatchupPeriod": {
     "1": 2,
     "2": 3,
     "3": 1,
     "4": 5,
-    "5": 1
+    "5": 1,
+    "6": 1
    }
   },
   {
@@ -93,14 +94,15 @@
    "team": "No Chuck Given ",
    "abbrev": "NCg",
    "manager": "Chuck Sutton",
-   "spent": 0,
-   "remaining": 100,
-   "acquisitionsSeason": 2,
-   "dropsSeason": 2,
-   "acquisitionsThisPeriod": 0,
+   "spent": 5,
+   "remaining": 95,
+   "acquisitionsSeason": 3,
+   "dropsSeason": 3,
+   "acquisitionsThisPeriod": 1,
    "acquisitionsByMatchupPeriod": {
     "2": 1,
-    "4": 1
+    "4": 1,
+    "6": 1
    }
   },
   {
@@ -141,16 +143,17 @@
    "team": "Are you Shedeur she's 18?",
    "abbrev": "Pn15",
    "manager": "Caophi Nguyen",
-   "spent": 0,
-   "remaining": 100,
-   "acquisitionsSeason": 13,
-   "dropsSeason": 12,
-   "acquisitionsThisPeriod": 0,
+   "spent": 32,
+   "remaining": 68,
+   "acquisitionsSeason": 17,
+   "dropsSeason": 15,
+   "acquisitionsThisPeriod": 4,
    "acquisitionsByMatchupPeriod": {
     "2": 3,
     "3": 4,
     "4": 3,
-    "5": 3
+    "5": 3,
+    "6": 4
    }
   },
   {
