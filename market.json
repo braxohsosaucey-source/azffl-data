@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-15T15:10:45Z",
+ "_pulledUtc": "2026-10-15T15:55:55Z",
  "week": 6,
  "books": [
   "DraftKings"
@@ -39,8 +39,8 @@
     },
     "total": {
      "line": 40.5,
-     "over": -118,
-     "under": -102
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 43.5,
@@ -718,8 +718,8 @@
     },
     "total": {
      "line": 39.5,
-     "over": -115,
-     "under": -105
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 45.5,
@@ -1038,8 +1038,8 @@
     "book": "DraftKings",
     "details": "GB -1.5",
     "moneyline": {
-     "away": 102,
-     "home": -122
+     "away": 100,
+     "home": -120
     },
     "moneylineOpen": {
      "away": 140,
@@ -1069,11 +1069,11 @@
     }
    },
    "noVig": {
-    "away": 0.473913,
-    "home": 0.526087,
-    "hold": 0.044599,
-    "fairAway": 111.01,
-    "fairHome": -111.01
+    "away": 0.478261,
+    "home": 0.521739,
+    "hold": 0.045455,
+    "fairAway": 109.09,
+    "fairHome": -109.09
    },
    "noVigOpen": {
     "away": 0.400361,
@@ -1207,7 +1207,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-15T14:27:35Z",
+ "injuriesUtc": "2026-10-15T15:33:19Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2727,7 +2727,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-15T14:01Z",
+    "date": "2026-10-15T15:01Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8163,11 +8163,23 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-15T14:01Z",
+    "date": "2026-10-15T15:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4433970,
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-15T14:28Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4430261,
@@ -8428,18 +8440,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-11T21:52Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4433970,
-    "name": "J.J. McCarthy",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T16:07Z",
     "body": null,
     "side": null,
     "returnDate": null,
