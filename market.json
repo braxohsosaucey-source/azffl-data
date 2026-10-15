@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-15T05:35:41Z",
+ "_pulledUtc": "2026-10-15T07:05:40Z",
  "week": 6,
  "books": [
   "DraftKings"
@@ -1207,7 +1207,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-15T04:52:29Z",
+ "injuriesUtc": "2026-10-15T07:05:44Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2727,7 +2727,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-15T04:01Z",
+    "date": "2026-10-15T06:00Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -3386,18 +3386,6 @@
     "fantasy": "DOUBTFUL"
    },
    {
-    "id": 4870653,
-    "name": "KC Concepcion",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T21:48Z",
-    "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 3040471,
     "name": "Maliek Collins",
     "pos": "DT",
@@ -3442,6 +3430,18 @@
     "date": "2026-10-14T21:30Z",
     "body": "Foot",
     "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4870653,
+    "name": "KC Concepcion",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-14T16:02Z",
+    "body": "Concussion",
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -6068,18 +6068,6 @@
     "fantasy": "IR-R"
    },
    {
-    "id": 4890973,
-    "name": "Ashton Jeanty",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-14T23:54Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 3045172,
     "name": "Folorunso Fatukasi",
     "pos": "DT",
@@ -6126,6 +6114,18 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4890973,
+    "name": "Ashton Jeanty",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-14T18:48Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4241983,
@@ -6483,7 +6483,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-14T22:25Z",
+    "date": "2026-10-14T19:11Z",
     "body": "Foot",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8163,7 +8163,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-15T04:01Z",
+    "date": "2026-10-15T06:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
