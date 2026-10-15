@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-14T23:47:31.840Z",
+ "_pulledUtc": "2026-10-15T00:30:40.137Z",
  "_matchupPeriod": 6,
  "_scoringPeriodId": 6,
  "_budget": 100,
@@ -14,9 +14,9 @@
  "leagueTotals": {
   "spent": 395,
   "remaining": 605,
-  "acquisitionsSeason": 94,
+  "acquisitionsSeason": 95,
   "dropsSeason": 80,
-  "acquisitionsThisPeriod": 12,
+  "acquisitionsThisPeriod": 13,
   "managersWhoHaveSpent": 9
  },
  "teams": [
@@ -114,15 +114,16 @@
    "manager": "Carter Moldenhauer",
    "spent": 60,
    "remaining": 40,
-   "acquisitionsSeason": 12,
+   "acquisitionsSeason": 13,
    "dropsSeason": 10,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsThisPeriod": 1,
    "acquisitionsByMatchupPeriod": {
     "1": 2,
     "2": 2,
     "3": 4,
     "4": 3,
-    "5": 1
+    "5": 1,
+    "6": 1
    }
   },
   {
