@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-15T19:32:44Z",
+ "_pulledUtc": "2026-10-15T20:15:53Z",
  "week": 6,
  "books": [
   "Draft Kings"
@@ -607,8 +607,8 @@
     "book": "Draft Kings",
     "details": "CAR -3.5",
     "moneyline": {
-     "away": -185,
-     "home": 154
+     "away": -180,
+     "home": 150
     },
     "moneylineOpen": {
      "away": 230,
@@ -638,11 +638,11 @@
     }
    },
    "noVig": {
-    "away": 0.622467,
-    "home": 0.377533,
-    "hold": 0.042824,
-    "fairAway": -164.88,
-    "fairHome": 164.88
+    "away": 0.616438,
+    "home": 0.383562,
+    "hold": 0.042857,
+    "fairAway": -160.71,
+    "fairHome": 160.71
    },
    "noVigOpen": {
     "away": 0.290456,
@@ -1207,7 +1207,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-15T18:49:36Z",
+ "injuriesUtc": "2026-10-15T19:53:43Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2420,6 +2420,18 @@
   ],
   "CAR": [
    {
+    "id": 2576925,
+    "name": "Darren Waller",
+    "pos": "TE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-15T19:42Z",
+    "body": "Toe",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4678008,
     "name": "Jonathon Brooks",
     "pos": "RB",
@@ -2476,18 +2488,6 @@
     "date": "2026-10-14T23:17Z",
     "body": "Ankle",
     "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 2576925,
-    "name": "Darren Waller",
-    "pos": "TE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T20:17Z",
-    "body": "Toe",
-    "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -2727,11 +2727,23 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-15T18:33Z",
+    "date": "2026-10-15T19:34Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
     "fantasy": "IR"
+   },
+   {
+    "id": 4431611,
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-15T19:34Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4361093,
@@ -2792,18 +2804,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "DOUBTFUL"
-   },
-   {
-    "id": 4431611,
-    "name": "Caleb Williams",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T16:30Z",
-    "body": "Hamstring",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4432804,
@@ -4534,6 +4534,18 @@
   ],
   "GB": [
    {
+    "id": 4430191,
+    "name": "Skyy Moore",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-15T18:42Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4047365,
     "name": "Josh Jacobs",
     "pos": "RB",
@@ -4578,18 +4590,6 @@
     "date": "2026-10-15T00:04Z",
     "body": "Illness",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4430191,
-    "name": "Skyy Moore",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T23:12Z",
-    "body": "Ankle",
-    "side": "Left",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -5040,6 +5040,18 @@
     "fantasy": null
    },
    {
+    "id": 4428989,
+    "name": "Chris Braswell",
+    "pos": "DE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T19:13Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4428656,
     "name": "Nate Thomas",
     "pos": "OT",
@@ -5118,18 +5130,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-11T22:59Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4870893,
-    "name": "Kayden McDonald",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T15:56Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -5742,6 +5742,18 @@
   ],
   "KC": [
    {
+    "id": 4428331,
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-15T18:44Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4569659,
     "name": "Josh Simmons",
     "pos": "OT",
@@ -5761,18 +5773,6 @@
     "abbr": "Q",
     "date": "2026-10-14T21:22Z",
     "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4428331,
-    "name": "Rashee Rice",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T17:24Z",
-    "body": "Hamstring",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
@@ -8163,7 +8163,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-15T18:33Z",
+    "date": "2026-10-15T19:34Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
