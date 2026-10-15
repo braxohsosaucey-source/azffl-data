@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-15T15:55:55Z",
+ "_pulledUtc": "2026-10-15T16:38:40Z",
  "week": 6,
  "books": [
   "DraftKings"
@@ -697,8 +697,8 @@
     "book": "DraftKings",
     "details": "PIT -2.5",
     "moneyline": {
-     "away": -142,
-     "home": 120
+     "away": -148,
+     "home": 124
     },
     "moneylineOpen": {
      "away": 105,
@@ -707,8 +707,8 @@
     "spread": {
      "away": -2.5,
      "home": 2.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": 1.5,
@@ -718,8 +718,8 @@
     },
     "total": {
      "line": 39.5,
-     "over": -112,
-     "under": -108
+     "over": -108,
+     "under": -112
     },
     "totalOpen": {
      "line": 45.5,
@@ -728,11 +728,11 @@
     }
    },
    "noVig": {
-    "away": 0.563492,
-    "home": 0.436508,
-    "hold": 0.041322,
-    "fairAway": -129.09,
-    "fairHome": 129.09
+    "away": 0.57206,
+    "home": 0.42794,
+    "hold": 0.043203,
+    "fairAway": -133.68,
+    "fairHome": 133.68
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -1149,8 +1149,8 @@
     },
     "total": {
      "line": 50.5,
-     "over": -120,
-     "under": 100
+     "over": -122,
+     "under": 102
     },
     "totalOpen": {
      "line": 50.5,
@@ -1182,7 +1182,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 66
+    "tempF": 67
    },
    "weather": {
     "kickoff": {
@@ -1207,7 +1207,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-15T15:33:19Z",
+ "injuriesUtc": "2026-10-15T16:38:37Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2463,7 +2463,7 @@
     "abbr": "Q",
     "date": "2026-10-14T23:17Z",
     "body": "Ankle",
-    "side": "Not Specified",
+    "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -2725,13 +2725,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-15T15:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-15T16:21Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4361093,
@@ -7252,6 +7252,18 @@
   ],
   "MIN": [
    {
+    "id": 4360569,
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-15T16:29Z",
+    "body": "Thumb",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "IR"
+   },
+   {
     "id": 4361985,
     "name": "Christian Darrisaw",
     "pos": "OT",
@@ -7534,18 +7546,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-09-30T00:20Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4695609,
-    "name": "Zemaiah Vaughn",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-09-28T18:52Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8163,7 +8163,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-15T15:01Z",
+    "date": "2026-10-15T16:21Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9970,6 +9970,18 @@
   ],
   "TB": [
    {
+    "id": 3052587,
+    "name": "Baker Mayfield",
+    "pos": "QB",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-15T15:54Z",
+    "body": "Thumb",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4816107,
     "name": "Benjamin Morrison",
     "pos": "CB",
@@ -9985,13 +9997,13 @@
     "id": 4034790,
     "name": "Antoine Winfield Jr.",
     "pos": "S",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Doubtful",
+    "abbr": "D",
     "date": "2026-10-14T23:24Z",
     "body": "Ribs",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4430871,
@@ -10016,18 +10028,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3052587,
-    "name": "Baker Mayfield",
-    "pos": "QB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-14T20:25Z",
-    "body": "Thumb",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4429511,
