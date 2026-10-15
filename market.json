@@ -1,9 +1,9 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-15T00:30:38Z",
+ "_pulledUtc": "2026-10-15T01:14:29Z",
  "week": 6,
  "books": [
-  "DraftKings"
+  "Draft Kings"
  ],
  "games": [
   {
@@ -12,10 +12,10 @@
    "home": "DEN",
    "kickoffUtc": "2026-10-16T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SEA -2.5",
     "moneyline": {
      "away": -142,
@@ -92,7 +92,7 @@
     "src": "open-meteo",
     "lat": 39.73915,
     "lon": -104.9847,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   },
@@ -102,10 +102,10 @@
    "home": "JAX",
    "kickoffUtc": "2026-10-18T13:30Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "JAX -2.5",
     "moneyline": {
      "away": 120,
@@ -179,7 +179,7 @@
     "src": "open-meteo",
     "lat": 51.50853,
     "lon": -0.12574,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   },
@@ -189,10 +189,10 @@
    "home": "ATL",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "CHI -1.5",
     "moneyline": {
      "away": -115,
@@ -260,10 +260,10 @@
    "home": "CLE",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "BAL -5.5",
     "moneyline": {
      "away": -258,
@@ -325,14 +325,14 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-18T17:00",
-     "tempF": 58.2,
-     "windMph": 10.5,
+     "tempF": 57.6,
+     "windMph": 10.2,
      "gustMph": 14.8,
      "precipIn": 0.0,
      "precipProb": 1
     },
     "game": {
-     "maxWindMph": 11.1,
+     "maxWindMph": 10.9,
      "maxGustMph": 15.2,
      "precipIn": 0.0,
      "maxPrecipProb": 1
@@ -340,7 +340,7 @@
     "src": "open-meteo",
     "lat": 41.4995,
     "lon": -81.69541,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   },
@@ -350,14 +350,14 @@
    "home": "IND",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "IND -7",
     "moneyline": {
-     "away": 270,
-     "home": -340
+     "away": 260,
+     "home": -325
     },
     "moneylineOpen": {
      "away": 160,
@@ -376,9 +376,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 43.5,
-     "over": -118,
-     "under": -102
+     "line": 44.5,
+     "over": -108,
+     "under": -112
     },
     "totalOpen": {
      "line": 48.5,
@@ -387,11 +387,11 @@
     }
    },
    "noVig": {
-    "away": 0.259128,
-    "home": 0.740872,
-    "hold": 0.042998,
-    "fairAway": 285.91,
-    "fairHome": -285.91
+    "away": 0.266458,
+    "home": 0.733542,
+    "hold": 0.042484,
+    "fairAway": 275.29,
+    "fairHome": -275.29
    },
    "noVigOpen": {
     "away": 0.36906,
@@ -421,10 +421,10 @@
    "home": "NE",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "NE -7.5",
     "moneyline": {
      "away": 270,
@@ -486,22 +486,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-18T17:00",
-     "tempF": 56.0,
-     "windMph": 9.2,
-     "gustMph": 13.4,
+     "tempF": 55.8,
+     "windMph": 9.9,
+     "gustMph": 13.9,
      "precipIn": 0.0,
      "precipProb": 1
     },
     "game": {
-     "maxWindMph": 9.9,
-     "maxGustMph": 13.6,
+     "maxWindMph": 10.6,
+     "maxGustMph": 15.4,
      "precipIn": 0.0,
      "maxPrecipProb": 1
     },
     "src": "open-meteo",
     "lat": 42.06538,
     "lon": -71.24783,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   },
@@ -511,10 +511,10 @@
    "home": "NYG",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "NO -1.5",
     "moneyline": {
      "away": -115,
@@ -573,27 +573,8 @@
     "text": "Sunny",
     "tempF": 56
    },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 58.9,
-     "windMph": 7.8,
-     "gustMph": 10.7,
-     "precipIn": 0.0,
-     "precipProb": 1
-    },
-    "game": {
-     "maxWindMph": 8.2,
-     "maxGustMph": 11.0,
-     "precipIn": 0.0,
-     "maxPrecipProb": 1
-    },
-    "src": "open-meteo",
-    "lat": 40.83399,
-    "lon": -74.09709,
-    "t": "2026-10-14T21:59:33Z"
-   },
-   "wxNote": null
+   "weather": null,
+   "wxNote": "the forecast failed (RuntimeError)"
   },
   {
    "id": "401872998",
@@ -601,10 +582,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "CAR -1.5",
     "moneyline": {
      "away": -115,
@@ -663,27 +644,8 @@
     "text": "Sunny",
     "tempF": 57
    },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 58.7,
-     "windMph": 5.1,
-     "gustMph": 6.7,
-     "precipIn": 0.0,
-     "precipProb": 1
-    },
-    "game": {
-     "maxWindMph": 6.0,
-     "maxGustMph": 7.6,
-     "precipIn": 0.0,
-     "maxPrecipProb": 1
-    },
-    "src": "open-meteo",
-    "lat": 39.95238,
-    "lon": -75.16362,
-    "t": "2026-10-14T21:59:33Z"
-   },
-   "wxNote": null
+   "weather": null,
+   "wxNote": "the forecast failed (RuntimeError)"
   },
   {
    "id": "401873002",
@@ -691,10 +653,10 @@
    "home": "TB",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "PIT -2.5",
     "moneyline": {
      "away": -142,
@@ -756,22 +718,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-18T17:00",
-     "tempF": 79.3,
-     "windMph": 22.9,
-     "gustMph": 29.5,
+     "tempF": 78.8,
+     "windMph": 19.2,
+     "gustMph": 26.6,
      "precipIn": 0.0,
      "precipProb": 8
     },
     "game": {
-     "maxWindMph": 22.9,
-     "maxGustMph": 29.5,
+     "maxWindMph": 21.1,
+     "maxGustMph": 26.6,
      "precipIn": 0.0,
      "maxPrecipProb": 12
     },
     "src": "open-meteo",
     "lat": 27.94752,
     "lon": -82.45843,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   },
@@ -781,10 +743,10 @@
    "home": "LAR",
    "kickoffUtc": "2026-10-18T20:05Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "LAR -12.5",
     "moneyline": {
      "away": 600,
@@ -843,27 +805,8 @@
     "text": "Sunny",
     "tempF": 86
    },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T20:00",
-     "tempF": 81.5,
-     "windMph": 8.8,
-     "gustMph": 4.7,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 10.7,
-     "maxGustMph": 8.1,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 33.96168,
-    "lon": -118.35313,
-    "t": "2026-10-14T21:59:33Z"
-   },
-   "wxNote": null
+   "weather": null,
+   "wxNote": "the forecast failed (RuntimeError)"
   },
   {
    "id": "401873006",
@@ -871,10 +814,10 @@
    "home": "KC",
    "kickoffUtc": "2026-10-18T20:25Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "KC -8.5",
     "moneyline": {
      "away": 370,
@@ -936,22 +879,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-18T20:00",
-     "tempF": 65.7,
-     "windMph": 13.9,
-     "gustMph": 20.4,
+     "tempF": 65.0,
+     "windMph": 13.8,
+     "gustMph": 20.6,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 13.9,
-     "maxGustMph": 22.1,
+     "maxWindMph": 13.8,
+     "maxGustMph": 21.7,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 39.09973,
     "lon": -94.57857,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   },
@@ -961,10 +904,10 @@
    "home": "LV",
    "kickoffUtc": "2026-10-18T20:25Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "BUF -5.5",
     "moneyline": {
      "away": -258,
@@ -1032,10 +975,10 @@
    "home": "GB",
    "kickoffUtc": "2026-10-19T00:20Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "GB -1.5",
     "moneyline": {
      "away": 102,
@@ -1094,27 +1037,8 @@
     "text": "Clear",
     "tempF": 57
    },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-19T00:00",
-     "tempF": 56.4,
-     "windMph": 17.8,
-     "gustMph": 35.1,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 17.8,
-     "maxGustMph": 37.6,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 44.51916,
-    "lon": -88.01983,
-    "t": "2026-10-14T21:59:33Z"
-   },
-   "wxNote": null
+   "weather": null,
+   "wxNote": "the forecast failed (RuntimeError)"
   },
   {
    "id": "401873008",
@@ -1122,10 +1046,10 @@
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SF -7.5",
     "moneyline": {
      "away": 330,
@@ -1187,22 +1111,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-20T00:00",
-     "tempF": 65.6,
-     "windMph": 10.2,
-     "gustMph": 9.4,
+     "tempF": 63.8,
+     "windMph": 8.3,
+     "gustMph": 8.9,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 10.2,
-     "maxGustMph": 9.4,
+     "maxWindMph": 8.3,
+     "maxGustMph": 8.9,
      "precipIn": 0.0,
      "maxPrecipProb": 1
     },
     "src": "open-meteo",
     "lat": 37.35411,
     "lon": -121.95524,
-    "t": "2026-10-14T21:59:33Z"
+    "t": "2026-10-15T01:14:29Z"
    },
    "wxNote": null
   }
