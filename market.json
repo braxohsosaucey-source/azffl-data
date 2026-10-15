@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-15T08:07:28Z",
+ "_pulledUtc": "2026-10-15T09:10:47Z",
  "week": 6,
  "books": [
   "DraftKings"
@@ -71,7 +71,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Partly sunny",
+    "text": "Mostly sunny",
     "tempF": 54
    },
    "weather": {
@@ -320,7 +320,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 57
+    "tempF": 58
    },
    "weather": {
     "kickoff": {
@@ -410,7 +410,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 58
+    "tempF": 56
    },
    "weather": null,
    "wxNote": "indoor"
@@ -661,7 +661,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 57
+    "tempF": 56
    },
    "weather": {
     "kickoff": {
@@ -750,8 +750,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Cloudy",
-    "tempF": 75
+    "text": "Mostly cloudy",
+    "tempF": 79
    },
    "weather": {
     "kickoff": {
@@ -840,8 +840,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Sunny",
-    "tempF": 86
+    "text": "Mostly sunny",
+    "tempF": 90
    },
    "weather": {
     "kickoff": {
@@ -931,7 +931,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 67
+    "tempF": 64
    },
    "weather": {
     "kickoff": {
@@ -1207,7 +1207,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-15T08:07:57Z",
+ "injuriesUtc": "2026-10-15T09:10:47Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2725,13 +2725,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-15T07:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-15T08:01Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4361093,
@@ -8163,7 +8163,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-15T08:01Z",
+    "date": "2026-10-15T09:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
