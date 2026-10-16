@@ -1,0 +1,146 @@
+{
+ "week": 6,
+ "final": true,
+ "sealedUtc": "2026-10-16T00:02:30+00:00",
+ "firstKickoffUtc": "2026-10-16T00:15:00Z",
+ "minutesBeforeKickoff": 12,
+ "source": "the live board's own pass (pipeline/tick.prekick_for), the board as priced before the week's first kickoff",
+ "freshness": "fresh",
+ "freshnessReasons": [],
+ "model": {
+  "sha": "5dd9bd054268",
+  "sims": 40000,
+  "vigML": 0.045,
+  "vigFut": 0.22
+ },
+ "market": {
+  "layer": "on",
+  "provider": "DraftKings via ESPN",
+  "version": "prior-2",
+  "paramsSha": "7437ed4909cb9dbf"
+ },
+ "lines": [
+  {
+   "away": 7,
+   "home": 3,
+   "pAway": 0.3650377204755205,
+   "mlAway": 155,
+   "mlHome": -190,
+   "projAway": 146.34212507680473,
+   "projHome": 156.9225711771325,
+   "sd": 30.665721570069746
+  },
+  {
+   "away": 6,
+   "home": 10,
+   "pAway": 0.3167236966380556,
+   "mlAway": 190,
+   "mlHome": -240,
+   "projAway": 143.2759509665411,
+   "projHome": 160.39978086113632,
+   "sd": 35.90802876681415
+  },
+  {
+   "away": 5,
+   "home": 2,
+   "pAway": 0.8287517759050715,
+   "mlAway": -550,
+   "mlHome": 390,
+   "projAway": 159.43032049569632,
+   "projHome": 131.7826260142458,
+   "sd": 29.126009665032985
+  },
+  {
+   "away": 9,
+   "home": 8,
+   "pAway": 0.30224040766446997,
+   "mlAway": 200,
+   "mlHome": -260,
+   "projAway": 150.83590100476584,
+   "projHome": 167.8262406521826,
+   "sd": 32.80192975114552
+  },
+  {
+   "away": 1,
+   "home": 4,
+   "pAway": 0.7034532093771819,
+   "mlAway": -260,
+   "mlHome": 200,
+   "projAway": 180.07212852599127,
+   "projHome": 160.87429770884174,
+   "sd": 35.926880017705386
+  }
+ ],
+ "futures": [
+  {
+   "tid": 1,
+   "mgr": "Brastone Ngoma",
+   "pTitle": 0.319075,
+   "pPlayoff": 0.995875,
+   "odds": 180
+  },
+  {
+   "tid": 7,
+   "mgr": "Oliver Balicanta",
+   "pTitle": 0.1405,
+   "pPlayoff": 0.732,
+   "odds": 475
+  },
+  {
+   "tid": 6,
+   "mgr": "Carter Moldenhauer",
+   "pTitle": 0.14015,
+   "pPlayoff": 0.75855,
+   "odds": 475
+  },
+  {
+   "tid": 8,
+   "mgr": "Caophi Nguyen",
+   "pTitle": 0.10665,
+   "pPlayoff": 0.71565,
+   "odds": 650
+  },
+  {
+   "tid": 9,
+   "mgr": "Max Willoughby",
+   "pTitle": 0.09365,
+   "pPlayoff": 0.868025,
+   "odds": 750
+  },
+  {
+   "tid": 4,
+   "mgr": "Ben Castelli",
+   "pTitle": 0.0706,
+   "pPlayoff": 0.51825,
+   "odds": 1000
+  },
+  {
+   "tid": 10,
+   "mgr": "Austin Bower",
+   "pTitle": 0.048175,
+   "pPlayoff": 0.701725,
+   "odds": 1450
+  },
+  {
+   "tid": 3,
+   "mgr": "David Carrier",
+   "pTitle": 0.04715,
+   "pPlayoff": 0.408625,
+   "odds": 1500
+  },
+  {
+   "tid": 5,
+   "mgr": "Chuck Sutton",
+   "pTitle": 0.0186,
+   "pPlayoff": 0.1654,
+   "odds": 3650
+  },
+  {
+   "tid": 2,
+   "mgr": "Anthony Mhilli",
+   "pTitle": 0.01545,
+   "pPlayoff": 0.1359,
+   "odds": 4350
+  }
+ ]
+}
