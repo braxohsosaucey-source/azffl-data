@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-16T04:13:43Z",
+ "_pulledUtc": "2026-10-16T04:43:44Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -873,20 +873,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "KC -8.5",
+    "details": "KC -7.5",
     "moneyline": {
-     "away": 370,
-     "home": -485
+     "away": 350,
+     "home": -455
     },
     "moneylineOpen": {
      "away": 114,
      "home": -135
     },
     "spread": {
-     "away": 8.5,
-     "home": -8.5,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "away": 7.5,
+     "home": -7.5,
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 2.5,
@@ -896,8 +896,8 @@
     },
     "total": {
      "line": 41.5,
-     "over": -115,
-     "under": -105
+     "over": -105,
+     "under": -115
     },
     "totalOpen": {
      "line": 46.5,
@@ -906,11 +906,11 @@
     }
    },
    "noVig": {
-    "away": 0.204224,
-    "home": 0.795776,
-    "hold": 0.041826,
-    "fairAway": 389.66,
-    "fairHome": -389.66
+    "away": 0.213256,
+    "home": 0.786744,
+    "hold": 0.042042,
+    "fairAway": 368.92,
+    "fairHome": -368.92
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -1205,7 +1205,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-16T03:26:43Z",
+ "injuriesUtc": "2026-10-16T04:32:48Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2723,13 +2723,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-16T03:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-16T04:10Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4431611,
@@ -3928,6 +3928,30 @@
   ],
   "DEN": [
    {
+    "id": 4568490,
+    "name": "RJ Harvey",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T03:59Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4241985,
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T03:54Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4372016,
     "name": "Jaylen Waddle",
     "pos": "WR",
@@ -3948,7 +3972,7 @@
     "date": "2026-10-16T01:30Z",
     "body": "Thumb",
     "side": "Not Specified",
-    "returnDate": "2026-10-15",
+    "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -4096,36 +4120,12 @@
     "fantasy": null
    },
    {
-    "id": 4568490,
-    "name": "RJ Harvey",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T01:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4426338,
     "name": "Bo Nix",
     "pos": "QB",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T00:58Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4241985,
-    "name": "J.K. Dobbins",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T00:24Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8161,7 +8161,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-16T03:00Z",
+    "date": "2026-10-16T04:10Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8760,6 +8760,18 @@
   ],
   "PHI": [
    {
+    "id": 3139368,
+    "name": "Marcus Epps",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T04:20Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4431545,
     "name": "Will Shipley",
     "pos": "RB",
@@ -8866,18 +8878,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3139368,
-    "name": "Marcus Epps",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-15T00:28Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4431574,
@@ -9669,13 +9669,37 @@
     "id": 4678006,
     "name": "Elijah Arroyo",
     "pos": "TE",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-16T01:38Z",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-16T04:10Z",
     "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4887558,
+    "name": "Emanuel Wilson",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T04:08Z",
+    "body": null,
     "side": null,
-    "returnDate": "2026-10-15",
-    "fantasy": "DOUBTFUL"
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4430878,
+    "name": "Jaxon Smith-Njigba",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T03:49Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4035693,
@@ -9822,18 +9846,6 @@
     "fantasy": null
    },
    {
-    "id": 4430878,
-    "name": "Jaxon Smith-Njigba",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-14T22:33Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4426385,
     "name": "Zach Charbonnet",
     "pos": "RB",
@@ -9948,18 +9960,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T01:11Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4887558,
-    "name": "Emanuel Wilson",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T01:05Z",
     "body": null,
     "side": null,
     "returnDate": null,
