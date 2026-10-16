@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-16T02:06:49Z",
+ "_pulledUtc": "2026-10-16T02:38:51Z",
  "week": 6,
  "books": [
   "DraftKings"
@@ -72,7 +72,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "33",
-    "tempF": 46
+    "tempF": 47
    },
    "weather": {
     "kickoff": {
@@ -427,8 +427,8 @@
     "book": "DraftKings",
     "details": "NE -7.5",
     "moneyline": {
-     "away": 260,
-     "home": -325
+     "away": 270,
+     "home": -340
     },
     "moneylineOpen": {
      "away": 350,
@@ -458,11 +458,11 @@
     }
    },
    "noVig": {
-    "away": 0.266458,
-    "home": 0.733542,
-    "hold": 0.042484,
-    "fairAway": 275.29,
-    "fairHome": -275.29
+    "away": 0.259128,
+    "home": 0.740872,
+    "hold": 0.042998,
+    "fairAway": 285.91,
+    "fairHome": -285.91
    },
    "noVigOpen": {
     "away": 0.213256,
@@ -1188,7 +1188,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-16T01:24:39Z",
+ "injuriesUtc": "2026-10-16T02:26:46Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2708,7 +2708,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-16T01:03Z",
+    "date": "2026-10-16T02:10Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -3609,6 +3609,30 @@
   ],
   "DAL": [
    {
+    "id": 4426506,
+    "name": "Joey Porter Jr.",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T01:44Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4362088,
+    "name": "DeMarvion Overshown",
+    "pos": "LB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-16T01:35Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4710067,
     "name": "Malachi Lawrence",
     "pos": "LB",
@@ -3651,30 +3675,6 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-15T00:18Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4426506,
-    "name": "Joey Porter Jr.",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-15T00:14Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4362088,
-    "name": "DeMarvion Overshown",
-    "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-15T00:09Z",
     "body": "Hamstring",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -3911,12 +3911,24 @@
   ],
   "DEN": [
    {
+    "id": 4372016,
+    "name": "Jaylen Waddle",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-16T02:10Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4362748,
     "name": "Tyler Badie",
     "pos": "RB",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-16T01:14Z",
+    "date": "2026-10-16T01:30Z",
     "body": "Thumb",
     "side": "Not Specified",
     "returnDate": "2026-10-15",
@@ -4073,18 +4085,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T01:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4372016,
-    "name": "Jaylen Waddle",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T01:07Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -6025,6 +6025,18 @@
   ],
   "LV": [
    {
+    "id": 4382466,
+    "name": "Jalen Nailor",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-16T01:24Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3045172,
     "name": "Folorunso Fatukasi",
     "pos": "DT",
@@ -6095,18 +6107,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "IR-R"
-   },
-   {
-    "id": 4382466,
-    "name": "Jalen Nailor",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T19:33Z",
-    "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4241983,
@@ -6629,6 +6629,18 @@
   ],
   "LAR": [
    {
+    "id": 4575003,
+    "name": "Keagen Trost",
+    "pos": "OT",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-16T01:32Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "IR-R"
+   },
+   {
     "id": 4242557,
     "name": "Colby Parkinson",
     "pos": "TE",
@@ -6911,18 +6923,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-10T20:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4710855,
-    "name": "Konata Mumpfield",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-09T00:15Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7535,6 +7535,18 @@
   ],
   "NE": [
    {
+    "id": 4685298,
+    "name": "Will Campbell",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-16T01:58Z",
+    "body": "Knee - MCL",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4686772,
     "name": "Christian Gonzalez",
     "pos": "CB",
@@ -7663,18 +7675,6 @@
     "date": "2026-10-14T21:16Z",
     "body": "Chest",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4685298,
-    "name": "Will Campbell",
-    "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-14T21:15Z",
-    "body": "Knee - MCL",
-    "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -8144,7 +8144,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-16T01:03Z",
+    "date": "2026-10-16T02:10Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9649,6 +9649,18 @@
   ],
   "SEA": [
    {
+    "id": 4678006,
+    "name": "Elijah Arroyo",
+    "pos": "TE",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-16T01:38Z",
+    "body": "Shoulder",
+    "side": null,
+    "returnDate": "2026-10-15",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4035693,
     "name": "Velus Jones Jr.",
     "pos": "RB",
@@ -9935,18 +9947,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4684543,
-    "name": "Julian Neal",
-    "pos": "CB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-11T02:04Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "IR"
    }
   ],
   "TB": [
