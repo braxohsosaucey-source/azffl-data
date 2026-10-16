@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-16T00:32:45.756Z",
+ "_pulledUtc": "2026-10-16T01:02:51.994Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 6,
@@ -765,15 +765,15 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 12,
-    "drops": 9,
+    "acquisitions": 13,
+    "drops": 10,
     "trades": 1,
-    "moveToActive": 31,
+    "moveToActive": 32,
     "acquisitionBudgetSpent": 7,
     "matchupAcquisitionTotals": {
      "3": 4,
      "5": 3,
-     "6": 5
+     "6": 6
     }
    },
    "roster": [
@@ -938,20 +938,22 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 72.04,
      "start": 23.58,
-     "livePts": 0.0,
+     "livePts": 5.35,
      "weekProj": 8.55,
      "projSeason": 110.88,
-     "actSeason": 33.8,
+     "actSeason": 39.15,
      "usage": {
       "season": {
        "23": 15.0,
-       "210": 4.0
+       "210": 5.0
       },
       "prior": {
        "23": 146.0,
        "210": 17.0
       },
-      "week": {}
+      "week": {
+       "210": 1.0
+      }
      }
     },
     {
@@ -966,10 +968,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.34,
      "start": 86.75,
-     "livePts": 10.0,
+     "livePts": 8.0,
      "weekProj": 6.05,
      "projSeason": 86.54,
-     "actSeason": 61.0
+     "actSeason": 59.0
     },
     {
      "name": "Isaiah Likely",
@@ -1017,13 +1019,13 @@
      "acqUtc": "2026-09-24T21:26:25.915000Z",
      "own": 86.53,
      "start": 75.75,
-     "livePts": 1.3,
+     "livePts": 1.9,
      "weekProj": 14.4,
      "projSeason": 22.83,
-     "actSeason": 50.9,
+     "actSeason": 51.5,
      "usage": {
       "season": {
-       "23": 77.0,
+       "23": 80.0,
        "210": 6.0
       },
       "prior": {
@@ -1031,7 +1033,7 @@
        "210": 17.0
       },
       "week": {
-       "23": 4.0,
+       "23": 7.0,
        "210": 1.0
       }
      }
@@ -1105,23 +1107,6 @@
      "actSeason": 24.15
     },
     {
-     "name": "Chase McLaughlin",
-     "pos": "K",
-     "slot": "K",
-     "slotId": 17,
-     "proTeamId": 27,
-     "id": 3150744,
-     "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-10-14T16:32:52.954000Z",
-     "own": 19.73,
-     "start": 16.69,
-     "livePts": null,
-     "weekProj": 8.47,
-     "projSeason": 102.58,
-     "actSeason": 51.2
-    },
-    {
      "name": "Jordan Love",
      "pos": "QB",
      "slot": "QB",
@@ -1137,6 +1122,23 @@
      "weekProj": 20.62,
      "projSeason": 216.79,
      "actSeason": 89.12
+    },
+    {
+     "name": "Nick Folk",
+     "pos": "K",
+     "slot": "K",
+     "slotId": 17,
+     "proTeamId": 1,
+     "id": 10621,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-16T00:40:40.397000Z",
+     "own": 7.78,
+     "start": 6.65,
+     "livePts": null,
+     "weekProj": 9.85,
+     "projSeason": 116.03,
+     "actSeason": 43.4
     }
    ]
   },
@@ -2596,10 +2598,10 @@
      "acqUtc": "2026-09-27T07:44:30.241000Z",
      "own": 89.35,
      "start": 83.79,
-     "livePts": 0.0,
+     "livePts": 5.5,
      "weekProj": 8.9,
      "projSeason": 112.75,
-     "actSeason": 53.35
+     "actSeason": 58.85
     },
     {
      "name": "Tre Tucker",
@@ -2709,10 +2711,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.85,
      "start": 46.17,
-     "livePts": 0.0,
+     "livePts": 1.55,
      "weekProj": 8.61,
      "projSeason": 111.26,
-     "actSeason": 44.2
+     "actSeason": 45.75
     },
     {
      "name": "Luther Burden III",
@@ -3117,10 +3119,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 70.94,
      "start": 19.06,
-     "livePts": 0.0,
+     "livePts": 1.65,
      "weekProj": 7.93,
      "projSeason": 102.74,
-     "actSeason": 24.65
+     "actSeason": 26.3
     },
     {
      "name": "Dak Prescott",
@@ -3151,13 +3153,13 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 78.08,
      "start": 34.32,
-     "livePts": 0.2,
+     "livePts": 7.6,
      "weekProj": 9.75,
      "projSeason": 133.84,
-     "actSeason": 35.05,
+     "actSeason": 42.45,
      "usage": {
       "season": {
-       "23": 66.0,
+       "23": 71.0,
        "210": 6.0
       },
       "prior": {
@@ -3165,7 +3167,7 @@
        "210": 10.0
       },
       "week": {
-       "23": 2.0,
+       "23": 7.0,
        "210": 1.0
       }
      }
@@ -3210,10 +3212,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 81.71,
      "start": 65.23,
-     "livePts": 12.0,
+     "livePts": 11.0,
      "weekProj": 5.54,
      "projSeason": 73.19,
-     "actSeason": 47.0
+     "actSeason": 46.0
     },
     {
      "name": "Cam Little",
@@ -3905,8 +3907,8 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 0.0,
-    "homeLive": 11.3
+    "awayLive": 5.5,
+    "homeLive": 15.25
    },
    {
     "away": 6,
@@ -3935,7 +3937,7 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 12.2,
+    "awayLive": 18.6,
     "homeLive": 2.6
    },
    {
