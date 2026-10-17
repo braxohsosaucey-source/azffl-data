@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-17T21:25:14Z",
+ "_pulledUtc": "2026-10-17T22:08:14Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -264,8 +264,8 @@
     "book": "DraftKings",
     "details": "BAL -3",
     "moneyline": {
-     "away": -170,
-     "home": 142
+     "away": -175,
+     "home": 145
     },
     "moneylineOpen": {
      "away": -270,
@@ -295,11 +295,11 @@
     }
    },
    "noVig": {
-    "away": 0.603757,
-    "home": 0.396243,
-    "hold": 0.042853,
-    "fairAway": -152.37,
-    "fairHome": 152.37
+    "away": 0.609236,
+    "home": 0.390764,
+    "hold": 0.044527,
+    "fairAway": -155.91,
+    "fairHome": 155.91
    },
    "noVigOpen": {
     "away": 0.700162,
@@ -318,7 +318,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 57
+    "tempF": 59
    },
    "weather": {
     "kickoff": {
@@ -659,7 +659,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 55
+    "tempF": 56
    },
    "weather": {
     "kickoff": {
@@ -839,7 +839,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 85
+    "tempF": 86
    },
    "weather": {
     "kickoff": {
@@ -1036,8 +1036,8 @@
     "book": "DraftKings",
     "details": "GB -1.5",
     "moneyline": {
-     "away": -102,
-     "home": -118
+     "away": -105,
+     "home": -115
     },
     "moneylineOpen": {
      "away": 140,
@@ -1067,11 +1067,11 @@
     }
    },
    "noVig": {
-    "away": 0.482636,
-    "home": 0.517364,
-    "hold": 0.046235,
-    "fairAway": 107.2,
-    "fairHome": -107.2
+    "away": 0.489166,
+    "home": 0.510834,
+    "hold": 0.047079,
+    "fairAway": 104.43,
+    "fairHome": -104.43
    },
    "noVigOpen": {
     "away": 0.400361,
@@ -1180,7 +1180,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 66
+    "tempF": 65
    },
    "weather": {
     "kickoff": {
@@ -1205,7 +1205,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-17T21:04:07Z",
+ "injuriesUtc": "2026-10-17T22:08:15Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2725,7 +2725,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-17T20:54Z",
+    "date": "2026-10-17T21:08Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8161,7 +8161,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-17T20:54Z",
+    "date": "2026-10-17T21:08Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8760,6 +8760,18 @@
   ],
   "PHI": [
    {
+    "id": 15835,
+    "name": "Zach Ertz",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-17T21:10Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4040715,
     "name": "Jalen Hurts",
     "pos": "QB",
@@ -9022,18 +9034,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "IR-R"
-   },
-   {
-    "id": 15835,
-    "name": "Zach Ertz",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-13T03:59Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4685759,
@@ -9364,6 +9364,66 @@
   ],
   "SF": [
    {
+    "id": 4432244,
+    "name": "Romello Height",
+    "pos": "DE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T21:08Z",
+    "body": "Hand",
+    "side": "Not Specified",
+    "returnDate": "2026-10-19",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4693371,
+    "name": "James Thompson Jr.",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-17T21:06Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3916075,
+    "name": "Colton McKivitz",
+    "pos": "OT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-17T21:06Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3895856,
+    "name": "Christian Kirk",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-17T21:02Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-19",
+    "fantasy": "IR-R"
+   },
+   {
+    "id": 16737,
+    "name": "Mike Evans",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T20:58Z",
+    "body": "Ribs",
+    "side": "Not Specified",
+    "returnDate": "2026-10-19",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4693337,
     "name": "Marques Sigle",
     "pos": "S",
@@ -9388,18 +9448,6 @@
     "fantasy": "OUT"
    },
    {
-    "id": 16737,
-    "name": "Mike Evans",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-17T19:52Z",
-    "body": "Ribs",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 16002,
     "name": "Kyle Juszczyk",
     "pos": "FB",
@@ -9410,30 +9458,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3895856,
-    "name": "Christian Kirk",
-    "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-16T23:17Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "IR-R"
-   },
-   {
-    "id": 4432244,
-    "name": "Romello Height",
-    "pos": "DE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-16T22:33Z",
-    "body": "Illness",
-    "side": null,
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4565779,
@@ -9467,18 +9491,6 @@
     "abbr": "Q",
     "date": "2026-10-15T23:27Z",
     "body": "Shoulder",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3916075,
-    "name": "Colton McKivitz",
-    "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-15T23:27Z",
-    "body": "Illness",
     "side": "Not Specified",
     "returnDate": "2026-10-19",
     "fantasy": "QUESTIONABLE"
@@ -9554,18 +9566,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-19",
     "fantasy": "IR"
-   },
-   {
-    "id": 4693371,
-    "name": "James Thompson Jr.",
-    "pos": "DT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-12T23:44Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4241807,
