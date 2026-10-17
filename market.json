@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-17T13:42:14Z",
+ "_pulledUtc": "2026-10-17T14:24:14Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -264,8 +264,8 @@
     "book": "DraftKings",
     "details": "BAL -3",
     "moneyline": {
-     "away": -162,
-     "home": 136
+     "away": -166,
+     "home": 140
     },
     "moneylineOpen": {
      "away": -270,
@@ -274,8 +274,8 @@
     "spread": {
      "away": -3.0,
      "home": 3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": -6.5,
@@ -295,11 +295,11 @@
     }
    },
    "noVig": {
-    "away": 0.59337,
-    "home": 0.40663,
-    "hold": 0.042049,
-    "fairAway": -145.92,
-    "fairHome": 145.92
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
    },
    "noVigOpen": {
     "away": 0.700162,
@@ -446,8 +446,8 @@
     },
     "total": {
      "line": 43.5,
-     "over": -112,
-     "under": -108
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 42.5,
@@ -1205,7 +1205,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-17T13:21:19Z",
+ "injuriesUtc": "2026-10-17T14:24:13Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2723,13 +2723,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-17T13:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-17T14:00Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4911952,
@@ -7552,6 +7552,18 @@
   ],
   "NE": [
    {
+    "id": 4047646,
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-17T14:04Z",
+    "body": "Ankle",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "IR-R"
+   },
+   {
     "id": 4685298,
     "name": "Will Campbell",
     "pos": "OT",
@@ -7682,18 +7694,6 @@
     "side": "Right",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4047646,
-    "name": "A.J. Brown",
-    "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-16T16:10Z",
-    "body": "Ankle",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    },
    {
     "id": 4686772,
@@ -8161,7 +8161,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-17T13:00Z",
+    "date": "2026-10-17T14:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8760,6 +8760,18 @@
   ],
   "PHI": [
    {
+    "id": 4040715,
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-17T14:10Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-26",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4567802,
     "name": "Drew Kendall",
     "pos": "C",
@@ -8986,18 +8998,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4040715,
-    "name": "Jalen Hurts",
-    "pos": "QB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-15T17:11Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-26",
-    "fantasy": "OUT"
    },
    {
     "id": 4686911,
