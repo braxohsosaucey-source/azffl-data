@@ -1,6 +1,6 @@
 {
  "_source": "ESPN rosters (mRoster: ownership, injury, lineup slot), mPositionalRatings and proTeamSchedules_wl — written by every pass (pipeline/league_meta.py); data only",
- "_pulledUtc": "2026-10-17T18:35:16.422Z",
+ "_pulledUtc": "2026-10-17T19:18:16.484Z",
  "week": 6,
  "players": [
   {
@@ -596,7 +596,7 @@
    "slot": "IR",
    "slotId": 21,
    "proTeamId": 23,
-   "injury": "OUT",
+   "injury": "INJURY_RESERVE",
    "own": 15.41,
    "start": 0.77,
    "bye": 9
@@ -947,7 +947,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 28,
-   "injury": "QUESTIONABLE",
+   "injury": "ACTIVE",
    "own": 91.65,
    "start": 51.46,
    "bye": 7
@@ -1906,8 +1906,8 @@
    "name": "DK Metcalf",
    "tid": 9,
    "pos": "WR",
-   "slot": "BE",
-   "slotId": 20,
+   "slot": "WR",
+   "slotId": 4,
    "proTeamId": 23,
    "injury": "ACTIVE",
    "own": 88.84,
@@ -1919,8 +1919,8 @@
    "name": "Devaughn Vele",
    "tid": 9,
    "pos": "WR",
-   "slot": "WR",
-   "slotId": 4,
+   "slot": "FLEX",
+   "slotId": 23,
    "proTeamId": 18,
    "injury": "ACTIVE",
    "own": 69.48,
@@ -1945,8 +1945,8 @@
    "name": "Pat Freiermuth",
    "tid": 9,
    "pos": "TE",
-   "slot": "FLEX",
-   "slotId": 23,
+   "slot": "BE",
+   "slotId": 20,
    "proTeamId": 23,
    "injury": "QUESTIONABLE",
    "own": 56.22,
@@ -2091,7 +2091,7 @@
    "slot": "RB",
    "slotId": 2,
    "proTeamId": 28,
-   "injury": "QUESTIONABLE",
+   "injury": "ACTIVE",
    "own": 53.75,
    "start": 9.86,
    "bye": 7
