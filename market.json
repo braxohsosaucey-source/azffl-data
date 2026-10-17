@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-17T18:35:15Z",
+ "_pulledUtc": "2026-10-17T19:18:15Z",
  "week": 6,
  "books": [
   "Draft Kings"
@@ -263,8 +263,8 @@
     "book": "Draft Kings",
     "details": "BAL -3",
     "moneyline": {
-     "away": -166,
-     "home": 140
+     "away": -170,
+     "home": 142
     },
     "moneylineOpen": {
      "away": -270,
@@ -273,8 +273,8 @@
     "spread": {
      "away": -3.0,
      "home": 3.0,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": -6.5,
@@ -294,11 +294,11 @@
     }
    },
    "noVig": {
-    "away": 0.599639,
-    "home": 0.400361,
-    "hold": 0.040727,
-    "fairAway": -149.77,
-    "fairHome": 149.77
+    "away": 0.603757,
+    "home": 0.396243,
+    "hold": 0.042853,
+    "fairAway": -152.37,
+    "fairHome": 152.37
    },
    "noVigOpen": {
     "away": 0.700162,
@@ -604,8 +604,8 @@
     "book": "Draft Kings",
     "details": "CAR -3",
     "moneyline": {
-     "away": -170,
-     "home": 142
+     "away": -175,
+     "home": 145
     },
     "moneylineOpen": {
      "away": 230,
@@ -614,8 +614,8 @@
     "spread": {
      "away": -3.0,
      "home": 3.0,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": 6.5,
@@ -635,11 +635,11 @@
     }
    },
    "noVig": {
-    "away": 0.603757,
-    "home": 0.396243,
-    "hold": 0.042853,
-    "fairAway": -152.37,
-    "fairHome": 152.37
+    "away": 0.609236,
+    "home": 0.390764,
+    "hold": 0.044527,
+    "fairAway": -155.91,
+    "fairHome": 155.91
    },
    "noVigOpen": {
     "away": 0.290456,
@@ -874,8 +874,8 @@
     "book": "Draft Kings",
     "details": "KC -7.5",
     "moneyline": {
-     "away": 350,
-     "home": -455
+     "away": 340,
+     "home": -440
     },
     "moneylineOpen": {
      "away": 114,
@@ -905,11 +905,11 @@
     }
    },
    "noVig": {
-    "away": 0.213256,
-    "home": 0.786744,
-    "hold": 0.042042,
-    "fairAway": 368.92,
-    "fairHome": -368.92
+    "away": 0.218094,
+    "home": 0.781906,
+    "hold": 0.042088,
+    "fairAway": 358.52,
+    "fairHome": -358.52
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -1204,7 +1204,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-17T17:51:09Z",
+ "injuriesUtc": "2026-10-17T18:57:07Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2417,16 +2417,28 @@
   ],
   "CAR": [
    {
+    "id": 4058925,
+    "name": "Tershawn Wharton",
+    "pos": "DT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T17:48Z",
+    "body": "Neck",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 2973051,
     "name": "Taylor Moton",
     "pos": "OT",
-    "status": "Out",
-    "abbr": "O",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-17T03:36Z",
     "body": "Illness",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "NFI-R"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4870694,
@@ -2480,13 +2492,13 @@
     "id": 4685350,
     "name": "Trevor Etienne",
     "pos": "RB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-16T20:54Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4239934,
@@ -2547,18 +2559,6 @@
     "side": "Not Specified",
     "returnDate": "2027-02-15",
     "fantasy": "IR"
-   },
-   {
-    "id": 4058925,
-    "name": "Tershawn Wharton",
-    "pos": "DT",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-13T21:01Z",
-    "body": "Neck",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "PUP-R"
    },
    {
     "id": 4243256,
@@ -2724,7 +2724,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-17T17:35Z",
+    "date": "2026-10-17T18:34Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -4833,6 +4833,30 @@
   ],
   "HOU": [
    {
+    "id": 4240059,
+    "name": "Ja'Marcus Ingram",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T18:26Z",
+    "body": "Elbow",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4426350,
+    "name": "Henry To'oTo'o",
+    "pos": "LB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T18:13Z",
+    "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4033812,
     "name": "Jake Hansen",
     "pos": "LB",
@@ -4867,18 +4891,6 @@
     "side": "Left",
     "returnDate": "2026-10-25",
     "fantasy": "OUT"
-   },
-   {
-    "id": 4426350,
-    "name": "Henry To'oTo'o",
-    "pos": "LB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-15T23:59Z",
-    "body": "Shoulder",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    },
    {
     "id": 4366031,
@@ -4927,18 +4939,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4240059,
-    "name": "Ja'Marcus Ingram",
-    "pos": "CB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-15T01:04Z",
-    "body": "Elbow",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    },
    {
     "id": 3121595,
@@ -6645,6 +6645,18 @@
   ],
   "LAR": [
    {
+    "id": 4575003,
+    "name": "Keagen Trost",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T18:34Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4243181,
     "name": "Nate Landman",
     "pos": "LB",
@@ -6715,18 +6727,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4575003,
-    "name": "Keagen Trost",
-    "pos": "OT",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-16T01:32Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    },
    {
     "id": 4036135,
@@ -7853,6 +7853,18 @@
   ],
   "NO": [
    {
+    "id": 2575788,
+    "name": "Zach Wood",
+    "pos": "LS",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T18:29Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4429040,
     "name": "Vernon Broughton",
     "pos": "DT",
@@ -7947,18 +7959,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 2575788,
-    "name": "Zach Wood",
-    "pos": "LS",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-15T01:22Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    },
    {
     "id": 4599739,
@@ -8160,7 +8160,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-17T17:35Z",
+    "date": "2026-10-17T18:34Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -10269,6 +10269,18 @@
   ],
   "TEN": [
    {
+    "id": 4917635,
+    "name": "Joshua Williams",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-17T17:57Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4360978,
     "name": "David Martin-Robinson",
     "pos": "TE",
@@ -10507,18 +10519,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4917635,
-    "name": "Joshua Williams",
-    "pos": "CB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-10T23:21Z",
-    "body": "Pectoral",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3120464,
