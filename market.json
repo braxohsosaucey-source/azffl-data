@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-17T20:43:14Z",
+ "_pulledUtc": "2026-10-17T21:25:14Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -875,8 +875,8 @@
     "book": "DraftKings",
     "details": "KC -7.5",
     "moneyline": {
-     "away": 330,
-     "home": -425
+     "away": 320,
+     "home": -410
     },
     "moneylineOpen": {
      "away": 114,
@@ -906,11 +906,11 @@
     }
    },
    "noVig": {
-    "away": 0.223167,
-    "home": 0.776833,
-    "hold": 0.042082,
-    "fairAway": 348.1,
-    "fairHome": -348.1
+    "away": 0.228495,
+    "home": 0.771505,
+    "hold": 0.042017,
+    "fairAway": 337.65,
+    "fairHome": -337.65
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -965,8 +965,8 @@
     "book": "DraftKings",
     "details": "BUF -5.5",
     "moneyline": {
-     "away": -225,
-     "home": 185
+     "away": -258,
+     "home": 210
     },
     "moneylineOpen": {
      "away": -285,
@@ -975,8 +975,8 @@
     "spread": {
      "away": -5.5,
      "home": 5.5,
-     "awayOdds": -102,
-     "homeOdds": -118
+     "awayOdds": -110,
+     "homeOdds": -110
     },
     "spreadOpen": {
      "away": -6.5,
@@ -986,8 +986,8 @@
     },
     "total": {
      "line": 53.5,
-     "over": -115,
-     "under": -105
+     "over": -110,
+     "under": -110
     },
     "totalOpen": {
      "line": 47.5,
@@ -996,11 +996,11 @@
     }
    },
    "noVig": {
-    "away": 0.663648,
-    "home": 0.336352,
-    "hold": 0.043185,
-    "fairAway": -197.31,
-    "fairHome": 197.31
+    "away": 0.690793,
+    "home": 0.309207,
+    "hold": 0.043251,
+    "fairAway": -223.41,
+    "fairHome": 223.41
    },
    "noVigOpen": {
     "away": 0.709544,
@@ -1147,8 +1147,8 @@
     },
     "total": {
      "line": 52.5,
-     "over": -105,
-     "under": -115
+     "over": 100,
+     "under": -120
     },
     "totalOpen": {
      "line": 50.5,
@@ -1205,10 +1205,22 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-17T20:01:14Z",
+ "injuriesUtc": "2026-10-17T21:04:07Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
+   {
+    "id": 4430821,
+    "name": "Kitan Crawford",
+    "pos": "S",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T20:29Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
    {
     "id": 3918331,
     "name": "Andrew Wingard",
@@ -1316,18 +1328,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "OUT"
-   },
-   {
-    "id": 4430821,
-    "name": "Kitan Crawford",
-    "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-15T01:09Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
    },
    {
     "id": 4366910,
@@ -1817,13 +1817,13 @@
     "id": 4870847,
     "name": "Ja'Kobi Lane",
     "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-17T15:43Z",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T20:16Z",
     "body": "Wrist",
     "side": "Left",
     "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3915837,
@@ -2725,11 +2725,23 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-17T19:13Z",
+    "date": "2026-10-17T20:54Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "OUT"
+   },
+   {
+    "id": 4431611,
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T20:37Z",
+    "body": "Hamstring",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4242659,
@@ -2838,18 +2850,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-22",
     "fantasy": "OUT"
-   },
-   {
-    "id": 4431611,
-    "name": "Caleb Williams",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-16T19:03Z",
-    "body": "Hamstring",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4432804,
@@ -4532,6 +4532,30 @@
   ],
   "GB": [
    {
+    "id": 4430191,
+    "name": "Skyy Moore",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-17T20:05Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-11-15",
+    "fantasy": "IR"
+   },
+   {
+    "id": 2983055,
+    "name": "Javon Hargrave",
+    "pos": "DT",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-17T20:04Z",
+    "body": "Achilles",
+    "side": "Not Specified",
+    "returnDate": "2027-02-15",
+    "fantasy": "IR"
+   },
+   {
     "id": 4428037,
     "name": "Jacob Monk",
     "pos": "C",
@@ -4571,13 +4595,13 @@
     "id": 4259762,
     "name": "Jonathan Ford",
     "pos": "DT",
-    "status": "Out",
-    "abbr": "O",
+    "status": "Injured Reserve",
+    "abbr": "IR",
     "date": "2026-10-17T04:22Z",
     "body": "Calf",
     "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "OUT"
+    "returnDate": "2026-11-15",
+    "fantasy": "IR"
    },
    {
     "id": 5076652,
@@ -4607,25 +4631,13 @@
     "id": 4431487,
     "name": "Savion Williams",
     "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-17T02:07Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
-   },
-   {
-    "id": 4430191,
-    "name": "Skyy Moore",
-    "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-16T23:03Z",
-    "body": "Ankle",
-    "side": "Left",
-    "returnDate": "2026-10-25",
-    "fantasy": "OUT"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4361791,
@@ -4672,7 +4684,7 @@
     "date": "2026-10-15T01:53Z",
     "body": "Achilles",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
+    "returnDate": "2026-10-25",
     "fantasy": "PUP-R"
    },
    {
@@ -4734,18 +4746,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 2983055,
-    "name": "Javon Hargrave",
-    "pos": "DT",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-12T16:27Z",
-    "body": "Achilles",
-    "side": "Not Specified",
-    "returnDate": "2027-02-15",
-    "fantasy": "OUT"
    },
    {
     "id": 4869461,
@@ -6371,13 +6371,13 @@
     "id": 4430870,
     "name": "KeAndre Lambert-Smith",
     "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-17T01:31Z",
     "body": "Hamstring",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3691739,
@@ -7555,13 +7555,13 @@
     "id": 4047646,
     "name": "A.J. Brown",
     "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-17T14:04Z",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T20:12Z",
     "body": "Ankle",
     "side": "Right",
     "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4685298,
@@ -7716,7 +7716,7 @@
     "date": "2026-10-15T00:55Z",
     "body": "Ankle",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
+    "returnDate": "2026-10-22",
     "fantasy": "IR-R"
    },
    {
@@ -8161,7 +8161,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-17T19:13Z",
+    "date": "2026-10-17T20:54Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8461,13 +8461,13 @@
     "id": 4723820,
     "name": "Omar Cooper Jr.",
     "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-17T16:52Z",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T20:18Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR-R"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4243375,
@@ -8760,6 +8760,18 @@
   ],
   "PHI": [
    {
+    "id": 4040715,
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-17T20:02Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-11-22",
+    "fantasy": "IR"
+   },
+   {
     "id": 15797,
     "name": "Lane Johnson",
     "pos": "OT",
@@ -8770,18 +8782,6 @@
     "side": "Not Specified",
     "returnDate": "2027-02-15",
     "fantasy": "OUT"
-   },
-   {
-    "id": 4040715,
-    "name": "Jalen Hurts",
-    "pos": "QB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-17T14:10Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-11-22",
-    "fantasy": "IR"
    },
    {
     "id": 4567802,
@@ -9364,6 +9364,42 @@
   ],
   "SF": [
    {
+    "id": 4693337,
+    "name": "Marques Sigle",
+    "pos": "S",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-17T20:54Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "OUT"
+   },
+   {
+    "id": 4040605,
+    "name": "Nick Bosa",
+    "pos": "DE",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-17T20:54Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "OUT"
+   },
+   {
+    "id": 16737,
+    "name": "Mike Evans",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-17T19:52Z",
+    "body": "Ribs",
+    "side": "Not Specified",
+    "returnDate": "2026-10-19",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 16002,
     "name": "Kyle Juszczyk",
     "pos": "FB",
@@ -9410,42 +9446,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 16737,
-    "name": "Mike Evans",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-16T22:32Z",
-    "body": "Ribs",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4693337,
-    "name": "Marques Sigle",
-    "pos": "S",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-16T04:32Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "DOUBTFUL"
-   },
-   {
-    "id": 4040605,
-    "name": "Nick Bosa",
-    "pos": "DE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-16T04:26Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4685623,
