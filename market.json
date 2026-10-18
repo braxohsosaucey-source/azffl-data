@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-18T05:59:13Z",
+ "_pulledUtc": "2026-10-18T07:01:13Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -127,8 +127,8 @@
     },
     "total": {
      "line": 52.5,
-     "over": -110,
-     "under": -110
+     "over": -118,
+     "under": -102
     },
     "totalOpen": {
      "line": 47.5,
@@ -177,8 +177,8 @@
     "book": "DraftKings",
     "details": "BAL -3",
     "moneyline": {
-     "away": -166,
-     "home": 140
+     "away": -162,
+     "home": 136
     },
     "moneylineOpen": {
      "away": -270,
@@ -187,8 +187,8 @@
     "spread": {
      "away": -3.0,
      "home": 3.0,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "awayOdds": -110,
+     "homeOdds": -110
     },
     "spreadOpen": {
      "away": -6.5,
@@ -208,11 +208,11 @@
     }
    },
    "noVig": {
-    "away": 0.599639,
-    "home": 0.400361,
-    "hold": 0.040727,
-    "fairAway": -149.77,
-    "fairHome": 149.77
+    "away": 0.59337,
+    "home": 0.40663,
+    "hold": 0.042049,
+    "fairAway": -145.92,
+    "fairHome": 145.92
    },
    "noVigOpen": {
     "away": 0.700162,
@@ -277,8 +277,8 @@
     "spread": {
      "away": 6.5,
      "home": -6.5,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "awayOdds": 100,
+     "homeOdds": -120
     },
     "spreadOpen": {
      "away": 3.5,
@@ -539,8 +539,8 @@
     },
     "total": {
      "line": 39.5,
-     "over": -102,
-     "under": -118
+     "over": -108,
+     "under": -112
     },
     "totalOpen": {
      "line": 43.5,
@@ -698,8 +698,8 @@
     "book": "DraftKings",
     "details": "LAR -12.5",
     "moneyline": {
-     "away": 525,
-     "home": -750
+     "away": 550,
+     "home": -800
     },
     "moneylineOpen": {
      "away": 500,
@@ -719,8 +719,8 @@
     },
     "total": {
      "line": 51.5,
-     "over": -112,
-     "under": -108
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 46.5,
@@ -729,11 +729,11 @@
     }
    },
    "noVig": {
-    "away": 0.153499,
-    "home": 0.846501,
-    "hold": 0.042353,
-    "fairAway": 551.47,
-    "fairHome": -551.47
+    "away": 0.147541,
+    "home": 0.852459,
+    "hold": 0.042735,
+    "fairAway": 577.78,
+    "fairHome": -577.78
    },
    "noVigOpen": {
     "away": 0.16,
@@ -788,8 +788,8 @@
     "book": "DraftKings",
     "details": "KC -7.5",
     "moneyline": {
-     "away": 320,
-     "home": -410
+     "away": 330,
+     "home": -425
     },
     "moneylineOpen": {
      "away": 114,
@@ -819,11 +819,11 @@
     }
    },
    "noVig": {
-    "away": 0.228495,
-    "home": 0.771505,
-    "hold": 0.042017,
-    "fairAway": 337.65,
-    "fairHome": -337.65
+    "away": 0.223167,
+    "home": 0.776833,
+    "hold": 0.042082,
+    "fairAway": 348.1,
+    "fairHome": -348.1
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -899,8 +899,8 @@
     },
     "total": {
      "line": 53.5,
-     "over": -110,
-     "under": -110
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 47.5,
@@ -1136,8 +1136,8 @@
     "spread": {
      "away": 7.5,
      "home": -7.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -110,
+     "homeOdds": -110
     },
     "spreadOpen": {
      "away": 5.5,
@@ -1147,8 +1147,8 @@
     },
     "total": {
      "line": 52.5,
-     "over": 100,
-     "under": -120
+     "over": -102,
+     "under": -118
     },
     "totalOpen": {
      "line": 50.5,
@@ -1205,7 +1205,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-18T05:38:10Z",
+ "injuriesUtc": "2026-10-18T07:01:14Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2723,13 +2723,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-18T05:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-18T06:01Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4242659,
@@ -8161,7 +8161,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-18T05:00Z",
+    "date": "2026-10-18T06:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
