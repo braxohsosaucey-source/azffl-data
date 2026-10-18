@@ -1,12 +1,1031 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-18T03:50:13Z",
+ "_pulledUtc": "2026-10-18T04:34:14Z",
  "week": 6,
  "books": [
-  "Draft Kings",
-  "DraftKings"
+  "Draft Kings"
  ],
  "games": [
+  {
+   "id": "401872996",
+   "away": "HOU",
+   "home": "JAX",
+   "kickoffUtc": "2026-10-18T13:30Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "JAX -2.5",
+    "moneyline": {
+     "away": 124,
+     "home": -148
+    },
+    "moneylineOpen": {
+     "away": -115,
+     "home": -105
+    },
+    "spread": {
+     "away": 2.5,
+     "home": -2.5,
+     "awayOdds": 100,
+     "homeOdds": -120
+    },
+    "spreadOpen": {
+     "away": -1.5,
+     "home": 1.5,
+     "awayOdds": -102,
+     "homeOdds": -118
+    },
+    "total": {
+     "line": 41.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 41.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.42794,
+    "home": 0.57206,
+    "hold": 0.043203,
+    "fairAway": 133.68,
+    "fairHome": -133.68
+   },
+   "noVigOpen": {
+    "away": 0.510834,
+    "home": 0.489166,
+    "hold": 0.047079,
+    "fairAway": -104.43,
+    "fairHome": 104.43
+   },
+   "venue": {
+    "id": "2455",
+    "name": "Wembley Stadium",
+    "city": "London",
+    "state": null,
+    "country": "England"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T13:00",
+     "tempF": 57.2,
+     "windMph": 10.1,
+     "gustMph": 22.6,
+     "precipIn": 0.0,
+     "precipProb": 10
+    },
+    "game": {
+     "maxWindMph": 11.9,
+     "maxGustMph": 24.8,
+     "precipIn": 0.059,
+     "maxPrecipProb": 22
+    },
+    "src": "open-meteo",
+    "lat": 51.50853,
+    "lon": -0.12574,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401872999",
+   "away": "CHI",
+   "home": "ATL",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "CHI -1.5",
+    "moneyline": {
+     "away": -120,
+     "home": 100
+    },
+    "moneylineOpen": {
+     "away": -166,
+     "home": 140
+    },
+    "spread": {
+     "away": -1.5,
+     "home": 1.5,
+     "awayOdds": 100,
+     "homeOdds": -120
+    },
+    "spreadOpen": {
+     "away": -3.0,
+     "home": 3.0,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "total": {
+     "line": 52.5,
+     "over": -110,
+     "under": -110
+    },
+    "totalOpen": {
+     "line": 47.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.521739,
+    "home": 0.478261,
+    "hold": 0.045455,
+    "fairAway": -109.09,
+    "fairHome": 109.09
+   },
+   "noVigOpen": {
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
+   },
+   "venue": {
+    "id": "5348",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA"
+   },
+   "indoor": true,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 60
+   },
+   "weather": null,
+   "wxNote": "indoor"
+  },
+  {
+   "id": "401872997",
+   "away": "BAL",
+   "home": "CLE",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "BAL -3",
+    "moneyline": {
+     "away": -166,
+     "home": 140
+    },
+    "moneylineOpen": {
+     "away": -270,
+     "home": 220
+    },
+    "spread": {
+     "away": -3.0,
+     "home": 3.0,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "spreadOpen": {
+     "away": -6.5,
+     "home": 6.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 39.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 44.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
+   },
+   "noVigOpen": {
+    "away": 0.700162,
+    "home": 0.299838,
+    "hold": 0.04223,
+    "fairAway": -233.51,
+    "fairHome": 233.51
+   },
+   "venue": {
+    "id": "3679",
+    "name": "Huntington Bank Field",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 59
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T17:00",
+     "tempF": 57.3,
+     "windMph": 8.8,
+     "gustMph": 13.0,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 9.6,
+     "maxGustMph": 14.8,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 41.4995,
+    "lon": -81.69541,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873003",
+   "away": "TEN",
+   "home": "IND",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "IND -6.5",
+    "moneyline": {
+     "away": 270,
+     "home": -340
+    },
+    "moneylineOpen": {
+     "away": 160,
+     "home": -192
+    },
+    "spread": {
+     "away": 6.5,
+     "home": -6.5,
+     "awayOdds": -105,
+     "homeOdds": -115
+    },
+    "spreadOpen": {
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 44.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 48.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.259128,
+    "home": 0.740872,
+    "hold": 0.042998,
+    "fairAway": 285.91,
+    "fairHome": -285.91
+   },
+   "noVigOpen": {
+    "away": 0.36906,
+    "home": 0.63094,
+    "hold": 0.04215,
+    "fairAway": 170.96,
+    "fairHome": -170.96
+   },
+   "venue": {
+    "id": "3812",
+    "name": "Lucas Oil Stadium",
+    "city": "Indianapolis",
+    "state": "IN",
+    "country": "USA"
+   },
+   "indoor": true,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 57
+   },
+   "weather": null,
+   "wxNote": "indoor"
+  },
+  {
+   "id": "401873001",
+   "away": "NYJ",
+   "home": "NE",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "NE -7.5",
+    "moneyline": {
+     "away": 280,
+     "home": -355
+    },
+    "moneylineOpen": {
+     "away": 350,
+     "home": -455
+    },
+    "spread": {
+     "away": 7.5,
+     "home": -7.5,
+     "awayOdds": -112,
+     "homeOdds": -108
+    },
+    "spreadOpen": {
+     "away": 9.5,
+     "home": -9.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 43.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 42.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.252217,
+    "home": 0.747783,
+    "hold": 0.043378,
+    "fairAway": 296.48,
+    "fairHome": -296.48
+   },
+   "noVigOpen": {
+    "away": 0.213256,
+    "home": 0.786744,
+    "hold": 0.042042,
+    "fairAway": 368.92,
+    "fairHome": -368.92
+   },
+   "venue": {
+    "id": "3738",
+    "name": "Gillette Stadium",
+    "city": "Foxborough",
+    "state": "MA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 52
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T17:00",
+     "tempF": 50.6,
+     "windMph": 3.5,
+     "gustMph": 3.6,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 3.5,
+     "maxGustMph": 6.0,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 42.06538,
+    "lon": -71.24783,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873000",
+   "away": "NO",
+   "home": "NYG",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "NYG -1.5",
+    "moneyline": {
+     "away": -108,
+     "home": -112
+    },
+    "moneylineOpen": {
+     "away": 124,
+     "home": -148
+    },
+    "spread": {
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -122,
+     "homeOdds": 102
+    },
+    "spreadOpen": {
+     "away": 2.5,
+     "home": -2.5,
+     "awayOdds": -105,
+     "homeOdds": -115
+    },
+    "total": {
+     "line": 46.5,
+     "over": -105,
+     "under": -115
+    },
+    "totalOpen": {
+     "line": 45.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.49567,
+    "home": 0.50433,
+    "hold": 0.047533,
+    "fairAway": 101.75,
+    "fairHome": -101.75
+   },
+   "noVigOpen": {
+    "away": 0.42794,
+    "home": 0.57206,
+    "hold": 0.043203,
+    "fairAway": 133.68,
+    "fairHome": -133.68
+   },
+   "venue": {
+    "id": "3839",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 57
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T17:00",
+     "tempF": 54.3,
+     "windMph": 6.3,
+     "gustMph": 7.6,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 6.3,
+     "maxGustMph": 9.8,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 40.83399,
+    "lon": -74.09709,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401872998",
+   "away": "CAR",
+   "home": "PHI",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "CAR -3",
+    "moneyline": {
+     "away": -166,
+     "home": 140
+    },
+    "moneylineOpen": {
+     "away": 230,
+     "home": -285
+    },
+    "spread": {
+     "away": -3.0,
+     "home": 3.0,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "spreadOpen": {
+     "away": 6.5,
+     "home": -6.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 39.5,
+     "over": -102,
+     "under": -118
+    },
+    "totalOpen": {
+     "line": 43.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
+   },
+   "noVigOpen": {
+    "away": 0.290456,
+    "home": 0.709544,
+    "hold": 0.04329,
+    "fairAway": 244.29,
+    "fairHome": -244.29
+   },
+   "venue": {
+    "id": "3806",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 56
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T17:00",
+     "tempF": 53.8,
+     "windMph": 9.0,
+     "gustMph": 12.5,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 9.0,
+     "maxGustMph": 12.5,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 39.95238,
+    "lon": -75.16362,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873002",
+   "away": "PIT",
+   "home": "TB",
+   "kickoffUtc": "2026-10-18T17:00Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "PIT -2.5",
+    "moneyline": {
+     "away": -148,
+     "home": 124
+    },
+    "moneylineOpen": {
+     "away": 105,
+     "home": -125
+    },
+    "spread": {
+     "away": -2.5,
+     "home": 2.5,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "spreadOpen": {
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 38.5,
+     "over": -118,
+     "under": -102
+    },
+    "totalOpen": {
+     "line": 45.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.57206,
+    "home": 0.42794,
+    "hold": 0.043203,
+    "fairAway": -133.68,
+    "fairHome": 133.68
+   },
+   "noVigOpen": {
+    "away": 0.467532,
+    "home": 0.532468,
+    "hold": 0.04336,
+    "fairAway": 113.89,
+    "fairHome": -113.89
+   },
+   "venue": {
+    "id": "3886",
+    "name": "Raymond James Stadium",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Intermittent clouds",
+    "tempF": 77
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T17:00",
+     "tempF": 75.0,
+     "windMph": 11.8,
+     "gustMph": 23.7,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 14.5,
+     "maxGustMph": 26.4,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 27.94752,
+    "lon": -82.45843,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873004",
+   "away": "ARI",
+   "home": "LAR",
+   "kickoffUtc": "2026-10-18T20:05Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "LAR -12.5",
+    "moneyline": {
+     "away": 550,
+     "home": -800
+    },
+    "moneylineOpen": {
+     "away": 500,
+     "home": -700
+    },
+    "spread": {
+     "away": 12.5,
+     "home": -12.5,
+     "awayOdds": -108,
+     "homeOdds": -112
+    },
+    "spreadOpen": {
+     "away": 13.5,
+     "home": -13.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 51.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 46.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.147541,
+    "home": 0.852459,
+    "hold": 0.042735,
+    "fairAway": 577.78,
+    "fairHome": -577.78
+   },
+   "noVigOpen": {
+    "away": 0.16,
+    "home": 0.84,
+    "hold": 0.041667,
+    "fairAway": 525.0,
+    "fairHome": -525.0
+   },
+   "venue": {
+    "id": "7065",
+    "name": "SoFi Stadium",
+    "city": "Inglewood",
+    "state": "CA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Mostly sunny",
+    "tempF": 86
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T20:00",
+     "tempF": 87.0,
+     "windMph": 6.0,
+     "gustMph": 6.3,
+     "precipIn": 0.0,
+     "precipProb": 1
+    },
+    "game": {
+     "maxWindMph": 10.7,
+     "maxGustMph": 16.1,
+     "precipIn": 0.0,
+     "maxPrecipProb": 1
+    },
+    "src": "open-meteo",
+    "lat": 33.96168,
+    "lon": -118.35313,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873006",
+   "away": "LAC",
+   "home": "KC",
+   "kickoffUtc": "2026-10-18T20:25Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "KC -7.5",
+    "moneyline": {
+     "away": 320,
+     "home": -410
+    },
+    "moneylineOpen": {
+     "away": 114,
+     "home": -135
+    },
+    "spread": {
+     "away": 7.5,
+     "home": -7.5,
+     "awayOdds": -112,
+     "homeOdds": -108
+    },
+    "spreadOpen": {
+     "away": 2.5,
+     "home": -2.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 41.5,
+     "over": -105,
+     "under": -115
+    },
+    "totalOpen": {
+     "line": 46.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.228495,
+    "home": 0.771505,
+    "hold": 0.042017,
+    "fairAway": 337.65,
+    "fairHome": -337.65
+   },
+   "noVigOpen": {
+    "away": 0.448559,
+    "home": 0.551441,
+    "hold": 0.041758,
+    "fairAway": 122.94,
+    "fairHome": -122.94
+   },
+   "venue": {
+    "id": "3622",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Sunny",
+    "tempF": 67
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-18T20:00",
+     "tempF": 63.0,
+     "windMph": 11.2,
+     "gustMph": 18.6,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 11.2,
+     "maxGustMph": 18.6,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 39.09973,
+    "lon": -94.57857,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873005",
+   "away": "BUF",
+   "home": "LV",
+   "kickoffUtc": "2026-10-18T20:25Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "BUF -5.5",
+    "moneyline": {
+     "away": -258,
+     "home": 210
+    },
+    "moneylineOpen": {
+     "away": -285,
+     "home": 230
+    },
+    "spread": {
+     "away": -5.5,
+     "home": 5.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "spreadOpen": {
+     "away": -6.5,
+     "home": 6.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 53.5,
+     "over": -110,
+     "under": -110
+    },
+    "totalOpen": {
+     "line": 47.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.690793,
+    "home": 0.309207,
+    "hold": 0.043251,
+    "fairAway": -223.41,
+    "fairHome": 223.41
+   },
+   "noVigOpen": {
+    "away": 0.709544,
+    "home": 0.290456,
+    "hold": 0.04329,
+    "fairAway": -244.29,
+    "fairHome": 244.29
+   },
+   "venue": {
+    "id": "6501",
+    "name": "Allegiant Stadium",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA"
+   },
+   "indoor": true,
+   "espnWeather": {
+    "text": "Mostly sunny",
+    "tempF": 74
+   },
+   "weather": null,
+   "wxNote": "indoor"
+  },
+  {
+   "id": "401873007",
+   "away": "DAL",
+   "home": "GB",
+   "kickoffUtc": "2026-10-19T00:20Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "GB -1.5",
+    "moneyline": {
+     "away": -105,
+     "home": -115
+    },
+    "moneylineOpen": {
+     "away": 140,
+     "home": -166
+    },
+    "spread": {
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -118,
+     "homeOdds": -102
+    },
+    "spreadOpen": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 53.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 51.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.489166,
+    "home": 0.510834,
+    "hold": 0.047079,
+    "fairAway": 104.43,
+    "fairHome": -104.43
+   },
+   "noVigOpen": {
+    "away": 0.400361,
+    "home": 0.599639,
+    "hold": 0.040727,
+    "fairAway": 149.77,
+    "fairHome": -149.77
+   },
+   "venue": {
+    "id": "3798",
+    "name": "Lambeau Field",
+    "city": "Green Bay",
+    "state": "WI",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Clear",
+    "tempF": 54
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-19T00:00",
+     "tempF": 51.3,
+     "windMph": 10.1,
+     "gustMph": 19.0,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 10.1,
+     "maxGustMph": 20.1,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 44.51916,
+    "lon": -88.01983,
+    "t": "2026-10-18T02:01:15Z"
+   },
+   "wxNote": null
+  },
   {
    "id": "401872995",
    "away": "SEA",
@@ -95,1035 +1114,15 @@
    "wxNote": null
   },
   {
-   "id": "401872996",
-   "away": "HOU",
-   "home": "JAX",
-   "kickoffUtc": "2026-10-18T13:30Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "JAX -2.5",
-    "moneyline": {
-     "away": 124,
-     "home": -148
-    },
-    "moneylineOpen": {
-     "away": -115,
-     "home": -105
-    },
-    "spread": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": 100,
-     "homeOdds": -120
-    },
-    "spreadOpen": {
-     "away": -1.5,
-     "home": 1.5,
-     "awayOdds": -102,
-     "homeOdds": -118
-    },
-    "total": {
-     "line": 41.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 41.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.42794,
-    "home": 0.57206,
-    "hold": 0.043203,
-    "fairAway": 133.68,
-    "fairHome": -133.68
-   },
-   "noVigOpen": {
-    "away": 0.510834,
-    "home": 0.489166,
-    "hold": 0.047079,
-    "fairAway": -104.43,
-    "fairHome": 104.43
-   },
-   "venue": {
-    "id": "2455",
-    "name": "Wembley Stadium",
-    "city": "London",
-    "state": null,
-    "country": "England"
-   },
-   "indoor": false,
-   "espnWeather": null,
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T13:00",
-     "tempF": 57.2,
-     "windMph": 10.1,
-     "gustMph": 22.6,
-     "precipIn": 0.0,
-     "precipProb": 10
-    },
-    "game": {
-     "maxWindMph": 11.9,
-     "maxGustMph": 24.8,
-     "precipIn": 0.059,
-     "maxPrecipProb": 22
-    },
-    "src": "open-meteo",
-    "lat": 51.50853,
-    "lon": -0.12574,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401872999",
-   "away": "CHI",
-   "home": "ATL",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "CHI -1.5",
-    "moneyline": {
-     "away": -120,
-     "home": 100
-    },
-    "moneylineOpen": {
-     "away": -166,
-     "home": 140
-    },
-    "spread": {
-     "away": -1.5,
-     "home": 1.5,
-     "awayOdds": 100,
-     "homeOdds": -120
-    },
-    "spreadOpen": {
-     "away": -3.0,
-     "home": 3.0,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "total": {
-     "line": 52.5,
-     "over": -110,
-     "under": -110
-    },
-    "totalOpen": {
-     "line": 47.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.521739,
-    "home": 0.478261,
-    "hold": 0.045455,
-    "fairAway": -109.09,
-    "fairHome": 109.09
-   },
-   "noVigOpen": {
-    "away": 0.599639,
-    "home": 0.400361,
-    "hold": 0.040727,
-    "fairAway": -149.77,
-    "fairHome": 149.77
-   },
-   "venue": {
-    "id": "5348",
-    "name": "Mercedes-Benz Stadium",
-    "city": "Atlanta",
-    "state": "GA",
-    "country": "USA"
-   },
-   "indoor": true,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 60
-   },
-   "weather": null,
-   "wxNote": "indoor"
-  },
-  {
-   "id": "401872997",
-   "away": "BAL",
-   "home": "CLE",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "BAL -3",
-    "moneyline": {
-     "away": -166,
-     "home": 140
-    },
-    "moneylineOpen": {
-     "away": -270,
-     "home": 220
-    },
-    "spread": {
-     "away": -3.0,
-     "home": 3.0,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": -6.5,
-     "home": 6.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 39.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 44.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.599639,
-    "home": 0.400361,
-    "hold": 0.040727,
-    "fairAway": -149.77,
-    "fairHome": 149.77
-   },
-   "noVigOpen": {
-    "away": 0.700162,
-    "home": 0.299838,
-    "hold": 0.04223,
-    "fairAway": -233.51,
-    "fairHome": 233.51
-   },
-   "venue": {
-    "id": "3679",
-    "name": "Huntington Bank Field",
-    "city": "Cleveland",
-    "state": "OH",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 59
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 57.3,
-     "windMph": 8.8,
-     "gustMph": 13.0,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 9.6,
-     "maxGustMph": 14.8,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 41.4995,
-    "lon": -81.69541,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873003",
-   "away": "TEN",
-   "home": "IND",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "IND -6.5",
-    "moneyline": {
-     "away": 260,
-     "home": -325
-    },
-    "moneylineOpen": {
-     "away": 160,
-     "home": -192
-    },
-    "spread": {
-     "away": 6.5,
-     "home": -6.5,
-     "awayOdds": -105,
-     "homeOdds": -115
-    },
-    "spreadOpen": {
-     "away": 3.5,
-     "home": -3.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 44.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 48.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.266458,
-    "home": 0.733542,
-    "hold": 0.042484,
-    "fairAway": 275.29,
-    "fairHome": -275.29
-   },
-   "noVigOpen": {
-    "away": 0.36906,
-    "home": 0.63094,
-    "hold": 0.04215,
-    "fairAway": 170.96,
-    "fairHome": -170.96
-   },
-   "venue": {
-    "id": "3812",
-    "name": "Lucas Oil Stadium",
-    "city": "Indianapolis",
-    "state": "IN",
-    "country": "USA"
-   },
-   "indoor": true,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 57
-   },
-   "weather": null,
-   "wxNote": "indoor"
-  },
-  {
-   "id": "401873001",
-   "away": "NYJ",
-   "home": "NE",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "NE -7.5",
-    "moneyline": {
-     "away": 280,
-     "home": -355
-    },
-    "moneylineOpen": {
-     "away": 350,
-     "home": -455
-    },
-    "spread": {
-     "away": 7.5,
-     "home": -7.5,
-     "awayOdds": -112,
-     "homeOdds": -108
-    },
-    "spreadOpen": {
-     "away": 9.5,
-     "home": -9.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 43.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 42.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.252217,
-    "home": 0.747783,
-    "hold": 0.043378,
-    "fairAway": 296.48,
-    "fairHome": -296.48
-   },
-   "noVigOpen": {
-    "away": 0.213256,
-    "home": 0.786744,
-    "hold": 0.042042,
-    "fairAway": 368.92,
-    "fairHome": -368.92
-   },
-   "venue": {
-    "id": "3738",
-    "name": "Gillette Stadium",
-    "city": "Foxborough",
-    "state": "MA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 52
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 50.6,
-     "windMph": 3.5,
-     "gustMph": 3.6,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 3.5,
-     "maxGustMph": 6.0,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 42.06538,
-    "lon": -71.24783,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873000",
-   "away": "NO",
-   "home": "NYG",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "NYG -1.5",
-    "moneyline": {
-     "away": -108,
-     "home": -112
-    },
-    "moneylineOpen": {
-     "away": 124,
-     "home": -148
-    },
-    "spread": {
-     "away": 1.5,
-     "home": -1.5,
-     "awayOdds": -122,
-     "homeOdds": 102
-    },
-    "spreadOpen": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": -105,
-     "homeOdds": -115
-    },
-    "total": {
-     "line": 46.5,
-     "over": -105,
-     "under": -115
-    },
-    "totalOpen": {
-     "line": 45.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.49567,
-    "home": 0.50433,
-    "hold": 0.047533,
-    "fairAway": 101.75,
-    "fairHome": -101.75
-   },
-   "noVigOpen": {
-    "away": 0.42794,
-    "home": 0.57206,
-    "hold": 0.043203,
-    "fairAway": 133.68,
-    "fairHome": -133.68
-   },
-   "venue": {
-    "id": "3839",
-    "name": "MetLife Stadium",
-    "city": "East Rutherford",
-    "state": "NJ",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 57
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 54.3,
-     "windMph": 6.3,
-     "gustMph": 7.6,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 6.3,
-     "maxGustMph": 9.8,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 40.83399,
-    "lon": -74.09709,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401872998",
-   "away": "CAR",
-   "home": "PHI",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "CAR -3",
-    "moneyline": {
-     "away": -166,
-     "home": 140
-    },
-    "moneylineOpen": {
-     "away": 230,
-     "home": -285
-    },
-    "spread": {
-     "away": -3.0,
-     "home": 3.0,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": 6.5,
-     "home": -6.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 39.5,
-     "over": -102,
-     "under": -118
-    },
-    "totalOpen": {
-     "line": 43.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.599639,
-    "home": 0.400361,
-    "hold": 0.040727,
-    "fairAway": -149.77,
-    "fairHome": 149.77
-   },
-   "noVigOpen": {
-    "away": 0.290456,
-    "home": 0.709544,
-    "hold": 0.04329,
-    "fairAway": 244.29,
-    "fairHome": -244.29
-   },
-   "venue": {
-    "id": "3806",
-    "name": "Lincoln Financial Field",
-    "city": "Philadelphia",
-    "state": "PA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 56
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 53.8,
-     "windMph": 9.0,
-     "gustMph": 12.5,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 9.0,
-     "maxGustMph": 12.5,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 39.95238,
-    "lon": -75.16362,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873002",
-   "away": "PIT",
-   "home": "TB",
-   "kickoffUtc": "2026-10-18T17:00Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "PIT -2.5",
-    "moneyline": {
-     "away": -148,
-     "home": 124
-    },
-    "moneylineOpen": {
-     "away": 105,
-     "home": -125
-    },
-    "spread": {
-     "away": -2.5,
-     "home": 2.5,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "spreadOpen": {
-     "away": 1.5,
-     "home": -1.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 38.5,
-     "over": -118,
-     "under": -102
-    },
-    "totalOpen": {
-     "line": 45.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.57206,
-    "home": 0.42794,
-    "hold": 0.043203,
-    "fairAway": -133.68,
-    "fairHome": 133.68
-   },
-   "noVigOpen": {
-    "away": 0.467532,
-    "home": 0.532468,
-    "hold": 0.04336,
-    "fairAway": 113.89,
-    "fairHome": -113.89
-   },
-   "venue": {
-    "id": "3886",
-    "name": "Raymond James Stadium",
-    "city": "Tampa",
-    "state": "FL",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Intermittent clouds",
-    "tempF": 77
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T17:00",
-     "tempF": 75.0,
-     "windMph": 11.8,
-     "gustMph": 23.7,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 14.5,
-     "maxGustMph": 26.4,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 27.94752,
-    "lon": -82.45843,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873004",
-   "away": "ARI",
-   "home": "LAR",
-   "kickoffUtc": "2026-10-18T20:05Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "LAR -12.5",
-    "moneyline": {
-     "away": 550,
-     "home": -800
-    },
-    "moneylineOpen": {
-     "away": 500,
-     "home": -700
-    },
-    "spread": {
-     "away": 12.5,
-     "home": -12.5,
-     "awayOdds": -108,
-     "homeOdds": -112
-    },
-    "spreadOpen": {
-     "away": 13.5,
-     "home": -13.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 51.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 46.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.147541,
-    "home": 0.852459,
-    "hold": 0.042735,
-    "fairAway": 577.78,
-    "fairHome": -577.78
-   },
-   "noVigOpen": {
-    "away": 0.16,
-    "home": 0.84,
-    "hold": 0.041667,
-    "fairAway": 525.0,
-    "fairHome": -525.0
-   },
-   "venue": {
-    "id": "7065",
-    "name": "SoFi Stadium",
-    "city": "Inglewood",
-    "state": "CA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Mostly sunny",
-    "tempF": 86
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T20:00",
-     "tempF": 87.0,
-     "windMph": 6.0,
-     "gustMph": 6.3,
-     "precipIn": 0.0,
-     "precipProb": 1
-    },
-    "game": {
-     "maxWindMph": 10.7,
-     "maxGustMph": 16.1,
-     "precipIn": 0.0,
-     "maxPrecipProb": 1
-    },
-    "src": "open-meteo",
-    "lat": 33.96168,
-    "lon": -118.35313,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873006",
-   "away": "LAC",
-   "home": "KC",
-   "kickoffUtc": "2026-10-18T20:25Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "KC -7.5",
-    "moneyline": {
-     "away": 330,
-     "home": -425
-    },
-    "moneylineOpen": {
-     "away": 114,
-     "home": -135
-    },
-    "spread": {
-     "away": 7.5,
-     "home": -7.5,
-     "awayOdds": -112,
-     "homeOdds": -108
-    },
-    "spreadOpen": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 41.5,
-     "over": -105,
-     "under": -115
-    },
-    "totalOpen": {
-     "line": 46.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.223167,
-    "home": 0.776833,
-    "hold": 0.042082,
-    "fairAway": 348.1,
-    "fairHome": -348.1
-   },
-   "noVigOpen": {
-    "away": 0.448559,
-    "home": 0.551441,
-    "hold": 0.041758,
-    "fairAway": 122.94,
-    "fairHome": -122.94
-   },
-   "venue": {
-    "id": "3622",
-    "name": "Arrowhead Stadium",
-    "city": "Kansas City",
-    "state": "MO",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Sunny",
-    "tempF": 67
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-18T20:00",
-     "tempF": 63.0,
-     "windMph": 11.2,
-     "gustMph": 18.6,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 11.2,
-     "maxGustMph": 18.6,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 39.09973,
-    "lon": -94.57857,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873005",
-   "away": "BUF",
-   "home": "LV",
-   "kickoffUtc": "2026-10-18T20:25Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "BUF -5.5",
-    "moneyline": {
-     "away": -258,
-     "home": 210
-    },
-    "moneylineOpen": {
-     "away": -285,
-     "home": 230
-    },
-    "spread": {
-     "away": -5.5,
-     "home": 5.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "spreadOpen": {
-     "away": -6.5,
-     "home": 6.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 53.5,
-     "over": -110,
-     "under": -110
-    },
-    "totalOpen": {
-     "line": 47.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.690793,
-    "home": 0.309207,
-    "hold": 0.043251,
-    "fairAway": -223.41,
-    "fairHome": 223.41
-   },
-   "noVigOpen": {
-    "away": 0.709544,
-    "home": 0.290456,
-    "hold": 0.04329,
-    "fairAway": -244.29,
-    "fairHome": 244.29
-   },
-   "venue": {
-    "id": "6501",
-    "name": "Allegiant Stadium",
-    "city": "Las Vegas",
-    "state": "NV",
-    "country": "USA"
-   },
-   "indoor": true,
-   "espnWeather": {
-    "text": "Mostly sunny",
-    "tempF": 74
-   },
-   "weather": null,
-   "wxNote": "indoor"
-  },
-  {
-   "id": "401873007",
-   "away": "DAL",
-   "home": "GB",
-   "kickoffUtc": "2026-10-19T00:20Z",
-   "state": "pre",
-   "book": "DraftKings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "GB -1.5",
-    "moneyline": {
-     "away": -105,
-     "home": -115
-    },
-    "moneylineOpen": {
-     "away": 140,
-     "home": -166
-    },
-    "spread": {
-     "away": 1.5,
-     "home": -1.5,
-     "awayOdds": -118,
-     "homeOdds": -102
-    },
-    "spreadOpen": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 53.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 51.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.489166,
-    "home": 0.510834,
-    "hold": 0.047079,
-    "fairAway": 104.43,
-    "fairHome": -104.43
-   },
-   "noVigOpen": {
-    "away": 0.400361,
-    "home": 0.599639,
-    "hold": 0.040727,
-    "fairAway": 149.77,
-    "fairHome": -149.77
-   },
-   "venue": {
-    "id": "3798",
-    "name": "Lambeau Field",
-    "city": "Green Bay",
-    "state": "WI",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Clear",
-    "tempF": 54
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-19T00:00",
-     "tempF": 51.3,
-     "windMph": 10.1,
-     "gustMph": 19.0,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 10.1,
-     "maxGustMph": 20.1,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 44.51916,
-    "lon": -88.01983,
-    "t": "2026-10-18T02:01:15Z"
-   },
-   "wxNote": null
-  },
-  {
    "id": "401873008",
    "away": "WSH",
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SF -7.5",
     "moneyline": {
      "away": 360,
@@ -1205,7 +1204,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-18T03:28:08Z",
+ "injuriesUtc": "2026-10-18T04:34:15Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2723,13 +2722,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-18T03:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-18T04:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4242659,
@@ -8161,7 +8160,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-18T03:01Z",
+    "date": "2026-10-18T04:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
