@@ -1,35 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T03:50:14.851Z",
+ "_pulledUtc": "2026-10-18T04:34:15.893Z",
  "week": 6,
  "games": [
-  {
-   "id": "401872995",
-   "name": "SEA @ DEN",
-   "dateUtc": "2026-10-16T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final/OT",
-   "period": 5,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "DEN",
-     "id": 7,
-     "home": true,
-     "score": 17
-    },
-    {
-     "abbrev": "SEA",
-     "id": 26,
-     "home": false,
-     "score": 14
-    }
-   ]
-  },
   {
    "id": "401872996",
    "name": "HOU VS JAX",
@@ -42,7 +15,7 @@
      "JAX": 22.0,
      "HOU": 19.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -78,7 +51,7 @@
      "ATL": 25.5,
      "CHI": 27.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": true,
    "state": "pre",
@@ -114,7 +87,7 @@
      "CLE": 18.25,
      "BAL": 21.25
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -150,7 +123,7 @@
      "IND": 25.5,
      "TEN": 19.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": true,
    "state": "pre",
@@ -186,7 +159,7 @@
      "NE": 25.5,
      "NYJ": 18.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -222,7 +195,7 @@
      "NYG": 24.0,
      "NO": 22.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -258,7 +231,7 @@
      "PHI": 18.25,
      "CAR": 21.25
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -294,7 +267,7 @@
      "TB": 18.0,
      "PIT": 20.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -330,7 +303,7 @@
      "LAR": 32.0,
      "ARI": 19.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -366,7 +339,7 @@
      "KC": 24.5,
      "LAC": 17.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -402,7 +375,7 @@
      "LV": 24.0,
      "BUF": 29.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": true,
    "state": "pre",
@@ -438,7 +411,7 @@
      "GB": 27.5,
      "DAL": 26.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -463,6 +436,33 @@
    ]
   },
   {
+   "id": "401872995",
+   "name": "SEA @ DEN",
+   "dateUtc": "2026-10-16T00:15Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final/OT",
+   "period": 5,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "DEN",
+     "id": 7,
+     "home": true,
+     "score": 17
+    },
+    {
+     "abbrev": "SEA",
+     "id": 26,
+     "home": false,
+     "score": 14
+    }
+   ]
+  },
+  {
    "id": "401873008",
    "name": "WSH @ SF",
    "dateUtc": "2026-10-20T00:15Z",
@@ -474,7 +474,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
