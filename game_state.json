@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T18:22:16.804Z",
+ "_pulledUtc": "2026-10-18T18:54:18.759Z",
  "week": 6,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "1:26 - 2nd",
-   "period": 2,
-   "clock": "1:26",
-   "clockSec": 86.0,
+   "detail": "11:23 - 3rd",
+   "period": 3,
+   "clock": "11:23",
+   "clockSec": 683.0,
    "teams": [
     {
      "abbrev": "ATL",
@@ -30,7 +30,7 @@
     }
    ],
    "sit": {
-    "poss": 3,
+    "poss": 1,
     "rz": false
    }
   },
@@ -42,16 +42,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "0:13 - 2nd",
-   "period": 2,
-   "clock": "0:13",
-   "clockSec": 13.0,
+   "detail": "5:03 - 3rd",
+   "period": 3,
+   "clock": "5:03",
+   "clockSec": 303.0,
    "teams": [
     {
      "abbrev": "CLE",
      "id": 5,
      "home": true,
-     "score": 0
+     "score": 3
     },
     {
      "abbrev": "BAL",
@@ -73,10 +73,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "10:18 - 3rd",
+   "period": 3,
+   "clock": "10:18",
+   "clockSec": 618.0,
    "teams": [
     {
      "abbrev": "IND",
@@ -88,9 +88,13 @@
      "abbrev": "TEN",
      "id": 10,
      "home": false,
-     "score": 0
+     "score": 3
     }
-   ]
+   ],
+   "sit": {
+    "poss": 11,
+    "rz": false
+   }
   },
   {
    "id": "401873001",
@@ -100,28 +104,24 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "0:50 - 2nd",
-   "period": 2,
-   "clock": "0:50",
-   "clockSec": 50.0,
+   "detail": "10:24 - 3rd",
+   "period": 3,
+   "clock": "10:24",
+   "clockSec": 624.0,
    "teams": [
     {
      "abbrev": "NE",
      "id": 17,
      "home": true,
-     "score": 10
+     "score": 17
     },
     {
      "abbrev": "NYJ",
      "id": 20,
      "home": false,
-     "score": 3
+     "score": 9
     }
-   ],
-   "sit": {
-    "poss": 17,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873000",
@@ -131,10 +131,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:18 - 2nd",
-   "period": 2,
-   "clock": "1:18",
-   "clockSec": 78.0,
+   "detail": "12:14 - 3rd",
+   "period": 3,
+   "clock": "12:14",
+   "clockSec": 734.0,
    "teams": [
     {
      "abbrev": "NYG",
@@ -146,7 +146,7 @@
      "abbrev": "NO",
      "id": 18,
      "home": false,
-     "score": 3
+     "score": 17
     }
    ]
   },
@@ -158,16 +158,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "6:12 - 2nd",
-   "period": 2,
-   "clock": "6:12",
-   "clockSec": 372.0,
+   "detail": "15:00 - 3rd",
+   "period": 3,
+   "clock": "15:00",
+   "clockSec": 900.0,
    "teams": [
     {
      "abbrev": "PHI",
      "id": 21,
      "home": true,
-     "score": 0
+     "score": 7
     },
     {
      "abbrev": "CAR",
@@ -177,7 +177,7 @@
     }
    ],
    "sit": {
-    "poss": 21,
+    "poss": 29,
     "rz": false
    }
   },
@@ -189,10 +189,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "1:52 - 2nd",
-   "period": 2,
-   "clock": "1:52",
-   "clockSec": 112.0,
+   "detail": "11:30 - 3rd",
+   "period": 3,
+   "clock": "11:30",
+   "clockSec": 690.0,
    "teams": [
     {
      "abbrev": "TB",
@@ -204,7 +204,7 @@
      "abbrev": "PIT",
      "id": 23,
      "home": false,
-     "score": 0
+     "score": 3
     }
    ],
    "sit": {
