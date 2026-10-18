@@ -1,10 +1,9 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-18T11:01:13Z",
+ "_pulledUtc": "2026-10-18T11:32:15Z",
  "week": 6,
  "books": [
-  "Draft Kings",
-  "DraftKings"
+  "Draft Kings"
  ],
  "games": [
   {
@@ -13,10 +12,10 @@
    "home": "JAX",
    "kickoffUtc": "2026-10-18T13:30Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "JAX -2.5",
     "moneyline": {
      "away": 120,
@@ -100,10 +99,10 @@
    "home": "ATL",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "CHI -1.5",
     "moneyline": {
      "away": -120,
@@ -171,10 +170,10 @@
    "home": "CLE",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "BAL -3",
     "moneyline": {
      "away": -170,
@@ -261,14 +260,14 @@
    "home": "IND",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "IND -6.5",
     "moneyline": {
-     "away": 260,
-     "home": -325
+     "away": 250,
+     "home": -310
     },
     "moneylineOpen": {
      "away": 160,
@@ -277,8 +276,8 @@
     "spread": {
      "away": 6.5,
      "home": -6.5,
-     "awayOdds": 100,
-     "homeOdds": -120
+     "awayOdds": -102,
+     "homeOdds": -118
     },
     "spreadOpen": {
      "away": 3.5,
@@ -298,11 +297,11 @@
     }
    },
    "noVig": {
-    "away": 0.266458,
-    "home": 0.733542,
-    "hold": 0.042484,
-    "fairAway": 275.29,
-    "fairHome": -275.29
+    "away": 0.274247,
+    "home": 0.725753,
+    "hold": 0.041812,
+    "fairAway": 264.63,
+    "fairHome": -264.63
    },
    "noVigOpen": {
     "away": 0.36906,
@@ -332,10 +331,10 @@
    "home": "NE",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "NE -7.5",
     "moneyline": {
      "away": 285,
@@ -422,24 +421,24 @@
    "home": "NYG",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
-    "details": "NYG -1.5",
+    "book": "Draft Kings",
+    "details": "NO -1.5",
     "moneyline": {
-     "away": -108,
-     "home": -112
+     "away": -110,
+     "home": -110
     },
     "moneylineOpen": {
      "away": 124,
      "home": -148
     },
     "spread": {
-     "away": 1.5,
-     "home": -1.5,
-     "awayOdds": -122,
-     "homeOdds": 102
+     "away": -1.5,
+     "home": 1.5,
+     "awayOdds": 102,
+     "homeOdds": -122
     },
     "spreadOpen": {
      "away": 2.5,
@@ -459,11 +458,11 @@
     }
    },
    "noVig": {
-    "away": 0.49567,
-    "home": 0.50433,
-    "hold": 0.047533,
-    "fairAway": 101.75,
-    "fairHome": -101.75
+    "away": 0.5,
+    "home": 0.5,
+    "hold": 0.047619,
+    "fairAway": -100.0,
+    "fairHome": -100.0
    },
    "noVigOpen": {
     "away": 0.42794,
@@ -512,10 +511,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "CAR -3",
     "moneyline": {
      "away": -166,
@@ -602,14 +601,14 @@
    "home": "TB",
    "kickoffUtc": "2026-10-18T17:00Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "PIT -2.5",
     "moneyline": {
-     "away": -148,
-     "home": 124
+     "away": -142,
+     "home": 120
     },
     "moneylineOpen": {
      "away": 105,
@@ -639,11 +638,11 @@
     }
    },
    "noVig": {
-    "away": 0.57206,
-    "home": 0.42794,
-    "hold": 0.043203,
-    "fairAway": -133.68,
-    "fairHome": 133.68
+    "away": 0.563492,
+    "home": 0.436508,
+    "hold": 0.041322,
+    "fairAway": -129.09,
+    "fairHome": 129.09
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -692,10 +691,10 @@
    "home": "LAR",
    "kickoffUtc": "2026-10-18T20:05Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "LAR -12.5",
     "moneyline": {
      "away": 550,
@@ -782,10 +781,10 @@
    "home": "KC",
    "kickoffUtc": "2026-10-18T20:25Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "KC -7.5",
     "moneyline": {
      "away": 330,
@@ -872,10 +871,10 @@
    "home": "LV",
    "kickoffUtc": "2026-10-18T20:25Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "BUF -5.5",
     "moneyline": {
      "away": -258,
@@ -943,10 +942,10 @@
    "home": "GB",
    "kickoffUtc": "2026-10-19T00:20Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "GB -1.5",
     "moneyline": {
      "away": -105,
@@ -1120,10 +1119,10 @@
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SF -7.5",
     "moneyline": {
      "away": 360,
@@ -1205,7 +1204,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-18T10:05:09Z",
+ "injuriesUtc": "2026-10-18T11:32:10Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2725,11 +2724,11 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-18T09:00Z",
+    "date": "2026-10-18T11:13Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4242659,
@@ -3626,6 +3625,18 @@
   ],
   "DAL": [
    {
+    "id": 4426506,
+    "name": "Joey Porter Jr.",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T11:17Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4362088,
     "name": "DeMarvion Overshown",
     "pos": "LB",
@@ -3660,18 +3671,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-26",
     "fantasy": "OUT"
-   },
-   {
-    "id": 4426506,
-    "name": "Joey Porter Jr.",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-17T02:32Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4426354,
@@ -5191,7 +5190,7 @@
     "abbr": "Q",
     "date": "2026-10-16T19:57Z",
     "body": "Groin",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
@@ -8161,7 +8160,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-18T10:01Z",
+    "date": "2026-10-18T11:13Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -9062,6 +9061,18 @@
   ],
   "PIT": [
    {
+    "id": 4038815,
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T11:12Z",
+    "body": "Toe",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4240577,
     "name": "Brandon Smith",
     "pos": "WR",
@@ -9180,18 +9191,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4038815,
-    "name": "Rico Dowdle",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-16T19:35Z",
-    "body": "Toe",
-    "side": null,
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4426694,
