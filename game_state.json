@@ -1,26 +1,165 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T19:58:17.077Z",
+ "_pulledUtc": "2026-10-18T20:28:16.571Z",
  "week": 6,
  "games": [
+  {
+   "id": "401873000",
+   "name": "NO @ NYG",
+   "dateUtc": "2026-10-18T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "NYG",
+     "id": 19,
+     "home": true,
+     "score": 27
+    },
+    {
+     "abbrev": "NO",
+     "id": 18,
+     "home": false,
+     "score": 34
+    }
+   ]
+  },
+  {
+   "id": "401872998",
+   "name": "CAR @ PHI",
+   "dateUtc": "2026-10-18T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "PHI",
+     "id": 21,
+     "home": true,
+     "score": 14
+    },
+    {
+     "abbrev": "CAR",
+     "id": 29,
+     "home": false,
+     "score": 25
+    }
+   ]
+  },
+  {
+   "id": "401873002",
+   "name": "PIT @ TB",
+   "dateUtc": "2026-10-18T17:00Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "6:52 - OT",
+   "period": 5,
+   "clock": "6:52",
+   "clockSec": 412.0,
+   "teams": [
+    {
+     "abbrev": "TB",
+     "id": 27,
+     "home": true,
+     "score": 19
+    },
+    {
+     "abbrev": "PIT",
+     "id": 23,
+     "home": false,
+     "score": 19
+    }
+   ],
+   "sit": {
+    "poss": 23,
+    "rz": false
+   }
+  },
+  {
+   "id": "401873004",
+   "name": "ARI @ LAR",
+   "dateUtc": "2026-10-18T20:05Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "5:37 - 1st",
+   "period": 1,
+   "clock": "5:37",
+   "clockSec": 337.0,
+   "teams": [
+    {
+     "abbrev": "LAR",
+     "id": 14,
+     "home": true,
+     "score": 3
+    },
+    {
+     "abbrev": "ARI",
+     "id": 22,
+     "home": false,
+     "score": 3
+    }
+   ]
+  },
+  {
+   "id": "401872996",
+   "name": "HOU VS JAX",
+   "dateUtc": "2026-10-18T13:30Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "JAX",
+     "id": 30,
+     "home": true,
+     "score": 31
+    },
+    {
+     "abbrev": "HOU",
+     "id": 34,
+     "home": false,
+     "score": 34
+    }
+   ]
+  },
   {
    "id": "401872999",
    "name": "CHI @ ATL",
    "dateUtc": "2026-10-18T17:00Z",
    "market": null,
    "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "6:08 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "6:08",
-   "clockSec": 368.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "ATL",
      "id": 1,
      "home": true,
-     "score": 15
+     "score": 23
     },
     {
      "abbrev": "CHI",
@@ -28,11 +167,7 @@
      "home": false,
      "score": 31
     }
-   ],
-   "sit": {
-    "poss": 1,
-    "rz": true
-   }
+   ]
   },
   {
    "id": "401872997",
@@ -67,12 +202,12 @@
    "dateUtc": "2026-10-18T17:00Z",
    "market": null,
    "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "1:52 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "1:52",
-   "clockSec": 112.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "IND",
@@ -84,142 +219,14 @@
      "abbrev": "TEN",
      "id": 10,
      "home": false,
-     "score": 23
+     "score": 26
     }
-   ],
-   "sit": {
-    "poss": 11,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873001",
    "name": "NYJ @ NE",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "2:00 - 4th",
-   "period": 4,
-   "clock": "2:00",
-   "clockSec": 120.0,
-   "teams": [
-    {
-     "abbrev": "NE",
-     "id": 17,
-     "home": true,
-     "score": 23
-    },
-    {
-     "abbrev": "NYJ",
-     "id": 20,
-     "home": false,
-     "score": 16
-    }
-   ],
-   "sit": {
-    "poss": 17,
-    "rz": true
-   }
-  },
-  {
-   "id": "401873000",
-   "name": "NO @ NYG",
-   "dateUtc": "2026-10-18T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "5:54 - 4th",
-   "period": 4,
-   "clock": "5:54",
-   "clockSec": 354.0,
-   "teams": [
-    {
-     "abbrev": "NYG",
-     "id": 19,
-     "home": true,
-     "score": 18
-    },
-    {
-     "abbrev": "NO",
-     "id": 18,
-     "home": false,
-     "score": 34
-    }
-   ],
-   "sit": {
-    "poss": 19,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872998",
-   "name": "CAR @ PHI",
-   "dateUtc": "2026-10-18T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "9:32 - 4th",
-   "period": 4,
-   "clock": "9:32",
-   "clockSec": 572.0,
-   "teams": [
-    {
-     "abbrev": "PHI",
-     "id": 21,
-     "home": true,
-     "score": 14
-    },
-    {
-     "abbrev": "CAR",
-     "id": 29,
-     "home": false,
-     "score": 19
-    }
-   ],
-   "sit": {
-    "poss": 29,
-    "rz": false
-   }
-  },
-  {
-   "id": "401873002",
-   "name": "PIT @ TB",
-   "dateUtc": "2026-10-18T17:00Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "2:00 - 4th",
-   "period": 4,
-   "clock": "2:00",
-   "clockSec": 120.0,
-   "teams": [
-    {
-     "abbrev": "TB",
-     "id": 27,
-     "home": true,
-     "score": 16
-    },
-    {
-     "abbrev": "PIT",
-     "id": 23,
-     "home": false,
-     "score": 13
-    }
-   ],
-   "sit": {
-    "poss": 23,
-    "rz": false
-   }
-  },
-  {
-   "id": "401872996",
-   "name": "HOU VS JAX",
-   "dateUtc": "2026-10-18T13:30Z",
    "market": null,
    "indoor": false,
    "state": "post",
@@ -230,52 +237,16 @@
    "clockSec": 0.0,
    "teams": [
     {
-     "abbrev": "JAX",
-     "id": 30,
+     "abbrev": "NE",
+     "id": 17,
      "home": true,
-     "score": 31
+     "score": 26
     },
     {
-     "abbrev": "HOU",
-     "id": 34,
+     "abbrev": "NYJ",
+     "id": 20,
      "home": false,
-     "score": 34
-    }
-   ]
-  },
-  {
-   "id": "401873004",
-   "name": "ARI @ LAR",
-   "dateUtc": "2026-10-18T20:05Z",
-   "market": {
-    "total": 51.5,
-    "favorite": "LAR",
-    "spread": 12.5,
-    "implied": {
-     "LAR": 32.0,
-     "ARI": 19.5
-    },
-    "provider": "Draft Kings"
-   },
-   "indoor": false,
-   "state": "pre",
-   "completed": false,
-   "detail": "10/18 - 4:05 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "LAR",
-     "id": 14,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "ARI",
-     "id": 22,
-     "home": false,
-     "score": 0
+     "score": 19
     }
    ]
   },
@@ -283,23 +254,14 @@
    "id": "401873006",
    "name": "LAC @ KC",
    "dateUtc": "2026-10-18T20:25Z",
-   "market": {
-    "total": 41.5,
-    "favorite": "KC",
-    "spread": 7.5,
-    "implied": {
-     "KC": 24.5,
-     "LAC": 17.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 4:25 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "13:45 - 1st",
+   "period": 1,
+   "clock": "13:45",
+   "clockSec": 825.0,
    "teams": [
     {
      "abbrev": "KC",
@@ -313,29 +275,24 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 12,
+    "rz": false
+   }
   },
   {
    "id": "401873005",
    "name": "BUF @ LV",
    "dateUtc": "2026-10-18T20:25Z",
-   "market": {
-    "total": 53.5,
-    "favorite": "BUF",
-    "spread": 5.5,
-    "implied": {
-     "LV": 24.0,
-     "BUF": 29.5
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": true,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 4:25 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "14:05 - 1st",
+   "period": 1,
+   "clock": "14:05",
+   "clockSec": 845.0,
    "teams": [
     {
      "abbrev": "LV",
@@ -349,7 +306,11 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 2,
+    "rz": false
+   }
   },
   {
    "id": "401873007",
