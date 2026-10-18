@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T22:34:15.314Z",
+ "_pulledUtc": "2026-10-18T23:04:16.207Z",
  "week": 6,
  "games": [
   {
@@ -9,30 +9,26 @@
    "dateUtc": "2026-10-18T20:05Z",
    "market": null,
    "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "3:23 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "3:23",
-   "clockSec": 203.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "LAR",
      "id": 14,
      "home": true,
-     "score": 9
+     "score": 16
     },
     {
      "abbrev": "ARI",
      "id": 22,
      "home": false,
-     "score": 15
+     "score": 18
     }
-   ],
-   "sit": {
-    "poss": 14,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873006",
@@ -42,10 +38,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "2:17 - 3rd",
-   "period": 3,
-   "clock": "2:17",
-   "clockSec": 137.0,
+   "detail": "9:36 - 4th",
+   "period": 4,
+   "clock": "9:36",
+   "clockSec": 576.0,
    "teams": [
     {
      "abbrev": "KC",
@@ -73,16 +69,16 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "2:14 - 3rd",
-   "period": 3,
-   "clock": "2:14",
-   "clockSec": 134.0,
+   "detail": "8:07 - 4th",
+   "period": 4,
+   "clock": "8:07",
+   "clockSec": 487.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 13
+     "score": 23
     },
     {
      "abbrev": "BUF",
@@ -90,11 +86,7 @@
      "home": false,
      "score": 23
     }
-   ],
-   "sit": {
-    "poss": 13,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401872996",
@@ -324,7 +316,7 @@
      "GB": 26.0,
      "DAL": 27.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -387,7 +379,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
