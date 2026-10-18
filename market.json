@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-18T21:32:14Z",
+ "_pulledUtc": "2026-10-18T22:02:15Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -72,8 +72,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "2",
-    "tempF": 85
+    "text": "1",
+    "tempF": 82
    },
    "weather": {
     "kickoff": {
@@ -163,7 +163,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "1",
-    "tempF": 68
+    "tempF": 66
    },
    "weather": {
     "kickoff": {
@@ -253,7 +253,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "6",
-    "tempF": 74
+    "tempF": 75
    },
    "weather": null,
    "wxNote": "indoor"
@@ -922,10 +922,10 @@
    "home": "GB",
    "kickoffUtc": "2026-10-19T00:20Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "DAL -1.5",
     "moneyline": {
      "away": -112,
@@ -1099,10 +1099,10 @@
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SF -7.5",
     "moneyline": {
      "away": 350,
@@ -1184,7 +1184,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-18T20:42:07Z",
+ "injuriesUtc": "2026-10-18T21:42:21Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2095,6 +2095,18 @@
   ],
   "BUF": [
    {
+    "id": 3116733,
+    "name": "Bradley Chubb",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-18T21:23Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4039303,
     "name": "Ed Oliver",
     "pos": "DT",
@@ -2381,18 +2393,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4427348,
-    "name": "Te'Cory Couch",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-04T18:51Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-12",
-    "fantasy": "QUESTIONABLE"
    }
   ],
   "CAR": [
@@ -2702,13 +2702,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-18T20:26Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-18T21:21Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 3930040,
@@ -4813,6 +4813,18 @@
   ],
   "HOU": [
    {
+    "id": 4586312,
+    "name": "Jaylin Noel",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-18T21:18Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4429059,
     "name": "Woody Marks",
     "pos": "RB",
@@ -5095,18 +5107,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T04:27Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4686422,
-    "name": "Xavier Hutchinson",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T04:08Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -6323,6 +6323,18 @@
   ],
   "LAC": [
    {
+    "id": 4612826,
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-18T21:14Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4838693,
     "name": "Rodney Shelley",
     "pos": "CB",
@@ -6515,18 +6527,6 @@
     "fantasy": null
    },
    {
-    "id": 4612826,
-    "name": "Ladd McConkey",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-16T19:27Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 3917668,
     "name": "Alec Ingold",
     "pos": "FB",
@@ -6630,7 +6630,7 @@
     "pos": "PK",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-18T20:26Z",
+    "date": "2026-10-18T20:31Z",
     "body": "Knee",
     "side": null,
     "returnDate": "2026-10-18",
@@ -7531,6 +7531,18 @@
   ],
   "NE": [
    {
+    "id": 16771,
+    "name": "Morgan Moses",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T20:43Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-22",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4362890,
     "name": "Ben Brown",
     "pos": "C",
@@ -7538,18 +7550,6 @@
     "abbr": "Q",
     "date": "2026-10-18T19:58Z",
     "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-22",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 16771,
-    "name": "Morgan Moses",
-    "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-18T19:40Z",
-    "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-22",
     "fantasy": "QUESTIONABLE"
@@ -7833,6 +7833,30 @@
   ],
   "NO": [
    {
+    "id": 4433975,
+    "name": "Kool-Aid McKinstry",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T21:06Z",
+    "body": "Head",
+    "side": null,
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4428350,
+    "name": "Quincy Riley",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T20:59Z",
+    "body": "Neck",
+    "side": null,
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4258199,
     "name": "Cesar Ruiz",
     "pos": "G",
@@ -7842,18 +7866,6 @@
     "body": "Knee",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4433975,
-    "name": "Kool-Aid McKinstry",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-18T19:37Z",
-    "body": "Illness",
-    "side": null,
-    "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -8119,18 +8131,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4566088,
-    "name": "Jaylan Ford",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T16:59Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "NYG": [
@@ -8140,7 +8140,7 @@
     "pos": "OT",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-18T20:26Z",
+    "date": "2026-10-18T21:21Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8150,13 +8150,13 @@
     "id": 4259566,
     "name": "Andrew Thomas",
     "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-18T19:54Z",
-    "body": "Head",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-18T21:20Z",
+    "body": null,
     "side": null,
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4040655,
