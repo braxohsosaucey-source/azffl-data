@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T15:14:17.019Z",
+ "_pulledUtc": "2026-10-18T15:46:17.069Z",
  "week": 6,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "5:31 - 3rd",
+   "period": 3,
+   "clock": "5:31",
+   "clockSec": 331.0,
    "teams": [
     {
      "abbrev": "JAX",
@@ -26,9 +26,13 @@
      "abbrev": "HOU",
      "id": 34,
      "home": false,
-     "score": 17
+     "score": 24
     }
-   ]
+   ],
+   "sit": {
+    "poss": 30,
+    "rz": false
+   }
   },
   {
    "id": "401872999",
@@ -325,10 +329,10 @@
    "market": {
     "total": 41.5,
     "favorite": "KC",
-    "spread": 7.5,
+    "spread": 7.0,
     "implied": {
-     "KC": 24.5,
-     "LAC": 17.0
+     "KC": 24.25,
+     "LAC": 17.25
     },
     "provider": "DraftKings"
    },
