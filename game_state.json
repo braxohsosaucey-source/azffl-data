@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T18:54:18.759Z",
+ "_pulledUtc": "2026-10-18T19:26:16.640Z",
  "week": 6,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "11:23 - 3rd",
+   "detail": "1:48 - 3rd",
    "period": 3,
-   "clock": "11:23",
-   "clockSec": 683.0,
+   "clock": "1:48",
+   "clockSec": 108.0,
    "teams": [
     {
      "abbrev": "ATL",
@@ -26,11 +26,11 @@
      "abbrev": "CHI",
      "id": 3,
      "home": false,
-     "score": 21
+     "score": 28
     }
    ],
    "sit": {
-    "poss": 1,
+    "poss": 3,
     "rz": false
    }
   },
@@ -42,16 +42,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "5:03 - 3rd",
-   "period": 3,
-   "clock": "5:03",
-   "clockSec": 303.0,
+   "detail": "8:33 - 4th",
+   "period": 4,
+   "clock": "8:33",
+   "clockSec": 513.0,
    "teams": [
     {
      "abbrev": "CLE",
      "id": 5,
      "home": true,
-     "score": 3
+     "score": 10
     },
     {
      "abbrev": "BAL",
@@ -59,11 +59,7 @@
      "home": false,
      "score": 10
     }
-   ],
-   "sit": {
-    "poss": 33,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873003",
@@ -73,10 +69,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "10:18 - 3rd",
-   "period": 3,
-   "clock": "10:18",
-   "clockSec": 618.0,
+   "detail": "13:00 - 4th",
+   "period": 4,
+   "clock": "13:00",
+   "clockSec": 780.0,
    "teams": [
     {
      "abbrev": "IND",
@@ -88,13 +84,9 @@
      "abbrev": "TEN",
      "id": 10,
      "home": false,
-     "score": 3
+     "score": 13
     }
-   ],
-   "sit": {
-    "poss": 11,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873001",
@@ -104,22 +96,22 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "10:24 - 3rd",
-   "period": 3,
-   "clock": "10:24",
-   "clockSec": 624.0,
+   "detail": "14:10 - 4th",
+   "period": 4,
+   "clock": "14:10",
+   "clockSec": 850.0,
    "teams": [
     {
      "abbrev": "NE",
      "id": 17,
      "home": true,
-     "score": 17
+     "score": 23
     },
     {
      "abbrev": "NYJ",
      "id": 20,
      "home": false,
-     "score": 9
+     "score": 13
     }
    ]
   },
@@ -131,10 +123,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "12:14 - 3rd",
-   "period": 3,
-   "clock": "12:14",
-   "clockSec": 734.0,
+   "detail": "15:00 - 4th",
+   "period": 4,
+   "clock": "15:00",
+   "clockSec": 900.0,
    "teams": [
     {
      "abbrev": "NYG",
@@ -146,9 +138,13 @@
      "abbrev": "NO",
      "id": 18,
      "home": false,
-     "score": 17
+     "score": 27
     }
-   ]
+   ],
+   "sit": {
+    "poss": 19,
+    "rz": false
+   }
   },
   {
    "id": "401872998",
@@ -158,10 +154,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 3rd",
+   "detail": "5:30 - 3rd",
    "period": 3,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "5:30",
+   "clockSec": 330.0,
    "teams": [
     {
      "abbrev": "PHI",
@@ -173,7 +169,7 @@
      "abbrev": "CAR",
      "id": 29,
      "home": false,
-     "score": 10
+     "score": 13
     }
    ],
    "sit": {
@@ -189,16 +185,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:30 - 3rd",
-   "period": 3,
-   "clock": "11:30",
-   "clockSec": 690.0,
+   "detail": "14:35 - 4th",
+   "period": 4,
+   "clock": "14:35",
+   "clockSec": 875.0,
    "teams": [
     {
      "abbrev": "TB",
      "id": 27,
      "home": true,
-     "score": 13
+     "score": 16
     },
     {
      "abbrev": "PIT",
@@ -208,8 +204,8 @@
     }
    ],
    "sit": {
-    "poss": 27,
-    "rz": false
+    "poss": 23,
+    "rz": true
    }
   },
   {
@@ -251,7 +247,7 @@
      "LAR": 32.0,
      "ARI": 19.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -287,7 +283,7 @@
      "KC": 24.5,
      "LAC": 17.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -323,7 +319,7 @@
      "LV": 24.0,
      "BUF": 29.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -359,7 +355,7 @@
      "GB": 27.5,
      "DAL": 26.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -422,7 +418,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
