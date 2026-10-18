@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T22:02:16.801Z",
+ "_pulledUtc": "2026-10-18T22:34:15.314Z",
  "week": 6,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "2:07 - 3rd",
-   "period": 3,
-   "clock": "2:07",
-   "clockSec": 127.0,
+   "detail": "3:23 - 4th",
+   "period": 4,
+   "clock": "3:23",
+   "clockSec": 203.0,
    "teams": [
     {
      "abbrev": "LAR",
@@ -26,11 +26,11 @@
      "abbrev": "ARI",
      "id": 22,
      "home": false,
-     "score": 12
+     "score": 15
     }
    ],
    "sit": {
-    "poss": 22,
+    "poss": 14,
     "rz": false
    }
   },
@@ -42,10 +42,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "2:17 - 3rd",
+   "period": 3,
+   "clock": "2:17",
+   "clockSec": 137.0,
    "teams": [
     {
      "abbrev": "KC",
@@ -57,9 +57,13 @@
      "abbrev": "LAC",
      "id": 24,
      "home": false,
-     "score": 3
+     "score": 6
     }
-   ]
+   ],
+   "sit": {
+    "poss": 12,
+    "rz": false
+   }
   },
   {
    "id": "401873005",
@@ -69,10 +73,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "14:25 - 3rd",
+   "detail": "2:14 - 3rd",
    "period": 3,
-   "clock": "14:25",
-   "clockSec": 865.0,
+   "clock": "2:14",
+   "clockSec": 134.0,
    "teams": [
     {
      "abbrev": "LV",
@@ -84,11 +88,11 @@
      "abbrev": "BUF",
      "id": 2,
      "home": false,
-     "score": 13
+     "score": 23
     }
    ],
    "sit": {
-    "poss": 2,
+    "poss": 13,
     "rz": false
    }
   },
@@ -320,7 +324,7 @@
      "GB": 26.0,
      "DAL": 27.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -383,7 +387,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
