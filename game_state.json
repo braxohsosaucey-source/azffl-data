@@ -1,60 +1,20 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T16:48:16.917Z",
+ "_pulledUtc": "2026-10-18T17:20:18.011Z",
  "week": 6,
  "games": [
-  {
-   "id": "401872996",
-   "name": "HOU VS JAX",
-   "dateUtc": "2026-10-18T13:30Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "0:03 - 4th",
-   "period": 4,
-   "clock": "0:03",
-   "clockSec": 3.0,
-   "teams": [
-    {
-     "abbrev": "JAX",
-     "id": 30,
-     "home": true,
-     "score": 31
-    },
-    {
-     "abbrev": "HOU",
-     "id": 34,
-     "home": false,
-     "score": 31
-    }
-   ],
-   "sit": {
-    "poss": 34,
-    "rz": false
-   }
-  },
   {
    "id": "401872999",
    "name": "CHI @ ATL",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 51.5,
-    "favorite": "CHI",
-    "spread": 1.5,
-    "implied": {
-     "ATL": 25.0,
-     "CHI": 26.5
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": true,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "6:34 - 1st",
+   "period": 1,
+   "clock": "6:34",
+   "clockSec": 394.0,
    "teams": [
     {
      "abbrev": "ATL",
@@ -66,31 +26,26 @@
      "abbrev": "CHI",
      "id": 3,
      "home": false,
-     "score": 0
+     "score": 7
     }
-   ]
+   ],
+   "sit": {
+    "poss": 3,
+    "rz": false
+   }
   },
   {
    "id": "401872997",
    "name": "BAL @ CLE",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 39.5,
-    "favorite": "BAL",
-    "spread": 3.0,
-    "implied": {
-     "CLE": 18.25,
-     "BAL": 21.25
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "7:22 - 1st",
+   "period": 1,
+   "clock": "7:22",
+   "clockSec": 442.0,
    "teams": [
     {
      "abbrev": "CLE",
@@ -102,31 +57,26 @@
      "abbrev": "BAL",
      "id": 33,
      "home": false,
-     "score": 0
+     "score": 7
     }
-   ]
+   ],
+   "sit": {
+    "poss": 5,
+    "rz": false
+   }
   },
   {
    "id": "401873003",
    "name": "TEN @ IND",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 43.5,
-    "favorite": "IND",
-    "spread": 6.5,
-    "implied": {
-     "IND": 25.0,
-     "TEN": 18.5
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": true,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "5:43 - 1st",
+   "period": 1,
+   "clock": "5:43",
+   "clockSec": 343.0,
    "teams": [
     {
      "abbrev": "IND",
@@ -140,29 +90,24 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 11,
+    "rz": false
+   }
   },
   {
    "id": "401873001",
    "name": "NYJ @ NE",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 43.5,
-    "favorite": "NE",
-    "spread": 7.5,
-    "implied": {
-     "NE": 25.5,
-     "NYJ": 18.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "6:40 - 1st",
+   "period": 1,
+   "clock": "6:40",
+   "clockSec": 400.0,
    "teams": [
     {
      "abbrev": "NE",
@@ -174,31 +119,26 @@
      "abbrev": "NYJ",
      "id": 20,
      "home": false,
-     "score": 0
+     "score": 3
     }
-   ]
+   ],
+   "sit": {
+    "poss": 20,
+    "rz": false
+   }
   },
   {
    "id": "401873000",
    "name": "NO @ NYG",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 46.5,
-    "favorite": "NO",
-    "spread": 1.5,
-    "implied": {
-     "NYG": 22.5,
-     "NO": 24.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "6:07 - 1st",
+   "period": 1,
+   "clock": "6:07",
+   "clockSec": 367.0,
    "teams": [
     {
      "abbrev": "NYG",
@@ -212,29 +152,24 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 19,
+    "rz": true
+   }
   },
   {
    "id": "401872998",
    "name": "CAR @ PHI",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 39.5,
-    "favorite": "CAR",
-    "spread": 3.0,
-    "implied": {
-     "PHI": 18.25,
-     "CAR": 21.25
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "9:42 - 1st",
+   "period": 1,
+   "clock": "9:42",
+   "clockSec": 582.0,
    "teams": [
     {
      "abbrev": "PHI",
@@ -246,31 +181,26 @@
      "abbrev": "CAR",
      "id": 29,
      "home": false,
-     "score": 0
+     "score": 3
     }
-   ]
+   ],
+   "sit": {
+    "poss": 29,
+    "rz": false
+   }
   },
   {
    "id": "401873002",
    "name": "PIT @ TB",
    "dateUtc": "2026-10-18T17:00Z",
-   "market": {
-    "total": 38.5,
-    "favorite": "PIT",
-    "spread": 2.5,
-    "implied": {
-     "TB": 18.0,
-     "PIT": 20.5
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/18 - 1:00 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "9:20 - 1st",
+   "period": 1,
+   "clock": "9:20",
+   "clockSec": 560.0,
    "teams": [
     {
      "abbrev": "TB",
@@ -283,6 +213,37 @@
      "id": 23,
      "home": false,
      "score": 0
+    }
+   ],
+   "sit": {
+    "poss": 27,
+    "rz": false
+   }
+  },
+  {
+   "id": "401872996",
+   "name": "HOU VS JAX",
+   "dateUtc": "2026-10-18T13:30Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "JAX",
+     "id": 30,
+     "home": true,
+     "score": 31
+    },
+    {
+     "abbrev": "HOU",
+     "id": 34,
+     "home": false,
+     "score": 34
     }
    ]
   },
@@ -298,7 +259,7 @@
      "LAR": 32.0,
      "ARI": 19.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -334,7 +295,7 @@
      "KC": 24.5,
      "LAC": 17.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -370,7 +331,7 @@
      "LV": 24.0,
      "BUF": 29.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -406,7 +367,7 @@
      "GB": 27.5,
      "DAL": 26.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -469,7 +430,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
