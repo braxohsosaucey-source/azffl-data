@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-18T00:58:15Z",
+ "_pulledUtc": "2026-10-18T01:40:15Z",
  "week": 6,
  "books": [
   "Draft Kings"
@@ -263,8 +263,8 @@
     "book": "Draft Kings",
     "details": "BAL -3",
     "moneyline": {
-     "away": -175,
-     "home": 145
+     "away": -166,
+     "home": 140
     },
     "moneylineOpen": {
      "away": -270,
@@ -273,8 +273,8 @@
     "spread": {
      "away": -3.0,
      "home": 3.0,
-     "awayOdds": -118,
-     "homeOdds": -102
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": -6.5,
@@ -294,11 +294,11 @@
     }
    },
    "noVig": {
-    "away": 0.609236,
-    "home": 0.390764,
-    "hold": 0.044527,
-    "fairAway": -155.91,
-    "fairHome": 155.91
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
    },
    "noVigOpen": {
     "away": 0.700162,
@@ -512,20 +512,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "NO -1.5",
+    "details": "NYG -1.5",
     "moneyline": {
-     "away": -110,
-     "home": -110
+     "away": -108,
+     "home": -112
     },
     "moneylineOpen": {
      "away": 124,
      "home": -148
     },
     "spread": {
-     "away": -1.5,
-     "home": 1.5,
-     "awayOdds": 102,
-     "homeOdds": -122
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -122,
+     "homeOdds": 102
     },
     "spreadOpen": {
      "away": 2.5,
@@ -545,11 +545,11 @@
     }
    },
    "noVig": {
-    "away": 0.5,
-    "home": 0.5,
-    "hold": 0.047619,
-    "fairAway": -100.0,
-    "fairHome": -100.0
+    "away": 0.49567,
+    "home": 0.50433,
+    "hold": 0.047533,
+    "fairAway": 101.75,
+    "fairHome": -101.75
    },
    "noVigOpen": {
     "away": 0.42794,
@@ -1204,7 +1204,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-18T00:15:11Z",
+ "injuriesUtc": "2026-10-18T01:19:09Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2724,7 +2724,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-18T00:00Z",
+    "date": "2026-10-18T01:00Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -5025,30 +5025,6 @@
     "fantasy": null
    },
    {
-    "id": 4912338,
-    "name": "Aiden Fisher",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T19:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4833376,
-    "name": "Collin Wright",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T19:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4699802,
     "name": "Sabastian Harsh",
     "pos": "DE",
@@ -5127,6 +5103,30 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T01:20Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4432577,
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-11T23:04Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4258173,
+    "name": "Nico Collins",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-11T22:59Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -6511,18 +6511,6 @@
     "fantasy": null
    },
    {
-    "id": 3051738,
-    "name": "Marquez Valdes-Scantling",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-16T00:59Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 3917668,
     "name": "Alec Ingold",
     "pos": "FB",
@@ -6637,6 +6625,18 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T00:46Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685382,
+    "name": "Omarion Hampton",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T00:35Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8160,7 +8160,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-18T00:00Z",
+    "date": "2026-10-18T01:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
