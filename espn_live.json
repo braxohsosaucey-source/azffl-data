@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T15:46:16.970Z",
+ "_pulledUtc": "2026-10-18T16:16:16.287Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 6,
@@ -187,10 +187,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.35,
      "start": 79.89,
-     "livePts": 7.65,
+     "livePts": 9.4,
      "weekProj": 13.65,
      "projSeason": 170.74,
-     "actSeason": 83.65
+     "actSeason": 85.4
     },
     {
      "name": "Jaylen Warren",
@@ -301,8 +301,8 @@
      "own": 39.26,
      "start": 14.31,
      "livePts": null,
-     "weekProj": 8.27,
-     "projSeason": 90.5,
+     "weekProj": 8.33,
+     "projSeason": 90.56,
      "actSeason": 34.0
     },
     {
@@ -363,8 +363,8 @@
      "own": 79.57,
      "start": 73.04,
      "livePts": null,
-     "weekProj": 6.61,
-     "projSeason": 74.16,
+     "weekProj": 6.7,
+     "projSeason": 75.17,
      "actSeason": 38.0
     }
    ]
@@ -582,10 +582,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 92.19,
      "start": 89.2,
-     "livePts": 5.5,
+     "livePts": 6.5,
      "weekProj": 10.94,
      "projSeason": 136.36,
-     "actSeason": 62.2
+     "actSeason": 63.2
     },
     {
      "name": "Alvin Kamara",
@@ -1250,8 +1250,8 @@
      "own": 94.36,
      "start": 62.3,
      "livePts": null,
-     "weekProj": 12.76,
-     "projSeason": 157.84,
+     "weekProj": 0.0,
+     "projSeason": 145.08,
      "actSeason": 51.8,
      "usage": {
       "season": {
@@ -1277,13 +1277,13 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 92.95,
      "start": 69.79,
-     "livePts": 18.8,
+     "livePts": 22.15,
      "weekProj": 12.6,
      "projSeason": 167.0,
-     "actSeason": 80.25,
+     "actSeason": 83.6,
      "usage": {
       "season": {
-       "23": 89.0,
+       "23": 94.0,
        "210": 6.0
       },
       "prior": {
@@ -1291,7 +1291,7 @@
        "210": 15.0
       },
       "week": {
-       "23": 7.0,
+       "23": 12.0,
        "210": 1.0
       }
      }
@@ -1388,8 +1388,8 @@
      "own": 81.61,
      "start": 53.69,
      "livePts": null,
-     "weekProj": 12.47,
-     "projSeason": 149.56,
+     "weekProj": 12.5,
+     "projSeason": 149.59,
      "actSeason": 65.0
     },
     {
@@ -1558,8 +1558,8 @@
      "own": 99.9,
      "start": 99.35,
      "livePts": null,
-     "weekProj": 18.1,
-     "projSeason": 202.18,
+     "weekProj": 18.88,
+     "projSeason": 202.95,
      "actSeason": 93.9,
      "usage": {
       "season": {
@@ -1750,7 +1750,7 @@
      "own": 91.04,
      "start": 82.6,
      "livePts": null,
-     "weekProj": 7.19,
+     "weekProj": 7.28,
      "projSeason": 76.63,
      "actSeason": 23.0
     },
@@ -1853,8 +1853,8 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 15,
-    "drops": 12,
+    "acquisitions": 16,
+    "drops": 13,
     "trades": 0,
     "moveToActive": 14,
     "acquisitionBudgetSpent": 60,
@@ -1864,7 +1864,7 @@
      "3": 4,
      "4": 3,
      "5": 1,
-     "6": 3
+     "6": 4
     }
    },
    "roster": [
@@ -2066,10 +2066,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.01,
      "start": 68.69,
-     "livePts": 5.0,
+     "livePts": 0.0,
      "weekProj": 5.2,
      "projSeason": 89.61,
-     "actSeason": 36.0
+     "actSeason": 31.0
     },
     {
      "name": "Jordan Mason",
@@ -2204,23 +2204,6 @@
      "actSeason": 29.8
     },
     {
-     "name": "Wan'Dale Robinson",
-     "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 10,
-     "id": 4569587,
-     "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-10-16T02:57:45.699000Z",
-     "own": 63.34,
-     "start": 15.71,
-     "livePts": null,
-     "weekProj": 8.34,
-     "projSeason": 98.28,
-     "actSeason": 46.2
-    },
-    {
      "name": "Tyler Allgeier",
      "pos": "RB",
      "slot": "RB",
@@ -2244,6 +2227,34 @@
       "prior": {
        "23": 143.0,
        "210": 17.0
+      },
+      "week": null
+     }
+    },
+    {
+     "name": "Jaleel McLaughlin",
+     "pos": "RB",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 5,
+     "id": 4722893,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-18T15:50:09.497000Z",
+     "own": 2.08,
+     "start": 0.49,
+     "livePts": null,
+     "weekProj": 9.83,
+     "projSeason": 64.59,
+     "actSeason": 9.1,
+     "usage": {
+      "season": {
+       "23": 2.0,
+       "210": 4.0
+      },
+      "prior": {
+       "23": 37.0,
+       "210": 8.0
       },
       "week": null
      }
@@ -2400,8 +2411,8 @@
      "own": 98.37,
      "start": 84.4,
      "livePts": null,
-     "weekProj": 10.74,
-     "projSeason": 126.46,
+     "weekProj": 0.0,
+     "projSeason": 115.72,
      "actSeason": 62.4
     },
     {
@@ -2583,8 +2594,8 @@
      "own": 91.17,
      "start": 85.61,
      "livePts": null,
-     "weekProj": 7.46,
-     "projSeason": 81.11,
+     "weekProj": 7.03,
+     "projSeason": 80.1,
      "actSeason": 26.0
     },
     {
@@ -2791,10 +2802,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 89.13,
      "start": 52.94,
-     "livePts": 13.09,
+     "livePts": 25.57,
      "weekProj": 16.88,
      "projSeason": 221.26,
-     "actSeason": 99.2
+     "actSeason": 111.68
     },
     {
      "name": "Brock Purdy",
@@ -2963,7 +2974,7 @@
      "own": 82.65,
      "start": 75.26,
      "livePts": null,
-     "weekProj": 7.09,
+     "weekProj": 7.18,
      "projSeason": 69.22,
      "actSeason": 23.0
     },
@@ -3247,10 +3258,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.43,
      "start": 81.56,
-     "livePts": 2.0,
+     "livePts": 4.0,
      "weekProj": 9.79,
      "projSeason": 120.8,
-     "actSeason": 49.45
+     "actSeason": 51.45
     },
     {
      "name": "Dontayvion Wicks",
@@ -3586,8 +3597,8 @@
      "own": 91.12,
      "start": 68.87,
      "livePts": null,
-     "weekProj": 9.2,
-     "projSeason": 110.99,
+     "weekProj": 9.23,
+     "projSeason": 111.01,
      "actSeason": 47.2
     },
     {
@@ -3665,8 +3676,8 @@
      "own": 75.69,
      "start": 25.17,
      "livePts": null,
-     "weekProj": 8.88,
-     "projSeason": 101.24,
+     "weekProj": 8.9,
+     "projSeason": 101.26,
      "actSeason": 39.9
     },
     {
@@ -3935,7 +3946,7 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 5.0,
+    "awayLive": 0.0,
     "homeLive": 0.0
    },
    {
@@ -3946,7 +3957,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 0.0,
-    "homeLive": 5.5
+    "homeLive": 6.5
    },
    {
     "away": 9,
@@ -3955,7 +3966,7 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 25.85,
+    "awayLive": 27.85,
     "homeLive": 22.4
    },
    {
@@ -3965,8 +3976,8 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 7.65,
-    "homeLive": 18.8
+    "awayLive": 9.4,
+    "homeLive": 22.15
    }
   ],
   "7": [
