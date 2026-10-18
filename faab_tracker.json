@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-18T19:26:16.498Z",
+ "_pulledUtc": "2026-10-18T19:58:16.913Z",
  "_matchupPeriod": 6,
  "_scoringPeriodId": 6,
  "_budget": 100,
@@ -14,9 +14,9 @@
  "leagueTotals": {
   "spent": 395,
   "remaining": 605,
-  "acquisitionsSeason": 103,
+  "acquisitionsSeason": 104,
   "dropsSeason": 87,
-  "acquisitionsThisPeriod": 21,
+  "acquisitionsThisPeriod": 22,
   "managersWhoHaveSpent": 9
  },
  "teams": [
@@ -46,15 +46,16 @@
    "manager": "Anthony Mhilli",
    "spent": 100,
    "remaining": 0,
-   "acquisitionsSeason": 11,
+   "acquisitionsSeason": 12,
    "dropsSeason": 9,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsThisPeriod": 1,
    "acquisitionsByMatchupPeriod": {
     "1": 1,
     "2": 1,
     "3": 4,
     "4": 2,
-    "5": 3
+    "5": 3,
+    "6": 1
    }
   },
   {
