@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T21:32:16.236Z",
+ "_pulledUtc": "2026-10-18T22:02:16.801Z",
  "week": 6,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "2:07 - 3rd",
+   "period": 3,
+   "clock": "2:07",
+   "clockSec": 127.0,
    "teams": [
     {
      "abbrev": "LAR",
@@ -26,9 +26,13 @@
      "abbrev": "ARI",
      "id": 22,
      "home": false,
-     "score": 9
+     "score": 12
     }
-   ]
+   ],
+   "sit": {
+    "poss": 22,
+    "rz": false
+   }
   },
   {
    "id": "401873006",
@@ -38,16 +42,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "3:40 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "3:40",
-   "clockSec": 220.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "KC",
      "id": 12,
      "home": true,
-     "score": 9
+     "score": 19
     },
     {
      "abbrev": "LAC",
@@ -55,11 +59,7 @@
      "home": false,
      "score": 3
     }
-   ],
-   "sit": {
-    "poss": 12,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873005",
@@ -69,16 +69,16 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "1:40 - 2nd",
-   "period": 2,
-   "clock": "1:40",
-   "clockSec": 100.0,
+   "detail": "14:25 - 3rd",
+   "period": 3,
+   "clock": "14:25",
+   "clockSec": 865.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 10
+     "score": 13
     },
     {
      "abbrev": "BUF",
@@ -88,7 +88,7 @@
     }
    ],
    "sit": {
-    "poss": 13,
+    "poss": 2,
     "rz": false
    }
   },
@@ -320,7 +320,7 @@
      "GB": 26.0,
      "DAL": 27.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -383,7 +383,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
