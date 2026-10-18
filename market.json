@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-18T14:10:16Z",
+ "_pulledUtc": "2026-10-18T14:42:14Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -126,9 +126,9 @@
      "homeOdds": -105
     },
     "total": {
-     "line": 52.5,
-     "over": -110,
-     "under": -110
+     "line": 51.5,
+     "over": -105,
+     "under": -115
     },
     "totalOpen": {
      "line": 47.5,
@@ -287,9 +287,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 44.5,
-     "over": -108,
-     "under": -112
+     "line": 43.5,
+     "over": -118,
+     "under": -102
     },
     "totalOpen": {
      "line": 48.5,
@@ -321,7 +321,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 58
+    "tempF": 57
    },
    "weather": null,
    "wxNote": "indoor"
@@ -338,8 +338,8 @@
     "book": "DraftKings",
     "details": "NE -7.5",
     "moneyline": {
-     "away": 285,
-     "home": -360
+     "away": 275,
+     "home": -345
     },
     "moneylineOpen": {
      "away": 350,
@@ -359,8 +359,8 @@
     },
     "total": {
      "line": 43.5,
-     "over": -112,
-     "under": -108
+     "over": -102,
+     "under": -118
     },
     "totalOpen": {
      "line": 42.5,
@@ -369,11 +369,11 @@
     }
    },
    "noVig": {
-    "away": 0.249187,
-    "home": 0.750813,
-    "hold": 0.042349,
-    "fairAway": 301.3,
-    "fairHome": -301.3
+    "away": 0.255931,
+    "home": 0.744069,
+    "hold": 0.041948,
+    "fairAway": 290.73,
+    "fairHome": -290.73
    },
    "noVigOpen": {
     "away": 0.213256,
@@ -608,8 +608,8 @@
     "book": "DraftKings",
     "details": "PIT -2.5",
     "moneyline": {
-     "away": -142,
-     "home": 120
+     "away": -135,
+     "home": 114
     },
     "moneylineOpen": {
      "away": 105,
@@ -618,8 +618,8 @@
     "spread": {
      "away": -2.5,
      "home": 2.5,
-     "awayOdds": -115,
-     "homeOdds": -105
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": 1.5,
@@ -639,11 +639,11 @@
     }
    },
    "noVig": {
-    "away": 0.563492,
-    "home": 0.436508,
-    "hold": 0.041322,
-    "fairAway": -129.09,
-    "fairHome": 129.09
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -1180,7 +1180,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 66
+    "tempF": 65
    },
    "weather": {
     "kickoff": {
@@ -1205,7 +1205,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-18T13:36:10Z",
+ "injuriesUtc": "2026-10-18T14:36:08Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2725,7 +2725,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-18T13:00Z",
+    "date": "2026-10-18T14:12Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -5438,6 +5438,18 @@
   ],
   "JAX": [
    {
+    "id": 2576336,
+    "name": "Ameer Abdullah",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T14:12Z",
+    "body": "Concussion",
+    "side": null,
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 5085024,
     "name": "CJ Williams",
     "pos": "WR",
@@ -5720,18 +5732,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-11T18:51Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4432620,
-    "name": "Parker Washington",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T18:43Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7552,6 +7552,18 @@
   ],
   "NE": [
    {
+    "id": 4047646,
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T13:37Z",
+    "body": "Ankle",
+    "side": "Right",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4685298,
     "name": "Will Campbell",
     "pos": "OT",
@@ -7570,18 +7582,6 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-18T11:38Z",
-    "body": "Ankle",
-    "side": "Right",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4047646,
-    "name": "A.J. Brown",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-17T20:12Z",
     "body": "Ankle",
     "side": "Right",
     "returnDate": "2026-10-18",
@@ -8156,6 +8156,42 @@
   ],
   "NYG": [
    {
+    "id": 4360516,
+    "name": "Tyrone Tracy Jr.",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-18T14:19Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3115303,
+    "name": "Jermaine Eluemunor",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-18T14:12Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-10-18",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4241457,
+    "name": "Najee Harris",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-18T14:08Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4725996,
     "name": "Abdul Carter",
     "pos": "LB",
@@ -8178,30 +8214,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-18",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3115303,
-    "name": "Jermaine Eluemunor",
-    "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-18T13:00Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4241457,
-    "name": "Najee Harris",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T12:52Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4696981,
@@ -8438,18 +8450,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-11T23:20Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4595348,
-    "name": "Malik Nabers",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T21:52Z",
     "body": null,
     "side": null,
     "returnDate": null,
