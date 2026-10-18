@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T21:00:17.000Z",
+ "_pulledUtc": "2026-10-18T21:32:16.236Z",
  "week": 6,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "6:48 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "6:48",
-   "clockSec": 408.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "LAR",
@@ -26,13 +26,9 @@
      "abbrev": "ARI",
      "id": 22,
      "home": false,
-     "score": 6
+     "score": 9
     }
-   ],
-   "sit": {
-    "poss": 14,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873006",
@@ -42,10 +38,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 2nd",
+   "detail": "3:40 - 2nd",
    "period": 2,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "3:40",
+   "clockSec": 220.0,
    "teams": [
     {
      "abbrev": "KC",
@@ -73,24 +69,28 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "14:38 - 2nd",
+   "detail": "1:40 - 2nd",
    "period": 2,
-   "clock": "14:38",
-   "clockSec": 878.0,
+   "clock": "1:40",
+   "clockSec": 100.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 7
+     "score": 10
     },
     {
      "abbrev": "BUF",
      "id": 2,
      "home": false,
-     "score": 6
+     "score": 13
     }
-   ]
+   ],
+   "sit": {
+    "poss": 13,
+    "rz": false
+   }
   },
   {
    "id": "401872996",
@@ -314,13 +314,13 @@
    "dateUtc": "2026-10-19T00:20Z",
    "market": {
     "total": 53.5,
-    "favorite": "GB",
+    "favorite": "DAL",
     "spread": 1.5,
     "implied": {
-     "GB": 27.5,
-     "DAL": 26.0
+     "GB": 26.0,
+     "DAL": 27.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -383,7 +383,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
