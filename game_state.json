@@ -1,12 +1,12 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-18T23:04:16.207Z",
+ "_pulledUtc": "2026-10-18T23:36:16.504Z",
  "week": 6,
  "games": [
   {
-   "id": "401873004",
-   "name": "ARI @ LAR",
-   "dateUtc": "2026-10-18T20:05Z",
+   "id": "401873006",
+   "name": "LAC @ KC",
+   "dateUtc": "2026-10-18T20:25Z",
    "market": null,
    "indoor": false,
    "state": "post",
@@ -17,37 +17,10 @@
    "clockSec": 0.0,
    "teams": [
     {
-     "abbrev": "LAR",
-     "id": 14,
-     "home": true,
-     "score": 16
-    },
-    {
-     "abbrev": "ARI",
-     "id": 22,
-     "home": false,
-     "score": 18
-    }
-   ]
-  },
-  {
-   "id": "401873006",
-   "name": "LAC @ KC",
-   "dateUtc": "2026-10-18T20:25Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "9:36 - 4th",
-   "period": 4,
-   "clock": "9:36",
-   "clockSec": 576.0,
-   "teams": [
-    {
      "abbrev": "KC",
      "id": 12,
      "home": true,
-     "score": 19
+     "score": 22
     },
     {
      "abbrev": "LAC",
@@ -55,11 +28,7 @@
      "home": false,
      "score": 6
     }
-   ],
-   "sit": {
-    "poss": 12,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873005",
@@ -67,24 +36,24 @@
    "dateUtc": "2026-10-18T20:25Z",
    "market": null,
    "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "8:07 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "8:07",
-   "clockSec": 487.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 23
+     "score": 30
     },
     {
      "abbrev": "BUF",
      "id": 2,
      "home": false,
-     "score": 23
+     "score": 33
     }
    ]
   },
@@ -305,6 +274,33 @@
    ]
   },
   {
+   "id": "401873004",
+   "name": "ARI @ LAR",
+   "dateUtc": "2026-10-18T20:05Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LAR",
+     "id": 14,
+     "home": true,
+     "score": 16
+    },
+    {
+     "abbrev": "ARI",
+     "id": 22,
+     "home": false,
+     "score": 18
+    }
+   ]
+  },
+  {
    "id": "401873007",
    "name": "DAL @ GB",
    "dateUtc": "2026-10-19T00:20Z",
@@ -316,7 +312,7 @@
      "GB": 26.0,
      "DAL": 27.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -379,7 +375,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
