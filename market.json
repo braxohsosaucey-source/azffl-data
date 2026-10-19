@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-19T04:24:13Z",
+ "_pulledUtc": "2026-10-19T05:02:15Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -13,10 +13,10 @@
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SF -7.5",
     "moneyline": {
      "away": 350,
@@ -1172,7 +1172,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-19T03:50:07Z",
+ "injuriesUtc": "2026-10-19T04:53:08Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2690,13 +2690,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-19T03:34Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-19T04:12Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4426386,
@@ -3593,16 +3593,88 @@
   ],
   "DAL": [
    {
+    "id": 4361579,
+    "name": "Javonte Williams",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:23Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 2577417,
+    "name": "Dak Prescott",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:22Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4426354,
+    "name": "George Pickens",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:21Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 5083754,
+    "name": "Ryan Flournoy",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:20Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4242355,
+    "name": "Jake Ferguson",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:15Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4241389,
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T03:55Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3676833,
     "name": "KaVontae Turpin",
     "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
+    "status": "Questionable",
+    "abbr": "Q",
     "date": "2026-10-19T02:25Z",
     "body": "Ribs",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-26",
-    "fantasy": "OUT"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4428914,
@@ -3612,8 +3684,8 @@
     "abbr": "Q",
     "date": "2026-10-19T01:25Z",
     "body": "Ankle",
-    "side": null,
-    "returnDate": "2026-10-18",
+    "side": "Not Specified",
+    "returnDate": "2026-10-26",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -3737,18 +3809,6 @@
     "fantasy": null
    },
    {
-    "id": 4426354,
-    "name": "George Pickens",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-16T23:46Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4710067,
     "name": "Malachi Lawrence",
     "pos": "LB",
@@ -3767,18 +3827,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-15T01:34Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4241389,
-    "name": "CeeDee Lamb",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-14T21:17Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -3821,60 +3869,12 @@
     "fantasy": null
    },
    {
-    "id": 4242355,
-    "name": "Jake Ferguson",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-09T04:55Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 5083754,
-    "name": "Ryan Flournoy",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-09T04:49Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 3953687,
     "name": "Brandon Aubrey",
     "pos": "PK",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-09T04:09Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 2577417,
-    "name": "Dak Prescott",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-09T03:56Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4361579,
-    "name": "Javonte Williams",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-09T03:49Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -4499,6 +4499,90 @@
   ],
   "GB": [
    {
+    "id": 4429023,
+    "name": "MarShawn Lloyd",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:20Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4248528,
+    "name": "Christian Watson",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:17Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4701936,
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:16Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4036378,
+    "name": "Jordan Love",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:15Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4249836,
+    "name": "Pierre Strong Jr.",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:14Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4572680,
+    "name": "Tucker Kraft",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T04:10Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 5076652,
+    "name": "Brandon Cisse",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-19T03:36Z",
+    "body": "Neck",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4428037,
     "name": "Jacob Monk",
     "pos": "C",
@@ -4533,18 +4617,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 5076652,
-    "name": "Brandon Cisse",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-18T23:06Z",
-    "body": "Neck",
-    "side": null,
-    "returnDate": "2026-10-18",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4431487,
@@ -4715,84 +4787,12 @@
     "fantasy": "PUP-R"
    },
    {
-    "id": 4249836,
-    "name": "Pierre Strong Jr.",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T16:50Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 14163,
     "name": "Tyrod Taylor",
     "pos": "QB",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T16:44Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4869461,
-    "name": "Trey Smack",
-    "pos": "PK",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T14:41Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4429023,
-    "name": "MarShawn Lloyd",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T02:55Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4572680,
-    "name": "Tucker Kraft",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T22:47Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4036378,
-    "name": "Jordan Love",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T21:02Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4701936,
-    "name": "Matthew Golden",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-11T20:51Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -5159,7 +5159,7 @@
     "date": "2026-10-18T19:42Z",
     "body": "Foot",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
+    "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -5171,7 +5171,7 @@
     "date": "2026-10-18T18:49Z",
     "body": "Calf",
     "side": "Left",
-    "returnDate": "2026-10-18",
+    "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -5761,8 +5761,8 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-18T22:41Z",
-    "body": "Head",
-    "side": null,
+    "body": "Concussion",
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -6692,7 +6692,7 @@
     "abbr": "Q",
     "date": "2026-10-18T22:19Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -7887,8 +7887,8 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-18T21:06Z",
-    "body": "Head",
-    "side": null,
+    "body": "Migraine",
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -7900,7 +7900,7 @@
     "abbr": "Q",
     "date": "2026-10-18T20:59Z",
     "body": "Neck",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -8128,7 +8128,7 @@
     "pos": "OT",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-19T03:34Z",
+    "date": "2026-10-19T04:12Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8239,7 +8239,7 @@
     "date": "2026-10-18T19:33Z",
     "body": "Neck",
     "side": "Not Specified",
-    "returnDate": "2026-10-18",
+    "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -8444,8 +8444,8 @@
     "abbr": "Q",
     "date": "2026-10-18T17:37Z",
     "body": "Thigh",
-    "side": null,
-    "returnDate": "2026-10-18",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -10304,8 +10304,8 @@
     "abbr": "Q",
     "date": "2026-10-18T17:59Z",
     "body": "Ankle",
-    "side": null,
-    "returnDate": "2026-10-18",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -10316,7 +10316,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:44Z",
     "body": "Coach's Decision",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "INACTIVE"
    },
@@ -10328,7 +10328,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:41Z",
     "body": "Coach's Decision",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "INACTIVE"
    },
@@ -10340,7 +10340,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:37Z",
     "body": "Coach's Decision",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "INACTIVE"
    },
@@ -10364,7 +10364,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:32Z",
     "body": "Coach's Decision",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "INACTIVE"
    },
@@ -10376,7 +10376,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:32Z",
     "body": "Coach's Decision",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "INACTIVE"
    },
@@ -10388,7 +10388,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:32Z",
     "body": "Personal",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "INACTIVE"
    },
