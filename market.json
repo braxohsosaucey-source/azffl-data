@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-19T15:15:15Z",
+ "_pulledUtc": "2026-10-19T15:46:18Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -13,10 +13,10 @@
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "SF -7.5",
     "moneyline": {
      "away": 310,
@@ -78,22 +78,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-20T00:00",
-     "tempF": 62.8,
-     "windMph": 9.5,
-     "gustMph": 13.2,
+     "tempF": 63.0,
+     "windMph": 9.8,
+     "gustMph": 13.9,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 9.5,
-     "maxGustMph": 13.2,
+     "maxWindMph": 9.8,
+     "maxGustMph": 13.9,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 37.35411,
     "lon": -121.95524,
-    "t": "2026-10-19T12:18:16Z"
+    "t": "2026-10-19T15:25:16Z"
    },
    "wxNote": null
   },
