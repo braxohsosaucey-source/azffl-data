@@ -1,8 +1,39 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-19T00:36:15.533Z",
+ "_pulledUtc": "2026-10-19T01:06:16.504Z",
  "week": 6,
  "games": [
+  {
+   "id": "401873007",
+   "name": "DAL @ GB",
+   "dateUtc": "2026-10-19T00:20Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "14:15 - 2nd",
+   "period": 2,
+   "clock": "14:15",
+   "clockSec": 855.0,
+   "teams": [
+    {
+     "abbrev": "GB",
+     "id": 9,
+     "home": true,
+     "score": 7
+    },
+    {
+     "abbrev": "DAL",
+     "id": 6,
+     "home": false,
+     "score": 0
+    }
+   ],
+   "sit": {
+    "poss": 9,
+    "rz": false
+   }
+  },
   {
    "id": "401872996",
    "name": "HOU VS JAX",
@@ -301,37 +332,6 @@
    ]
   },
   {
-   "id": "401873007",
-   "name": "DAL @ GB",
-   "dateUtc": "2026-10-19T00:20Z",
-   "market": null,
-   "indoor": false,
-   "state": "in",
-   "completed": false,
-   "detail": "7:28 - 1st",
-   "period": 1,
-   "clock": "7:28",
-   "clockSec": 448.0,
-   "teams": [
-    {
-     "abbrev": "GB",
-     "id": 9,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "DAL",
-     "id": 6,
-     "home": false,
-     "score": 0
-    }
-   ],
-   "sit": {
-    "poss": 9,
-    "rz": false
-   }
-  },
-  {
    "id": "401872995",
    "name": "SEA @ DEN",
    "dateUtc": "2026-10-16T00:15Z",
@@ -370,7 +370,7 @@
      "SF": 30.0,
      "WSH": 22.5
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
