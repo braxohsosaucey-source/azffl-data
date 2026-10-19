@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-19T09:53:15Z",
+ "_pulledUtc": "2026-10-19T10:31:19Z",
  "week": 6,
  "books": [
   "Draft Kings",
@@ -13,14 +13,14 @@
    "home": "SF",
    "kickoffUtc": "2026-10-20T00:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "SF -7.5",
     "moneyline": {
-     "away": 340,
-     "home": -440
+     "away": 350,
+     "home": -455
     },
     "moneylineOpen": {
      "away": 205,
@@ -29,8 +29,8 @@
     "spread": {
      "away": 7.5,
      "home": -7.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": 5.5,
@@ -39,9 +39,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 52.5,
-     "over": -105,
-     "under": -115
+     "line": 51.5,
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 50.5,
@@ -50,11 +50,11 @@
     }
    },
    "noVig": {
-    "away": 0.218094,
-    "home": 0.781906,
-    "hold": 0.042088,
-    "fairAway": 358.52,
-    "fairHome": -358.52
+    "away": 0.213256,
+    "home": 0.786744,
+    "hold": 0.042042,
+    "fairAway": 368.92,
+    "fairHome": -368.92
    },
    "noVigOpen": {
     "away": 0.314607,
@@ -1172,7 +1172,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-19T09:15:10Z",
+ "injuriesUtc": "2026-10-19T10:22:10Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1479,6 +1479,30 @@
   ],
   "ATL": [
    {
+    "id": 4360423,
+    "name": "Michael Penix Jr.",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:26Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4360248,
+    "name": "Kyle Pitts Sr.",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:14Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4426502,
     "name": "Drake London",
     "pos": "WR",
@@ -1573,18 +1597,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4360423,
-    "name": "Michael Penix Jr.",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T17:36Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 3043168,
@@ -1725,18 +1737,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T17:24Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4360248,
-    "name": "Kyle Pitts Sr.",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T04:52Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -2083,6 +2083,30 @@
   ],
   "BUF": [
    {
+    "id": 4635008,
+    "name": "Keon Coleman",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T10:00Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4373678,
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:56Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3918298,
     "name": "Josh Allen",
     "pos": "QB",
@@ -2275,30 +2299,6 @@
     "fantasy": null
    },
    {
-    "id": 4635008,
-    "name": "Keon Coleman",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-13T23:25Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4373678,
-    "name": "Khalil Shakir",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-13T05:22Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4832035,
     "name": "Davison Igbinosun",
     "pos": "CB",
@@ -2384,6 +2384,30 @@
    }
   ],
   "CAR": [
+   {
+    "id": 4695883,
+    "name": "Jalen Coker",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:35Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685720,
+    "name": "Bryce Young",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:31Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4685472,
     "name": "Tetairoa McMillan",
@@ -2601,18 +2625,6 @@
     "fantasy": "IR"
    },
    {
-    "id": 4695883,
-    "name": "Jalen Coker",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-14T20:11Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4687513,
     "name": "Cam Jackson",
     "pos": "DT",
@@ -2671,18 +2683,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4427132,
-    "name": "Ikem Ekwonu",
-    "pos": "OT",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-06T01:04Z",
-    "body": "Knee",
-    "side": "Right",
-    "returnDate": "2026-11-08",
-    "fantasy": "PUP-R"
    }
   ],
   "CHI": [
@@ -2692,11 +2692,23 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-19T09:00Z",
+    "date": "2026-10-19T10:00Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
     "fantasy": "IR"
+   },
+   {
+    "id": 4431299,
+    "name": "Rome Odunze",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:21Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4723086,
@@ -2969,18 +2981,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T18:58Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 17427,
-    "name": "Cairo Santos",
-    "pos": "PK",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T14:37Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -3291,6 +3291,18 @@
   ],
   "CLE": [
    {
+    "id": 4722893,
+    "name": "Jaleel McLaughlin",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T10:11Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 5083076,
     "name": "Harold Fannin Jr.",
     "pos": "TE",
@@ -3361,18 +3373,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4722893,
-    "name": "Jaleel McLaughlin",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T16:37Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4431325,
@@ -6009,6 +6009,18 @@
   ],
   "LV": [
    {
+    "id": 14880,
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:51Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4432665,
     "name": "Brock Bowers",
     "pos": "TE",
@@ -6279,18 +6291,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-12T01:06Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 14880,
-    "name": "Kirk Cousins",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T01:00Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8128,7 +8128,7 @@
     "pos": "OT",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-19T09:00Z",
+    "date": "2026-10-19T10:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8727,6 +8727,30 @@
   ],
   "PHI": [
    {
+    "id": 4685201,
+    "name": "Tanner McKee",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:45Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4360238,
+    "name": "Dameon Pierce",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T09:40Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4241478,
     "name": "DeVonta Smith",
     "pos": "WR",
@@ -8817,18 +8841,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-18T16:26Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4685201,
-    "name": "Tanner McKee",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T16:16Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9009,18 +9021,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-17T02:27Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4360238,
-    "name": "Dameon Pierce",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-17T00:05Z",
     "body": null,
     "side": null,
     "returnDate": null,
