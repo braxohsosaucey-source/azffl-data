@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-19T23:51:17.104Z",
+ "_pulledUtc": "2026-10-20T00:22:15.712Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 6,
@@ -569,7 +569,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 59.39,
      "start": 3.26,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 0.0,
      "projSeason": 91.64,
      "actSeason": 43.65,
@@ -582,7 +582,7 @@
        "23": 175.0,
        "210": 17.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -778,10 +778,10 @@
      "acqUtc": "2026-10-18T19:57:50.822000Z",
      "own": 59.11,
      "start": 48.06,
-     "livePts": null,
+     "livePts": 10.0,
      "weekProj": 4.95,
      "projSeason": 83.51,
-     "actSeason": 43.0
+     "actSeason": 53.0
     }
    ]
   },
@@ -1417,7 +1417,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 80.1,
      "start": 16.62,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.43,
      "projSeason": 108.96,
      "actSeason": 48.5
@@ -1706,7 +1706,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.57,
      "start": 53.6,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 11.21,
      "projSeason": 128.75,
      "actSeason": 38.8
@@ -1822,7 +1822,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 76.28,
      "start": 2.94,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 0.0,
      "projSeason": 106.32,
      "actSeason": 56.15
@@ -2397,7 +2397,7 @@
      "slotId": 21,
      "proTeamId": 17,
      "id": 4047646,
-     "injury": "ACTIVE",
+     "injury": "QUESTIONABLE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.28,
@@ -2501,7 +2501,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.1,
      "start": 64.19,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 19.76,
      "projSeason": 244.32,
      "actSeason": 64.66
@@ -2902,10 +2902,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.24,
      "start": 81.75,
-     "livePts": null,
+     "livePts": 1.6,
      "weekProj": 21.16,
      "projSeason": 219.88,
-     "actSeason": 116.14
+     "actSeason": 117.74
     },
     {
      "name": "Sam LaPorta",
@@ -2961,20 +2961,23 @@
      "acqUtc": "2026-09-24T18:58:57.905000Z",
      "own": 99.92,
      "start": 99.52,
-     "livePts": null,
+     "livePts": 4.95,
      "weekProj": 20.17,
      "projSeason": 206.11,
-     "actSeason": 86.55,
+     "actSeason": 91.5,
      "usage": {
       "season": {
-       "23": 61.0,
-       "210": 5.0
+       "23": 63.0,
+       "210": 6.0
       },
       "prior": {
        "23": 311.0,
        "210": 17.0
       },
-      "week": null
+      "week": {
+       "23": 2.0,
+       "210": 1.0
+      }
      }
     },
     {
@@ -3223,10 +3226,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.51,
      "start": 68.76,
-     "livePts": null,
+     "livePts": 3.15,
      "weekProj": 13.72,
      "projSeason": 163.16,
-     "actSeason": 70.6
+     "actSeason": 73.75
     },
     {
      "name": "Courtland Sutton",
@@ -3714,7 +3717,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.02,
      "start": 90.47,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 13.66,
      "projSeason": 138.12,
      "actSeason": 66.55
@@ -3731,7 +3734,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 59.33,
      "start": 20.03,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 9.89,
      "projSeason": 84.87,
      "actSeason": 30.6,
@@ -3744,7 +3747,7 @@
        "23": 132.0,
        "210": 17.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -4058,7 +4061,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 99.7,
-    "homeLive": 101.53
+    "homeLive": 111.53
    },
    {
     "away": 9,
@@ -4067,8 +4070,8 @@
     "homePts": 0.0,
     "winner": "UNDECIDED",
     "tier": "NONE",
-    "awayLive": 104.22,
-    "homeLive": 88.5
+    "awayLive": 107.37,
+    "homeLive": 95.05
    },
    {
     "away": 1,
