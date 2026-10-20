@@ -1,29 +1,20 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-19T23:51:17.358Z",
+ "_pulledUtc": "2026-10-20T00:22:15.914Z",
  "week": 6,
  "games": [
   {
    "id": "401873008",
    "name": "WSH @ SF",
    "dateUtc": "2026-10-20T00:15Z",
-   "market": {
-    "total": 51.5,
-    "favorite": "SF",
-    "spread": 7.5,
-    "implied": {
-     "SF": 29.5,
-     "WSH": 22.0
-    },
-    "provider": "DraftKings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/19 - 8:15 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "11:40 - 1st",
+   "period": 1,
+   "clock": "11:40",
+   "clockSec": 700.0,
    "teams": [
     {
      "abbrev": "SF",
@@ -37,7 +28,11 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 25,
+    "rz": true
+   }
   },
   {
    "id": "401872995",
