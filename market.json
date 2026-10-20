@@ -1,99 +1,12 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-20T04:00:14Z",
+ "_pulledUtc": "2026-10-20T04:36:14Z",
  "week": 6,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
-  {
-   "id": "401873008",
-   "away": "WSH",
-   "home": "SF",
-   "kickoffUtc": "2026-10-20T00:15Z",
-   "state": "post",
-   "book": "DraftKings",
-   "lines": {
-    "src": "core",
-    "book": "DraftKings",
-    "details": "SF -7.5",
-    "moneyline": {
-     "away": 320,
-     "home": -410
-    },
-    "moneylineOpen": {
-     "away": 205,
-     "home": -250
-    },
-    "spread": {
-     "away": 7.5,
-     "home": -7.5,
-     "awayOdds": -118,
-     "homeOdds": -102
-    },
-    "spreadOpen": {
-     "away": 5.5,
-     "home": -5.5,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 52.5,
-     "over": -105,
-     "under": -115
-    },
-    "totalOpen": {
-     "line": 50.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.228495,
-    "home": 0.771505,
-    "hold": 0.042017,
-    "fairAway": 337.65,
-    "fairHome": -337.65
-   },
-   "noVigOpen": {
-    "away": 0.314607,
-    "home": 0.685393,
-    "hold": 0.042155,
-    "fairAway": 217.86,
-    "fairHome": -217.86
-   },
-   "venue": {
-    "id": "4738",
-    "name": "Levi's Stadium",
-    "city": "Santa Clara",
-    "state": "CA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": null,
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-20T00:00",
-     "tempF": 61.9,
-     "windMph": 10.2,
-     "gustMph": 15.0,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 10.2,
-     "maxGustMph": 15.0,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 37.35411,
-    "lon": -121.95524,
-    "t": "2026-10-19T22:18:15Z"
-   },
-   "wxNote": null
-  },
   {
    "id": "401872995",
    "away": "SEA",
@@ -1167,9 +1080,96 @@
     "t": "2026-10-19T00:12:14Z"
    },
    "wxNote": null
+  },
+  {
+   "id": "401873008",
+   "away": "WSH",
+   "home": "SF",
+   "kickoffUtc": "2026-10-20T00:15Z",
+   "state": "post",
+   "book": "DraftKings",
+   "lines": {
+    "src": "core",
+    "book": "DraftKings",
+    "details": "SF -7.5",
+    "moneyline": {
+     "away": 320,
+     "home": -410
+    },
+    "moneylineOpen": {
+     "away": 205,
+     "home": -250
+    },
+    "spread": {
+     "away": 7.5,
+     "home": -7.5,
+     "awayOdds": -118,
+     "homeOdds": -102
+    },
+    "spreadOpen": {
+     "away": 5.5,
+     "home": -5.5,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 52.5,
+     "over": -105,
+     "under": -115
+    },
+    "totalOpen": {
+     "line": 50.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.228495,
+    "home": 0.771505,
+    "hold": 0.042017,
+    "fairAway": 337.65,
+    "fairHome": -337.65
+   },
+   "noVigOpen": {
+    "away": 0.314607,
+    "home": 0.685393,
+    "hold": 0.042155,
+    "fairAway": 217.86,
+    "fairHome": -217.86
+   },
+   "venue": {
+    "id": "4738",
+    "name": "Levi's Stadium",
+    "city": "Santa Clara",
+    "state": "CA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-20T00:00",
+     "tempF": 61.9,
+     "windMph": 10.2,
+     "gustMph": 15.0,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 10.2,
+     "maxGustMph": 15.0,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 37.35411,
+    "lon": -121.95524,
+    "t": "2026-10-19T22:18:15Z"
+   },
+   "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-20T03:26:11Z",
+ "injuriesUtc": "2026-10-20T04:27:08Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2085,7 +2085,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-20T03:11Z",
+    "date": "2026-10-20T04:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2689,7 +2689,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-20T03:15Z",
+    "date": "2026-10-20T04:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -4520,6 +4520,18 @@
     "fantasy": null
    },
    {
+    "id": 4047365,
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-19T21:32Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4361423,
     "name": "Micah Parsons",
     "pos": "DE",
@@ -4530,18 +4542,6 @@
     "side": "Left",
     "returnDate": "2026-10-29",
     "fantasy": "PUP-R"
-   },
-   {
-    "id": 4047365,
-    "name": "Josh Jacobs",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T20:58Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4258206,
@@ -8125,7 +8125,7 @@
     "pos": "OT",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-20T03:11Z",
+    "date": "2026-10-20T04:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -9328,6 +9328,54 @@
   ],
   "SF": [
    {
+    "id": 3040151,
+    "name": "George Kittle",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-20T03:53Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4361741,
+    "name": "Brock Purdy",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-20T03:48Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 16737,
+    "name": "Mike Evans",
+    "pos": "WR",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-20T03:40Z",
+    "body": "Achilles",
+    "side": "Right",
+    "returnDate": "2026-10-25",
+    "fantasy": "DOUBTFUL"
+   },
+   {
+    "id": 3117251,
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-20T03:37Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3116097,
     "name": "Luke Gifford",
     "pos": "LB",
@@ -9335,21 +9383,9 @@
     "abbr": "Q",
     "date": "2026-10-20T02:08Z",
     "body": "Groin",
-    "side": null,
-    "returnDate": "2026-10-19",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 16737,
-    "name": "Mike Evans",
-    "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-20T02:02Z",
-    "body": "Achilles",
-    "side": "Right",
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "OUT"
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4685623,
@@ -9590,42 +9626,6 @@
     "side": "Right",
     "returnDate": "2026-11-08",
     "fantasy": "IR"
-   },
-   {
-    "id": 3916903,
-    "name": "Dre Greenlaw",
-    "pos": "LB",
-    "status": "Suspension",
-    "abbr": "SUSP",
-    "date": "2026-10-14T01:22Z",
-    "body": "Suspension",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "RESERVE-SUS"
-   },
-   {
-    "id": 4573188,
-    "name": "Nick Martin",
-    "pos": "LB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-13T00:00Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "IR"
-   },
-   {
-    "id": 4426698,
-    "name": "Tatum Bethune",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T19:37Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "SEA": [
@@ -10536,6 +10536,42 @@
   ],
   "WSH": [
    {
+    "id": 4697815,
+    "name": "Rachaad White",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-20T04:13Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 2976212,
+    "name": "Stefon Diggs",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-20T04:06Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4426348,
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-20T04:00Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4259491,
     "name": "Javon Kinlaw",
     "pos": "DT",
@@ -10543,7 +10579,7 @@
     "abbr": "Q",
     "date": "2026-10-20T02:16Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
    },
@@ -10728,18 +10764,6 @@
     "fantasy": null
    },
    {
-    "id": 2976212,
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T22:48Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4575131,
     "name": "Jacory Croskey-Merritt",
     "pos": "RB",
@@ -10788,18 +10812,6 @@
     "fantasy": null
    },
    {
-    "id": 4697815,
-    "name": "Rachaad White",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-17T19:29Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4360378,
     "name": "Quan Martin",
     "pos": "S",
@@ -10818,18 +10830,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-14T00:36Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3930066,
-    "name": "Van Jefferson",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-13T04:19Z",
     "body": null,
     "side": null,
     "returnDate": null,
