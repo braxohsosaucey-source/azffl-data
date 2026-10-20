@@ -1,11 +1,11 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-20T06:26:15.181Z",
+ "_pulledUtc": "2026-10-20T07:04:16.441Z",
  "_method": "league-atomic",
  "seasonId": 2026,
- "scoringPeriodId": 6,
- "currentMatchupPeriod": 6,
- "latestScoringPeriod": 6,
+ "scoringPeriodId": 7,
+ "currentMatchupPeriod": 7,
+ "latestScoringPeriod": 7,
  "teams": {
   "1": {
    "id": 1,
@@ -17,18 +17,18 @@
    ],
    "seed": 1,
    "record": {
-    "w": 4,
+    "w": 5,
     "l": 1,
     "t": 0,
-    "pf": 724.48,
-    "pa": 570.42
+    "pf": 870.71,
+    "pa": 680.52
    },
    "rosterComplete": true,
    "tx": {
     "acquisitions": 13,
     "drops": 12,
     "trades": 0,
-    "moveToActive": 19,
+    "moveToActive": 22,
     "acquisitionBudgetSpent": 80,
     "matchupAcquisitionTotals": {
      "1": 2,
@@ -43,8 +43,8 @@
     {
      "name": "Ja'Marr Chase",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "WR",
+     "slotId": 4,
      "proTeamId": 4,
      "id": 4362628,
      "injury": "ACTIVE",
@@ -53,7 +53,7 @@
      "own": 99.89,
      "start": 18.08,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 20.09,
      "projSeason": 241.41,
      "actSeason": 73.15
     },
@@ -69,8 +69,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.85,
      "start": 95.2,
-     "livePts": 27.4,
-     "weekProj": 22.57,
+     "livePts": null,
+     "weekProj": 18.36,
      "projSeason": 253.29,
      "actSeason": 134.5,
      "usage": {
@@ -82,10 +82,7 @@
        "23": 221.0,
        "210": 17.0
       },
-      "week": {
-       "23": 19.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -100,8 +97,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.13,
      "start": 93.66,
-     "livePts": 25.5,
-     "weekProj": 15.97,
+     "livePts": null,
+     "weekProj": 16.12,
      "projSeason": 180.09,
      "actSeason": 92.15
     },
@@ -117,8 +114,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.44,
      "start": 73.82,
-     "livePts": 0.0,
-     "weekProj": 8.61,
+     "livePts": null,
+     "weekProj": 4.41,
      "projSeason": 52.68,
      "actSeason": 48.55,
      "usage": {
@@ -130,9 +127,7 @@
        "23": 101.0,
        "210": 8.0
       },
-      "week": {
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -147,8 +142,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.63,
      "start": 83.78,
-     "livePts": 22.0,
-     "weekProj": 14.38,
+     "livePts": null,
+     "weekProj": 14.21,
      "projSeason": 160.33,
      "actSeason": 98.8,
      "usage": {
@@ -160,17 +155,14 @@
        "23": 223.0,
        "210": 16.0
       },
-      "week": {
-       "23": 16.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
      "name": "Joe Burrow",
      "pos": "QB",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "QB",
+     "slotId": 0,
      "proTeamId": 4,
      "id": 3915511,
      "injury": "ACTIVE",
@@ -179,15 +171,15 @@
      "own": 97.59,
      "start": 13.89,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 19.23,
      "projSeason": 239.93,
      "actSeason": 100.24
     },
     {
      "name": "Parker Washington",
      "pos": "WR",
-     "slot": "WR",
-     "slotId": 4,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 30,
      "id": 4432620,
      "injury": "ACTIVE",
@@ -195,8 +187,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.28,
      "start": 79.78,
-     "livePts": 9.4,
-     "weekProj": 14.16,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 166.86,
      "actSeason": 85.4
     },
@@ -212,8 +204,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.89,
      "start": 81.71,
-     "livePts": 9.3,
-     "weekProj": 14.1,
+     "livePts": null,
+     "weekProj": 16.81,
      "projSeason": 165.27,
      "actSeason": 97.3,
      "usage": {
@@ -225,10 +217,7 @@
        "23": 211.0,
        "210": 16.0
       },
-      "week": {
-       "23": 14.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -243,7 +232,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 54.96,
      "start": 0.65,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 77.17,
      "actSeason": 10.95
@@ -251,8 +240,8 @@
     {
      "name": "Patrick Mahomes",
      "pos": "QB",
-     "slot": "QB",
-     "slotId": 0,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 12,
      "id": 3139477,
      "injury": "ACTIVE",
@@ -260,8 +249,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.04,
      "start": 58.63,
-     "livePts": 10.23,
-     "weekProj": 18.58,
+     "livePts": null,
+     "weekProj": 15.38,
      "projSeason": 210.2,
      "actSeason": 93.31
     },
@@ -278,7 +267,7 @@
      "own": 69.79,
      "start": 1.87,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 9.97,
      "projSeason": 118.41,
      "actSeason": 30.45
     },
@@ -294,16 +283,16 @@
      "acqUtc": "2026-09-17T07:17:15.681000Z",
      "own": 87.75,
      "start": 56.93,
-     "livePts": 14.2,
-     "weekProj": 12.62,
+     "livePts": null,
+     "weekProj": 13.98,
      "projSeason": 172.16,
      "actSeason": 61.9
     },
     {
      "name": "Keenan Allen",
      "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 11,
      "id": 15818,
      "injury": "ACTIVE",
@@ -311,16 +300,16 @@
      "acqUtc": "2026-09-30T07:35:33.138000Z",
      "own": 39.12,
      "start": 14.68,
-     "livePts": 14.2,
-     "weekProj": 8.33,
+     "livePts": null,
+     "weekProj": 7.87,
      "projSeason": 84.31,
      "actSeason": 48.2
     },
     {
      "name": "Ollie Gordon II",
      "pos": "RB",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 15,
      "id": 4711533,
      "injury": "ACTIVE",
@@ -329,7 +318,7 @@
      "own": 71.8,
      "start": 1.1,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 11.41,
      "projSeason": 144.36,
      "actSeason": 46.75,
      "usage": {
@@ -356,8 +345,8 @@
      "acqUtc": "2026-09-30T07:45:03.288000Z",
      "own": 89.33,
      "start": 88.41,
-     "livePts": 9.0,
-     "weekProj": 11.41,
+     "livePts": null,
+     "weekProj": 10.12,
      "projSeason": 120.92,
      "actSeason": 89.35
     },
@@ -373,8 +362,8 @@
      "acqUtc": "2026-10-14T07:52:19.375000Z",
      "own": 79.68,
      "start": 73.26,
-     "livePts": 5.0,
-     "weekProj": 6.78,
+     "livePts": null,
+     "weekProj": 3.95,
      "projSeason": 68.53,
      "actSeason": 43.0
     }
@@ -388,13 +377,13 @@
    "owners": [
     "{AB84AC44-8C08-47DE-816E-64D8CE83663D}"
    ],
-   "seed": 9,
+   "seed": 7,
    "record": {
-    "w": 2,
+    "w": 3,
     "l": 3,
     "t": 0,
-    "pf": 584.65,
-    "pa": 707.9
+    "pf": 691.18,
+    "pa": 811.05
    },
    "rosterComplete": true,
    "tx": {
@@ -426,7 +415,7 @@
      "own": 99.9,
      "start": 15.6,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 17.71,
      "projSeason": 214.08,
      "actSeason": 94.95
     },
@@ -442,8 +431,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.62,
      "start": 12.63,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 14.88,
      "projSeason": 150.23,
      "actSeason": 40.0,
      "usage": {
@@ -455,7 +444,7 @@
        "23": 243.0,
        "210": 16.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -470,8 +459,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.89,
      "start": 99.12,
-     "livePts": 10.55,
-     "weekProj": 15.16,
+     "livePts": null,
+     "weekProj": 14.1,
      "projSeason": 163.93,
      "actSeason": 90.85
     },
@@ -488,7 +477,7 @@
      "own": 96.18,
      "start": 10.97,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 13.09,
      "projSeason": 157.68,
      "actSeason": 68.55
     },
@@ -505,7 +494,7 @@
      "own": 89.55,
      "start": 7.48,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 9.86,
      "projSeason": 118.84,
      "actSeason": 53.1
     },
@@ -521,8 +510,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 87.96,
      "start": 61.78,
-     "livePts": 7.6,
-     "weekProj": 13.76,
+     "livePts": null,
+     "weekProj": 12.96,
      "projSeason": 138.39,
      "actSeason": 49.3,
      "usage": {
@@ -534,10 +523,7 @@
        "23": 242.0,
        "210": 17.0
       },
-      "week": {
-       "23": 19.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -552,8 +538,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.52,
      "start": 64.84,
-     "livePts": 6.2,
-     "weekProj": 12.7,
+     "livePts": null,
+     "weekProj": 11.25,
      "projSeason": 131.06,
      "actSeason": 63.03
     },
@@ -569,7 +555,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 59.32,
      "start": 3.24,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 43.65,
@@ -582,7 +568,7 @@
        "23": 175.0,
        "210": 17.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -597,8 +583,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 92.13,
      "start": 89.13,
-     "livePts": 11.4,
-     "weekProj": 8.62,
+     "livePts": null,
+     "weekProj": 11.62,
      "projSeason": 122.31,
      "actSeason": 68.1
     },
@@ -614,8 +600,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 62.03,
      "start": 24.27,
-     "livePts": 14.4,
-     "weekProj": 9.3,
+     "livePts": null,
+     "weekProj": 7.39,
      "projSeason": 78.39,
      "actSeason": 48.85,
      "usage": {
@@ -627,10 +613,7 @@
        "23": 131.0,
        "210": 11.0
       },
-      "week": {
-       "23": 7.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -645,8 +628,8 @@
      "acqUtc": "2026-09-24T07:32:10.323000Z",
      "own": 82.09,
      "start": 39.98,
-     "livePts": 9.05,
-     "weekProj": 7.81,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 84.51,
      "actSeason": 54.5
     },
@@ -662,8 +645,8 @@
      "acqUtc": "2026-09-24T08:33:03.516000Z",
      "own": 69.24,
      "start": 28.65,
-     "livePts": 10.95,
-     "weekProj": 8.63,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 54.6
     },
@@ -680,7 +663,7 @@
      "own": 73.82,
      "start": 7.03,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 8.13,
      "projSeason": 70.71,
      "actSeason": 63.0
     },
@@ -696,8 +679,8 @@
      "acqUtc": "2026-10-02T01:52:33.885000Z",
      "own": 93.31,
      "start": 71.28,
-     "livePts": 16.88,
-     "weekProj": 19.37,
+     "livePts": null,
+     "weekProj": 18.34,
      "projSeason": 183.65,
      "actSeason": 104.36
     },
@@ -713,8 +696,8 @@
      "acqUtc": "2026-10-07T13:48:05.552000Z",
      "own": 27.98,
      "start": 0.08,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 1.58,
      "projSeason": 16.77,
      "actSeason": 0.0
     },
@@ -730,16 +713,16 @@
      "acqUtc": "2026-10-07T13:48:20.331000Z",
      "own": 32.18,
      "start": 11.67,
-     "livePts": 14.9,
-     "weekProj": 9.88,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 64.63,
      "actSeason": 60.55
     },
     {
      "name": "Dameon Pierce",
      "pos": "RB",
-     "slot": "RB",
-     "slotId": 2,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 21,
      "id": 4360238,
      "injury": "ACTIVE",
@@ -747,8 +730,8 @@
      "acqUtc": "2026-10-09T15:02:17.380000Z",
      "own": 55.68,
      "start": 46.14,
-     "livePts": 14.0,
-     "weekProj": 11.86,
+     "livePts": null,
+     "weekProj": 5.92,
      "projSeason": 59.08,
      "actSeason": 16.7,
      "usage": {
@@ -760,10 +743,7 @@
        "23": 14.0,
        "210": 5.0
       },
-      "week": {
-       "23": 12.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -778,8 +758,8 @@
      "acqUtc": "2026-10-18T19:57:50.822000Z",
      "own": 59.12,
      "start": 48.05,
-     "livePts": 5.0,
-     "weekProj": 4.95,
+     "livePts": null,
+     "weekProj": 4.32,
      "projSeason": 84.7,
      "actSeason": 48.0
     }
@@ -793,13 +773,13 @@
    "owners": [
     "{7277F445-05C7-4E21-B7F4-4505C7CE21B1}"
    ],
-   "seed": 7,
+   "seed": 5,
    "record": {
-    "w": 2,
+    "w": 3,
     "l": 3,
     "t": 0,
-    "pf": 632.23,
-    "pa": 634.69
+    "pf": 767.22,
+    "pa": 735.09
    },
    "rosterComplete": true,
    "tx": {
@@ -827,8 +807,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 97.78,
      "start": 17.01,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 14.16,
      "projSeason": 140.2,
      "actSeason": 22.0,
      "usage": {
@@ -840,7 +820,7 @@
        "23": 280.0,
        "210": 16.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -855,8 +835,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.92,
      "start": 98.91,
-     "livePts": 13.75,
-     "weekProj": 16.76,
+     "livePts": null,
+     "weekProj": 16.77,
      "projSeason": 188.1,
      "actSeason": 119.1
     },
@@ -872,8 +852,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.54,
      "start": 96.38,
-     "livePts": 8.95,
-     "weekProj": 20.07,
+     "livePts": null,
+     "weekProj": 18.55,
      "projSeason": 189.19,
      "actSeason": 111.25,
      "usage": {
@@ -885,10 +865,7 @@
        "23": 259.0,
        "210": 17.0
       },
-      "week": {
-       "23": 10.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -903,8 +880,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.64,
      "start": 16.9,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 19.73,
      "projSeason": 209.11,
      "actSeason": 78.58
     },
@@ -920,8 +897,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 90.74,
      "start": 33.21,
-     "livePts": 2.45,
-     "weekProj": 9.39,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 106.03,
      "actSeason": 35.75
     },
@@ -937,8 +914,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 85.7,
      "start": 4.37,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 12.09,
      "projSeason": 136.92,
      "actSeason": 0.0,
      "usage": {
@@ -947,7 +924,7 @@
        "23": 234.0,
        "210": 15.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -962,8 +939,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.87,
      "start": 75.3,
-     "livePts": 20.9,
-     "weekProj": 14.47,
+     "livePts": null,
+     "weekProj": 15.61,
      "projSeason": 161.43,
      "actSeason": 93.2
     },
@@ -979,8 +956,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 71.9,
      "start": 23.44,
-     "livePts": 13.85,
-     "weekProj": 8.51,
+     "livePts": null,
+     "weekProj": 10.45,
      "projSeason": 108.45,
      "actSeason": 47.65,
      "usage": {
@@ -992,10 +969,7 @@
        "23": 146.0,
        "210": 17.0
       },
-      "week": {
-       "23": 6.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1010,8 +984,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.31,
      "start": 86.77,
-     "livePts": 6.0,
-     "weekProj": 6.05,
+     "livePts": null,
+     "weekProj": 4.83,
      "projSeason": 80.07,
      "actSeason": 57.0
     },
@@ -1027,8 +1001,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.59,
      "start": 80.9,
-     "livePts": 22.4,
-     "weekProj": 13.38,
+     "livePts": null,
+     "weekProj": 12.87,
      "projSeason": 143.49,
      "actSeason": 99.55
     },
@@ -1043,9 +1017,9 @@
      "acq": "ADD",
      "acqUtc": "2026-09-24T20:41:04.846000Z",
      "own": 21.73,
-     "start": 3.93,
+     "start": 3.92,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 7.61,
      "projSeason": 95.37,
      "actSeason": 55.6
     },
@@ -1061,8 +1035,8 @@
      "acqUtc": "2026-09-24T21:26:25.915000Z",
      "own": 86.05,
      "start": 75.31,
-     "livePts": 5.2,
-     "weekProj": 14.4,
+     "livePts": null,
+     "weekProj": 7.5,
      "projSeason": 7.5,
      "actSeason": 54.8,
      "usage": {
@@ -1074,10 +1048,7 @@
        "23": 125.0,
        "210": 17.0
       },
-      "week": {
-       "23": 14.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1092,7 +1063,7 @@
      "acqUtc": "2026-10-07T07:43:59.649000Z",
      "own": 13.28,
      "start": 0.37,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 41.3
@@ -1110,7 +1081,7 @@
      "own": 15.26,
      "start": 0.44,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 6.41,
      "projSeason": 76.87,
      "actSeason": 48.9
     },
@@ -1126,8 +1097,8 @@
      "acqUtc": "2026-10-14T16:20:23.825000Z",
      "own": 17.35,
      "start": 0.17,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 6.78,
      "projSeason": 71.26,
      "actSeason": 19.05
     },
@@ -1143,8 +1114,8 @@
      "acqUtc": "2026-10-14T16:27:00.740000Z",
      "own": 44.39,
      "start": 23.48,
-     "livePts": 22.95,
-     "weekProj": 8.83,
+     "livePts": null,
+     "weekProj": 12.1,
      "projSeason": 118.63,
      "actSeason": 47.1
     },
@@ -1160,8 +1131,8 @@
      "acqUtc": "2026-10-16T00:30:42.465000Z",
      "own": 85.89,
      "start": 68.79,
-     "livePts": 19.99,
-     "weekProj": 20.65,
+     "livePts": null,
+     "weekProj": 19.33,
      "projSeason": 195.49,
      "actSeason": 109.11
     },
@@ -1177,8 +1148,8 @@
      "acqUtc": "2026-10-16T00:40:40.397000Z",
      "own": 9.02,
      "start": 7.93,
-     "livePts": 1.0,
-     "weekProj": 9.85,
+     "livePts": null,
+     "weekProj": 7.41,
      "projSeason": 82.36,
      "actSeason": 44.4
     }
@@ -1192,20 +1163,20 @@
    "owners": [
     "{762E2864-8494-4681-81C7-4357F3240A70}"
    ],
-   "seed": 8,
+   "seed": 9,
    "record": {
     "w": 2,
-    "l": 3,
+    "l": 4,
     "t": 0,
-    "pf": 620.56,
-    "pa": 635.46
+    "pf": 730.66,
+    "pa": 781.69
    },
    "rosterComplete": true,
    "tx": {
     "acquisitions": 13,
     "drops": 12,
     "trades": 0,
-    "moveToActive": 23,
+    "moveToActive": 26,
     "acquisitionBudgetSpent": 62,
     "matchupAcquisitionTotals": {
      "2": 1,
@@ -1228,8 +1199,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.93,
      "start": 98.11,
-     "livePts": 12.5,
-     "weekProj": 20.96,
+     "livePts": null,
+     "weekProj": 22.68,
      "projSeason": 236.72,
      "actSeason": 82.55
     },
@@ -1245,8 +1216,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.71,
      "start": 96.97,
-     "livePts": 14.8,
-     "weekProj": 18.05,
+     "livePts": null,
+     "weekProj": 16.06,
      "projSeason": 168.89,
      "actSeason": 93.9,
      "usage": {
@@ -1258,10 +1229,7 @@
        "23": 266.0,
        "210": 17.0
       },
-      "week": {
-       "23": 10.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1276,16 +1244,16 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.61,
      "start": 96.24,
-     "livePts": 11.2,
-     "weekProj": 14.28,
+     "livePts": null,
+     "weekProj": 15.6,
      "projSeason": 172.16,
      "actSeason": 80.65
     },
     {
      "name": "Quinshon Judkins",
      "pos": "RB",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 5,
      "id": 4685702,
      "injury": "OUT",
@@ -1293,8 +1261,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 93.81,
      "start": 40.45,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 13.06,
      "projSeason": 148.78,
      "actSeason": 51.8,
      "usage": {
@@ -1306,14 +1274,14 @@
        "23": 230.0,
        "210": 14.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
      "name": "Bhayshul Tuten",
      "pos": "RB",
-     "slot": "RB",
-     "slotId": 2,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 30,
      "id": 4882093,
      "injury": "ACTIVE",
@@ -1321,8 +1289,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 92.91,
      "start": 69.72,
-     "livePts": 23.7,
-     "weekProj": 12.15,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 149.99,
      "actSeason": 85.15,
      "usage": {
@@ -1334,17 +1302,14 @@
        "23": 83.0,
        "210": 15.0
       },
-      "week": {
-       "23": 12.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
      "name": "Carnell Tate",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 10,
      "id": 4871023,
      "injury": "ACTIVE",
@@ -1352,8 +1317,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.0,
      "start": 41.63,
-     "livePts": 17.5,
-     "weekProj": 9.77,
+     "livePts": null,
+     "weekProj": 10.01,
      "projSeason": 118.31,
      "actSeason": 59.9
     },
@@ -1369,8 +1334,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 93.0,
      "start": 74.32,
-     "livePts": 3.6,
-     "weekProj": 12.59,
+     "livePts": null,
+     "weekProj": 10.83,
      "projSeason": 119.74,
      "actSeason": 60.4,
      "usage": {
@@ -1382,10 +1347,7 @@
        "23": 130.0,
        "210": 14.0
       },
-      "week": {
-       "23": 14.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1400,8 +1362,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 87.57,
      "start": 28.6,
-     "livePts": 16.5,
-     "weekProj": 16.49,
+     "livePts": null,
+     "weekProj": 17.53,
      "projSeason": 197.13,
      "actSeason": 61.23
     },
@@ -1417,16 +1379,16 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 80.1,
      "start": 16.65,
-     "livePts": 14.9,
-     "weekProj": 9.43,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 120.73,
      "actSeason": 63.4
     },
     {
      "name": "Denzel Boston",
      "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 5,
      "id": 4832800,
      "injury": "ACTIVE",
@@ -1434,8 +1396,8 @@
      "acqUtc": "2026-09-24T07:32:10.323000Z",
      "own": 81.61,
      "start": 54.28,
-     "livePts": 2.25,
-     "weekProj": 12.5,
+     "livePts": null,
+     "weekProj": 11.23,
      "projSeason": 128.89,
      "actSeason": 67.25
     },
@@ -1452,7 +1414,7 @@
      "own": 88.12,
      "start": 3.89,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 18.32,
      "projSeason": 220.1,
      "actSeason": 115.0
     },
@@ -1468,7 +1430,7 @@
      "acqUtc": "2026-09-24T07:32:10.325000Z",
      "own": 19.92,
      "start": 0.11,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 14.05,
@@ -1478,14 +1440,14 @@
        "210": 2.0
       },
       "prior": null,
-      "week": {}
+      "week": null
      }
     },
     {
      "name": "Braelon Allen",
      "pos": "RB",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "RB",
+     "slotId": 2,
      "proTeamId": 20,
      "id": 4685247,
      "injury": "ACTIVE",
@@ -1493,8 +1455,8 @@
      "acqUtc": "2026-09-30T07:35:33.140000Z",
      "own": 83.7,
      "start": 67.65,
-     "livePts": 11.9,
-     "weekProj": 13.81,
+     "livePts": null,
+     "weekProj": 7.45,
      "projSeason": 75.37,
      "actSeason": 54.65,
      "usage": {
@@ -1506,17 +1468,14 @@
        "23": 18.0,
        "210": 4.0
       },
-      "week": {
-       "23": 17.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
      "name": "Will Reichard",
      "pos": "K",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "K",
+     "slotId": 17,
      "proTeamId": 16,
      "id": 4567104,
      "injury": "ACTIVE",
@@ -1525,7 +1484,7 @@
      "own": 52.63,
      "start": 8.89,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 12.0,
      "projSeason": 139.53,
      "actSeason": 74.3
     },
@@ -1541,16 +1500,16 @@
      "acqUtc": "2026-10-14T16:16:30.742000Z",
      "own": 23.04,
      "start": 17.38,
-     "livePts": 3.0,
-     "weekProj": 5.2,
+     "livePts": null,
+     "weekProj": 7.25,
      "projSeason": 72.12,
      "actSeason": 40.0
     },
     {
      "name": "Harrison Butker",
      "pos": "K",
-     "slot": "K",
-     "slotId": 17,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 12,
      "id": 3055899,
      "injury": "ACTIVE",
@@ -1558,8 +1517,8 @@
      "acqUtc": "2026-10-14T16:18:01.534000Z",
      "own": 61.01,
      "start": 50.73,
-     "livePts": 10.65,
-     "weekProj": 9.66,
+     "livePts": null,
+     "weekProj": 10.56,
      "projSeason": 133.42,
      "actSeason": 45.15
     }
@@ -1576,10 +1535,10 @@
    "seed": 10,
    "record": {
     "w": 1,
-    "l": 4,
+    "l": 5,
     "t": 0,
-    "pf": 610.11,
-    "pa": 781.08
+    "pf": 713.26,
+    "pa": 887.61
    },
    "rosterComplete": true,
    "tx": {
@@ -1607,8 +1566,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.9,
      "start": 99.36,
-     "livePts": 20.35,
-     "weekProj": 18.88,
+     "livePts": null,
+     "weekProj": 14.25,
      "projSeason": 188.48,
      "actSeason": 114.25,
      "usage": {
@@ -1620,10 +1579,7 @@
        "23": 323.0,
        "210": 17.0
       },
-      "week": {
-       "23": 21.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1639,7 +1595,7 @@
      "own": 99.84,
      "start": 15.19,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 16.93,
      "projSeason": 201.2,
      "actSeason": 58.95
     },
@@ -1655,8 +1611,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.68,
      "start": 57.78,
-     "livePts": 16.05,
-     "weekProj": 10.04,
+     "livePts": null,
+     "weekProj": 12.5,
      "projSeason": 144.5,
      "actSeason": 64.1
     },
@@ -1672,8 +1628,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.93,
      "start": 99.23,
-     "livePts": 18.3,
-     "weekProj": 24.9,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 248.26,
      "actSeason": 159.76
     },
@@ -1689,8 +1645,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.13,
      "start": 93.26,
-     "livePts": 6.15,
-     "weekProj": 14.93,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 94.5
     },
@@ -1706,8 +1662,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.56,
      "start": 53.55,
-     "livePts": 3.45,
-     "weekProj": 11.21,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 42.25
     },
@@ -1723,8 +1679,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 78.97,
      "start": 15.02,
-     "livePts": 2.5,
-     "weekProj": 8.34,
+     "livePts": null,
+     "weekProj": 6.86,
      "projSeason": 77.01,
      "actSeason": 28.5,
      "usage": {
@@ -1736,10 +1692,7 @@
        "23": 180.0,
        "210": 17.0
       },
-      "week": {
-       "23": 7.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1754,8 +1707,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.66,
      "start": 50.35,
-     "livePts": 17.0,
-     "weekProj": 7.82,
+     "livePts": null,
+     "weekProj": 10.49,
      "projSeason": 115.75,
      "actSeason": 37.75
     },
@@ -1771,8 +1724,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 47.25,
      "start": 13.75,
-     "livePts": 8.51,
-     "weekProj": 11.22,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 127.05,
      "actSeason": 59.94
     },
@@ -1788,8 +1741,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 90.2,
      "start": 71.65,
-     "livePts": 7.45,
-     "weekProj": 10.93,
+     "livePts": null,
+     "weekProj": 10.88,
      "projSeason": 112.43,
      "actSeason": 50.15
     },
@@ -1805,8 +1758,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.17,
      "start": 82.98,
-     "livePts": 2.0,
-     "weekProj": 7.26,
+     "livePts": null,
+     "weekProj": 4.61,
      "projSeason": 66.69,
      "actSeason": 25.0
     },
@@ -1822,7 +1775,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 76.26,
      "start": 2.93,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 106.33,
      "actSeason": 56.15
@@ -1839,8 +1792,8 @@
      "acqUtc": "2026-10-03T17:30:20.142000Z",
      "own": 62.34,
      "start": 19.36,
-     "livePts": 12.4,
-     "weekProj": 10.47,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 89.33,
      "actSeason": 49.25
     },
@@ -1856,8 +1809,8 @@
      "acqUtc": "2026-10-14T07:52:19.375000Z",
      "own": 59.22,
      "start": 58.2,
-     "livePts": 8.5,
-     "weekProj": 11.21,
+     "livePts": null,
+     "weekProj": 11.19,
      "projSeason": 126.62,
      "actSeason": 59.4
     },
@@ -1873,8 +1826,8 @@
      "acqUtc": "2026-10-15T17:55:29.041000Z",
      "own": 33.19,
      "start": 21.47,
-     "livePts": 8.5,
-     "weekProj": 8.73,
+     "livePts": null,
+     "weekProj": 9.02,
      "projSeason": 9.02,
      "actSeason": 31.05,
      "usage": {
@@ -1886,10 +1839,7 @@
        "23": 47.0,
        "210": 7.0
       },
-      "week": {
-       "23": 20.0,
-       "210": 1.0
-      }
+      "week": null
      }
     }
    ]
@@ -1902,20 +1852,20 @@
    "owners": [
     "{68FF500A-3446-4F37-8FCA-2997FB67D701}"
    ],
-   "seed": 4,
+   "seed": 6,
    "record": {
     "w": 3,
-    "l": 2,
+    "l": 3,
     "t": 0,
-    "pf": 618.68,
-    "pa": 603.27
+    "pf": 725.14,
+    "pa": 724.02
    },
    "rosterComplete": true,
    "tx": {
     "acquisitions": 16,
     "drops": 13,
     "trades": 0,
-    "moveToActive": 14,
+    "moveToActive": 16,
     "acquisitionBudgetSpent": 60,
     "matchupAcquisitionTotals": {
      "1": 2,
@@ -1930,8 +1880,8 @@
     {
      "name": "James Cook III",
      "pos": "RB",
-     "slot": "RB",
-     "slotId": 2,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 2,
      "id": 4379399,
      "injury": "ACTIVE",
@@ -1939,8 +1889,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.9,
      "start": 98.97,
-     "livePts": 23.55,
-     "weekProj": 18.88,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 205.19,
      "actSeason": 110.6,
      "usage": {
@@ -1952,10 +1902,7 @@
        "23": 309.0,
        "210": 17.0
       },
-      "week": {
-       "23": 22.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -1970,8 +1917,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.65,
      "start": 54.11,
-     "livePts": 6.9,
-     "weekProj": 8.63,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 87.83,
      "actSeason": 54.75,
      "usage": {
@@ -1983,10 +1930,7 @@
        "23": 124.0,
        "210": 9.0
       },
-      "week": {
-       "23": 7.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2001,8 +1945,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.87,
      "start": 96.76,
-     "livePts": 10.0,
-     "weekProj": 17.96,
+     "livePts": null,
+     "weekProj": 16.83,
      "projSeason": 176.0,
      "actSeason": 74.95
     },
@@ -2018,8 +1962,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.56,
      "start": 93.7,
-     "livePts": 13.3,
-     "weekProj": 15.58,
+     "livePts": null,
+     "weekProj": 14.15,
      "projSeason": 149.15,
      "actSeason": 102.25
     },
@@ -2035,7 +1979,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.42,
      "start": 26.39,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 132.49,
      "actSeason": 33.3
@@ -2052,8 +1996,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 83.2,
      "start": 10.77,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 12.87,
      "projSeason": 126.28,
      "actSeason": 43.75,
      "usage": {
@@ -2065,7 +2009,7 @@
        "23": 158.0,
        "210": 17.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -2080,7 +2024,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 85.81,
      "start": 15.95,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 79.27
@@ -2097,8 +2041,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.61,
      "start": 85.87,
-     "livePts": 8.65,
-     "weekProj": 14.99,
+     "livePts": null,
+     "weekProj": 15.31,
      "projSeason": 158.22,
      "actSeason": 111.55
     },
@@ -2114,8 +2058,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.53,
      "start": 95.88,
-     "livePts": 1.0,
-     "weekProj": 10.54,
+     "livePts": null,
+     "weekProj": 8.38,
      "projSeason": 93.41,
      "actSeason": 46.05
     },
@@ -2131,25 +2075,25 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.02,
      "start": 68.71,
-     "livePts": -2.0,
-     "weekProj": 5.36,
+     "livePts": null,
+     "weekProj": 7.24,
      "projSeason": 78.36,
      "actSeason": 29.0
     },
     {
      "name": "Jordan Mason",
      "pos": "RB",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "RB",
+     "slotId": 2,
      "proTeamId": 16,
      "id": 4360569,
      "injury": "INJURY_RESERVE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
-     "own": 50.5,
+     "own": 50.51,
      "start": 0.25,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 10.06,
      "projSeason": 108.3,
      "actSeason": 11.9,
      "usage": {
@@ -2176,7 +2120,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 32.37,
      "start": 0.16,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 82.03,
      "actSeason": 0.0
@@ -2193,16 +2137,16 @@
      "acqUtc": "2026-09-24T07:32:10.325000Z",
      "own": 74.31,
      "start": 31.02,
-     "livePts": 26.96,
-     "weekProj": 16.57,
+     "livePts": null,
+     "weekProj": 15.05,
      "projSeason": 183.47,
      "actSeason": 110.12
     },
     {
      "name": "Kyle Monangai",
      "pos": "RB",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "RB",
+     "slotId": 2,
      "proTeamId": 3,
      "id": 4608686,
      "injury": "OUT",
@@ -2210,8 +2154,8 @@
      "acqUtc": "2026-09-27T13:55:53.656000Z",
      "own": 77.79,
      "start": 3.5,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 10.38,
      "projSeason": 117.21,
      "actSeason": 58.05,
      "usage": {
@@ -2223,7 +2167,7 @@
        "23": 169.0,
        "210": 17.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -2238,7 +2182,7 @@
      "acqUtc": "2026-10-01T07:51:54.115000Z",
      "own": 69.26,
      "start": 4.61,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 106.79,
      "actSeason": 12.5,
@@ -2248,7 +2192,7 @@
        "210": 4.0
       },
       "prior": null,
-      "week": {}
+      "week": null
      }
     },
     {
@@ -2263,16 +2207,16 @@
      "acqUtc": "2026-10-14T23:50:10.576000Z",
      "own": 74.01,
      "start": 33.13,
-     "livePts": 12.55,
-     "weekProj": 10.17,
+     "livePts": null,
+     "weekProj": 8.45,
      "projSeason": 107.79,
      "actSeason": 42.35
     },
     {
      "name": "Tyler Allgeier",
      "pos": "RB",
-     "slot": "RB",
-     "slotId": 2,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 22,
      "id": 4373626,
      "injury": "ACTIVE",
@@ -2280,8 +2224,8 @@
      "acqUtc": "2026-10-16T17:40:30.076000Z",
      "own": 57.04,
      "start": 36.44,
-     "livePts": 5.55,
-     "weekProj": 11.71,
+     "livePts": null,
+     "weekProj": 6.91,
      "projSeason": 76.12,
      "actSeason": 36.85,
      "usage": {
@@ -2293,10 +2237,7 @@
        "23": 143.0,
        "210": 17.0
       },
-      "week": {
-       "23": 18.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2311,8 +2252,8 @@
      "acqUtc": "2026-10-18T15:50:09.497000Z",
      "own": 7.84,
      "start": 6.16,
-     "livePts": 8.5,
-     "weekProj": 9.83,
+     "livePts": null,
+     "weekProj": 4.85,
      "projSeason": 54.63,
      "actSeason": 17.6,
      "usage": {
@@ -2324,10 +2265,7 @@
        "23": 37.0,
        "210": 8.0
       },
-      "week": {
-       "23": 9.0,
-       "210": 1.0
-      }
+      "week": null
      }
     }
    ]
@@ -2340,13 +2278,13 @@
    "owners": [
     "{71276F1B-E7B6-44A8-8559-9F00C19CF588}"
    ],
-   "seed": 5,
+   "seed": 8,
    "record": {
     "w": 2,
-    "l": 3,
+    "l": 4,
     "t": 0,
-    "pf": 701.41,
-    "pa": 622.48
+    "pf": 801.81,
+    "pa": 757.47
    },
    "rosterComplete": true,
    "tx": {
@@ -2375,7 +2313,7 @@
      "own": 99.93,
      "start": 15.66,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 24.73,
      "projSeason": 297.08,
      "actSeason": 146.7,
      "usage": {
@@ -2402,8 +2340,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.28,
      "start": 38.46,
-     "livePts": 4.95,
-     "weekProj": 11.64,
+     "livePts": null,
+     "weekProj": 14.65,
      "projSeason": 159.34,
      "actSeason": 9.8
     },
@@ -2419,8 +2357,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.41,
      "start": 93.29,
-     "livePts": 10.15,
-     "weekProj": 15.43,
+     "livePts": null,
+     "weekProj": 15.42,
      "projSeason": 163.55,
      "actSeason": 68.0
     },
@@ -2436,8 +2374,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.91,
      "start": 89.65,
-     "livePts": 7.4,
-     "weekProj": 13.24,
+     "livePts": null,
+     "weekProj": 13.62,
      "projSeason": 144.4,
      "actSeason": 86.05
     },
@@ -2453,8 +2391,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 97.35,
      "start": 87.85,
-     "livePts": 6.4,
-     "weekProj": 15.4,
+     "livePts": null,
+     "weekProj": 13.45,
      "projSeason": 156.69,
      "actSeason": 81.1,
      "usage": {
@@ -2466,10 +2404,7 @@
        "23": 173.0,
        "210": 10.0
       },
-      "week": {
-       "23": 19.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2484,8 +2419,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 97.76,
      "start": 53.42,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 9.33,
      "projSeason": 115.77,
      "actSeason": 62.4
     },
@@ -2501,8 +2436,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.1,
      "start": 64.2,
-     "livePts": 21.0,
-     "weekProj": 19.76,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 244.84,
      "actSeason": 85.66
     },
@@ -2518,8 +2453,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 55.59,
      "start": 6.35,
-     "livePts": 7.15,
-     "weekProj": 5.99,
+     "livePts": null,
+     "weekProj": 7.38,
      "projSeason": 71.52,
      "actSeason": 16.65,
      "usage": {
@@ -2531,10 +2466,7 @@
        "23": 236.0,
        "210": 17.0
       },
-      "week": {
-       "23": 7.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2549,8 +2481,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 46.96,
      "start": 5.62,
-     "livePts": 6.7,
-     "weekProj": 5.8,
+     "livePts": null,
+     "weekProj": 7.66,
      "projSeason": 89.05,
      "actSeason": 40.65
     },
@@ -2567,7 +2499,7 @@
      "own": 92.93,
      "start": 5.67,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 11.56,
      "projSeason": 129.67,
      "actSeason": 66.95,
      "usage": {
@@ -2594,7 +2526,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 24.65,
      "start": 0.34,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 5.4
@@ -2611,8 +2543,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 70.26,
      "start": 36.31,
-     "livePts": 9.6,
-     "weekProj": 11.0,
+     "livePts": null,
+     "weekProj": 8.74,
      "projSeason": 87.7,
      "actSeason": 50.15,
      "usage": {
@@ -2624,10 +2556,7 @@
        "23": 196.0,
        "210": 16.0
       },
-      "week": {
-       "23": 15.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2642,8 +2571,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 44.48,
      "start": 14.47,
-     "livePts": 2.5,
-     "weekProj": 7.43,
+     "livePts": null,
+     "weekProj": 5.93,
      "projSeason": 70.28,
      "actSeason": 51.85,
      "usage": {
@@ -2655,10 +2584,7 @@
        "23": 92.0,
        "210": 17.0
       },
-      "week": {
-       "23": 2.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2673,8 +2599,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.16,
      "start": 85.7,
-     "livePts": 10.0,
-     "weekProj": 7.12,
+     "livePts": null,
+     "weekProj": 5.09,
      "projSeason": 73.97,
      "actSeason": 36.0
     },
@@ -2690,8 +2616,8 @@
      "acqUtc": "2026-09-24T16:55:04.326000Z",
      "own": 85.8,
      "start": 50.14,
-     "livePts": 19.84,
-     "weekProj": 18.0,
+     "livePts": null,
+     "weekProj": 17.42,
      "projSeason": 219.66,
      "actSeason": 109.96
     },
@@ -2707,8 +2633,8 @@
      "acqUtc": "2026-09-27T07:44:30.241000Z",
      "own": 89.35,
      "start": 83.77,
-     "livePts": 7.9,
-     "weekProj": 6.95,
+     "livePts": null,
+     "weekProj": 9.82,
      "projSeason": 112.25,
      "actSeason": 61.25
     },
@@ -2724,8 +2650,8 @@
      "acqUtc": "2026-10-15T01:34:00.812000Z",
      "own": 44.23,
      "start": 23.44,
-     "livePts": 25.45,
-     "weekProj": 9.43,
+     "livePts": null,
+     "weekProj": 9.6,
      "projSeason": 99.26,
      "actSeason": 72.5
     }
@@ -2739,13 +2665,13 @@
    "owners": [
     "{EAAB1870-01E8-456D-A98C-5CE9A87ACDCD}"
    ],
-   "seed": 6,
+   "seed": 4,
    "record": {
-    "w": 2,
+    "w": 3,
     "l": 3,
     "t": 0,
-    "pf": 663.21,
-    "pa": 728.14
+    "pf": 797.27,
+    "pa": 844.01
    },
    "rosterComplete": true,
    "tx": {
@@ -2775,8 +2701,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.93,
      "start": 99.44,
-     "livePts": 22.4,
-     "weekProj": 17.98,
+     "livePts": null,
+     "weekProj": 18.16,
      "projSeason": 206.87,
      "actSeason": 152.61
     },
@@ -2793,7 +2719,7 @@
      "own": 98.58,
      "start": 16.48,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 13.5,
      "projSeason": 170.91,
      "actSeason": 58.75,
      "usage": {
@@ -2820,8 +2746,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.75,
      "start": 45.97,
-     "livePts": 5.4,
-     "weekProj": 8.41,
+     "livePts": null,
+     "weekProj": 10.02,
      "projSeason": 104.61,
      "actSeason": 49.6
     },
@@ -2837,8 +2763,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 89.93,
      "start": 54.11,
-     "livePts": 15.5,
-     "weekProj": 11.39,
+     "livePts": null,
+     "weekProj": 11.45,
      "projSeason": 126.88,
      "actSeason": 65.3
     },
@@ -2854,8 +2780,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 67.19,
      "start": 22.08,
-     "livePts": 13.5,
-     "weekProj": 8.66,
+     "livePts": null,
+     "weekProj": 9.58,
      "projSeason": 97.33,
      "actSeason": 50.15,
      "usage": {
@@ -2867,10 +2793,7 @@
        "23": 145.0,
        "210": 17.0
       },
-      "week": {
-       "23": 9.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2885,8 +2808,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 89.07,
      "start": 52.88,
-     "livePts": 27.09,
-     "weekProj": 17.42,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 221.59,
      "actSeason": 113.2
     },
@@ -2902,8 +2825,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.24,
      "start": 81.74,
-     "livePts": 17.36,
-     "weekProj": 21.16,
+     "livePts": null,
+     "weekProj": 20.16,
      "projSeason": 219.89,
      "actSeason": 133.5
     },
@@ -2920,7 +2843,7 @@
      "own": 95.82,
      "start": 13.51,
      "livePts": null,
-     "weekProj": 0.0,
+     "weekProj": 11.42,
      "projSeason": 138.36,
      "actSeason": 69.85
     },
@@ -2936,8 +2859,8 @@
      "acqUtc": "2026-09-17T07:17:15.684000Z",
      "own": 57.37,
      "start": 0.17,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 9.09,
      "projSeason": 142.81,
      "actSeason": 0.0,
      "usage": {
@@ -2946,7 +2869,7 @@
        "23": 184.0,
        "210": 16.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -2961,8 +2884,8 @@
      "acqUtc": "2026-09-24T18:58:57.905000Z",
      "own": 99.92,
      "start": 99.52,
-     "livePts": 28.2,
-     "weekProj": 20.17,
+     "livePts": null,
+     "weekProj": 19.27,
      "projSeason": 206.11,
      "actSeason": 114.75,
      "usage": {
@@ -2974,10 +2897,7 @@
        "23": 311.0,
        "210": 17.0
       },
-      "week": {
-       "23": 16.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -2992,8 +2912,8 @@
      "acqUtc": "2026-09-30T14:24:51.871000Z",
      "own": 78.69,
      "start": 50.68,
-     "livePts": 0.0,
-     "weekProj": 9.7,
+     "livePts": null,
+     "weekProj": 7.78,
      "projSeason": 87.77,
      "actSeason": 59.3
     },
@@ -3009,8 +2929,8 @@
      "acqUtc": "2026-10-11T15:42:21.202000Z",
      "own": 18.6,
      "start": 1.77,
-     "livePts": 5.75,
-     "weekProj": 3.89,
+     "livePts": null,
+     "weekProj": 5.37,
      "projSeason": 56.72,
      "actSeason": 26.15,
      "usage": {
@@ -3019,10 +2939,7 @@
        "210": 6.0
       },
       "prior": null,
-      "week": {
-       "23": 9.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3037,8 +2954,8 @@
      "acqUtc": "2026-10-14T07:52:19.374000Z",
      "own": 75.32,
      "start": 47.01,
-     "livePts": 1.0,
-     "weekProj": 10.48,
+     "livePts": null,
+     "weekProj": 2.95,
      "projSeason": 26.38,
      "actSeason": 40.95,
      "usage": {
@@ -3047,10 +2964,7 @@
        "210": 6.0
       },
       "prior": {},
-      "week": {
-       "23": 8.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3065,8 +2979,8 @@
      "acqUtc": "2026-10-14T07:52:19.374000Z",
      "own": 82.92,
      "start": 75.91,
-     "livePts": 14.0,
-     "weekProj": 7.26,
+     "livePts": null,
+     "weekProj": 6.81,
      "projSeason": 70.31,
      "actSeason": 37.0
     },
@@ -3082,8 +2996,8 @@
      "acqUtc": "2026-10-14T07:52:19.375000Z",
      "own": 82.86,
      "start": 49.15,
-     "livePts": 10.6,
-     "weekProj": 9.05,
+     "livePts": null,
+     "weekProj": 9.78,
      "projSeason": 101.24,
      "actSeason": 42.75
     },
@@ -3099,8 +3013,8 @@
      "acqUtc": "2026-10-14T07:52:19.375000Z",
      "own": 42.4,
      "start": 41.17,
-     "livePts": 11.5,
-     "weekProj": 10.96,
+     "livePts": null,
+     "weekProj": 9.97,
      "projSeason": 106.86,
      "actSeason": 67.2
     }
@@ -3114,13 +3028,13 @@
    "owners": [
     "{EC48059D-D3F9-4A38-AD18-84429696A3E8}"
    ],
-   "seed": 2,
+   "seed": 3,
    "record": {
     "w": 4,
-    "l": 1,
+    "l": 2,
     "t": 0,
-    "pf": 650.19,
-    "pa": 571.16
+    "pf": 766.06,
+    "pa": 705.22
    },
    "rosterComplete": true,
    "tx": {
@@ -3150,8 +3064,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.87,
      "start": 99.13,
-     "livePts": 4.5,
-     "weekProj": 17.94,
+     "livePts": null,
+     "weekProj": 19.73,
      "projSeason": 200.94,
      "actSeason": 114.3,
      "usage": {
@@ -3163,10 +3077,7 @@
        "23": 307.0,
        "210": 17.0
       },
-      "week": {
-       "23": 17.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3181,8 +3092,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.49,
      "start": 16.82,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 12.05,
      "projSeason": 152.69,
      "actSeason": 34.75
     },
@@ -3198,7 +3109,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 82.31,
      "start": 9.0,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 128.46,
      "actSeason": 28.15,
@@ -3211,7 +3122,7 @@
        "23": 260.0,
        "210": 17.0
       },
-      "week": {}
+      "week": null
      }
     },
     {
@@ -3226,8 +3137,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.51,
      "start": 68.81,
-     "livePts": 11.65,
-     "weekProj": 13.72,
+     "livePts": null,
+     "weekProj": 14.75,
      "projSeason": 163.16,
      "actSeason": 82.25
     },
@@ -3243,8 +3154,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 70.84,
      "start": 18.94,
-     "livePts": 3.4,
-     "weekProj": 7.75,
+     "livePts": null,
+     "weekProj": 8.26,
      "projSeason": 86.04,
      "actSeason": 28.05
     },
@@ -3260,8 +3171,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 92.34,
      "start": 61.12,
-     "livePts": 10.52,
-     "weekProj": 16.91,
+     "livePts": null,
+     "weekProj": 16.53,
      "projSeason": 182.66,
      "actSeason": 103.61
     },
@@ -3277,8 +3188,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 77.94,
      "start": 34.2,
-     "livePts": 12.85,
-     "weekProj": 9.96,
+     "livePts": null,
+     "weekProj": 13.08,
      "projSeason": 130.04,
      "actSeason": 47.7,
      "usage": {
@@ -3290,10 +3201,7 @@
        "23": 153.0,
        "210": 10.0
       },
-      "week": {
-       "23": 17.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3308,8 +3216,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.45,
      "start": 74.1,
-     "livePts": 18.85,
-     "weekProj": 14.21,
+     "livePts": null,
+     "weekProj": 14.0,
      "projSeason": 173.24,
      "actSeason": 95.35,
      "usage": {
@@ -3321,10 +3229,7 @@
        "23": 134.0,
        "210": 15.0
       },
-      "week": {
-       "23": 28.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3339,8 +3244,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 81.78,
      "start": 65.32,
-     "livePts": 11.0,
-     "weekProj": 5.67,
+     "livePts": null,
+     "weekProj": 6.35,
      "projSeason": 68.47,
      "actSeason": 46.0
     },
@@ -3356,8 +3261,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 86.36,
      "start": 81.48,
-     "livePts": 10.0,
-     "weekProj": 7.61,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 100.6,
      "actSeason": 57.45
     },
@@ -3373,8 +3278,8 @@
      "acqUtc": "2026-09-17T13:35:48.423000Z",
      "own": 38.48,
      "start": 9.44,
-     "livePts": 3.9,
-     "weekProj": 7.91,
+     "livePts": null,
+     "weekProj": 8.23,
      "projSeason": 84.81,
      "actSeason": 48.65
     },
@@ -3390,8 +3295,8 @@
      "acqUtc": "2026-09-24T18:58:57.905000Z",
      "own": 97.7,
      "start": 54.03,
-     "livePts": 18.75,
-     "weekProj": 12.22,
+     "livePts": null,
+     "weekProj": 15.03,
      "projSeason": 155.23,
      "actSeason": 62.5
     },
@@ -3407,8 +3312,8 @@
      "acqUtc": "2026-09-24T18:58:57.905000Z",
      "own": 99.34,
      "start": 94.92,
-     "livePts": 12.5,
-     "weekProj": 16.2,
+     "livePts": null,
+     "weekProj": 15.9,
      "projSeason": 174.51,
      "actSeason": 104.25,
      "usage": {
@@ -3420,10 +3325,7 @@
        "23": 252.0,
        "210": 16.0
       },
-      "week": {
-       "23": 11.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3438,8 +3340,8 @@
      "acqUtc": "2026-09-26T07:10:28.884000Z",
      "own": 88.62,
      "start": 50.25,
-     "livePts": 17.55,
-     "weekProj": 10.59,
+     "livePts": null,
+     "weekProj": 13.71,
      "projSeason": 135.41,
      "actSeason": 61.4
     },
@@ -3455,8 +3357,8 @@
      "acqUtc": "2026-10-02T07:35:21.477000Z",
      "own": 69.3,
      "start": 35.45,
-     "livePts": 6.45,
-     "weekProj": 10.06,
+     "livePts": null,
+     "weekProj": 9.24,
      "projSeason": 84.93,
      "actSeason": 62.4
     },
@@ -3472,8 +3374,8 @@
      "acqUtc": "2026-10-10T15:07:42.612000Z",
      "own": 75.13,
      "start": 9.44,
-     "livePts": 5.65,
-     "weekProj": 3.28,
+     "livePts": null,
+     "weekProj": 6.83,
      "projSeason": 72.3,
      "actSeason": 23.9
     },
@@ -3489,8 +3391,8 @@
      "acqUtc": "2026-10-15T04:24:32.603000Z",
      "own": 57.92,
      "start": 40.9,
-     "livePts": 2.6,
-     "weekProj": 10.06,
+     "livePts": null,
+     "weekProj": 9.2,
      "projSeason": 92.57,
      "actSeason": 58.15
     }
@@ -3504,13 +3406,13 @@
    "owners": [
     "{DC822EA1-E038-490B-980D-C3398E85F7D5}"
    ],
-   "seed": 3,
+   "seed": 2,
    "record": {
-    "w": 3,
+    "w": 4,
     "l": 2,
     "t": 0,
-    "pf": 651.72,
-    "pa": 602.64
+    "pf": 772.47,
+    "pa": 709.1
    },
    "rosterComplete": true,
    "tx": {
@@ -3534,8 +3436,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.92,
      "start": 99.77,
-     "livePts": 6.8,
-     "weekProj": 22.13,
+     "livePts": null,
+     "weekProj": 18.29,
      "projSeason": 213.49,
      "actSeason": 123.5,
      "usage": {
@@ -3547,10 +3449,7 @@
        "23": 287.0,
        "210": 17.0
       },
-      "week": {
-       "23": 9.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3565,8 +3464,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 95.89,
      "start": 25.24,
-     "livePts": 0.0,
-     "weekProj": 0.0,
+     "livePts": null,
+     "weekProj": 11.45,
      "projSeason": 125.03,
      "actSeason": 48.35,
      "usage": {
@@ -3575,7 +3474,7 @@
        "210": 5.0
       },
       "prior": null,
-      "week": {}
+      "week": null
      }
     },
     {
@@ -3590,8 +3489,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.05,
      "start": 88.79,
-     "livePts": 11.8,
-     "weekProj": 12.28,
+     "livePts": null,
+     "weekProj": 11.94,
      "projSeason": 133.92,
      "actSeason": 73.55
     },
@@ -3607,8 +3506,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.91,
      "start": 88.46,
-     "livePts": 11.2,
-     "weekProj": 12.57,
+     "livePts": null,
+     "weekProj": 15.81,
      "projSeason": 170.74,
      "actSeason": 86.5
     },
@@ -3624,8 +3523,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.49,
      "start": 86.1,
-     "livePts": 13.1,
-     "weekProj": 14.6,
+     "livePts": null,
+     "weekProj": 14.4,
      "projSeason": 177.31,
      "actSeason": 80.85
     },
@@ -3641,8 +3540,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 87.16,
      "start": 42.62,
-     "livePts": 6.15,
-     "weekProj": 9.54,
+     "livePts": null,
+     "weekProj": 9.37,
      "projSeason": 103.69,
      "actSeason": 43.95
     },
@@ -3658,8 +3557,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 96.98,
      "start": 79.58,
-     "livePts": 23.8,
-     "weekProj": 19.94,
+     "livePts": null,
+     "weekProj": 20.24,
      "projSeason": 225.11,
      "actSeason": 108.77
     },
@@ -3675,7 +3574,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 38.88,
      "start": 0.62,
-     "livePts": 0.0,
+     "livePts": null,
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 8.8,
@@ -3685,7 +3584,7 @@
        "210": 2.0
       },
       "prior": {},
-      "week": {}
+      "week": null
      }
     },
     {
@@ -3700,8 +3599,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 91.13,
      "start": 69.28,
-     "livePts": 1.65,
-     "weekProj": 9.23,
+     "livePts": null,
+     "weekProj": 7.44,
      "projSeason": 85.05,
      "actSeason": 48.85
     },
@@ -3717,8 +3616,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.02,
      "start": 90.46,
-     "livePts": 16.65,
-     "weekProj": 13.66,
+     "livePts": null,
+     "weekProj": 13.52,
      "projSeason": 138.12,
      "actSeason": 83.2
     },
@@ -3734,8 +3633,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 59.36,
      "start": 20.03,
-     "livePts": 14.7,
-     "weekProj": 9.89,
+     "livePts": null,
+     "weekProj": 0.0,
      "projSeason": 112.43,
      "actSeason": 45.3,
      "usage": {
@@ -3747,10 +3646,7 @@
        "23": 132.0,
        "210": 17.0
       },
-      "week": {
-       "23": 7.0,
-       "210": 1.0
-      }
+      "week": null
      }
     },
     {
@@ -3765,8 +3661,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.03,
      "start": 67.86,
-     "livePts": 8.3,
-     "weekProj": 10.37,
+     "livePts": null,
+     "weekProj": 8.85,
      "projSeason": 111.74,
      "actSeason": 56.9
     },
@@ -3782,8 +3678,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 75.29,
      "start": 25.33,
-     "livePts": 7.7,
-     "weekProj": 8.9,
+     "livePts": null,
+     "weekProj": 7.45,
      "projSeason": 88.69,
      "actSeason": 47.6
     },
@@ -3799,8 +3695,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 94.94,
      "start": 90.12,
-     "livePts": 11.0,
-     "weekProj": 6.95,
+     "livePts": null,
+     "weekProj": 6.41,
      "projSeason": 80.21,
      "actSeason": 48.0
     },
@@ -3816,8 +3712,8 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 70.1,
      "start": 66.37,
-     "livePts": 3.4,
-     "weekProj": 9.42,
+     "livePts": null,
+     "weekProj": 9.73,
      "projSeason": 104.82,
      "actSeason": 58.5
     }
@@ -4039,52 +3935,42 @@
    {
     "away": 7,
     "home": 3,
-    "awayPts": 0.0,
-    "homePts": 0.0,
-    "winner": "UNDECIDED",
-    "tier": "NONE",
-    "awayLive": 100.4,
-    "homeLive": 134.99
+    "awayPts": 100.4,
+    "homePts": 134.99,
+    "winner": "HOME",
+    "tier": "NONE"
    },
    {
     "away": 6,
     "home": 10,
-    "awayPts": 0.0,
-    "homePts": 0.0,
-    "winner": "UNDECIDED",
-    "tier": "NONE",
-    "awayLive": 106.46,
-    "homeLive": 120.75
+    "awayPts": 106.46,
+    "homePts": 120.75,
+    "winner": "HOME",
+    "tier": "NONE"
    },
    {
     "away": 5,
     "home": 2,
-    "awayPts": 0.0,
-    "homePts": 0.0,
-    "winner": "UNDECIDED",
-    "tier": "NONE",
-    "awayLive": 103.15,
-    "homeLive": 106.53
+    "awayPts": 103.15,
+    "homePts": 106.53,
+    "winner": "HOME",
+    "tier": "NONE"
    },
    {
     "away": 9,
     "home": 8,
-    "awayPts": 0.0,
-    "homePts": 0.0,
-    "winner": "UNDECIDED",
-    "tier": "NONE",
-    "awayLive": 115.87,
-    "homeLive": 134.06
+    "awayPts": 115.87,
+    "homePts": 134.06,
+    "winner": "HOME",
+    "tier": "NONE"
    },
    {
     "away": 1,
     "home": 4,
-    "awayPts": 0.0,
-    "homePts": 0.0,
-    "winner": "UNDECIDED",
-    "tier": "NONE",
-    "awayLive": 146.23,
-    "homeLive": 110.1
+    "awayPts": 146.23,
+    "homePts": 110.1,
+    "winner": "AWAY",
+    "tier": "NONE"
    }
   ],
   "7": [
@@ -4094,7 +3980,9 @@
     "awayPts": 0.0,
     "homePts": 0.0,
     "winner": "UNDECIDED",
-    "tier": "NONE"
+    "tier": "NONE",
+    "awayLive": 0.0,
+    "homeLive": 0.0
    },
    {
     "away": 2,
@@ -4102,7 +3990,9 @@
     "awayPts": 0.0,
     "homePts": 0.0,
     "winner": "UNDECIDED",
-    "tier": "NONE"
+    "tier": "NONE",
+    "awayLive": 0.0,
+    "homeLive": 0.0
    },
    {
     "away": 8,
@@ -4110,7 +4000,9 @@
     "awayPts": 0.0,
     "homePts": 0.0,
     "winner": "UNDECIDED",
-    "tier": "NONE"
+    "tier": "NONE",
+    "awayLive": 0.0,
+    "homeLive": 0.0
    },
    {
     "away": 4,
@@ -4118,7 +4010,9 @@
     "awayPts": 0.0,
     "homePts": 0.0,
     "winner": "UNDECIDED",
-    "tier": "NONE"
+    "tier": "NONE",
+    "awayLive": 0.0,
+    "homeLive": 0.0
    },
    {
     "away": 1,
@@ -4126,7 +4020,9 @@
     "awayPts": 0.0,
     "homePts": 0.0,
     "winner": "UNDECIDED",
-    "tier": "NONE"
+    "tier": "NONE",
+    "awayLive": 0.0,
+    "homeLive": 0.0
    }
   ],
   "8": [
@@ -6802,6 +6698,452 @@
      "4697745": 33
     }
    }
+  },
+  "6": {
+   "1": {
+    "total": 146.23,
+    "bench": 0.0,
+    "k": 9.0,
+    "kName": "Spencer Shrader",
+    "d": 5.0,
+    "dName": "Patriots D/ST",
+    "starters": 10,
+    "pts": {
+     "4567048": 27.4,
+     "4595348": 25.5,
+     "4696981": 0.0,
+     "4259545": 22.0,
+     "4432620": 9.4,
+     "4569987": 9.3,
+     "4360078": 0.0,
+     "3139477": 10.23,
+     "4695883": 14.2,
+     "15818": 14.2,
+     "4571557": 9.0,
+     "-16017": 5.0
+    },
+    "pro": {
+     "4362628": 4,
+     "4567048": 12,
+     "4595348": 19,
+     "4696981": 19,
+     "4259545": 3,
+     "3915511": 4,
+     "4432620": 30,
+     "4569987": 23,
+     "4360078": 11,
+     "3139477": 12,
+     "4429205": 16,
+     "4695883": 29,
+     "15818": 11,
+     "4711533": 15,
+     "4571557": 11,
+     "-16017": 17
+    }
+   },
+   "2": {
+    "total": 106.53,
+    "bench": 14.4,
+    "k": 11.4,
+    "kName": "Ka'imi Fairbairn",
+    "d": 5.0,
+    "dName": "49ers D/ST",
+    "starters": 10,
+    "pts": {
+     "4427366": 0.0,
+     "4361307": 10.55,
+     "3916148": 7.6,
+     "4360761": 6.2,
+     "4575131": 0.0,
+     "2971573": 11.4,
+     "3054850": 14.4,
+     "4385690": 9.05,
+     "4361432": 10.95,
+     "12483": 16.88,
+     "4366031": 0.0,
+     "4635008": 14.9,
+     "4360238": 14.0,
+     "-16025": 5.0
+    },
+    "pro": {
+     "4374302": 8,
+     "4427366": 20,
+     "4361307": 22,
+     "4239993": 4,
+     "4426388": 8,
+     "3916148": 10,
+     "4360761": 22,
+     "4575131": 28,
+     "2971573": 34,
+     "3054850": 18,
+     "4385690": 2,
+     "4361432": 17,
+     "-16016": 16,
+     "12483": 14,
+     "4366031": 34,
+     "4635008": 2,
+     "4360238": 21,
+     "-16025": 25
+    }
+   },
+   "3": {
+    "total": 134.99,
+    "bench": 2.45,
+    "k": 1.0,
+    "kName": "Nick Folk",
+    "d": 6.0,
+    "dName": "Seahawks D/ST",
+    "starters": 10,
+    "pts": {
+     "3929630": 0.0,
+     "4241389": 13.75,
+     "4430737": 8.95,
+     "3916387": 0.0,
+     "4612826": 2.45,
+     "4047365": 0.0,
+     "4701936": 20.9,
+     "4568490": 13.85,
+     "-16026": 6.0,
+     "4361050": 22.4,
+     "4887558": 5.2,
+     "4431492": 0.0,
+     "4597500": 0.0,
+     "4685261": 22.95,
+     "4036378": 19.99,
+     "10621": 1.0
+    },
+    "pro": {
+     "3929630": 21,
+     "4241389": 6,
+     "4430737": 14,
+     "3916387": 33,
+     "4612826": 24,
+     "4047365": 9,
+     "4701936": 9,
+     "4568490": 7,
+     "-16026": 26,
+     "4361050": 19,
+     "4360234": 4,
+     "4887558": 26,
+     "4431492": 23,
+     "3116164": 4,
+     "4597500": 20,
+     "4685261": 23,
+     "4036378": 9,
+     "10621": 1
+    }
+   },
+   "4": {
+    "total": 110.1,
+    "bench": 32.4,
+    "k": 10.65,
+    "kName": "Harrison Butker",
+    "d": 3.0,
+    "dName": "Jets D/ST",
+    "starters": 10,
+    "pts": {
+     "4426515": 12.5,
+     "4890973": 14.8,
+     "4426502": 11.2,
+     "4685702": 0.0,
+     "4882093": 23.7,
+     "4871023": 17.5,
+     "4569173": 3.6,
+     "4431611": 16.5,
+     "2976212": 14.9,
+     "4832800": 2.25,
+     "4702555": 0.0,
+     "4685247": 11.9,
+     "-16020": 3.0,
+     "3055899": 10.65
+    },
+    "pro": {
+     "4426515": 14,
+     "4890973": 13,
+     "4426502": 1,
+     "4685702": 5,
+     "4882093": 30,
+     "4871023": 10,
+     "4569173": 17,
+     "4431611": 3,
+     "2976212": 28,
+     "4832800": 5,
+     "3046779": 8,
+     "4702555": 7,
+     "4685247": 20,
+     "4567104": 16,
+     "-16020": 20,
+     "3055899": 12
+    }
+   },
+   "5": {
+    "total": 103.15,
+    "bench": 28.01,
+    "k": 8.5,
+    "kName": "Dominic Zvada",
+    "d": 2.0,
+    "dName": "Rams D/ST",
+    "starters": 10,
+    "pts": {
+     "4242335": 20.35,
+     "4567750": 16.05,
+     "3918298": 18.3,
+     "16800": 6.15,
+     "3121422": 3.45,
+     "4432710": 2.5,
+     "4723086": 17.0,
+     "4038941": 8.51,
+     "4572680": 7.45,
+     "-16014": 2.0,
+     "3126486": 0.0,
+     "4373678": 12.4,
+     "5082424": 8.5,
+     "4599739": 8.5
+    },
+    "pro": {
+     "4242335": 11,
+     "4262921": 16,
+     "4567750": 27,
+     "3918298": 2,
+     "16800": 14,
+     "3121422": 28,
+     "4432710": 17,
+     "4723086": 3,
+     "4038941": 24,
+     "4572680": 9,
+     "-16014": 14,
+     "3126486": 25,
+     "4373678": 2,
+     "5082424": 19,
+     "4599739": 18
+    }
+   },
+   "6": {
+    "total": 106.46,
+    "bench": 8.5,
+    "k": 1.0,
+    "kName": "Brandon Aubrey",
+    "d": -2.0,
+    "dName": "Texans D/ST",
+    "starters": 10,
+    "pts": {
+     "4379399": 23.55,
+     "4685382": 6.9,
+     "4432665": 10.0,
+     "4361370": 13.3,
+     "3915416": 0.0,
+     "4035538": 0.0,
+     "4040715": 0.0,
+     "4248528": 8.65,
+     "3953687": 1.0,
+     "-16034": -2.0,
+     "4880281": 0.0,
+     "4360689": 26.96,
+     "4608686": 0.0,
+     "4685512": 0.0,
+     "4683062": 12.55,
+     "4373626": 5.55,
+     "4722893": 8.5
+    },
+    "pro": {
+     "4379399": 2,
+     "4685382": 24,
+     "4432665": 13,
+     "4361370": 18,
+     "3915416": 2,
+     "4035538": 34,
+     "4040715": 21,
+     "4248528": 9,
+     "3953687": 6,
+     "-16034": 34,
+     "4360569": 16,
+     "4880281": 18,
+     "4360689": 18,
+     "4608686": 3,
+     "4685512": 26,
+     "4683062": 12,
+     "4373626": 22,
+     "4722893": 5
+    }
+   },
+   "7": {
+    "total": 100.4,
+    "bench": 33.69,
+    "k": 7.9,
+    "kName": "Jason Myers",
+    "d": 10.0,
+    "dName": "Ravens D/ST",
+    "starters": 10,
+    "pts": {
+     "4047646": 4.95,
+     "4258173": 10.15,
+     "4569618": 7.4,
+     "4596448": 6.4,
+     "4431459": 0.0,
+     "4426348": 21.0,
+     "4038815": 7.15,
+     "3116165": 6.7,
+     "4362249": 0.0,
+     "4429059": 9.6,
+     "4241474": 2.5,
+     "-16033": 10.0,
+     "4685720": 19.84,
+     "2473037": 7.9,
+     "4428718": 25.45
+    },
+    "pro": {
+     "4429795": 8,
+     "4047646": 17,
+     "4258173": 34,
+     "4569618": 20,
+     "4596448": 27,
+     "4431459": 11,
+     "4426348": 28,
+     "4038815": 23,
+     "3116165": 27,
+     "3042519": 16,
+     "4362249": 9,
+     "4429059": 34,
+     "4241474": 1,
+     "-16033": 33,
+     "4685720": 29,
+     "2473037": 26,
+     "4428718": 13
+    }
+   },
+   "8": {
+    "total": 134.06,
+    "bench": 38.24,
+    "k": 11.5,
+    "kName": "Matt Gay",
+    "d": 14.0,
+    "dName": "Chiefs D/ST",
+    "starters": 10,
+    "pts": {
+     "4430878": 22.4,
+     "4372016": 5.4,
+     "4685278": 15.5,
+     "4429096": 13.5,
+     "4360310": 27.09,
+     "4361741": 17.36,
+     "4426385": 0.0,
+     "3117251": 28.2,
+     "3929645": 0.0,
+     "4686658": 5.75,
+     "4429023": 1.0,
+     "-16012": 14.0,
+     "3121023": 10.6,
+     "4249087": 11.5
+    },
+    "pro": {
+     "4430878": 26,
+     "4362238": 4,
+     "4372016": 7,
+     "4685278": 3,
+     "4429096": 14,
+     "4360310": 30,
+     "4361741": 25,
+     "4430027": 8,
+     "4426385": 26,
+     "3117251": 25,
+     "3929645": 18,
+     "4686658": 13,
+     "4429023": 9,
+     "-16012": 12,
+     "3121023": 21,
+     "4249087": 13
+    }
+   },
+   "9": {
+    "total": 115.87,
+    "bench": 15.55,
+    "k": 10.0,
+    "kName": "Cam Little",
+    "d": 11.0,
+    "dName": "Broncos D/ST",
+    "starters": 10,
+    "pts": {
+     "3043078": 4.5,
+     "4428331": 0.0,
+     "4239996": 0.0,
+     "16737": 11.65,
+     "3128429": 3.4,
+     "2577417": 10.52,
+     "4241985": 12.85,
+     "4241416": 18.85,
+     "-16007": 11.0,
+     "4686361": 10.0,
+     "4428850": 3.9,
+     "4241478": 18.75,
+     "4361579": 12.5,
+     "4047650": 17.55,
+     "4569559": 6.45,
+     "4432708": 5.65,
+     "4361411": 2.6
+    },
+    "pro": {
+     "3043078": 33,
+     "4428331": 12,
+     "4239996": 18,
+     "16737": 25,
+     "3128429": 7,
+     "2577417": 6,
+     "4241985": 7,
+     "4241416": 29,
+     "-16007": 7,
+     "4686361": 30,
+     "4428850": 21,
+     "4241478": 21,
+     "4361579": 6,
+     "4047650": 23,
+     "4569559": 18,
+     "4432708": 34,
+     "4361411": 23
+    }
+   },
+   "10": {
+    "total": 120.75,
+    "bench": 15.5,
+    "k": 3.4,
+    "kName": "Tyler Loop",
+    "d": 11.0,
+    "dName": "Steelers D/ST",
+    "starters": 10,
+    "pts": {
+     "4430807": 6.8,
+     "4870808": 0.0,
+     "4426354": 11.8,
+     "4429615": 11.2,
+     "4685472": 13.1,
+     "4431299": 6.15,
+     "4431452": 23.8,
+     "4678008": 0.0,
+     "5083076": 1.65,
+     "3040151": 16.65,
+     "4697815": 14.7,
+     "15847": 8.3,
+     "4688813": 7.7,
+     "-16023": 11.0,
+     "4697745": 3.4
+    },
+    "pro": {
+     "4430807": 1,
+     "4870808": 22,
+     "4426354": 6,
+     "4429615": 33,
+     "4685472": 29,
+     "4431299": 3,
+     "4431452": 17,
+     "4678008": 29,
+     "5083076": 5,
+     "3040151": 25,
+     "4697815": 28,
+     "15847": 12,
+     "4688813": 11,
+     "-16023": 23,
+     "4697745": 33
+    }
+   }
   }
  },
  "byes": {
@@ -6873,8 +7215,8 @@
   "10": "TEN"
  },
  "wire": {
-  "t": "2026-10-20T05:59:15Z",
-  "period": 6,
+  "t": "2026-10-20T07:04:14Z",
+  "period": 7,
   "players": [
    {
     "name": "Mark Andrews",
@@ -6885,7 +7227,7 @@
     "status": "WAIVERS",
     "pctOwned": 73.34,
     "injury": "ACTIVE",
-    "weekProj": 7.71,
+    "weekProj": 7.9,
     "projSeason": 85.25,
     "actSeason": 39.1
    },
@@ -6898,7 +7240,7 @@
     "status": "WAIVERS",
     "pctOwned": 71.02,
     "injury": "ACTIVE",
-    "weekProj": 7.92,
+    "weekProj": 8.85,
     "projSeason": 97.64,
     "actSeason": 46.15
    },
@@ -6911,7 +7253,7 @@
     "status": "WAIVERS",
     "pctOwned": 70.08,
     "injury": "ACTIVE",
-    "weekProj": 8.71,
+    "weekProj": 0.0,
     "projSeason": 109.76,
     "actSeason": 55.7
    },
@@ -6924,7 +7266,7 @@
     "status": "WAIVERS",
     "pctOwned": 68.98,
     "injury": "ACTIVE",
-    "weekProj": 9.15,
+    "weekProj": 8.6,
     "projSeason": 95.18,
     "actSeason": 34.15
    },
@@ -6937,7 +7279,7 @@
     "status": "WAIVERS",
     "pctOwned": 68.89,
     "injury": "ACTIVE",
-    "weekProj": 7.98,
+    "weekProj": 0.0,
     "projSeason": 88.29,
     "actSeason": 36.5
    },
@@ -6950,7 +7292,7 @@
     "status": "WAIVERS",
     "pctOwned": 63.9,
     "injury": "ACTIVE",
-    "weekProj": 12.64,
+    "weekProj": 15.87,
     "projSeason": 157.53,
     "actSeason": 68.41
    },
@@ -6963,7 +7305,7 @@
     "status": "WAIVERS",
     "pctOwned": 63.53,
     "injury": "ACTIVE",
-    "weekProj": 5.59,
+    "weekProj": 0.0,
     "projSeason": 79.13,
     "actSeason": 34.0
    },
@@ -6976,7 +7318,7 @@
     "status": "WAIVERS",
     "pctOwned": 63.1,
     "injury": "ACTIVE",
-    "weekProj": 8.34,
+    "weekProj": 7.54,
     "projSeason": 89.77,
     "actSeason": 50.65
    },
@@ -6989,7 +7331,7 @@
     "status": "WAIVERS",
     "pctOwned": 62.59,
     "injury": "ACTIVE",
-    "weekProj": 6.25,
+    "weekProj": 5.24,
     "projSeason": 58.61,
     "actSeason": 40.0
    },
@@ -7002,7 +7344,7 @@
     "status": "WAIVERS",
     "pctOwned": 60.55,
     "injury": "ACTIVE",
-    "weekProj": 18.02,
+    "weekProj": 16.11,
     "projSeason": 60.28,
     "actSeason": 109.83
    },
@@ -7012,10 +7354,10 @@
     "proTeamId": 16,
     "id": 4036133,
     "espnRank": 11,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 55.64,
     "injury": "QUESTIONABLE",
-    "weekProj": 0.0,
+    "weekProj": 9.31,
     "projSeason": 111.57,
     "actSeason": 43.45
    },
@@ -7028,7 +7370,7 @@
     "status": "WAIVERS",
     "pctOwned": 55.61,
     "injury": "ACTIVE",
-    "weekProj": 8.12,
+    "weekProj": 6.04,
     "projSeason": 69.74,
     "actSeason": 27.2
    },
@@ -7041,7 +7383,7 @@
     "status": "WAIVERS",
     "pctOwned": 51.24,
     "injury": "ACTIVE",
-    "weekProj": 5.9,
+    "weekProj": 0.0,
     "projSeason": 55.61,
     "actSeason": 23.25
    },
@@ -7064,10 +7406,10 @@
     "proTeamId": 16,
     "id": 3917315,
     "espnRank": 15,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 48.59,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 17.78,
     "projSeason": 199.68,
     "actSeason": 39.28
    },
@@ -7080,7 +7422,7 @@
     "status": "WAIVERS",
     "pctOwned": 46.46,
     "injury": "ACTIVE",
-    "weekProj": 4.46,
+    "weekProj": 4.57,
     "projSeason": 55.18,
     "actSeason": 12.0
    },
@@ -7093,7 +7435,7 @@
     "status": "WAIVERS",
     "pctOwned": 45.2,
     "injury": "ACTIVE",
-    "weekProj": 7.28,
+    "weekProj": 7.9,
     "projSeason": 90.99,
     "actSeason": 33.95
    },
@@ -7106,7 +7448,7 @@
     "status": "WAIVERS",
     "pctOwned": 44.23,
     "injury": "ACTIVE",
-    "weekProj": 8.75,
+    "weekProj": 0.0,
     "projSeason": 98.22,
     "actSeason": 53.4
    },
@@ -7119,7 +7461,7 @@
     "status": "WAIVERS",
     "pctOwned": 43.72,
     "injury": "ACTIVE",
-    "weekProj": 15.72,
+    "weekProj": 19.02,
     "projSeason": 194.72,
     "actSeason": 111.41
    },
@@ -7132,7 +7474,7 @@
     "status": "WAIVERS",
     "pctOwned": 42.63,
     "injury": "ACTIVE",
-    "weekProj": 7.05,
+    "weekProj": 7.39,
     "projSeason": 79.9,
     "actSeason": 48.75
    },
@@ -7145,7 +7487,7 @@
     "status": "WAIVERS",
     "pctOwned": 41.96,
     "injury": "ACTIVE",
-    "weekProj": 4.98,
+    "weekProj": 5.77,
     "projSeason": 58.03,
     "actSeason": 25.7
    },
@@ -7158,7 +7500,7 @@
     "status": "WAIVERS",
     "pctOwned": 39.96,
     "injury": "ACTIVE",
-    "weekProj": 13.54,
+    "weekProj": 12.54,
     "projSeason": 157.88,
     "actSeason": 59.07
    },
@@ -7168,10 +7510,10 @@
     "proTeamId": 8,
     "id": 4689936,
     "espnRank": 23,
-    "status": "FREEAGENT",
-    "pctOwned": 38.8,
+    "status": "WAIVERS",
+    "pctOwned": 38.79,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 9.27,
     "projSeason": 108.81,
     "actSeason": 49.4
    },
@@ -7181,7 +7523,7 @@
     "proTeamId": 15,
     "id": 4429160,
     "espnRank": 24,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 36.08,
     "injury": "INJURY_RESERVE",
     "weekProj": 0.0,
@@ -7194,7 +7536,7 @@
     "proTeamId": 0,
     "id": 3116406,
     "espnRank": 25,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 35.77,
     "injury": "QUESTIONABLE",
     "weekProj": null,
@@ -7210,7 +7552,7 @@
     "status": "WAIVERS",
     "pctOwned": 34.15,
     "injury": "ACTIVE",
-    "weekProj": 5.3,
+    "weekProj": 6.35,
     "projSeason": 70.07,
     "actSeason": 37.0
    },
@@ -7223,7 +7565,7 @@
     "status": "WAIVERS",
     "pctOwned": 33.76,
     "injury": "ACTIVE",
-    "weekProj": 5.64,
+    "weekProj": 4.69,
     "projSeason": 49.69,
     "actSeason": 37.1
    },
@@ -7236,7 +7578,7 @@
     "status": "WAIVERS",
     "pctOwned": 33.44,
     "injury": "ACTIVE",
-    "weekProj": 17.5,
+    "weekProj": 0.0,
     "projSeason": 0.0,
     "actSeason": 57.38
    },
@@ -7249,7 +7591,7 @@
     "status": "WAIVERS",
     "pctOwned": 33.44,
     "injury": "ACTIVE",
-    "weekProj": 6.61,
+    "weekProj": 0.0,
     "projSeason": 63.89,
     "actSeason": 22.8
    },
@@ -7262,7 +7604,7 @@
     "status": "WAIVERS",
     "pctOwned": 33.19,
     "injury": "ACTIVE",
-    "weekProj": 8.07,
+    "weekProj": 5.99,
     "projSeason": 67.59,
     "actSeason": 23.1
    },
@@ -7272,10 +7614,10 @@
     "proTeamId": 15,
     "id": 4569603,
     "espnRank": 31,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 31.95,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 9.26,
     "projSeason": 117.48,
     "actSeason": 44.2
    },
@@ -7288,7 +7630,7 @@
     "status": "WAIVERS",
     "pctOwned": 31.79,
     "injury": "ACTIVE",
-    "weekProj": 6.59,
+    "weekProj": 7.63,
     "projSeason": 81.31,
     "actSeason": 48.7
    },
@@ -7301,7 +7643,7 @@
     "status": "WAIVERS",
     "pctOwned": 30.45,
     "injury": "ACTIVE",
-    "weekProj": 9.09,
+    "weekProj": 11.75,
     "projSeason": 122.35,
     "actSeason": 62.2
    },
@@ -7314,7 +7656,7 @@
     "status": "WAIVERS",
     "pctOwned": 30.36,
     "injury": "ACTIVE",
-    "weekProj": 7.52,
+    "weekProj": 7.22,
     "projSeason": 83.96,
     "actSeason": 36.35
    },
@@ -7327,7 +7669,7 @@
     "status": "WAIVERS",
     "pctOwned": 29.01,
     "injury": "ACTIVE",
-    "weekProj": 14.94,
+    "weekProj": 14.06,
     "projSeason": 164.12,
     "actSeason": 89.47
    },
@@ -7340,7 +7682,7 @@
     "status": "WAIVERS",
     "pctOwned": 28.56,
     "injury": "ACTIVE",
-    "weekProj": 1.04,
+    "weekProj": 0.0,
     "projSeason": 24.91,
     "actSeason": 18.4
    },
@@ -7350,7 +7692,7 @@
     "proTeamId": 0,
     "id": 4574716,
     "espnRank": 37,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 28.0,
     "injury": "ACTIVE",
     "weekProj": 0.0,
@@ -7366,7 +7708,7 @@
     "status": "WAIVERS",
     "pctOwned": 27.19,
     "injury": "ACTIVE",
-    "weekProj": 5.78,
+    "weekProj": 4.75,
     "projSeason": 64.07,
     "actSeason": 39.0
    },
@@ -7392,7 +7734,7 @@
     "status": "WAIVERS",
     "pctOwned": 26.15,
     "injury": "ACTIVE",
-    "weekProj": 14.63,
+    "weekProj": 19.24,
     "projSeason": 174.96,
     "actSeason": 97.68
    },
@@ -7405,7 +7747,7 @@
     "status": "WAIVERS",
     "pctOwned": 25.29,
     "injury": "ACTIVE",
-    "weekProj": 8.31,
+    "weekProj": 8.91,
     "projSeason": 98.66,
     "actSeason": 44.05
    },
@@ -7418,7 +7760,7 @@
     "status": "WAIVERS",
     "pctOwned": 24.46,
     "injury": "OUT",
-    "weekProj": 0.0,
+    "weekProj": 14.84,
     "projSeason": 177.06,
     "actSeason": 33.85
    },
@@ -7428,10 +7770,10 @@
     "proTeamId": 8,
     "id": -16008,
     "espnRank": 43,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 24.14,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 4.54,
     "projSeason": 47.71,
     "actSeason": 14.0
    },
@@ -7444,7 +7786,7 @@
     "status": "WAIVERS",
     "pctOwned": 22.96,
     "injury": "ACTIVE",
-    "weekProj": 6.59,
+    "weekProj": 4.67,
     "projSeason": 51.83,
     "actSeason": 49.7
    },
@@ -7457,7 +7799,7 @@
     "status": "WAIVERS",
     "pctOwned": 22.81,
     "injury": "ACTIVE",
-    "weekProj": 6.44,
+    "weekProj": 6.54,
     "projSeason": 67.66,
     "actSeason": 44.1
    },
@@ -7483,7 +7825,7 @@
     "status": "WAIVERS",
     "pctOwned": 21.94,
     "injury": "ACTIVE",
-    "weekProj": 7.07,
+    "weekProj": 0.0,
     "projSeason": 61.28,
     "actSeason": 34.1
    },
@@ -7496,7 +7838,7 @@
     "status": "WAIVERS",
     "pctOwned": 21.51,
     "injury": "ACTIVE",
-    "weekProj": 5.58,
+    "weekProj": 5.21,
     "projSeason": 52.2,
     "actSeason": 19.3
    },
@@ -7509,7 +7851,7 @@
     "status": "WAIVERS",
     "pctOwned": 21.5,
     "injury": "ACTIVE",
-    "weekProj": 5.25,
+    "weekProj": 3.73,
     "projSeason": 48.68,
     "actSeason": 7.0
    },
@@ -7522,7 +7864,7 @@
     "status": "WAIVERS",
     "pctOwned": 20.78,
     "injury": "ACTIVE",
-    "weekProj": 5.89,
+    "weekProj": 6.18,
     "projSeason": 53.2,
     "actSeason": 24.0
    },
@@ -7535,7 +7877,7 @@
     "status": "WAIVERS",
     "pctOwned": 19.52,
     "injury": "ACTIVE",
-    "weekProj": 8.47,
+    "weekProj": 8.88,
     "projSeason": 101.65,
     "actSeason": 69.8
    },
@@ -7548,7 +7890,7 @@
     "status": "WAIVERS",
     "pctOwned": 19.36,
     "injury": "ACTIVE",
-    "weekProj": 9.29,
+    "weekProj": 0.0,
     "projSeason": 124.43,
     "actSeason": 62.5
    },
@@ -7561,7 +7903,7 @@
     "status": "WAIVERS",
     "pctOwned": 18.82,
     "injury": "ACTIVE",
-    "weekProj": 16.18,
+    "weekProj": 13.95,
     "projSeason": 164.18,
     "actSeason": 87.56
    },
@@ -7571,7 +7913,7 @@
     "proTeamId": 8,
     "id": 4361529,
     "espnRank": 54,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 17.72,
     "injury": "INJURY_RESERVE",
     "weekProj": 0.0,
@@ -7584,10 +7926,10 @@
     "proTeamId": 4,
     "id": -16004,
     "espnRank": 55,
-    "status": "FREEAGENT",
-    "pctOwned": 17.56,
+    "status": "WAIVERS",
+    "pctOwned": 17.55,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 3.2,
     "projSeason": 57.87,
     "actSeason": 40.0
    },
@@ -7600,7 +7942,7 @@
     "status": "WAIVERS",
     "pctOwned": 16.89,
     "injury": "ACTIVE",
-    "weekProj": 13.41,
+    "weekProj": 9.32,
     "projSeason": 133.71,
     "actSeason": 58.85
    },
@@ -7613,7 +7955,7 @@
     "status": "WAIVERS",
     "pctOwned": 16.86,
     "injury": "ACTIVE",
-    "weekProj": 5.29,
+    "weekProj": 3.21,
     "projSeason": 53.85,
     "actSeason": 33.0
    },
@@ -7626,7 +7968,7 @@
     "status": "WAIVERS",
     "pctOwned": 16.37,
     "injury": "ACTIVE",
-    "weekProj": 6.3,
+    "weekProj": 5.27,
     "projSeason": 64.64,
     "actSeason": 36.55
    },
@@ -7639,7 +7981,7 @@
     "status": "WAIVERS",
     "pctOwned": 14.94,
     "injury": "ACTIVE",
-    "weekProj": 2.65,
+    "weekProj": 4.94,
     "projSeason": 54.61,
     "actSeason": 43.0
    },
@@ -7652,7 +7994,7 @@
     "status": "WAIVERS",
     "pctOwned": 14.93,
     "injury": "QUESTIONABLE",
-    "weekProj": 5.56,
+    "weekProj": 6.46,
     "projSeason": 69.88,
     "actSeason": 41.3
    },
@@ -7665,7 +8007,7 @@
     "status": "WAIVERS",
     "pctOwned": 14.9,
     "injury": "ACTIVE",
-    "weekProj": 6.97,
+    "weekProj": 7.44,
     "projSeason": 77.37,
     "actSeason": 53.6
    },
@@ -7678,7 +8020,7 @@
     "status": "WAIVERS",
     "pctOwned": 13.78,
     "injury": "ACTIVE",
-    "weekProj": 4.93,
+    "weekProj": 4.88,
     "projSeason": 65.23,
     "actSeason": 20.65
    },
@@ -7691,7 +8033,7 @@
     "status": "WAIVERS",
     "pctOwned": 13.77,
     "injury": "ACTIVE",
-    "weekProj": 6.81,
+    "weekProj": 9.62,
     "projSeason": 104.65,
     "actSeason": 54.05
    },
@@ -7704,7 +8046,7 @@
     "status": "WAIVERS",
     "pctOwned": 13.73,
     "injury": "ACTIVE",
-    "weekProj": 3.3,
+    "weekProj": 0.0,
     "projSeason": 46.58,
     "actSeason": 29.0
    },
@@ -7717,7 +8059,7 @@
     "status": "WAIVERS",
     "pctOwned": 13.3,
     "injury": "ACTIVE",
-    "weekProj": 3.87,
+    "weekProj": 0.0,
     "projSeason": 63.97,
     "actSeason": 30.15
    },
@@ -7730,7 +8072,7 @@
     "status": "WAIVERS",
     "pctOwned": 12.82,
     "injury": "ACTIVE",
-    "weekProj": 8.69,
+    "weekProj": 9.41,
     "projSeason": 101.19,
     "actSeason": 42.4
    },
@@ -7743,7 +8085,7 @@
     "status": "WAIVERS",
     "pctOwned": 12.55,
     "injury": "INJURY_RESERVE",
-    "weekProj": 9.91,
+    "weekProj": 8.23,
     "projSeason": 88.63,
     "actSeason": 4.4
    },
@@ -7756,7 +8098,7 @@
     "status": "WAIVERS",
     "pctOwned": 12.55,
     "injury": "ACTIVE",
-    "weekProj": 3.82,
+    "weekProj": 2.94,
     "projSeason": 57.45,
     "actSeason": 42.0
    },
@@ -7769,7 +8111,7 @@
     "status": "WAIVERS",
     "pctOwned": 12.36,
     "injury": "ACTIVE",
-    "weekProj": 4.2,
+    "weekProj": 0.0,
     "projSeason": 49.62,
     "actSeason": 10.0
    },
@@ -7795,7 +8137,7 @@
     "status": "WAIVERS",
     "pctOwned": 12.04,
     "injury": "ACTIVE",
-    "weekProj": 3.18,
+    "weekProj": 3.66,
     "projSeason": 38.09,
     "actSeason": 43.9
    },
@@ -7821,7 +8163,7 @@
     "status": "WAIVERS",
     "pctOwned": 11.52,
     "injury": "ACTIVE",
-    "weekProj": 3.2,
+    "weekProj": 6.15,
     "projSeason": 44.53,
     "actSeason": 4.0
    },
@@ -7834,7 +8176,7 @@
     "status": "WAIVERS",
     "pctOwned": 11.31,
     "injury": "ACTIVE",
-    "weekProj": 5.42,
+    "weekProj": 5.25,
     "projSeason": 60.45,
     "actSeason": 24.0
    },
@@ -7847,7 +8189,7 @@
     "status": "WAIVERS",
     "pctOwned": 11.2,
     "injury": "ACTIVE",
-    "weekProj": 15.02,
+    "weekProj": 14.38,
     "projSeason": 163.79,
     "actSeason": 63.76
    },
@@ -7860,7 +8202,7 @@
     "status": "WAIVERS",
     "pctOwned": 10.89,
     "injury": "ACTIVE",
-    "weekProj": 7.87,
+    "weekProj": 3.5,
     "projSeason": 32.45,
     "actSeason": 14.5
    },
@@ -7870,10 +8212,10 @@
     "proTeamId": 15,
     "id": 4869645,
     "espnRank": 77,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 10.55,
     "injury": "QUESTIONABLE",
-    "weekProj": 0.0,
+    "weekProj": 6.36,
     "projSeason": 80.95,
     "actSeason": 16.55
    },
@@ -7899,7 +8241,7 @@
     "status": "WAIVERS",
     "pctOwned": 10.18,
     "injury": "ACTIVE",
-    "weekProj": 5.5,
+    "weekProj": 0.0,
     "projSeason": 88.12,
     "actSeason": 32.45
    },
@@ -7912,7 +8254,7 @@
     "status": "WAIVERS",
     "pctOwned": 9.93,
     "injury": "ACTIVE",
-    "weekProj": 4.26,
+    "weekProj": 5.1,
     "projSeason": 55.23,
     "actSeason": 8.85
    },
@@ -7925,7 +8267,7 @@
     "status": "WAIVERS",
     "pctOwned": 9.19,
     "injury": "ACTIVE",
-    "weekProj": 5.11,
+    "weekProj": 5.79,
     "projSeason": 66.74,
     "actSeason": 35.9
    },
@@ -7938,7 +8280,7 @@
     "status": "WAIVERS",
     "pctOwned": 8.97,
     "injury": "ACTIVE",
-    "weekProj": 6.82,
+    "weekProj": 3.02,
     "projSeason": 36.71,
     "actSeason": 10.9
    },
@@ -7951,7 +8293,7 @@
     "status": "WAIVERS",
     "pctOwned": 8.61,
     "injury": "ACTIVE",
-    "weekProj": 5.02,
+    "weekProj": 5.68,
     "projSeason": 60.03,
     "actSeason": 26.6
    },
@@ -7977,7 +8319,7 @@
     "status": "WAIVERS",
     "pctOwned": 8.3,
     "injury": "ACTIVE",
-    "weekProj": 7.42,
+    "weekProj": 3.32,
     "projSeason": 3.32,
     "actSeason": 29.3
    },
@@ -7990,7 +8332,7 @@
     "status": "WAIVERS",
     "pctOwned": 7.95,
     "injury": "ACTIVE",
-    "weekProj": 7.35,
+    "weekProj": 8.0,
     "projSeason": 89.64,
     "actSeason": 46.65
    },
@@ -8003,7 +8345,7 @@
     "status": "WAIVERS",
     "pctOwned": 7.55,
     "injury": "ACTIVE",
-    "weekProj": 3.36,
+    "weekProj": 3.22,
     "projSeason": 37.23,
     "actSeason": 11.85
    },
@@ -8016,7 +8358,7 @@
     "status": "WAIVERS",
     "pctOwned": 7.48,
     "injury": "ACTIVE",
-    "weekProj": 7.69,
+    "weekProj": 6.64,
     "projSeason": 76.09,
     "actSeason": 31.15
    },
@@ -8029,7 +8371,7 @@
     "status": "WAIVERS",
     "pctOwned": 7.38,
     "injury": "ACTIVE",
-    "weekProj": 5.04,
+    "weekProj": 6.87,
     "projSeason": 80.63,
     "actSeason": 39.0
    },
@@ -8055,7 +8397,7 @@
     "status": "WAIVERS",
     "pctOwned": 6.99,
     "injury": "ACTIVE",
-    "weekProj": 3.12,
+    "weekProj": 3.61,
     "projSeason": 51.99,
     "actSeason": 32.0
    },
@@ -8065,10 +8407,10 @@
     "proTeamId": 4,
     "id": 3116389,
     "espnRank": 92,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 6.96,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 5.74,
     "projSeason": 72.99,
     "actSeason": 28.35
    },
@@ -8078,10 +8420,10 @@
     "proTeamId": 15,
     "id": 4242512,
     "espnRank": 93,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 6.84,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 12.55,
     "projSeason": 163.89,
     "actSeason": 58.81
    },
@@ -8094,7 +8436,7 @@
     "status": "WAIVERS",
     "pctOwned": 6.03,
     "injury": "ACTIVE",
-    "weekProj": 7.41,
+    "weekProj": 6.97,
     "projSeason": 71.11,
     "actSeason": 35.6
    },
@@ -8104,10 +8446,10 @@
     "proTeamId": 15,
     "id": 4682745,
     "espnRank": 95,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 5.94,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 4.49,
     "projSeason": 56.01,
     "actSeason": 2.8
    },
@@ -8120,7 +8462,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.89,
     "injury": "ACTIVE",
-    "weekProj": 3.37,
+    "weekProj": 0.0,
     "projSeason": 67.25,
     "actSeason": 23.0
    },
@@ -8133,7 +8475,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.61,
     "injury": "ACTIVE",
-    "weekProj": 13.18,
+    "weekProj": 15.8,
     "projSeason": 156.54,
     "actSeason": 80.89
    },
@@ -8146,7 +8488,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.44,
     "injury": "ACTIVE",
-    "weekProj": 6.21,
+    "weekProj": 6.8,
     "projSeason": 76.17,
     "actSeason": 31.5
    },
@@ -8159,7 +8501,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.43,
     "injury": "ACTIVE",
-    "weekProj": 7.04,
+    "weekProj": 0.0,
     "projSeason": 73.46,
     "actSeason": 9.1
    },
@@ -8172,7 +8514,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.4,
     "injury": "ACTIVE",
-    "weekProj": 4.31,
+    "weekProj": 0.0,
     "projSeason": 81.42,
     "actSeason": 40.0
    },
@@ -8185,7 +8527,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.29,
     "injury": "ACTIVE",
-    "weekProj": 15.12,
+    "weekProj": 0.0,
     "projSeason": 0.0,
     "actSeason": 41.56
    },
@@ -8198,7 +8540,7 @@
     "status": "WAIVERS",
     "pctOwned": 5.04,
     "injury": "ACTIVE",
-    "weekProj": 4.26,
+    "weekProj": 2.71,
     "projSeason": 28.47,
     "actSeason": 27.4
    },
@@ -8211,7 +8553,7 @@
     "status": "WAIVERS",
     "pctOwned": 4.88,
     "injury": "ACTIVE",
-    "weekProj": 12.82,
+    "weekProj": 11.28,
     "projSeason": 130.29,
     "actSeason": 67.52
    },
@@ -8224,7 +8566,7 @@
     "status": "WAIVERS",
     "pctOwned": 4.67,
     "injury": "ACTIVE",
-    "weekProj": 4.5,
+    "weekProj": 6.79,
     "projSeason": 71.5,
     "actSeason": 60.75
    },
@@ -8237,7 +8579,7 @@
     "status": "WAIVERS",
     "pctOwned": 4.33,
     "injury": "ACTIVE",
-    "weekProj": 9.02,
+    "weekProj": 8.79,
     "projSeason": 94.46,
     "actSeason": 39.0
    },
@@ -8250,7 +8592,7 @@
     "status": "WAIVERS",
     "pctOwned": 4.28,
     "injury": "ACTIVE",
-    "weekProj": 4.02,
+    "weekProj": 2.93,
     "projSeason": 52.25,
     "actSeason": 32.0
    },
@@ -8276,7 +8618,7 @@
     "status": "WAIVERS",
     "pctOwned": 4.23,
     "injury": "ACTIVE",
-    "weekProj": 5.93,
+    "weekProj": 5.28,
     "projSeason": 54.54,
     "actSeason": 10.6
    },
@@ -8289,7 +8631,7 @@
     "status": "WAIVERS",
     "pctOwned": 4.11,
     "injury": "ACTIVE",
-    "weekProj": 6.47,
+    "weekProj": 6.65,
     "projSeason": 76.98,
     "actSeason": 32.85
    },
@@ -8315,7 +8657,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.92,
     "injury": "ACTIVE",
-    "weekProj": 6.75,
+    "weekProj": 0.0,
     "projSeason": 0.0,
     "actSeason": 24.55
    },
@@ -8328,7 +8670,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.71,
     "injury": "ACTIVE",
-    "weekProj": 6.58,
+    "weekProj": 9.73,
     "projSeason": 107.61,
     "actSeason": 62.4
    },
@@ -8341,7 +8683,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.62,
     "injury": "ACTIVE",
-    "weekProj": 1.83,
+    "weekProj": 0.0,
     "projSeason": 21.55,
     "actSeason": 7.45
    },
@@ -8354,7 +8696,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.62,
     "injury": "ACTIVE",
-    "weekProj": 5.7,
+    "weekProj": 0.0,
     "projSeason": 75.46,
     "actSeason": 26.25
    },
@@ -8380,7 +8722,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.49,
     "injury": "ACTIVE",
-    "weekProj": 4.17,
+    "weekProj": 3.77,
     "projSeason": 34.8,
     "actSeason": 25.0
    },
@@ -8390,10 +8732,10 @@
     "proTeamId": 16,
     "id": 3886598,
     "espnRank": 117,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 3.44,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 1.79,
     "projSeason": 21.26,
     "actSeason": 2.4
    },
@@ -8419,7 +8761,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.43,
     "injury": "ACTIVE",
-    "weekProj": 6.24,
+    "weekProj": 0.0,
     "projSeason": 59.13,
     "actSeason": 25.1
    },
@@ -8432,7 +8774,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.42,
     "injury": "ACTIVE",
-    "weekProj": 8.64,
+    "weekProj": 9.8,
     "projSeason": 118.58,
     "actSeason": 49.1
    },
@@ -8455,10 +8797,10 @@
     "proTeamId": 4,
     "id": 4384852,
     "espnRank": 122,
-    "status": "FREEAGENT",
-    "pctOwned": 3.23,
+    "status": "WAIVERS",
+    "pctOwned": 3.22,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 5.19,
     "projSeason": 62.5,
     "actSeason": 24.85
    },
@@ -8484,7 +8826,7 @@
     "status": "WAIVERS",
     "pctOwned": 3.15,
     "injury": "ACTIVE",
-    "weekProj": 6.3,
+    "weekProj": 3.32,
     "projSeason": 34.84,
     "actSeason": 38.0
    },
@@ -8497,7 +8839,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.93,
     "injury": "ACTIVE",
-    "weekProj": 1.9,
+    "weekProj": 6.76,
     "projSeason": 71.48,
     "actSeason": 24.55
    },
@@ -8510,7 +8852,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.81,
     "injury": "ACTIVE",
-    "weekProj": 2.86,
+    "weekProj": 0.0,
     "projSeason": 38.58,
     "actSeason": 25.5
    },
@@ -8523,7 +8865,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.81,
     "injury": "ACTIVE",
-    "weekProj": 4.55,
+    "weekProj": 7.59,
     "projSeason": 82.44,
     "actSeason": 23.39
    },
@@ -8549,7 +8891,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.67,
     "injury": "ACTIVE",
-    "weekProj": 5.72,
+    "weekProj": 5.58,
     "projSeason": 26.97,
     "actSeason": 9.5
    },
@@ -8562,7 +8904,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.65,
     "injury": "ACTIVE",
-    "weekProj": 4.9,
+    "weekProj": 5.08,
     "projSeason": 53.15,
     "actSeason": 28.4
    },
@@ -8575,7 +8917,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.63,
     "injury": "ACTIVE",
-    "weekProj": 14.09,
+    "weekProj": 15.24,
     "projSeason": 145.61,
     "actSeason": 12.6
    },
@@ -8588,7 +8930,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.58,
     "injury": "ACTIVE",
-    "weekProj": 5.46,
+    "weekProj": 0.0,
     "projSeason": 0.0,
     "actSeason": 5.8
    },
@@ -8598,7 +8940,7 @@
     "proTeamId": 0,
     "id": 3116385,
     "espnRank": 133,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 2.45,
     "injury": "QUESTIONABLE",
     "weekProj": null,
@@ -8614,7 +8956,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.29,
     "injury": "ACTIVE",
-    "weekProj": 4.1,
+    "weekProj": 3.32,
     "projSeason": 39.07,
     "actSeason": 14.75
    },
@@ -8627,7 +8969,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.26,
     "injury": "ACTIVE",
-    "weekProj": 0.38,
+    "weekProj": 0.0,
     "projSeason": 0.0,
     "actSeason": 9.9
    },
@@ -8637,10 +8979,10 @@
     "proTeamId": 15,
     "id": 4869961,
     "espnRank": 136,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 2.2,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 4.91,
     "projSeason": 62.53,
     "actSeason": 15.55
    },
@@ -8650,10 +8992,10 @@
     "proTeamId": 8,
     "id": 5123663,
     "espnRank": 137,
-    "status": "FREEAGENT",
+    "status": "WAIVERS",
     "pctOwned": 2.17,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 6.74,
     "projSeason": 81.35,
     "actSeason": 25.45
    },
@@ -8666,7 +9008,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.14,
     "injury": "ACTIVE",
-    "weekProj": 5.97,
+    "weekProj": 7.23,
     "projSeason": 72.89,
     "actSeason": 38.85
    },
@@ -8679,7 +9021,7 @@
     "status": "WAIVERS",
     "pctOwned": 2.07,
     "injury": "ACTIVE",
-    "weekProj": 5.53,
+    "weekProj": 1.78,
     "projSeason": 22.83,
     "actSeason": 4.2
    },
@@ -8718,7 +9060,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.94,
     "injury": "ACTIVE",
-    "weekProj": 12.47,
+    "weekProj": 0.0,
     "projSeason": 0.0,
     "actSeason": 33.84
    },
@@ -8731,7 +9073,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.92,
     "injury": "ACTIVE",
-    "weekProj": 6.22,
+    "weekProj": 7.22,
     "projSeason": 83.04,
     "actSeason": 38.0
    },
@@ -8744,7 +9086,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.86,
     "injury": "ACTIVE",
-    "weekProj": 6.02,
+    "weekProj": 4.56,
     "projSeason": 58.53,
     "actSeason": 13.85
    },
@@ -8757,7 +9099,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.72,
     "injury": "ACTIVE",
-    "weekProj": 0.0,
+    "weekProj": 4.12,
     "projSeason": 47.82,
     "actSeason": 17.75
    },
@@ -8783,7 +9125,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.7,
     "injury": "ACTIVE",
-    "weekProj": 7.22,
+    "weekProj": 7.62,
     "projSeason": 86.72,
     "actSeason": 38.2
    },
@@ -8796,7 +9138,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.67,
     "injury": "ACTIVE",
-    "weekProj": 8.47,
+    "weekProj": 0.0,
     "projSeason": 100.83,
     "actSeason": 42.85
    },
@@ -8809,7 +9151,7 @@
     "status": "WAIVERS",
     "pctOwned": 1.67,
     "injury": "ACTIVE",
-    "weekProj": 5.23,
+    "weekProj": 4.53,
     "projSeason": 53.32,
     "actSeason": 21.95
    },
@@ -8822,120 +9164,12 @@
     "status": "WAIVERS",
     "pctOwned": 1.66,
     "injury": "ACTIVE",
-    "weekProj": 3.22,
+    "weekProj": 3.1,
     "projSeason": 34.44,
     "actSeason": 9.75
    }
   ],
   "sleeper": {
-   "7": {
-    "andy borregales|K": 6.71,
-    "demario douglas|WR": 7.78,
-    "TEAM:CHI|D/ST": 6.59,
-    "cairo santos|K": 8.3,
-    "hunter henry|TE": 8.55,
-    "roschon johnson|RB": 0.25,
-    "efton chism|WR": 4.81,
-    "kalif raymond|WR": 6.27,
-    "dylan sampson|RB": 5.11,
-    "isaac teslaa|WR": 4.03,
-    "tyler higbee|TE": 7.76,
-    "deshaun watson|QB": 14.56,
-    "christian kirk|WR": 3.13,
-    "eddy pineiro|K": 8.5,
-    "chase mclaughlin|K": 7.77,
-    "kenny gainwell|RB": 8.53,
-    "rashod bateman|WR": 6.75,
-    "pierre strong|RB": 0.78,
-    "rashid shaheed|WR": 5.19,
-    "michael mayer|TE": 6.3,
-    "tyjae spears|RB": 6.7,
-    "TEAM:ATL|D/ST": 5.56,
-    "TEAM:CAR|D/ST": 7.84,
-    "TEAM:NYG|D/ST": 5.88,
-    "michael penix|QB": 14.73,
-    "bo nix|QB": 19.71,
-    "aj barner|TE": 6.64,
-    "george holani|RB": 5.51,
-    "kaleb johnson|RB": 0.73,
-    "jalen royals|WR": 2.2,
-    "emmett johnson|RB": 3.57,
-    "chris boswell|K": 8.38,
-    "wil lutz|K": 7.6,
-    "evan engram|TE": 5.32,
-    "samaje perine|RB": 5.33,
-    "dalton schultz|TE": 7.47,
-    "najee harris|RB": 2.74,
-    "xavier hutchinson|WR": 2.43,
-    "chad ryland|K": 7.15,
-    "jake bates|K": 8.57,
-    "kirk cousins|QB": 15.76,
-    "jaylin noel|WR": 5.16,
-    "ryan fitzgerald|K": 7.69,
-    "omar cooper|WR": 9.11,
-    "jakobi lane|WR": 4.53,
-    "kenyon sadiq|TE": 8.12,
-    "cyrus allen|WR": 0.82,
-    "jalon daniels|QB": 13.03,
-    "trey smack|K": 9.04,
-    "kyler murray|QB": 17.84,
-    "justice hill|RB": 6.18,
-    "TEAM:GB|D/ST": 4.75,
-    "isaiah davis|RB": 0.39,
-    "tyrone tracy|RB": 7.42,
-    "gunnar helm|TE": 4.52,
-    "cam ward|QB": 13.7,
-    "malachi fields|WR": 4.48,
-    "caleb douglas|WR": 5.57,
-    "kc concepcion|WR": 8.8,
-    "chris bell|WR": 5.1,
-    "zachariah branch|WR": 3.03,
-    "jameis winston|QB": 12.08,
-    "darren waller|TE": 8.12,
-    "jacoby brissett|QB": 14.16,
-    "sam darnold|QB": 13.98,
-    "daniel carlson|K": 7.54,
-    "jerry jeudy|WR": 2.83,
-    "cade otton|TE": 6.72,
-    "malik willis|QB": 14.52,
-    "jalen nailor|WR": 3.96,
-    "TEAM:IND|D/ST": 6.0,
-    "TEAM:LV|D/ST": 5.06,
-    "chris brooks|RB": 1.02,
-    "malik washington|WR": 8.59,
-    "jaylen wright|RB": 4.6,
-    "geno smith|QB": 16.16,
-    "cooper kupp|WR": 6.0,
-    "wandale robinson|WR": 9.31,
-    "kayshon boutte|WR": 2.92,
-    "TEAM:CIN|D/ST": 5.74,
-    "TEAM:NO|D/ST": 6.01,
-    "dohnte meyers|WR": 2.83,
-    "kaelon black|RB": 4.49,
-    "brandin cooks|WR": 2.4,
-    "kendrick bourne|WR": 6.91,
-    "calvin ridley|WR": 2.43,
-    "mark andrews|TE": 9.92,
-    "tj hockenson|TE": 9.5,
-    "daniel jones|QB": 10.15,
-    "devin singletary|RB": 4.54,
-    "jauan jennings|WR": 5.53,
-    "kyle pitts|TE": 7.03,
-    "darnell washington|TE": 5.93,
-    "aaron rodgers|QB": 17.2,
-    "cj stroud|QB": 17.32,
-    "TEAM:CLE|D/ST": 8.68,
-    "TEAM:DET|D/ST": 5.93,
-    "TEAM:TB|D/ST": 6.08,
-    "darius cooper|WR": 2.6,
-    "TEAM:DAL|D/ST": 7.85,
-    "jake ferguson|TE": 7.17,
-    "tanner mckee|QB": 13.86,
-    "TEAM:PHI|D/ST": 6.0,
-    "makai lemon|WR": 5.09,
-    "ryan flournoy|WR": 6.38,
-    "jake elliott|K": 6.91
-   },
    "8": {
     "kaleb johnson|RB": 0.55,
     "darren waller|TE": 8.02,
