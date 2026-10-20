@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-20T15:08:17Z",
+ "_pulledUtc": "2026-10-20T15:51:19Z",
  "week": 7,
  "books": [
   "Draft Kings"
@@ -517,8 +517,8 @@
     "book": "Draft Kings",
     "details": "CAR -3.5",
     "moneyline": {
-     "away": 160,
-     "home": -192
+     "away": 154,
+     "home": -185
     },
     "moneylineOpen": {
      "away": -118,
@@ -548,11 +548,11 @@
     }
    },
    "noVig": {
-    "away": 0.36906,
-    "home": 0.63094,
-    "hold": 0.04215,
-    "fairAway": 170.96,
-    "fairHome": -170.96
+    "away": 0.377533,
+    "home": 0.622467,
+    "hold": 0.042824,
+    "fairAway": 164.88,
+    "fairHome": -164.88
    },
    "noVigOpen": {
     "away": 0.517364,
@@ -697,8 +697,8 @@
     "book": "Draft Kings",
     "details": "HOU -10",
     "moneyline": {
-     "away": 390,
-     "home": -520
+     "away": 400,
+     "home": -535
     },
     "moneylineOpen": {
      "away": 195,
@@ -728,11 +728,11 @@
     }
    },
    "noVig": {
-    "away": 0.195707,
-    "home": 0.804293,
-    "hold": 0.042791,
-    "fairAway": 410.97,
-    "fairHome": -410.97
+    "away": 0.191843,
+    "home": 0.808157,
+    "hold": 0.04252,
+    "fairAway": 421.26,
+    "fairHome": -421.26
    },
    "noVigOpen": {
     "away": 0.324969,
@@ -839,8 +839,8 @@
     "book": "Draft Kings",
     "details": "DET -3",
     "moneyline": {
-     "away": 140,
-     "home": -166
+     "away": 136,
+     "home": -162
     },
     "moneylineOpen": {
      "away": 105,
@@ -870,11 +870,11 @@
     }
    },
    "noVig": {
-    "away": 0.400361,
-    "home": 0.599639,
-    "hold": 0.040727,
-    "fairAway": 149.77,
-    "fairHome": -149.77
+    "away": 0.40663,
+    "home": 0.59337,
+    "hold": 0.042049,
+    "fairAway": 145.92,
+    "fairHome": -145.92
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -1150,7 +1150,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-20T14:25:18Z",
+ "injuriesUtc": "2026-10-20T15:30:13Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2066,7 +2066,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-20T14:12Z",
+    "date": "2026-10-20T15:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2670,7 +2670,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-20T14:09Z",
+    "date": "2026-10-20T15:23Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -4639,8 +4639,8 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-19T03:36Z",
-    "body": "Neck",
-    "side": "Not Specified",
+    "body": "Shoulder",
+    "side": "Right",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -8106,7 +8106,7 @@
     "pos": "OT",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-20T14:12Z",
+    "date": "2026-10-20T15:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8341,18 +8341,6 @@
     "fantasy": null
    },
    {
-    "id": 4241457,
-    "name": "Najee Harris",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T14:08Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4240706,
     "name": "Jason Pinnock",
     "pos": "S",
@@ -8395,6 +8383,18 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-13T23:07Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4691043,
+    "name": "Nikko Reed",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-12T19:30Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -10517,6 +10517,18 @@
   ],
   "WSH": [
    {
+    "id": 3121422,
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-20T14:32Z",
+    "body": "Knee",
+    "side": "Left",
+    "returnDate": "2026-11-01",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 5081432,
     "name": "Antonio Williams",
     "pos": "WR",
@@ -10575,18 +10587,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3121422,
-    "name": "Terry McLaurin",
-    "pos": "WR",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-20T00:58Z",
-    "body": "Knee",
-    "side": "Left",
-    "returnDate": "2026-11-01",
-    "fantasy": "OUT"
    },
    {
     "id": 4572460,
