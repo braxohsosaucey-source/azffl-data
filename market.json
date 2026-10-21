@@ -1,9 +1,9 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-21T04:44:14Z",
+ "_pulledUtc": "2026-10-21T05:26:13Z",
  "week": 7,
  "books": [
-  "Draft Kings"
+  "DraftKings"
  ],
  "games": [
   {
@@ -12,10 +12,10 @@
    "home": "CHI",
    "kickoffUtc": "2026-10-23T00:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CHI -3",
     "moneyline": {
      "away": 130,
@@ -81,18 +81,18 @@
      "windMph": 4.8,
      "gustMph": 8.2,
      "precipIn": 0.0,
-     "precipProb": 3
+     "precipProb": 0
     },
     "game": {
      "maxWindMph": 4.8,
      "maxGustMph": 8.9,
      "precipIn": 0.0,
-     "maxPrecipProb": 3
+     "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 41.85003,
     "lon": -87.65005,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -102,10 +102,10 @@
    "home": "NO",
    "kickoffUtc": "2026-10-25T13:30Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "PIT -3.5",
     "moneyline": {
      "away": -185,
@@ -164,22 +164,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-25T13:00",
-     "tempF": 59.1,
-     "windMph": 13.2,
-     "gustMph": 30.0,
+     "tempF": 60.1,
+     "windMph": 14.0,
+     "gustMph": 28.9,
      "precipIn": 0.0,
-     "precipProb": 30
+     "precipProb": 37
     },
     "game": {
-     "maxWindMph": 13.2,
-     "maxGustMph": 30.0,
+     "maxWindMph": 14.0,
+     "maxGustMph": 28.9,
      "precipIn": 0.0,
-     "maxPrecipProb": 30
+     "maxPrecipProb": 37
     },
     "src": "open-meteo",
     "lat": 48.93564,
     "lon": 2.35387,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -189,10 +189,10 @@
    "home": "ATL",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "SF -3",
     "moneyline": {
      "away": -180,
@@ -260,10 +260,10 @@
    "home": "TEN",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CLE -1.5",
     "moneyline": {
      "away": -130,
@@ -340,7 +340,7 @@
     "src": "open-meteo",
     "lat": 36.16589,
     "lon": -86.78444,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -350,10 +350,10 @@
    "home": "MIN",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "MIN -6.5",
     "moneyline": {
      "away": 235,
@@ -421,10 +421,10 @@
    "home": "NYJ",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NYJ -4.5",
     "moneyline": {
      "away": 190,
@@ -501,7 +501,7 @@
     "src": "open-meteo",
     "lat": 40.83399,
     "lon": -74.09709,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -511,10 +511,10 @@
    "home": "CAR",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CAR -3.5",
     "moneyline": {
      "away": 154,
@@ -591,7 +591,7 @@
     "src": "open-meteo",
     "lat": 35.22709,
     "lon": -80.84313,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -601,10 +601,10 @@
    "home": "BAL",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "BAL -3",
     "moneyline": {
      "away": 124,
@@ -681,7 +681,7 @@
     "src": "open-meteo",
     "lat": 39.29038,
     "lon": -76.61219,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -691,10 +691,10 @@
    "home": "HOU",
    "kickoffUtc": "2026-10-25T17:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "HOU -10",
     "moneyline": {
      "away": 400,
@@ -762,10 +762,10 @@
    "home": "ARI",
    "kickoffUtc": "2026-10-25T20:05Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DEN -4.5",
     "moneyline": {
      "away": -238,
@@ -833,10 +833,10 @@
    "home": "DET",
    "kickoffUtc": "2026-10-25T20:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DET -3",
     "moneyline": {
      "away": 136,
@@ -904,10 +904,10 @@
    "home": "LV",
    "kickoffUtc": "2026-10-25T20:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "LAR -4.5",
     "moneyline": {
      "away": -218,
@@ -975,10 +975,10 @@
    "home": "SEA",
    "kickoffUtc": "2026-10-26T00:20Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "SEA -2.5",
     "moneyline": {
      "away": 124,
@@ -1044,18 +1044,18 @@
      "windMph": 5.8,
      "gustMph": 7.2,
      "precipIn": 0.0,
-     "precipProb": 19
+     "precipProb": 16
     },
     "game": {
      "maxWindMph": 5.8,
      "maxGustMph": 7.2,
      "precipIn": 0.0,
-     "maxPrecipProb": 19
+     "maxPrecipProb": 16
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   },
@@ -1065,10 +1065,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-27T00:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DAL -4.5",
     "moneyline": {
      "away": -225,
@@ -1145,12 +1145,12 @@
     "src": "open-meteo",
     "lat": 39.95238,
     "lon": -75.16362,
-    "t": "2026-10-21T02:12:13Z"
+    "t": "2026-10-21T05:26:13Z"
    },
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-21T04:23:09Z",
+ "injuriesUtc": "2026-10-21T05:26:17Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2066,7 +2066,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-21T04:01Z",
+    "date": "2026-10-21T05:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2670,7 +2670,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-21T04:01Z",
+    "date": "2026-10-21T05:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -8106,7 +8106,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-21T04:01Z",
+    "date": "2026-10-21T05:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
