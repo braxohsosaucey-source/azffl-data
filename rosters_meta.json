@@ -1,6 +1,6 @@
 {
  "_source": "ESPN rosters (mRoster: ownership, injury, lineup slot), mPositionalRatings and proTeamSchedules_wl — written by every pass (pipeline/league_meta.py); data only",
- "_pulledUtc": "2026-10-20T23:43:16.210Z",
+ "_pulledUtc": "2026-10-21T00:25:16.575Z",
  "week": 7,
  "players": [
   {
@@ -1516,8 +1516,8 @@
    "name": "Chase Brown",
    "tid": 8,
    "pos": "RB",
-   "slot": "BE",
-   "slotId": 20,
+   "slot": "RB",
+   "slotId": 2,
    "proTeamId": 4,
    "injury": "ACTIVE",
    "own": 98.49,
@@ -1594,8 +1594,8 @@
    "name": "Sam LaPorta",
    "tid": 8,
    "pos": "TE",
-   "slot": "BE",
-   "slotId": 20,
+   "slot": "FLEX",
+   "slotId": 23,
    "proTeamId": 8,
    "injury": "ACTIVE",
    "own": 95.71,
@@ -1633,8 +1633,8 @@
    "name": "Juwan Johnson",
    "tid": 8,
    "pos": "TE",
-   "slot": "FLEX",
-   "slotId": 23,
+   "slot": "BE",
+   "slotId": 20,
    "proTeamId": 18,
    "injury": "ACTIVE",
    "own": 78.06,
@@ -1659,8 +1659,8 @@
    "name": "MarShawn Lloyd",
    "tid": 8,
    "pos": "RB",
-   "slot": "RB",
-   "slotId": 2,
+   "slot": "BE",
+   "slotId": 20,
    "proTeamId": 9,
    "injury": "ACTIVE",
    "own": 72.2,
@@ -2203,28 +2203,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 16,
-     "avg": 5.4
+     "rank": 25,
+     "avg": 7.67
     },
     "QB": {
-     "rank": 26,
-     "avg": 20.66
+     "rank": 22,
+     "avg": 18.3
     },
     "RB": {
-     "rank": 27,
-     "avg": 25.74
+     "rank": 26,
+     "avg": 22.97
     },
     "WR": {
-     "rank": 19,
-     "avg": 29.25
+     "rank": 13,
+     "avg": 28.21
     },
     "TE": {
-     "rank": 23,
-     "avg": 14.47
+     "rank": 19,
+     "avg": 12.06
     },
     "K": {
-     "rank": 26,
-     "avg": 11.46
+     "rank": 30,
+     "avg": 12.85
     }
    }
   },
@@ -2321,27 +2321,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 2,
-     "avg": -0.25
+     "avg": 0.0
     },
     "QB": {
-     "rank": 4,
-     "avg": 11.98
+     "rank": 3,
+     "avg": 11.29
     },
     "RB": {
-     "rank": 14,
-     "avg": 18.79
+     "rank": 9,
+     "avg": 17.74
     },
     "WR": {
      "rank": 1,
-     "avg": 18.51
+     "avg": 18.33
     },
     "TE": {
      "rank": 30,
-     "avg": 20.49
+     "avg": 18.03
     },
     "K": {
-     "rank": 23,
-     "avg": 10.72
+     "rank": 20,
+     "avg": 9.64
     }
    }
   },
@@ -2437,28 +2437,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 10,
-     "avg": 3.8
+     "rank": 8,
+     "avg": 3.17
     },
     "QB": {
      "rank": 27,
-     "avg": 20.67
+     "avg": 20.27
     },
     "RB": {
-     "rank": 22,
-     "avg": 21.25
+     "rank": 25,
+     "avg": 22.61
     },
     "WR": {
      "rank": 20,
-     "avg": 29.8
+     "avg": 30.12
     },
     "TE": {
-     "rank": 27,
-     "avg": 17.25
+     "rank": 26,
+     "avg": 16.01
     },
     "K": {
-     "rank": 3,
-     "avg": 4.93
+     "rank": 9,
+     "avg": 7.23
     }
    }
   },
@@ -2554,28 +2554,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 9,
-     "avg": 3.2
+     "rank": 11,
+     "avg": 3.83
     },
     "QB": {
-     "rank": 20,
-     "avg": 18.32
+     "rank": 17,
+     "avg": 16.38
     },
     "RB": {
-     "rank": 13,
-     "avg": 18.76
+     "rank": 12,
+     "avg": 18.44
     },
     "WR": {
-     "rank": 10,
-     "avg": 25.96
+     "rank": 5,
+     "avg": 24.82
     },
     "TE": {
-     "rank": 1,
-     "avg": 5.66
+     "rank": 2,
+     "avg": 7.32
     },
     "K": {
-     "rank": 15,
-     "avg": 8.13
+     "rank": 23,
+     "avg": 10.01
     }
    }
   },
@@ -2675,15 +2675,15 @@
      "avg": 9.8
     },
     "QB": {
-     "rank": 23,
+     "rank": 24,
      "avg": 18.67
     },
     "RB": {
-     "rank": 29,
+     "rank": 31,
      "avg": 26.98
     },
     "WR": {
-     "rank": 2,
+     "rank": 3,
      "avg": 20.73
     },
     "TE": {
@@ -2800,15 +2800,15 @@
      "avg": 13.43
     },
     "WR": {
-     "rank": 6,
+     "rank": 4,
      "avg": 24.59
     },
     "TE": {
-     "rank": 4,
+     "rank": 1,
      "avg": 6.82
     },
     "K": {
-     "rank": 9,
+     "rank": 5,
      "avg": 6.25
     }
    }
@@ -2905,28 +2905,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 17,
-     "avg": 6.0
+     "rank": 16,
+     "avg": 5.5
     },
     "QB": {
-     "rank": 10,
-     "avg": 14.16
+     "rank": 6,
+     "avg": 13.76
     },
     "RB": {
-     "rank": 19,
-     "avg": 20.38
+     "rank": 16,
+     "avg": 19.53
     },
     "WR": {
-     "rank": 16,
-     "avg": 28.31
+     "rank": 15,
+     "avg": 28.73
     },
     "TE": {
-     "rank": 11,
-     "avg": 8.74
+     "rank": 7,
+     "avg": 8.93
     },
     "K": {
-     "rank": 7,
-     "avg": 6.06
+     "rank": 13,
+     "avg": 7.78
     }
    }
   },
@@ -3022,28 +3022,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 26,
-     "avg": 7.6
+     "rank": 20,
+     "avg": 6.5
     },
     "QB": {
-     "rank": 19,
-     "avg": 16.84
+     "rank": 18,
+     "avg": 17.71
     },
     "RB": {
      "rank": 32,
-     "avg": 29.88
+     "avg": 28.61
     },
     "WR": {
-     "rank": 13,
-     "avg": 27.14
+     "rank": 16,
+     "avg": 28.74
     },
     "TE": {
-     "rank": 25,
-     "avg": 14.92
+     "rank": 27,
+     "avg": 16.17
     },
     "K": {
-     "rank": 22,
-     "avg": 10.06
+     "rank": 21,
+     "avg": 9.8
     }
    }
   },
@@ -3139,28 +3139,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 19,
-     "avg": 6.6
+     "rank": 22,
+     "avg": 6.83
     },
     "QB": {
-     "rank": 21,
-     "avg": 18.4
+     "rank": 26,
+     "avg": 19.83
     },
     "RB": {
-     "rank": 18,
-     "avg": 20.02
+     "rank": 19,
+     "avg": 20.78
     },
     "WR": {
-     "rank": 15,
-     "avg": 28.1
+     "rank": 14,
+     "avg": 28.32
     },
     "TE": {
-     "rank": 18,
-     "avg": 12.53
+     "rank": 16,
+     "avg": 10.86
     },
     "K": {
-     "rank": 1,
-     "avg": 3.66
+     "rank": 4,
+     "avg": 5.37
     }
    }
   },
@@ -3257,27 +3257,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 19,
-     "avg": 6.6
+     "avg": 6.33
     },
     "QB": {
-     "rank": 7,
-     "avg": 13.08
+     "rank": 13,
+     "avg": 14.86
     },
     "RB": {
-     "rank": 24,
-     "avg": 22.66
+     "rank": 20,
+     "avg": 20.85
     },
     "WR": {
-     "rank": 9,
-     "avg": 25.7
+     "rank": 11,
+     "avg": 27.32
     },
     "TE": {
      "rank": 5,
-     "avg": 7.27
+     "avg": 8.67
     },
     "K": {
-     "rank": 10,
-     "avg": 7.03
+     "rank": 7,
+     "avg": 6.88
     }
    }
   },
@@ -3373,28 +3373,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 22,
-     "avg": 6.8
+     "rank": 21,
+     "avg": 6.67
     },
     "QB": {
-     "rank": 22,
-     "avg": 18.57
+     "rank": 25,
+     "avg": 18.78
     },
     "RB": {
-     "rank": 17,
-     "avg": 19.66
+     "rank": 15,
+     "avg": 19.51
     },
     "WR": {
-     "rank": 28,
-     "avg": 35.42
+     "rank": 29,
+     "avg": 35.29
     },
     "TE": {
-     "rank": 9,
-     "avg": 8.63
+     "rank": 13,
+     "avg": 10.47
     },
     "K": {
-     "rank": 13,
-     "avg": 7.56
+     "rank": 14,
+     "avg": 7.83
     }
    }
   },
@@ -3490,28 +3490,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 19,
-     "avg": 6.6
+     "rank": 17,
+     "avg": 5.83
     },
     "QB": {
-     "rank": 30,
-     "avg": 22.43
+     "rank": 29,
+     "avg": 21.5
     },
     "RB": {
-     "rank": 15,
-     "avg": 19.12
+     "rank": 17,
+     "avg": 19.68
     },
     "WR": {
-     "rank": 27,
-     "avg": 34.77
+     "rank": 24,
+     "avg": 32.58
     },
     "TE": {
      "rank": 28,
-     "avg": 17.78
+     "avg": 17.45
     },
     "K": {
-     "rank": 14,
-     "avg": 8.04
+     "rank": 10,
+     "avg": 7.43
     }
    }
   },
@@ -3608,27 +3608,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 22,
-     "avg": 6.8
+     "avg": 6.83
     },
     "QB": {
-     "rank": 2,
-     "avg": 11.76
+     "rank": 4,
+     "avg": 11.54
     },
     "RB": {
-     "rank": 21,
-     "avg": 21.18
+     "rank": 14,
+     "avg": 19.24
     },
     "WR": {
-     "rank": 5,
-     "avg": 24.57
+     "rank": 6,
+     "avg": 25.68
     },
     "TE": {
-     "rank": 16,
-     "avg": 12.03
+     "rank": 14,
+     "avg": 10.69
     },
     "K": {
-     "rank": 30,
-     "avg": 12.6
+     "rank": 32,
+     "avg": 13.6
     }
    }
   },
@@ -3725,27 +3725,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 32,
-     "avg": 11.0
+     "avg": 11.5
     },
     "QB": {
-     "rank": 11,
-     "avg": 14.73
+     "rank": 7,
+     "avg": 13.98
     },
     "RB": {
-     "rank": 20,
-     "avg": 20.8
+     "rank": 24,
+     "avg": 22.55
     },
     "WR": {
-     "rank": 17,
-     "avg": 28.8
+     "rank": 12,
+     "avg": 27.41
     },
     "TE": {
-     "rank": 10,
-     "avg": 8.68
+     "rank": 12,
+     "avg": 9.88
     },
     "K": {
-     "rank": 17,
-     "avg": 9.15
+     "rank": 18,
+     "avg": 9.4
     }
    }
   },
@@ -3842,27 +3842,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 3,
-     "avg": 1.0
+     "avg": 1.33
     },
     "QB": {
-     "rank": 6,
-     "avg": 12.94
+     "rank": 9,
+     "avg": 14.29
     },
     "RB": {
-     "rank": 23,
-     "avg": 22.19
+     "rank": 22,
+     "avg": 21.53
     },
     "WR": {
-     "rank": 8,
-     "avg": 25.08
+     "rank": 10,
+     "avg": 26.99
     },
     "TE": {
-     "rank": 2,
-     "avg": 6.71
+     "rank": 3,
+     "avg": 7.81
     },
     "K": {
-     "rank": 24,
-     "avg": 10.8
+     "rank": 26,
+     "avg": 10.18
     }
    }
   },
@@ -3958,28 +3958,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 27,
-     "avg": 8.4
+     "rank": 28,
+     "avg": 8.83
     },
     "QB": {
-     "rank": 5,
-     "avg": 12.09
+     "rank": 2,
+     "avg": 10.82
     },
     "RB": {
-     "rank": 16,
-     "avg": 19.46
+     "rank": 18,
+     "avg": 20.77
     },
     "WR": {
-     "rank": 3,
-     "avg": 21.8
+     "rank": 2,
+     "avg": 20.26
     },
     "TE": {
-     "rank": 12,
-     "avg": 8.84
+     "rank": 4,
+     "avg": 7.83
     },
     "K": {
-     "rank": 12,
-     "avg": 7.49
+     "rank": 11,
+     "avg": 7.46
     }
    }
   },
@@ -4076,27 +4076,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 31,
-     "avg": 10.4
+     "avg": 10.5
     },
     "QB": {
-     "rank": 9,
-     "avg": 13.75
+     "rank": 8,
+     "avg": 14.09
     },
     "RB": {
-     "rank": 4,
-     "avg": 15.56
+     "rank": 3,
+     "avg": 15.71
     },
     "WR": {
-     "rank": 14,
-     "avg": 27.58
+     "rank": 19,
+     "avg": 29.73
     },
     "TE": {
-     "rank": 22,
-     "avg": 14.18
+     "rank": 23,
+     "avg": 14.17
     },
     "K": {
-     "rank": 32,
-     "avg": 12.7
+     "rank": 31,
+     "avg": 13.57
     }
    }
   },
@@ -4193,27 +4193,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 12,
-     "avg": 4.2
+     "avg": 4.33
     },
     "QB": {
      "rank": 31,
-     "avg": 22.95
+     "avg": 22.02
     },
     "RB": {
-     "rank": 2,
-     "avg": 14.73
+     "rank": 11,
+     "avg": 18.01
     },
     "WR": {
-     "rank": 29,
-     "avg": 35.9
+     "rank": 25,
+     "avg": 32.69
     },
     "TE": {
      "rank": 31,
-     "avg": 20.64
+     "avg": 19.97
     },
     "K": {
-     "rank": 28,
-     "avg": 12.24
+     "rank": 27,
+     "avg": 10.79
     }
    }
   },
@@ -4310,27 +4310,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 4,
-     "avg": 1.5
+     "avg": 1.4
     },
     "QB": {
-     "rank": 25,
-     "avg": 19.04
+     "rank": 19,
+     "avg": 17.75
     },
     "RB": {
      "rank": 28,
-     "avg": 26.81
+     "avg": 24.48
     },
     "WR": {
      "rank": 7,
-     "avg": 25.05
+     "avg": 25.96
     },
     "TE": {
-     "rank": 26,
-     "avg": 15.26
+     "rank": 24,
+     "avg": 14.56
     },
     "K": {
-     "rank": 25,
-     "avg": 10.95
+     "rank": 17,
+     "avg": 9.16
     }
    }
   },
@@ -4426,28 +4426,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 7,
-     "avg": 2.6
+     "rank": 6,
+     "avg": 1.83
     },
     "QB": {
-     "rank": 8,
-     "avg": 13.65
+     "rank": 14,
+     "avg": 15.16
     },
     "RB": {
-     "rank": 3,
-     "avg": 15.06
+     "rank": 4,
+     "avg": 16.11
     },
     "WR": {
-     "rank": 24,
-     "avg": 33.28
+     "rank": 28,
+     "avg": 34.58
     },
     "TE": {
-     "rank": 7,
-     "avg": 8.6
+     "rank": 15,
+     "avg": 10.78
     },
     "K": {
      "rank": 6,
-     "avg": 5.91
+     "avg": 6.83
     }
    }
   },
@@ -4543,28 +4543,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 6,
-     "avg": 2.4
+     "rank": 10,
+     "avg": 3.67
     },
     "QB": {
-     "rank": 14,
-     "avg": 15.79
+     "rank": 12,
+     "avg": 14.73
     },
     "RB": {
-     "rank": 9,
-     "avg": 17.66
+     "rank": 6,
+     "avg": 17.48
     },
     "WR": {
-     "rank": 23,
-     "avg": 32.67
+     "rank": 21,
+     "avg": 30.73
     },
     "TE": {
-     "rank": 14,
-     "avg": 10.7
+     "rank": 10,
+     "avg": 9.45
     },
     "K": {
-     "rank": 18,
-     "avg": 9.17
+     "rank": 16,
+     "avg": 9.06
     }
    }
   },
@@ -4660,28 +4660,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 11,
-     "avg": 4.0
+     "rank": 7,
+     "avg": 3.0
     },
     "QB": {
-     "rank": 16,
-     "avg": 16.37
+     "rank": 21,
+     "avg": 18.16
     },
     "RB": {
-     "rank": 5,
-     "avg": 15.65
+     "rank": 10,
+     "avg": 17.93
     },
     "WR": {
      "rank": 31,
-     "avg": 37.37
+     "avg": 37.2
     },
     "TE": {
-     "rank": 6,
-     "avg": 7.92
+     "rank": 8,
+     "avg": 9.34
     },
     "K": {
      "rank": 29,
-     "avg": 12.54
+     "avg": 12.12
     }
    }
   },
@@ -4777,28 +4777,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 25,
-     "avg": 7.4
+     "rank": 26,
+     "avg": 8.33
     },
     "QB": {
-     "rank": 24,
-     "avg": 18.89
+     "rank": 23,
+     "avg": 18.49
     },
     "RB": {
-     "rank": 11,
-     "avg": 18.24
+     "rank": 21,
+     "avg": 21.16
     },
     "WR": {
-     "rank": 26,
-     "avg": 34.01
+     "rank": 27,
+     "avg": 33.29
     },
     "TE": {
-     "rank": 19,
-     "avg": 13.03
+     "rank": 22,
+     "avg": 13.99
     },
     "K": {
-     "rank": 11,
-     "avg": 7.46
+     "rank": 12,
+     "avg": 7.55
     }
    }
   },
@@ -4895,27 +4895,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 5,
-     "avg": 1.8
+     "avg": 1.67
     },
     "QB": {
-     "rank": 29,
-     "avg": 22.24
+     "rank": 30,
+     "avg": 21.58
     },
     "RB": {
-     "rank": 31,
-     "avg": 27.98
+     "rank": 30,
+     "avg": 26.85
     },
     "WR": {
      "rank": 32,
-     "avg": 41.26
+     "avg": 38.9
     },
     "TE": {
-     "rank": 15,
-     "avg": 11.4
+     "rank": 21,
+     "avg": 13.62
     },
     "K": {
      "rank": 8,
-     "avg": 6.08
+     "avg": 6.98
     }
    }
   },
@@ -5012,27 +5012,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 15,
-     "avg": 5.2
+     "avg": 5.0
     },
     "QB": {
-     "rank": 18,
-     "avg": 16.77
+     "rank": 20,
+     "avg": 17.79
     },
     "RB": {
-     "rank": 7,
-     "avg": 17.56
+     "rank": 5,
+     "avg": 16.18
     },
     "WR": {
-     "rank": 18,
-     "avg": 29.02
+     "rank": 17,
+     "avg": 28.86
     },
     "TE": {
-     "rank": 3,
-     "avg": 6.8
+     "rank": 11,
+     "avg": 9.52
     },
     "K": {
-     "rank": 5,
-     "avg": 5.31
+     "rank": 3,
+     "avg": 4.59
     }
    }
   },
@@ -5132,23 +5132,23 @@
      "avg": 4.8
     },
     "QB": {
-     "rank": 15,
+     "rank": 16,
      "avg": 16.31
     },
     "RB": {
-     "rank": 8,
+     "rank": 7,
      "avg": 17.57
     },
     "WR": {
-     "rank": 12,
+     "rank": 9,
      "avg": 26.83
     },
     "TE": {
-     "rank": 24,
+     "rank": 25,
      "avg": 14.84
     },
     "K": {
-     "rank": 21,
+     "rank": 22,
      "avg": 9.97
     }
    }
@@ -5246,27 +5246,27 @@
    "vsPosition": {
     "D/ST": {
      "rank": 29,
-     "avg": 9.4
+     "avg": 9.5
     },
     "QB": {
-     "rank": 17,
-     "avg": 16.46
+     "rank": 15,
+     "avg": 15.95
     },
     "RB": {
-     "rank": 6,
-     "avg": 16.65
+     "rank": 2,
+     "avg": 15.15
     },
     "WR": {
-     "rank": 25,
-     "avg": 33.67
+     "rank": 22,
+     "avg": 31.09
     },
     "TE": {
-     "rank": 19,
-     "avg": 13.03
+     "rank": 20,
+     "avg": 13.28
     },
     "K": {
-     "rank": 27,
-     "avg": 11.48
+     "rank": 24,
+     "avg": 10.13
     }
    }
   },
@@ -5362,28 +5362,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 7,
-     "avg": 2.6
+     "rank": 9,
+     "avg": 3.5
     },
     "QB": {
      "rank": 28,
-     "avg": 21.49
+     "avg": 21.24
     },
     "RB": {
-     "rank": 25,
-     "avg": 24.42
+     "rank": 23,
+     "avg": 22.22
     },
     "WR": {
-     "rank": 21,
-     "avg": 32.51
+     "rank": 26,
+     "avg": 33.2
     },
     "TE": {
      "rank": 17,
-     "avg": 12.32
+     "avg": 11.51
     },
     "K": {
-     "rank": 20,
-     "avg": 9.84
+     "rank": 25,
+     "avg": 10.17
     }
    }
   },
@@ -5479,28 +5479,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 17,
+     "rank": 18,
      "avg": 6.0
     },
     "QB": {
-     "rank": 13,
-     "avg": 15.42
+     "rank": 10,
+     "avg": 14.6
     },
     "RB": {
-     "rank": 26,
-     "avg": 25.0
+     "rank": 27,
+     "avg": 23.47
     },
     "WR": {
-     "rank": 4,
-     "avg": 22.6
+     "rank": 8,
+     "avg": 26.08
     },
     "TE": {
-     "rank": 21,
-     "avg": 13.46
+     "rank": 18,
+     "avg": 11.86
     },
     "K": {
-     "rank": 16,
-     "avg": 8.4
+     "rank": 15,
+     "avg": 8.32
     }
    }
   },
@@ -5604,7 +5604,7 @@
      "avg": 27.06
     },
     "RB": {
-     "rank": 10,
+     "rank": 8,
      "avg": 17.71
     },
     "WR": {
@@ -5713,28 +5713,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 13,
-     "avg": 4.8
+     "rank": 14,
+     "avg": 4.83
     },
     "QB": {
-     "rank": 3,
-     "avg": 11.96
+     "rank": 5,
+     "avg": 11.72
     },
     "RB": {
-     "rank": 30,
-     "avg": 27.42
+     "rank": 29,
+     "avg": 25.73
     },
     "WR": {
-     "rank": 11,
-     "avg": 26.75
+     "rank": 18,
+     "avg": 29.09
     },
     "TE": {
-     "rank": 7,
-     "avg": 8.6
+     "rank": 6,
+     "avg": 8.72
     },
     "K": {
-     "rank": 4,
-     "avg": 5.1
+     "rank": 1,
+     "avg": 4.42
     }
    }
   },
@@ -5830,28 +5830,28 @@
    },
    "vsPosition": {
     "D/ST": {
-     "rank": 28,
-     "avg": 9.2
+     "rank": 27,
+     "avg": 8.5
     },
     "QB": {
-     "rank": 12,
-     "avg": 15.0
+     "rank": 11,
+     "avg": 14.71
     },
     "RB": {
-     "rank": 12,
-     "avg": 18.3
+     "rank": 13,
+     "avg": 19.09
     },
     "WR": {
-     "rank": 22,
-     "avg": 32.55
+     "rank": 23,
+     "avg": 32.43
     },
     "TE": {
-     "rank": 13,
-     "avg": 8.85
+     "rank": 8,
+     "avg": 9.34
     },
     "K": {
-     "rank": 31,
-     "avg": 12.64
+     "rank": 28,
+     "avg": 12.03
     }
    }
   }
