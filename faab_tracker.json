@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-21T09:06:19.957Z",
+ "_pulledUtc": "2026-10-21T10:07:17.259Z",
  "_matchupPeriod": 7,
  "_scoringPeriodId": 7,
  "_budget": 100,
@@ -14,9 +14,9 @@
  "leagueTotals": {
   "spent": 456,
   "remaining": 544,
-  "acquisitionsSeason": 114,
-  "dropsSeason": 99,
-  "acquisitionsThisPeriod": 10,
+  "acquisitionsSeason": 115,
+  "dropsSeason": 100,
+  "acquisitionsThisPeriod": 11,
   "managersWhoHaveSpent": 9
  },
  "teams": [
@@ -66,14 +66,14 @@
    "manager": "David Carrier",
    "spent": 7,
    "remaining": 93,
-   "acquisitionsSeason": 17,
-   "dropsSeason": 14,
-   "acquisitionsThisPeriod": 4,
+   "acquisitionsSeason": 18,
+   "dropsSeason": 15,
+   "acquisitionsThisPeriod": 5,
    "acquisitionsByMatchupPeriod": {
     "3": 4,
     "5": 3,
     "6": 6,
-    "7": 4
+    "7": 5
    }
   },
   {
