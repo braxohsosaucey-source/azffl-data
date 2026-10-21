@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-21T07:02:17.361Z",
+ "_pulledUtc": "2026-10-21T08:04:16.037Z",
  "_matchupPeriod": 7,
  "_scoringPeriodId": 7,
  "_budget": 100,
@@ -12,11 +12,11 @@
   "No per-claim bid amounts: this pass reads no transaction rows (B-243)."
  ],
  "leagueTotals": {
-  "spent": 395,
-  "remaining": 605,
-  "acquisitionsSeason": 104,
-  "dropsSeason": 92,
-  "acquisitionsThisPeriod": 0,
+  "spent": 456,
+  "remaining": 544,
+  "acquisitionsSeason": 110,
+  "dropsSeason": 96,
+  "acquisitionsThisPeriod": 6,
   "managersWhoHaveSpent": 9
  },
  "teams": [
@@ -25,18 +25,19 @@
    "team": "THE NgomaFootballTeam 🤑💸💵",
    "abbrev": "NFT",
    "manager": "Brastone Ngoma",
-   "spent": 80,
-   "remaining": 20,
-   "acquisitionsSeason": 13,
-   "dropsSeason": 12,
-   "acquisitionsThisPeriod": 0,
+   "spent": 82,
+   "remaining": 18,
+   "acquisitionsSeason": 14,
+   "dropsSeason": 13,
+   "acquisitionsThisPeriod": 1,
    "acquisitionsByMatchupPeriod": {
     "1": 2,
     "2": 3,
     "3": 1,
     "4": 5,
     "5": 1,
-    "6": 1
+    "6": 1,
+    "7": 1
    }
   },
   {
@@ -113,18 +114,19 @@
    "team": "No Deshaun Dont Touchdown There",
    "abbrev": "CCT",
    "manager": "Carter Moldenhauer",
-   "spent": 60,
-   "remaining": 40,
-   "acquisitionsSeason": 16,
+   "spent": 90,
+   "remaining": 10,
+   "acquisitionsSeason": 18,
    "dropsSeason": 15,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsThisPeriod": 2,
    "acquisitionsByMatchupPeriod": {
     "1": 2,
     "2": 2,
     "3": 4,
     "4": 3,
     "5": 1,
-    "6": 4
+    "6": 4,
+    "7": 2
    }
   },
   {
@@ -148,17 +150,18 @@
    "team": "Are you Shedeur she's 18?",
    "abbrev": "Pn15",
    "manager": "Caophi Nguyen",
-   "spent": 32,
-   "remaining": 68,
-   "acquisitionsSeason": 17,
-   "dropsSeason": 15,
-   "acquisitionsThisPeriod": 0,
+   "spent": 61,
+   "remaining": 39,
+   "acquisitionsSeason": 18,
+   "dropsSeason": 16,
+   "acquisitionsThisPeriod": 1,
    "acquisitionsByMatchupPeriod": {
     "2": 3,
     "3": 4,
     "4": 3,
     "5": 3,
-    "6": 4
+    "6": 4,
+    "7": 1
    }
   },
   {
@@ -168,15 +171,16 @@
    "manager": "Max Willoughby",
    "spent": 48,
    "remaining": 52,
-   "acquisitionsSeason": 12,
-   "dropsSeason": 11,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsSeason": 14,
+   "dropsSeason": 13,
+   "acquisitionsThisPeriod": 2,
    "acquisitionsByMatchupPeriod": {
     "2": 3,
     "3": 2,
     "4": 4,
     "5": 2,
-    "6": 1
+    "6": 1,
+    "7": 2
    }
   },
   {
