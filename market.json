@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-22T07:04:15Z",
+ "_pulledUtc": "2026-10-22T08:05:16Z",
  "week": 7,
  "books": [
   "DraftKings"
@@ -92,7 +92,7 @@
     "src": "open-meteo",
     "lat": 41.85003,
     "lon": -87.65005,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -164,22 +164,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-25T13:00",
-     "tempF": 59.7,
-     "windMph": 16.3,
-     "gustMph": 38.0,
+     "tempF": 60.0,
+     "windMph": 16.1,
+     "gustMph": 36.0,
      "precipIn": 0.0,
-     "precipProb": 30
+     "precipProb": 13
     },
     "game": {
-     "maxWindMph": 16.3,
-     "maxGustMph": 38.0,
+     "maxWindMph": 16.1,
+     "maxGustMph": 36.0,
      "precipIn": 0.0,
-     "maxPrecipProb": 30
+     "maxPrecipProb": 13
     },
     "src": "open-meteo",
     "lat": 48.93564,
     "lon": 2.35387,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -249,7 +249,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 65
+    "tempF": 64
    },
    "weather": null,
    "wxNote": "indoor"
@@ -325,14 +325,14 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-25T17:00",
-     "tempF": 72.5,
-     "windMph": 2.8,
+     "tempF": 72.3,
+     "windMph": 3.7,
      "gustMph": 4.5,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 3.1,
+     "maxWindMph": 3.7,
      "maxGustMph": 4.5,
      "precipIn": 0.0,
      "maxPrecipProb": 0
@@ -340,7 +340,7 @@
     "src": "open-meteo",
     "lat": 36.16589,
     "lon": -86.78444,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -409,8 +409,8 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Showers",
-    "tempF": 50
+    "text": "Cloudy",
+    "tempF": 52
    },
    "weather": null,
    "wxNote": "indoor"
@@ -487,21 +487,21 @@
     "kickoff": {
      "hourUtc": "2026-10-25T17:00",
      "tempF": 63.2,
-     "windMph": 7.3,
-     "gustMph": 9.2,
+     "windMph": 5.7,
+     "gustMph": 8.7,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 8.3,
-     "maxGustMph": 9.6,
+     "maxWindMph": 8.2,
+     "maxGustMph": 10.3,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 40.83399,
     "lon": -74.09709,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -576,22 +576,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-25T17:00",
-     "tempF": 64.0,
-     "windMph": 8.6,
-     "gustMph": 9.6,
+     "tempF": 64.4,
+     "windMph": 7.3,
+     "gustMph": 8.7,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 8.6,
-     "maxGustMph": 9.6,
+     "maxWindMph": 7.3,
+     "maxGustMph": 8.7,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 35.22709,
     "lon": -80.84313,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -666,22 +666,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-25T17:00",
-     "tempF": 62.5,
-     "windMph": 5.0,
-     "gustMph": 6.3,
+     "tempF": 63.0,
+     "windMph": 4.8,
+     "gustMph": 6.9,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 5.5,
-     "maxGustMph": 8.1,
+     "maxWindMph": 5.0,
+     "maxGustMph": 7.8,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 39.29038,
     "lon": -76.61219,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -964,7 +964,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 71
+    "tempF": 72
    },
    "weather": null,
    "wxNote": "indoor"
@@ -1035,27 +1035,27 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 56
+    "tempF": 59
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-26T00:00",
-     "tempF": 53.0,
-     "windMph": 9.2,
-     "gustMph": 10.7,
+     "tempF": 58.8,
+     "windMph": 4.3,
+     "gustMph": 3.1,
      "precipIn": 0.0,
      "precipProb": 15
     },
     "game": {
-     "maxWindMph": 9.2,
-     "maxGustMph": 16.3,
+     "maxWindMph": 4.3,
+     "maxGustMph": 5.4,
      "precipIn": 0.0,
      "maxPrecipProb": 15
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   },
@@ -1130,27 +1130,27 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-27T00:00",
-     "tempF": 61.1,
-     "windMph": 4.9,
-     "gustMph": 14.1,
+     "tempF": 62.1,
+     "windMph": 4.6,
+     "gustMph": 12.1,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 4.9,
-     "maxGustMph": 14.1,
+     "maxWindMph": 4.6,
+     "maxGustMph": 12.1,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 39.95238,
     "lon": -75.16362,
-    "t": "2026-10-22T04:10:13Z"
+    "t": "2026-10-22T08:05:16Z"
    },
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-22T07:04:10Z",
+ "injuriesUtc": "2026-10-22T08:05:14Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2066,7 +2066,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-22T06:01Z",
+    "date": "2026-10-22T07:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2670,7 +2670,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-22T06:01Z",
+    "date": "2026-10-22T07:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -8106,7 +8106,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-22T06:01Z",
+    "date": "2026-10-22T07:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
