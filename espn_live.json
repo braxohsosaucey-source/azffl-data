@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-22T22:49:17.166Z",
+ "_pulledUtc": "2026-10-22T23:20:17.713Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 7,
@@ -1545,15 +1545,16 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 4,
-    "drops": 4,
+    "acquisitions": 8,
+    "drops": 8,
     "trades": 0,
-    "moveToActive": 10,
+    "moveToActive": 23,
     "acquisitionBudgetSpent": 5,
     "matchupAcquisitionTotals": {
      "2": 1,
      "4": 1,
-     "6": 2
+     "6": 2,
+     "7": 4
     }
    },
    "roster": [
@@ -1588,8 +1589,8 @@
     {
      "name": "Justin Jefferson",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "WR",
+     "slotId": 4,
      "proTeamId": 16,
      "id": 4262921,
      "injury": "ACTIVE",
@@ -1622,8 +1623,8 @@
     {
      "name": "Josh Allen",
      "pos": "QB",
-     "slot": "QB",
-     "slotId": 0,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 2,
      "id": 3918298,
      "injury": "ACTIVE",
@@ -1639,8 +1640,8 @@
     {
      "name": "Davante Adams",
      "pos": "WR",
-     "slot": "WR",
-     "slotId": 4,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 14,
      "id": 16800,
      "injury": "INJURY_RESERVE",
@@ -1652,23 +1653,6 @@
      "weekProj": 0.0,
      "projSeason": 0.0,
      "actSeason": 94.5
-    },
-    {
-     "name": "Terry McLaurin",
-     "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
-     "proTeamId": 28,
-     "id": 3121422,
-     "injury": "OUT",
-     "acq": "DRAFT",
-     "acqUtc": "2026-09-09T03:19:42.913000Z",
-     "own": 59.44,
-     "start": 16.66,
-     "livePts": null,
-     "weekProj": 0.0,
-     "projSeason": 0.0,
-     "actSeason": 42.25
     },
     {
      "name": "TreVeyon Henderson",
@@ -1701,8 +1685,8 @@
     {
      "name": "Colston Loveland",
      "pos": "TE",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 3,
      "id": 4723086,
      "injury": "ACTIVE",
@@ -1714,23 +1698,6 @@
      "weekProj": 10.49,
      "projSeason": 115.76,
      "actSeason": 37.75
-    },
-    {
-     "name": "Justin Herbert",
-     "pos": "QB",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 24,
-     "id": 4038941,
-     "injury": "ACTIVE",
-     "acq": "DRAFT",
-     "acqUtc": "2026-09-09T03:19:42.913000Z",
-     "own": 41.25,
-     "start": 8.77,
-     "livePts": null,
-     "weekProj": 0.0,
-     "projSeason": 127.02,
-     "actSeason": 59.94
     },
     {
      "name": "Tucker Kraft",
@@ -1748,23 +1715,6 @@
      "weekProj": 10.88,
      "projSeason": 112.44,
      "actSeason": 50.15
-    },
-    {
-     "name": "Rams D/ST",
-     "pos": "D/ST",
-     "slot": "D/ST",
-     "slotId": 16,
-     "proTeamId": 14,
-     "id": -16014,
-     "injury": null,
-     "acq": "DRAFT",
-     "acqUtc": "2026-09-09T03:19:42.913000Z",
-     "own": 76.08,
-     "start": 58.96,
-     "livePts": null,
-     "weekProj": 4.61,
-     "projSeason": 68.29,
-     "actSeason": 25.0
     },
     {
      "name": "Deebo Samuel Sr.",
@@ -1786,8 +1736,8 @@
     {
      "name": "Khalil Shakir",
      "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 2,
      "id": 4373678,
      "injury": "ACTIVE",
@@ -1799,23 +1749,6 @@
      "weekProj": 0.0,
      "projSeason": 89.33,
      "actSeason": 49.25
-    },
-    {
-     "name": "Dominic Zvada",
-     "pos": "K",
-     "slot": "K",
-     "slotId": 17,
-     "proTeamId": 19,
-     "id": 5082424,
-     "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-10-14T07:52:19.375000Z",
-     "own": 52.66,
-     "start": 48.11,
-     "livePts": null,
-     "weekProj": 11.2,
-     "projSeason": 126.66,
-     "actSeason": 59.4
     },
     {
      "name": "Kendre Miller",
@@ -1844,6 +1777,74 @@
       },
       "week": null
      }
+    },
+    {
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "slot": "QB",
+     "slotId": 0,
+     "proTeamId": 23,
+     "id": 8439,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-22T22:53:26.589000Z",
+     "own": 50.15,
+     "start": 35.77,
+     "livePts": null,
+     "weekProj": 19.24,
+     "projSeason": 174.94,
+     "actSeason": 97.68
+    },
+    {
+     "name": "Courtland Sutton",
+     "pos": "WR",
+     "slot": "FLEX",
+     "slotId": 23,
+     "proTeamId": 7,
+     "id": 3128429,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-22T22:53:53.522000Z",
+     "own": 66.46,
+     "start": 17.45,
+     "livePts": null,
+     "weekProj": 8.26,
+     "projSeason": 86.11,
+     "actSeason": 28.05
+    },
+    {
+     "name": "Cowboys D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "slotId": 16,
+     "proTeamId": 6,
+     "id": -16006,
+     "injury": null,
+     "acq": "ADD",
+     "acqUtc": "2026-10-22T22:54:28.287000Z",
+     "own": 14.71,
+     "start": 11.01,
+     "livePts": null,
+     "weekProj": 6.18,
+     "projSeason": 44.58,
+     "actSeason": 4.0
+    },
+    {
+     "name": "Wil Lutz",
+     "pos": "K",
+     "slot": "K",
+     "slotId": 17,
+     "proTeamId": 7,
+     "id": 2985659,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-22T22:56:30.814000Z",
+     "own": 4.4,
+     "start": 3.49,
+     "livePts": null,
+     "weekProj": 8.79,
+     "projSeason": 94.5,
+     "actSeason": 39.0
     }
    ]
   },
@@ -1944,7 +1945,7 @@
      "slotId": 23,
      "proTeamId": 13,
      "id": 4432665,
-     "injury": "QUESTIONABLE",
+     "injury": "ACTIVE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.87,
