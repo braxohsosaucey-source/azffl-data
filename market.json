@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-22T15:50:19Z",
+ "_pulledUtc": "2026-10-22T16:32:17Z",
  "week": 7,
  "books": [
   "DraftKings"
@@ -195,8 +195,8 @@
     "book": "DraftKings",
     "details": "SF -2.5",
     "moneyline": {
-     "away": -155,
-     "home": 130
+     "away": -148,
+     "home": 124
     },
     "moneylineOpen": {
      "away": -218,
@@ -226,11 +226,11 @@
     }
    },
    "noVig": {
-    "away": 0.582993,
-    "home": 0.417007,
-    "hold": 0.042626,
-    "fairAway": -139.8,
-    "fairHome": 139.8
+    "away": 0.57206,
+    "home": 0.42794,
+    "hold": 0.043203,
+    "fairAway": -133.68,
+    "fairHome": 133.68
    },
    "noVigOpen": {
     "away": 0.657475,
@@ -617,8 +617,8 @@
     "spread": {
      "away": -1.5,
      "home": 1.5,
-     "awayOdds": 100,
-     "homeOdds": -120
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 3.5,
@@ -697,8 +697,8 @@
     "book": "DraftKings",
     "details": "HOU -10.5",
     "moneyline": {
-     "away": 400,
-     "home": -535
+     "away": 390,
+     "home": -520
     },
     "moneylineOpen": {
      "away": 195,
@@ -718,8 +718,8 @@
     },
     "total": {
      "line": 42.5,
-     "over": -118,
-     "under": -102
+     "over": -112,
+     "under": -108
     },
     "totalOpen": {
      "line": 43.5,
@@ -728,11 +728,11 @@
     }
    },
    "noVig": {
-    "away": 0.191843,
-    "home": 0.808157,
-    "hold": 0.04252,
-    "fairAway": 421.26,
-    "fairHome": -421.26
+    "away": 0.195707,
+    "home": 0.804293,
+    "hold": 0.042791,
+    "fairAway": 410.97,
+    "fairHome": -410.97
    },
    "noVigOpen": {
     "away": 0.324969,
@@ -979,7 +979,7 @@
    "lines": {
     "src": "scoreboard",
     "book": "DraftKings",
-    "details": "SEA -2.5",
+    "details": "SEA -3",
     "moneyline": {
      "away": 120,
      "home": -142
@@ -989,10 +989,10 @@
      "home": -155
     },
     "spread": {
-     "away": 2.5,
-     "home": -2.5,
-     "awayOdds": -102,
-     "homeOdds": -118
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": 3.0,
@@ -1150,10 +1150,22 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-22T15:29:08Z",
+ "injuriesUtc": "2026-10-22T16:32:18Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
+   {
+    "id": 4870808,
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-22T15:57Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
    {
     "id": 3127287,
     "name": "Budda Baker",
@@ -1221,18 +1233,6 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-21T23:47Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4870808,
-    "name": "Jeremiyah Love",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-21T19:11Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -1487,7 +1487,7 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-22T00:56Z",
-    "body": "Arm",
+    "body": "Forearm",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
@@ -2066,7 +2066,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-22T15:28Z",
+    "date": "2026-10-22T16:03Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2670,7 +2670,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-22T15:20Z",
+    "date": "2026-10-22T16:03Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -4484,7 +4484,7 @@
     "abbr": "Q",
     "date": "2026-10-22T00:10Z",
     "body": "Shoulder",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -7226,7 +7226,7 @@
     "abbr": "Q",
     "date": "2026-10-21T21:30Z",
     "body": "Foot",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -7238,7 +7238,7 @@
     "abbr": "Q",
     "date": "2026-10-21T21:29Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -7854,7 +7854,7 @@
     "abbr": "Q",
     "date": "2026-10-21T22:33Z",
     "body": "Shoulder",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -7866,7 +7866,7 @@
     "abbr": "Q",
     "date": "2026-10-21T21:50Z",
     "body": "Back",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -8106,7 +8106,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-22T15:28Z",
+    "date": "2026-10-22T16:03Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8132,7 +8132,7 @@
     "abbr": "Q",
     "date": "2026-10-22T00:21Z",
     "body": "Concussion",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -8228,7 +8228,7 @@
     "abbr": "Q",
     "date": "2026-10-21T20:15Z",
     "body": "Groin",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -8240,7 +8240,7 @@
     "abbr": "Q",
     "date": "2026-10-21T20:15Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -8408,7 +8408,7 @@
     "pos": "LB",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-22T15:00Z",
+    "date": "2026-10-22T01:26Z",
     "body": "Quadriceps",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8952,7 +8952,7 @@
     "abbr": "O",
     "date": "2026-10-18T15:34Z",
     "body": "Personal",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2027-02-15",
     "fantasy": "OUT"
    },
@@ -9007,6 +9007,18 @@
   ],
   "PIT": [
    {
+    "id": 3047495,
+    "name": "Sebastian Joseph-Day",
+    "pos": "DT",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-22T16:01Z",
+    "body": "Triceps",
+    "side": "Not Specified",
+    "returnDate": "2026-11-27",
+    "fantasy": "IR"
+   },
+   {
     "id": 3929846,
     "name": "DeShon Elliott",
     "pos": "S",
@@ -9038,18 +9050,6 @@
     "abbr": "Q",
     "date": "2026-10-21T21:39Z",
     "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3047495,
-    "name": "Sebastian Joseph-Day",
-    "pos": "DT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-21T21:34Z",
-    "body": "Triceps",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
@@ -9654,7 +9654,7 @@
     "abbr": "Q",
     "date": "2026-10-21T23:08Z",
     "body": "Knee",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -9666,7 +9666,7 @@
     "abbr": "Q",
     "date": "2026-10-21T23:07Z",
     "body": "Hamstring",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -9678,7 +9678,7 @@
     "abbr": "Q",
     "date": "2026-10-21T23:06Z",
     "body": "Oblique",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -9913,6 +9913,30 @@
   ],
   "TB": [
    {
+    "id": 4596448,
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-22T16:03Z",
+    "body": "Illness",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4567750,
+    "name": "Emeka Egbuka",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-22T16:01Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4250392,
     "name": "Zyon McCollum",
     "pos": "CB",
@@ -9920,7 +9944,7 @@
     "abbr": "Q",
     "date": "2026-10-22T00:04Z",
     "body": "Illness",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -9973,30 +9997,6 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 4596448,
-    "name": "Bucky Irving",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-21T19:30Z",
-    "body": "Illness",
-    "side": null,
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4567750,
-    "name": "Emeka Egbuka",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-21T19:26Z",
-    "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4427673,
     "name": "Calijah Kancey",
     "pos": "DT",
@@ -10004,7 +10004,7 @@
     "abbr": "Q",
     "date": "2026-10-21T19:23Z",
     "body": "Illness",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -10016,7 +10016,7 @@
     "abbr": "Q",
     "date": "2026-10-21T19:22Z",
     "body": "Finger",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
@@ -10028,7 +10028,7 @@
     "abbr": "Q",
     "date": "2026-10-21T19:22Z",
     "body": "Calf",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
    },
