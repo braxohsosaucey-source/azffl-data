@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-23T09:42:14Z",
+ "_pulledUtc": "2026-10-23T10:18:16Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -354,8 +354,8 @@
     "book": "DraftKings",
     "details": "MIN -6.5",
     "moneyline": {
-     "away": 230,
-     "home": -285
+     "away": 225,
+     "home": -278
     },
     "moneylineOpen": {
      "away": 136,
@@ -385,11 +385,11 @@
     }
    },
    "noVig": {
-    "away": 0.290456,
-    "home": 0.709544,
-    "hold": 0.04329,
-    "fairAway": 244.29,
-    "fairHome": -244.29
+    "away": 0.294967,
+    "home": 0.705033,
+    "hold": 0.043142,
+    "fairAway": 239.02,
+    "fairHome": -239.02
    },
    "noVigOpen": {
     "away": 0.40663,
@@ -1148,7 +1148,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-23T08:47:15Z",
+ "injuriesUtc": "2026-10-23T09:51:15Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2064,7 +2064,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-23T08:01Z",
+    "date": "2026-10-23T09:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2666,13 +2666,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-23T08:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-23T09:01Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4431299,
@@ -8104,7 +8104,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-23T08:01Z",
+    "date": "2026-10-23T09:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
