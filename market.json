@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-23T03:06:14Z",
+ "_pulledUtc": "2026-10-23T03:38:14Z",
  "week": 7,
  "books": [
   "DraftKings"
@@ -11,7 +11,7 @@
    "away": "NE",
    "home": "CHI",
    "kickoffUtc": "2026-10-23T00:15Z",
-   "state": "in",
+   "state": "post",
    "book": "DraftKings",
    "lines": {
     "src": "core",
@@ -70,10 +70,7 @@
     "country": "USA"
    },
    "indoor": false,
-   "espnWeather": {
-    "text": "33",
-    "tempF": 62
-   },
+   "espnWeather": null,
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-23T00:00",
@@ -1150,7 +1147,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-23T02:22:15Z",
+ "injuriesUtc": "2026-10-23T03:24:07Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2066,7 +2063,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-23T02:00Z",
+    "date": "2026-10-23T03:15Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2668,13 +2665,25 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-23T02:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-23T03:00Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
+   },
+   {
+    "id": 4870953,
+    "name": "Malik Muhammad II",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-23T02:42Z",
+    "body": "Toe",
+    "side": null,
+    "returnDate": "2026-10-22",
+    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4426374,
@@ -2951,18 +2960,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4242659,
-    "name": "Dayo Odeyingbo",
-    "pos": "DE",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-17T23:30Z",
-    "body": "Quadriceps",
-    "side": "Not Specified",
-    "returnDate": "2026-11-22",
-    "fantasy": "IR"
    }
   ],
   "CIN": [
@@ -8106,7 +8103,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-23T02:00Z",
+    "date": "2026-10-23T03:15Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
