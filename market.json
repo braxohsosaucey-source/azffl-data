@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-23T14:04:18Z",
+ "_pulledUtc": "2026-10-23T14:42:17Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -408,7 +408,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 50
+    "tempF": 49
    },
    "weather": null,
    "wxNote": "indoor"
@@ -749,7 +749,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 77
+    "tempF": 78
    },
    "weather": null,
    "wxNote": "indoor"
@@ -1032,7 +1032,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly cloudy w/ showers",
+    "text": "Intermittent clouds",
     "tempF": 52
    },
    "weather": {
@@ -1123,7 +1123,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Clear",
-    "tempF": 61
+    "tempF": 59
    },
    "weather": {
     "kickoff": {
@@ -1148,7 +1148,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-23T13:07:12Z",
+ "injuriesUtc": "2026-10-23T14:14:11Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2064,7 +2064,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-23T13:00Z",
+    "date": "2026-10-23T14:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2668,7 +2668,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-23T12:00Z",
+    "date": "2026-10-23T14:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -7797,6 +7797,54 @@
   ],
   "NO": [
    {
+    "id": 3925350,
+    "name": "Anfernee Jennings",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-23T13:38Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3124890,
+    "name": "Kaden Elliss",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-23T13:38Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4076951,
+    "name": "Nathan Shepherd",
+    "pos": "DT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-23T13:37Z",
+    "body": "Achilles",
+    "side": null,
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 3054850,
+    "name": "Alvin Kamara",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-23T13:31Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 5081999,
     "name": "CJ Donaldson",
     "pos": "RB",
@@ -7807,18 +7855,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3054850,
-    "name": "Alvin Kamara",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-22T19:38Z",
-    "body": "Back",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4428350,
@@ -7839,30 +7875,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-22T00:48Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3124890,
-    "name": "Kaden Elliss",
-    "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-22T00:45Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4076951,
-    "name": "Nathan Shepherd",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-22T00:43Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7903,18 +7915,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3925350,
-    "name": "Anfernee Jennings",
-    "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-20T16:10Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3051909,
@@ -8104,7 +8104,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-23T13:00Z",
+    "date": "2026-10-23T14:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -9005,6 +9005,42 @@
   ],
   "PIT": [
    {
+    "id": 4037333,
+    "name": "Alex Highsmith",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-23T13:11Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3045373,
+    "name": "Jalen Ramsey",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-23T13:11Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4038815,
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-23T13:04Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4567979,
     "name": "Brandin Echols",
     "pos": "CB",
@@ -9044,25 +9080,13 @@
     "id": 3045282,
     "name": "T.J. Watt",
     "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Active",
+    "abbr": "A",
     "date": "2026-10-22T21:40Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4038815,
-    "name": "Rico Dowdle",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-22T19:17Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 3929846,
@@ -9075,18 +9099,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "IR-R"
-   },
-   {
-    "id": 4037333,
-    "name": "Alex Highsmith",
-    "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-21T21:34Z",
-    "body": "Groin",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4570044,
@@ -9123,18 +9135,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3045373,
-    "name": "Jalen Ramsey",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-21T02:21Z",
-    "body": "Wrist",
-    "side": "Right",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 17372,
