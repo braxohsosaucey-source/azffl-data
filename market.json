@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-23T14:42:17Z",
+ "_pulledUtc": "2026-10-23T15:20:15Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -162,22 +162,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-25T13:00",
-     "tempF": 60.1,
-     "windMph": 13.9,
-     "gustMph": 33.8,
+     "tempF": 59.8,
+     "windMph": 15.8,
+     "gustMph": 35.6,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 13.9,
-     "maxGustMph": 33.8,
+     "maxWindMph": 15.8,
+     "maxGustMph": 35.6,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 48.93564,
     "lon": 2.35387,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   },
@@ -325,20 +325,20 @@
      "hourUtc": "2026-10-25T17:00",
      "tempF": 72.5,
      "windMph": 2.9,
-     "gustMph": 3.6,
+     "gustMph": 3.4,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
      "maxWindMph": 2.9,
-     "maxGustMph": 3.6,
+     "maxGustMph": 3.4,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 36.16589,
     "lon": -86.78444,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   },
@@ -486,20 +486,20 @@
      "hourUtc": "2026-10-25T17:00",
      "tempF": 63.0,
      "windMph": 2.9,
-     "gustMph": 5.6,
+     "gustMph": 4.7,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
      "maxWindMph": 3.1,
-     "maxGustMph": 6.5,
+     "maxGustMph": 5.4,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 40.83399,
     "lon": -74.09709,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   },
@@ -515,8 +515,8 @@
     "book": "DraftKings",
     "details": "CAR -3",
     "moneyline": {
-     "away": 140,
-     "home": -166
+     "away": 136,
+     "home": -162
     },
     "moneylineOpen": {
      "away": -118,
@@ -546,11 +546,11 @@
     }
    },
    "noVig": {
-    "away": 0.400361,
-    "home": 0.599639,
-    "hold": 0.040727,
-    "fairAway": 149.77,
-    "fairHome": -149.77
+    "away": 0.40663,
+    "home": 0.59337,
+    "hold": 0.042049,
+    "fairAway": 145.92,
+    "fairHome": -145.92
    },
    "noVigOpen": {
     "away": 0.517364,
@@ -589,7 +589,7 @@
     "src": "open-meteo",
     "lat": 35.22709,
     "lon": -80.84313,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   },
@@ -666,20 +666,20 @@
      "hourUtc": "2026-10-25T17:00",
      "tempF": 62.8,
      "windMph": 2.6,
-     "gustMph": 3.4,
+     "gustMph": 3.1,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
      "maxWindMph": 4.1,
-     "maxGustMph": 4.3,
+     "maxGustMph": 4.5,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 39.29038,
     "lon": -76.61219,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   },
@@ -1040,20 +1040,20 @@
      "hourUtc": "2026-10-26T00:00",
      "tempF": 52.7,
      "windMph": 8.1,
-     "gustMph": 14.3,
+     "gustMph": 12.8,
      "precipIn": 0.0,
-     "precipProb": 37
+     "precipProb": 29
     },
     "game": {
      "maxWindMph": 8.1,
-     "maxGustMph": 16.6,
+     "maxGustMph": 15.0,
      "precipIn": 0.0,
-     "maxPrecipProb": 40
+     "maxPrecipProb": 37
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   },
@@ -1130,7 +1130,7 @@
      "hourUtc": "2026-10-27T00:00",
      "tempF": 60.6,
      "windMph": 4.3,
-     "gustMph": 13.6,
+     "gustMph": 13.4,
      "precipIn": 0.0,
      "precipProb": 0
     },
@@ -1143,12 +1143,12 @@
     "src": "open-meteo",
     "lat": 39.95238,
     "lon": -75.16362,
-    "t": "2026-10-23T12:12:17Z"
+    "t": "2026-10-23T15:20:15Z"
    },
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-23T14:14:11Z",
+ "injuriesUtc": "2026-10-23T15:20:17Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2064,7 +2064,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-23T14:01Z",
+    "date": "2026-10-23T15:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2668,7 +2668,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-23T14:01Z",
+    "date": "2026-10-23T15:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -8104,7 +8104,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-23T14:01Z",
+    "date": "2026-10-23T15:01Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8401,16 +8401,64 @@
   ],
   "NYJ": [
    {
-    "id": 4373656,
-    "name": "Max Mitchell",
-    "pos": "OT",
+    "id": 4597500,
+    "name": "Adonai Mitchell",
+    "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-23T01:32Z",
-    "body": "Concussion",
+    "date": "2026-10-23T15:09Z",
+    "body": "Finger",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4427366,
+    "name": "Breece Hall",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-23T15:05Z",
+    "body": "Quadriceps",
+    "side": "Right",
+    "returnDate": "2026-10-25",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4362094,
+    "name": "Joseph Ossai",
+    "pos": "DE",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-23T14:53Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "OUT"
+   },
+   {
+    "id": 4700136,
+    "name": "Kiko Mauigoa",
+    "pos": "LB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-23T14:53Z",
+    "body": "Quadriceps",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "OUT"
+   },
+   {
+    "id": 4373656,
+    "name": "Max Mitchell",
+    "pos": "OT",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-23T01:32Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "OUT"
    },
    {
     "id": 4035537,
@@ -8425,42 +8473,6 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 4597500,
-    "name": "Adonai Mitchell",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-22T20:09Z",
-    "body": "Finger",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4427366,
-    "name": "Breece Hall",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-22T20:09Z",
-    "body": "Quadriceps",
-    "side": "Right",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4700136,
-    "name": "Kiko Mauigoa",
-    "pos": "LB",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-22T01:26Z",
-    "body": "Quadriceps",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "DOUBTFUL"
-   },
-   {
     "id": 4243375,
     "name": "Dylan Parham",
     "pos": "G",
@@ -8471,18 +8483,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4362094,
-    "name": "Joseph Ossai",
-    "pos": "DE",
-    "status": "Doubtful",
-    "abbr": "D",
-    "date": "2026-10-21T23:18Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4428617,
