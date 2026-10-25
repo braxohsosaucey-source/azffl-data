@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T21:20:15.926Z",
+ "_pulledUtc": "2026-10-25T21:50:18.161Z",
  "week": 7,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "4:30 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "4:30",
-   "clockSec": 270.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "ARI",
@@ -26,7 +26,7 @@
      "abbrev": "DEN",
      "id": 7,
      "home": false,
-     "score": 6
+     "score": 13
     }
    ]
   },
@@ -38,10 +38,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "9:17 - 2nd",
+   "detail": "Halftime",
    "period": 2,
-   "clock": "9:17",
-   "clockSec": 557.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "DET",
@@ -55,11 +55,7 @@
      "home": false,
      "score": 7
     }
-   ],
-   "sit": {
-    "poss": 9,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873021",
@@ -69,10 +65,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "8:47 - 2nd",
+   "detail": "1:19 - 2nd",
    "period": 2,
-   "clock": "8:47",
-   "clockSec": 527.0,
+   "clock": "1:19",
+   "clockSec": 79.0,
    "teams": [
     {
      "abbrev": "LV",
@@ -84,13 +80,9 @@
      "abbrev": "LAR",
      "id": 14,
      "home": false,
-     "score": 14
+     "score": 28
     }
-   ],
-   "sit": {
-    "poss": 13,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873011",
@@ -320,7 +312,7 @@
      "SEA": 22.75,
      "KC": 19.75
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -383,7 +375,7 @@
      "PHI": 19.5,
      "DAL": 24.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
