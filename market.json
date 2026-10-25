@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-25T17:44:14Z",
+ "_pulledUtc": "2026-10-25T18:14:15Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -144,7 +144,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "1",
-    "tempF": 73
+    "tempF": 74
    },
    "weather": {
     "kickoff": {
@@ -234,7 +234,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "7",
-    "tempF": 53
+    "tempF": 54
    },
    "weather": null,
    "wxNote": "indoor"
@@ -305,7 +305,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "1",
-    "tempF": 65
+    "tempF": 62
    },
    "weather": {
     "kickoff": {
@@ -574,8 +574,8 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "2",
-    "tempF": 77
+    "text": "1",
+    "tempF": 79
    },
    "weather": null,
    "wxNote": "indoor"
@@ -673,10 +673,10 @@
    "home": "ARI",
    "kickoffUtc": "2026-10-25T20:05Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DEN -4.5",
     "moneyline": {
      "away": -238,
@@ -744,14 +744,14 @@
    "home": "DET",
    "kickoffUtc": "2026-10-25T20:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DET -3.5",
     "moneyline": {
-     "away": 150,
-     "home": -180
+     "away": 160,
+     "home": -192
     },
     "moneylineOpen": {
      "away": 105,
@@ -760,8 +760,8 @@
     "spread": {
      "away": 3.5,
      "home": -3.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -110,
+     "homeOdds": -110
     },
     "spreadOpen": {
      "away": 1.5,
@@ -781,11 +781,11 @@
     }
    },
    "noVig": {
-    "away": 0.383562,
-    "home": 0.616438,
-    "hold": 0.042857,
-    "fairAway": 160.71,
-    "fairHome": -160.71
+    "away": 0.36906,
+    "home": 0.63094,
+    "hold": 0.04215,
+    "fairAway": 170.96,
+    "fairHome": -170.96
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -815,10 +815,10 @@
    "home": "LV",
    "kickoffUtc": "2026-10-25T20:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "LAR -3.5",
     "moneyline": {
      "away": -185,
@@ -886,10 +886,10 @@
    "home": "SEA",
    "kickoffUtc": "2026-10-26T00:20Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "SEA -3",
     "moneyline": {
      "away": 124,
@@ -951,22 +951,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-26T00:00",
-     "tempF": 52.1,
-     "windMph": 9.0,
-     "gustMph": 18.6,
+     "tempF": 51.5,
+     "windMph": 7.0,
+     "gustMph": 17.2,
      "precipIn": 0.0,
-     "precipProb": 21
+     "precipProb": 16
     },
     "game": {
-     "maxWindMph": 9.0,
-     "maxGustMph": 18.6,
-     "precipIn": 0.0,
-     "maxPrecipProb": 21
+     "maxWindMph": 7.0,
+     "maxGustMph": 17.2,
+     "precipIn": 0.028,
+     "maxPrecipProb": 16
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-25T15:04:15Z"
+    "t": "2026-10-25T18:04:24Z"
    },
    "wxNote": null
   },
@@ -1063,10 +1063,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-27T00:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DAL -4.5",
     "moneyline": {
      "away": -218,
@@ -1143,7 +1143,7 @@
     "src": "open-meteo",
     "lat": 39.95238,
     "lon": -75.16362,
-    "t": "2026-10-25T15:04:15Z"
+    "t": "2026-10-25T18:04:24Z"
    },
    "wxNote": null
   }
