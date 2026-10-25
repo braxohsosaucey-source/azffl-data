@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T21:50:18.161Z",
+ "_pulledUtc": "2026-10-25T22:22:16.210Z",
  "week": 7,
  "games": [
   {
@@ -11,22 +11,22 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "3:50 - 3rd",
+   "period": 3,
+   "clock": "3:50",
+   "clockSec": 230.0,
    "teams": [
     {
      "abbrev": "ARI",
      "id": 22,
      "home": true,
-     "score": 6
+     "score": 13
     },
     {
      "abbrev": "DEN",
      "id": 7,
      "home": false,
-     "score": 13
+     "score": 20
     }
    ]
   },
@@ -38,22 +38,22 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "6:33 - 3rd",
+   "period": 3,
+   "clock": "6:33",
+   "clockSec": 393.0,
    "teams": [
     {
      "abbrev": "DET",
      "id": 8,
      "home": true,
-     "score": 10
+     "score": 17
     },
     {
      "abbrev": "GB",
      "id": 9,
      "home": false,
-     "score": 7
+     "score": 14
     }
    ]
   },
@@ -65,16 +65,16 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "1:19 - 2nd",
-   "period": 2,
-   "clock": "1:19",
-   "clockSec": 79.0,
+   "detail": "9:57 - 3rd",
+   "period": 3,
+   "clock": "9:57",
+   "clockSec": 597.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 3
+     "score": 6
     },
     {
      "abbrev": "LAR",
@@ -82,7 +82,11 @@
      "home": false,
      "score": 28
     }
-   ]
+   ],
+   "sit": {
+    "poss": 13,
+    "rz": true
+   }
   },
   {
    "id": "401873011",
