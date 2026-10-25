@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-25T13:05:14Z",
+ "_pulledUtc": "2026-10-25T13:36:15Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -12,15 +12,15 @@
    "away": "PIT",
    "home": "NO",
    "kickoffUtc": "2026-10-25T13:30Z",
-   "state": "pre",
+   "state": "in",
    "book": "DraftKings",
    "lines": {
-    "src": "scoreboard",
+    "src": "core",
     "book": "DraftKings",
     "details": "PIT -3",
     "moneyline": {
-     "away": -155,
-     "home": 130
+     "away": -166,
+     "home": 140
     },
     "moneylineOpen": {
      "away": -135,
@@ -29,8 +29,8 @@
     "spread": {
      "away": -3.0,
      "home": 3.0,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "awayOdds": -118,
+     "homeOdds": -102
     },
     "spreadOpen": {
      "away": -2.5,
@@ -50,11 +50,11 @@
     }
    },
    "noVig": {
-    "away": 0.582993,
-    "home": 0.417007,
-    "hold": 0.042626,
-    "fairAway": -139.8,
-    "fairHome": 139.8
+    "away": 0.599639,
+    "home": 0.400361,
+    "hold": 0.040727,
+    "fairAway": -149.77,
+    "fairHome": 149.77
    },
    "noVigOpen": {
     "away": 0.551441,
@@ -106,8 +106,8 @@
     "book": "DraftKings",
     "details": "SF -2.5",
     "moneyline": {
-     "away": -142,
-     "home": 120
+     "away": -148,
+     "home": 124
     },
     "moneylineOpen": {
      "away": -218,
@@ -137,11 +137,11 @@
     }
    },
    "noVig": {
-    "away": 0.563492,
-    "home": 0.436508,
-    "hold": 0.041322,
-    "fairAway": -129.09,
-    "fairHome": 129.09
+    "away": 0.57206,
+    "home": 0.42794,
+    "hold": 0.043203,
+    "fairAway": -133.68,
+    "fairHome": 133.68
    },
    "noVigOpen": {
     "away": 0.657475,
@@ -392,7 +392,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 60
+    "tempF": 61
    },
    "weather": {
     "kickoff": {
@@ -661,8 +661,8 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Hazy sunshine",
-    "tempF": 78
+    "text": "Intermittent clouds",
+    "tempF": 77
    },
    "weather": null,
    "wxNote": "indoor"
@@ -750,8 +750,8 @@
     "book": "DraftKings",
     "details": "DET -3.5",
     "moneyline": {
-     "away": 154,
-     "home": -185
+     "away": 150,
+     "home": -180
     },
     "moneylineOpen": {
      "away": 105,
@@ -781,11 +781,11 @@
     }
    },
    "noVig": {
-    "away": 0.377533,
-    "home": 0.622467,
-    "hold": 0.042824,
-    "fairAway": 164.88,
-    "fairHome": -164.88
+    "away": 0.383562,
+    "home": 0.616438,
+    "hold": 0.042857,
+    "fairAway": 160.71,
+    "fairHome": -160.71
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -1148,7 +1148,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-25T12:34:09Z",
+ "injuriesUtc": "2026-10-25T13:36:10Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1757,6 +1757,18 @@
   ],
   "BAL": [
    {
+    "id": 3916387,
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-25T12:53Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-11-01",
+    "fantasy": "OUT"
+   },
+   {
     "id": 4690179,
     "name": "Tavius Robinson",
     "pos": "LB",
@@ -1779,18 +1791,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3916387,
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-24T19:35Z",
-    "body": "Ankle",
-    "side": "Left",
-    "returnDate": "2026-11-01",
-    "fantasy": "OUT"
    },
    {
     "id": 4361178,
@@ -2064,7 +2064,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-25T12:15Z",
+    "date": "2026-10-25T13:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2668,7 +2668,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-25T12:15Z",
+    "date": "2026-10-25T13:00Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -7797,6 +7797,42 @@
   ],
   "NO": [
    {
+    "id": 4426339,
+    "name": "Spencer Rattler",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-25T12:45Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4430684,
+    "name": "Treyton Welch",
+    "pos": "TE",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-25T12:35Z",
+    "body": "Coach's Decision",
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
+    "fantasy": "INACTIVE"
+   },
+   {
+    "id": 4076951,
+    "name": "Nathan Shepherd",
+    "pos": "DT",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-25T12:31Z",
+    "body": "Illness",
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
+    "fantasy": "INACTIVE"
+   },
+   {
     "id": 4258199,
     "name": "Cesar Ruiz",
     "pos": "G",
@@ -7848,30 +7884,6 @@
     "id": 4248047,
     "name": "John Ridgeway III",
     "pos": "DT",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-25T12:04Z",
-    "body": "Coach's Decision",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4076951,
-    "name": "Nathan Shepherd",
-    "pos": "DT",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-25T12:04Z",
-    "body": "Illness",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4430684,
-    "name": "Treyton Welch",
-    "pos": "TE",
     "status": "Out",
     "abbr": "O",
     "date": "2026-10-25T12:04Z",
@@ -8083,28 +8095,28 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
+   }
+  ],
+  "NYG": [
    {
-    "id": 2575788,
-    "name": "Zach Wood",
-    "pos": "LS",
+    "id": 4360516,
+    "name": "Tyrone Tracy Jr.",
+    "pos": "RB",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-10-18T16:32Z",
+    "date": "2026-10-25T13:09Z",
     "body": null,
     "side": null,
     "returnDate": null,
     "fantasy": null
-   }
-  ],
-  "NYG": [
+   },
    {
     "id": 3115303,
     "name": "Jermaine Eluemunor",
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-25T12:15Z",
+    "date": "2026-10-25T13:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8378,18 +8390,6 @@
     "id": 5144942,
     "name": "CJ Okoye",
     "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T17:10Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4243322,
-    "name": "Jake Haener",
-    "pos": "QB",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:10Z",
@@ -9005,6 +9005,18 @@
   ],
   "PIT": [
    {
+    "id": 3929846,
+    "name": "DeShon Elliott",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-25T12:43Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3116407,
     "name": "Mason Rudolph",
     "pos": "QB",
@@ -9036,8 +9048,8 @@
     "abbr": "O",
     "date": "2026-10-25T12:15Z",
     "body": "Coach's Decision",
-    "side": null,
-    "returnDate": null,
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
    },
    {
@@ -9048,8 +9060,8 @@
     "abbr": "O",
     "date": "2026-10-25T12:15Z",
     "body": "Coach's Decision",
-    "side": null,
-    "returnDate": null,
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
    },
    {
@@ -9060,8 +9072,8 @@
     "abbr": "O",
     "date": "2026-10-25T12:15Z",
     "body": "Coach's Decision",
-    "side": null,
-    "returnDate": null,
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
    },
    {
@@ -9072,8 +9084,8 @@
     "abbr": "O",
     "date": "2026-10-25T12:15Z",
     "body": "Coach's Decision",
-    "side": null,
-    "returnDate": null,
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
    },
    {
@@ -9087,18 +9099,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 3929846,
-    "name": "DeShon Elliott",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-25T12:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4038815,
