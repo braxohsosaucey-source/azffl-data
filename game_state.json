@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T15:08:16.566Z",
+ "_pulledUtc": "2026-10-25T15:40:17.116Z",
  "week": 7,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "3:56 - 3rd",
+   "period": 3,
+   "clock": "3:56",
+   "clockSec": 236.0,
    "teams": [
     {
      "abbrev": "NO",
@@ -28,7 +28,11 @@
      "home": false,
      "score": 13
     }
-   ]
+   ],
+   "sit": {
+    "poss": 23,
+    "rz": false
+   }
   },
   {
    "id": "401873017",
