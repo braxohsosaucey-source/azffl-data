@@ -1,29 +1,20 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T13:05:15.420Z",
+ "_pulledUtc": "2026-10-25T13:36:17.509Z",
  "week": 7,
  "games": [
   {
    "id": "401873011",
    "name": "PIT VS NO",
    "dateUtc": "2026-10-25T13:30Z",
-   "market": {
-    "total": 43.5,
-    "favorite": "PIT",
-    "spread": 3.0,
-    "implied": {
-     "NO": 20.25,
-     "PIT": 23.25
-    },
-    "provider": "DraftKings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/25 - 9:30 AM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "13:05 - 1st",
+   "period": 1,
+   "clock": "13:05",
+   "clockSec": 785.0,
    "teams": [
     {
      "abbrev": "NO",
@@ -37,7 +28,11 @@
      "home": false,
      "score": 0
     }
-   ]
+   ],
+   "sit": {
+    "poss": 23,
+    "rz": true
+   }
   },
   {
    "id": "401873017",
