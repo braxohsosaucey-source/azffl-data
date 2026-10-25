@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-25T15:08:14Z",
+ "_pulledUtc": "2026-10-25T15:40:15Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -160,7 +160,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 67
+    "tempF": 66
    },
    "weather": null,
    "wxNote": "indoor"
@@ -177,8 +177,8 @@
     "book": "DraftKings",
     "details": "CLE -2.5",
     "moneyline": {
-     "away": -130,
-     "home": 110
+     "away": -135,
+     "home": 114
     },
     "moneylineOpen": {
      "away": 120,
@@ -208,11 +208,11 @@
     }
    },
    "noVig": {
-    "away": 0.542744,
-    "home": 0.457256,
-    "hold": 0.041408,
-    "fairAway": -118.7,
-    "fairHome": 118.7
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
    },
    "noVigOpen": {
     "away": 0.436508,
@@ -231,7 +231,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly sunny",
-    "tempF": 67
+    "tempF": 72
    },
    "weather": {
     "kickoff": {
@@ -348,8 +348,8 @@
     "spread": {
      "away": 3.5,
      "home": -3.5,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "awayOdds": 100,
+     "homeOdds": -120
     },
     "spreadOpen": {
      "away": 2.5,
@@ -392,7 +392,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Sunny",
-    "tempF": 61
+    "tempF": 62
    },
    "weather": {
     "kickoff": {
@@ -518,8 +518,8 @@
     "book": "DraftKings",
     "details": "CIN -3",
     "moneyline": {
-     "away": -148,
-     "home": 124
+     "away": -155,
+     "home": 130
     },
     "moneylineOpen": {
      "away": 160,
@@ -549,11 +549,11 @@
     }
    },
    "noVig": {
-    "away": 0.57206,
-    "home": 0.42794,
-    "hold": 0.043203,
-    "fairAway": -133.68,
-    "fairHome": 133.68
+    "away": 0.582993,
+    "home": 0.417007,
+    "hold": 0.042626,
+    "fairAway": -139.8,
+    "fairHome": 139.8
    },
    "noVigOpen": {
     "away": 0.36906,
@@ -618,8 +618,8 @@
     "spread": {
      "away": 10.5,
      "home": -10.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -115,
+     "homeOdds": -105
     },
     "spreadOpen": {
      "away": 5.5,
@@ -629,8 +629,8 @@
     },
     "total": {
      "line": 42.5,
-     "over": -112,
-     "under": -108
+     "over": -115,
+     "under": -105
     },
     "totalOpen": {
      "line": 43.5,
@@ -803,7 +803,7 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "Cloudy",
+    "text": "Partly sunny",
     "tempF": 67
    },
    "weather": null,
@@ -1148,7 +1148,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-25T14:38:12Z",
+ "injuriesUtc": "2026-10-25T15:40:14Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1757,16 +1757,28 @@
   ],
   "BAL": [
    {
+    "id": 3858276,
+    "name": "Jaylinn Hawkins",
+    "pos": "S",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-25T15:31Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "INACTIVE"
+   },
+   {
     "id": 3916387,
     "name": "Lamar Jackson",
     "pos": "QB",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-25T12:53Z",
+    "date": "2026-10-25T15:31Z",
     "body": "Ankle",
     "side": "Left",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4690179,
@@ -1817,28 +1829,16 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 3858276,
-    "name": "Jaylinn Hawkins",
-    "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-23T22:51Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "OUT"
-   },
-   {
     "id": 4243220,
     "name": "Andrew Vorhees",
     "pos": "G",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-23T01:37Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
-    "returnDate": null,
-    "fantasy": null
+    "returnDate": "2026-11-01",
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4432260,
@@ -1979,10 +1979,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:22Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4870847,
@@ -2064,7 +2064,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-25T14:06Z",
+    "date": "2026-10-25T15:29Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2487,10 +2487,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:27Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4428993,
@@ -2499,10 +2499,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:27Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4431588,
@@ -2511,10 +2511,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:27Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4695883,
@@ -2668,7 +2668,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-25T14:06Z",
+    "date": "2026-10-25T15:26Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -3360,7 +3360,7 @@
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 3110565,
@@ -3369,10 +3369,10 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-23T23:30Z",
-    "body": "Neck",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4243541,
@@ -4475,6 +4475,18 @@
   ],
   "GB": [
    {
+    "id": 4047365,
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-25T15:24Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4240677,
     "name": "Jordon Riley",
     "pos": "DT",
@@ -4485,18 +4497,6 @@
     "side": "Not Specified",
     "returnDate": "2026-10-25",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4047365,
-    "name": "Josh Jacobs",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-24T20:09Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4578436,
@@ -4798,7 +4798,7 @@
     "body": "Thumb",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4241223,
@@ -4822,7 +4822,7 @@
     "body": "Concussion",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4362504,
@@ -4882,7 +4882,7 @@
     "body": "Groin",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4426350,
@@ -4999,10 +4999,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:40Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4880873,
@@ -5011,10 +5011,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:40Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4699802,
@@ -5035,10 +5035,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:40Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 3121595,
@@ -5148,7 +5148,7 @@
     "body": "Calf",
     "side": "Left",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4431459,
@@ -6924,7 +6924,7 @@
     "body": "Quadriceps",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4682745,
@@ -6948,7 +6948,7 @@
     "body": "Hamstring",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "DOUBTFUL"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4034729,
@@ -6996,7 +6996,7 @@
     "body": "Illness",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4819257,
@@ -7797,16 +7797,28 @@
   ],
   "NO": [
    {
+    "id": 3931399,
+    "name": "Justin Reid",
+    "pos": "S",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-25T15:26Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 5081999,
     "name": "CJ Donaldson",
     "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T14:09Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-25T15:19Z",
     "body": "Shoulder",
-    "side": null,
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
+    "fantasy": "OUT"
    },
    {
     "id": 4426339,
@@ -8083,18 +8095,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4361370,
-    "name": "Chris Olave",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T00:26Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "NYG": [
@@ -8104,7 +8104,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-25T14:06Z",
+    "date": "2026-10-25T15:29Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
@@ -8192,7 +8192,7 @@
     "body": "Concussion",
     "side": "Not Specified",
     "returnDate": "2026-11-08",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4259566,
@@ -8300,7 +8300,7 @@
     "body": "Knee",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4433970,
@@ -8470,7 +8470,7 @@
     "body": "Knee",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4362094,
@@ -8482,7 +8482,7 @@
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4597500,
@@ -8623,10 +8623,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:12Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 15864,
@@ -9956,7 +9956,7 @@
     "body": "Ribs",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
-    "fantasy": "OUT"
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4608810,
@@ -10255,10 +10255,10 @@
     "status": "Questionable",
     "abbr": "Q",
     "date": "2026-10-24T01:46Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4685617,
@@ -10281,8 +10281,8 @@
     "date": "2026-10-23T21:31Z",
     "body": "Knee",
     "side": "Not Specified",
-    "returnDate": "2026-10-25",
-    "fantasy": "QUESTIONABLE"
+    "returnDate": "2026-11-01",
+    "fantasy": "INACTIVE"
    },
    {
     "id": 3925357,
@@ -10375,10 +10375,10 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:18Z",
-    "body": null,
+    "body": "Coach's Decision",
     "side": null,
     "returnDate": null,
-    "fantasy": null
+    "fantasy": "INACTIVE"
    },
    {
     "id": 4685555,
