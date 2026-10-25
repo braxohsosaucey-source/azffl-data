@@ -1,35 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T03:43:16.245Z",
+ "_pulledUtc": "2026-10-25T04:25:16.845Z",
  "week": 7,
  "games": [
-  {
-   "id": "401873010",
-   "name": "NE @ CHI",
-   "dateUtc": "2026-10-23T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CHI",
-     "id": 3,
-     "home": true,
-     "score": 30
-    },
-    {
-     "abbrev": "NE",
-     "id": 17,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
   {
    "id": "401873011",
    "name": "PIT VS NO",
@@ -42,7 +15,7 @@
      "NO": 20.25,
      "PIT": 23.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -78,7 +51,7 @@
      "ATL": 24.0,
      "SF": 26.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -114,7 +87,7 @@
      "TEN": 17.0,
      "CLE": 19.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -150,7 +123,7 @@
      "MIN": 24.0,
      "IND": 17.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -186,7 +159,7 @@
      "NYJ": 22.0,
      "MIA": 17.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -222,7 +195,7 @@
      "CAR": 23.75,
      "TB": 20.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -258,7 +231,7 @@
      "BAL": 21.75,
      "CIN": 24.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -294,7 +267,7 @@
      "HOU": 26.25,
      "NYG": 16.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -330,7 +303,7 @@
      "ARI": 19.5,
      "DEN": 24.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -359,14 +332,14 @@
    "name": "GB @ DET",
    "dateUtc": "2026-10-25T20:25Z",
    "market": {
-    "total": 54.5,
+    "total": 55.5,
     "favorite": "DET",
     "spread": 3.5,
     "implied": {
-     "DET": 29.0,
-     "GB": 25.5
+     "DET": 29.5,
+     "GB": 26.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -402,7 +375,7 @@
      "LV": 22.75,
      "LAR": 25.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -438,7 +411,7 @@
      "SEA": 22.75,
      "KC": 19.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -463,6 +436,33 @@
    ]
   },
   {
+   "id": "401873010",
+   "name": "NE @ CHI",
+   "dateUtc": "2026-10-23T00:15Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "CHI",
+     "id": 3,
+     "home": true,
+     "score": 30
+    },
+    {
+     "abbrev": "NE",
+     "id": 17,
+     "home": false,
+     "score": 24
+    }
+   ]
+  },
+  {
    "id": "401873009",
    "name": "DAL @ PHI",
    "dateUtc": "2026-10-27T00:15Z",
@@ -474,7 +474,7 @@
      "PHI": 19.5,
      "DAL": 24.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
