@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T19:16:16.539Z",
+ "_pulledUtc": "2026-10-25T19:48:18.528Z",
  "week": 7,
  "games": [
   {
@@ -11,10 +11,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "13:35 - 4th",
+   "detail": "5:05 - 4th",
    "period": 4,
-   "clock": "13:35",
-   "clockSec": 815.0,
+   "clock": "5:05",
+   "clockSec": 305.0,
    "teams": [
     {
      "abbrev": "ATL",
@@ -26,13 +26,9 @@
      "abbrev": "SF",
      "id": 25,
      "home": false,
-     "score": 14
+     "score": 20
     }
-   ],
-   "sit": {
-    "poss": 25,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873013",
@@ -42,16 +38,16 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "5:08 - 3rd",
-   "period": 3,
-   "clock": "5:08",
-   "clockSec": 308.0,
+   "detail": "4:39 - 4th",
+   "period": 4,
+   "clock": "4:39",
+   "clockSec": 279.0,
    "teams": [
     {
      "abbrev": "TEN",
      "id": 10,
      "home": true,
-     "score": 14
+     "score": 17
     },
     {
      "abbrev": "CLE",
@@ -61,8 +57,8 @@
     }
    ],
    "sit": {
-    "poss": 10,
-    "rz": false
+    "poss": 5,
+    "rz": true
    }
   },
   {
@@ -71,18 +67,18 @@
    "dateUtc": "2026-10-25T17:00Z",
    "market": null,
    "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "12:22 - 4th",
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
    "period": 4,
-   "clock": "12:22",
-   "clockSec": 742.0,
+   "clock": "0:00",
+   "clockSec": 0.0,
    "teams": [
     {
      "abbrev": "MIN",
      "id": 16,
      "home": true,
-     "score": 13
+     "score": 16
     },
     {
      "abbrev": "IND",
@@ -90,11 +86,7 @@
      "home": false,
      "score": 10
     }
-   ],
-   "sit": {
-    "poss": 16,
-    "rz": false
-   }
+   ]
   },
   {
    "id": "401873015",
@@ -104,27 +96,27 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "11:25 - 4th",
+   "detail": "3:24 - 4th",
    "period": 4,
-   "clock": "11:25",
-   "clockSec": 685.0,
+   "clock": "3:24",
+   "clockSec": 204.0,
    "teams": [
     {
      "abbrev": "NYJ",
      "id": 20,
      "home": true,
-     "score": 14
+     "score": 25
     },
     {
      "abbrev": "MIA",
      "id": 15,
      "home": false,
-     "score": 21
+     "score": 28
     }
    ],
    "sit": {
     "poss": 20,
-    "rz": true
+    "rz": false
    }
   },
   {
@@ -135,22 +127,22 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "15:00 - 4th",
+   "detail": "1:12 - 4th",
    "period": 4,
-   "clock": "15:00",
-   "clockSec": 900.0,
+   "clock": "1:12",
+   "clockSec": 72.0,
    "teams": [
     {
      "abbrev": "CAR",
      "id": 29,
      "home": true,
-     "score": 6
+     "score": 13
     },
     {
      "abbrev": "TB",
      "id": 27,
      "home": false,
-     "score": 36
+     "score": 43
     }
    ],
    "sit": {
@@ -166,10 +158,10 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "13:10 - 4th",
+   "detail": "4:39 - 4th",
    "period": 4,
-   "clock": "13:10",
-   "clockSec": 790.0,
+   "clock": "4:39",
+   "clockSec": 279.0,
    "teams": [
     {
      "abbrev": "BAL",
@@ -181,7 +173,7 @@
      "abbrev": "CIN",
      "id": 4,
      "home": false,
-     "score": 14
+     "score": 35
     }
    ],
    "sit": {
@@ -197,10 +189,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "4:18 - 3rd",
-   "period": 3,
-   "clock": "4:18",
-   "clockSec": 258.0,
+   "detail": "7:38 - 4th",
+   "period": 4,
+   "clock": "7:38",
+   "clockSec": 458.0,
    "teams": [
     {
      "abbrev": "HOU",
@@ -212,7 +204,7 @@
      "abbrev": "NYG",
      "id": 19,
      "home": false,
-     "score": 14
+     "score": 21
     }
    ],
    "sit": {
@@ -252,12 +244,12 @@
    "name": "DEN @ ARI",
    "dateUtc": "2026-10-25T20:05Z",
    "market": {
-    "total": 43.5,
+    "total": 44.5,
     "favorite": "DEN",
     "spread": 4.5,
     "implied": {
-     "ARI": 19.5,
-     "DEN": 24.0
+     "ARI": 20.0,
+     "DEN": 24.5
     },
     "provider": "DraftKings"
    },
