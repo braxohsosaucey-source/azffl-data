@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-25T22:54:15Z",
+ "_pulledUtc": "2026-10-25T23:26:13Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -143,8 +143,8 @@
    },
    "indoor": true,
    "espnWeather": {
-    "text": "38",
-    "tempF": 61
+    "text": "7",
+    "tempF": 60
    },
    "weather": null,
    "wxNote": "indoor"
@@ -215,7 +215,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "1",
-    "tempF": 72
+    "tempF": 73
    },
    "weather": null,
    "wxNote": "indoor"
@@ -385,18 +385,18 @@
    "lines": {
     "src": "core",
     "book": "Draft Kings",
-    "details": "CLE -1.5",
+    "details": "CLE -2.5",
     "moneyline": {
-     "away": -130,
-     "home": 110
+     "away": -135,
+     "home": 114
     },
     "moneylineOpen": {
      "away": 120,
      "home": -142
     },
     "spread": {
-     "away": -1.5,
-     "home": 1.5,
+     "away": -2.5,
+     "home": 2.5,
      "awayOdds": -110,
      "homeOdds": -110
     },
@@ -407,9 +407,9 @@
      "homeOdds": -115
     },
     "total": {
-     "line": 36.5,
-     "over": -118,
-     "under": -102
+     "line": 37.5,
+     "over": -110,
+     "under": -110
     },
     "totalOpen": {
      "line": 40.5,
@@ -418,11 +418,11 @@
     }
    },
    "noVig": {
-    "away": 0.542744,
-    "home": 0.457256,
-    "hold": 0.041408,
-    "fairAway": -118.7,
-    "fairHome": 118.7
+    "away": 0.551441,
+    "home": 0.448559,
+    "hold": 0.041758,
+    "fairAway": -122.94,
+    "fairHome": 122.94
    },
    "noVigOpen": {
     "away": 0.436508,
@@ -629,8 +629,8 @@
     "book": "Draft Kings",
     "details": "CAR -3",
     "moneyline": {
-     "away": 140,
-     "home": -166
+     "away": 142,
+     "home": -170
     },
     "moneylineOpen": {
      "away": -118,
@@ -639,8 +639,8 @@
     "spread": {
      "away": 3.0,
      "home": -3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": -1.5,
@@ -660,11 +660,11 @@
     }
    },
    "noVig": {
-    "away": 0.400361,
-    "home": 0.599639,
-    "hold": 0.040727,
-    "fairAway": 149.77,
-    "fairHome": -149.77
+    "away": 0.396243,
+    "home": 0.603757,
+    "hold": 0.042853,
+    "fairAway": 152.37,
+    "fairHome": -152.37
    },
    "noVigOpen": {
     "away": 0.517364,
@@ -924,7 +924,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Cloudy",
+    "text": "Showers",
     "tempF": 56
    },
    "weather": {
