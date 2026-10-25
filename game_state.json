@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T14:06:17.678Z",
+ "_pulledUtc": "2026-10-25T14:38:15.964Z",
  "week": 7,
  "games": [
   {
@@ -11,27 +11,27 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "13:33 - 2nd",
+   "detail": "3:36 - 2nd",
    "period": 2,
-   "clock": "13:33",
-   "clockSec": 813.0,
+   "clock": "3:36",
+   "clockSec": 216.0,
    "teams": [
     {
      "abbrev": "NO",
      "id": 18,
      "home": true,
-     "score": 0
+     "score": 3
     },
     {
      "abbrev": "PIT",
      "id": 23,
      "home": false,
-     "score": 3
+     "score": 10
     }
    ],
    "sit": {
-    "poss": 23,
-    "rz": false
+    "poss": 18,
+    "rz": true
    }
   },
   {
@@ -46,7 +46,7 @@
      "ATL": 24.0,
      "SF": 26.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -82,7 +82,7 @@
      "TEN": 17.0,
      "CLE": 19.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -113,12 +113,12 @@
    "market": {
     "total": 41.5,
     "favorite": "MIN",
-    "spread": 6.5,
+    "spread": 7.0,
     "implied": {
-     "MIN": 24.0,
-     "IND": 17.5
+     "MIN": 24.25,
+     "IND": 17.25
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -154,7 +154,7 @@
      "NYJ": 21.5,
      "MIA": 18.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -190,7 +190,7 @@
      "CAR": 23.75,
      "TB": 20.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -226,7 +226,7 @@
      "BAL": 21.75,
      "CIN": 24.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -262,7 +262,7 @@
      "HOU": 26.5,
      "NYG": 16.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -298,7 +298,7 @@
      "ARI": 19.0,
      "DEN": 23.5
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -334,7 +334,7 @@
      "DET": 29.5,
      "GB": 26.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -370,7 +370,7 @@
      "LV": 22.5,
      "LAR": 26.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": true,
    "state": "pre",
@@ -406,7 +406,7 @@
      "SEA": 22.75,
      "KC": 19.75
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
@@ -469,7 +469,7 @@
      "PHI": 19.5,
      "DAL": 24.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
