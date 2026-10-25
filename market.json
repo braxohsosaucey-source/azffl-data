@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-25T05:50:13Z",
+ "_pulledUtc": "2026-10-25T07:01:14Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -175,7 +175,7 @@
    "lines": {
     "src": "scoreboard",
     "book": "DraftKings",
-    "details": "CLE -2.5",
+    "details": "CLE -1.5",
     "moneyline": {
      "away": -130,
      "home": 110
@@ -185,10 +185,10 @@
      "home": -142
     },
     "spread": {
-     "away": -2.5,
-     "home": 2.5,
-     "awayOdds": -108,
-     "homeOdds": -112
+     "away": -1.5,
+     "home": 1.5,
+     "awayOdds": -110,
+     "homeOdds": -110
     },
     "spreadOpen": {
      "away": 2.5,
@@ -277,8 +277,8 @@
     "spread": {
      "away": 6.5,
      "home": -6.5,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 3.0,
@@ -338,8 +338,8 @@
     "book": "DraftKings",
     "details": "NYJ -4.5",
     "moneyline": {
-     "away": 180,
-     "home": -218
+     "away": 185,
+     "home": -225
     },
     "moneylineOpen": {
      "away": 120,
@@ -369,11 +369,11 @@
     }
    },
    "noVig": {
-    "away": 0.342525,
-    "home": 0.657475,
-    "hold": 0.042677,
-    "fairAway": 191.95,
-    "fairHome": -191.95
+    "away": 0.336352,
+    "home": 0.663648,
+    "hold": 0.043185,
+    "fairAway": 197.31,
+    "fairHome": -197.31
    },
    "noVigOpen": {
     "away": 0.436508,
@@ -1148,7 +1148,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-25T05:08:11Z",
+ "injuriesUtc": "2026-10-25T07:01:09Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2064,7 +2064,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-25T04:00Z",
+    "date": "2026-10-25T06:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2666,9 +2666,9 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-25T04:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-25T06:00Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -8104,7 +8104,7 @@
     "pos": "OT",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-25T04:00Z",
+    "date": "2026-10-25T06:00Z",
     "body": "Calf",
     "side": "Not Specified",
     "returnDate": "2026-10-25",
