@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T22:54:16.963Z",
+ "_pulledUtc": "2026-10-25T23:26:15.082Z",
  "week": 7,
  "games": [
   {
@@ -11,16 +11,16 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "8:39 - 4th",
+   "detail": "0:59 - 4th",
    "period": 4,
-   "clock": "8:39",
-   "clockSec": 519.0,
+   "clock": "0:59",
+   "clockSec": 59.0,
    "teams": [
     {
      "abbrev": "ARI",
      "id": 22,
      "home": true,
-     "score": 13
+     "score": 16
     },
     {
      "abbrev": "DEN",
@@ -28,7 +28,11 @@
      "home": false,
      "score": 30
     }
-   ]
+   ],
+   "sit": {
+    "poss": 22,
+    "rz": true
+   }
   },
   {
    "id": "401873020",
@@ -38,10 +42,10 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "13:22 - 4th",
+   "detail": "1:54 - 4th",
    "period": 4,
-   "clock": "13:22",
-   "clockSec": 802.0,
+   "clock": "1:54",
+   "clockSec": 114.0,
    "teams": [
     {
      "abbrev": "DET",
@@ -53,12 +57,12 @@
      "abbrev": "GB",
      "id": 9,
      "home": false,
-     "score": 14
+     "score": 17
     }
    ],
    "sit": {
-    "poss": 9,
-    "rz": false
+    "poss": 8,
+    "rz": true
    }
   },
   {
@@ -69,26 +73,26 @@
    "indoor": true,
    "state": "in",
    "completed": false,
-   "detail": "14:51 - 4th",
+   "detail": "4:03 - 4th",
    "period": 4,
-   "clock": "14:51",
-   "clockSec": 891.0,
+   "clock": "4:03",
+   "clockSec": 243.0,
    "teams": [
     {
      "abbrev": "LV",
      "id": 13,
      "home": true,
-     "score": 12
+     "score": 21
     },
     {
      "abbrev": "LAR",
      "id": 14,
      "home": false,
-     "score": 28
+     "score": 35
     }
    ],
    "sit": {
-    "poss": 13,
+    "poss": 14,
     "rz": false
    }
   },
