@@ -1,8 +1,39 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-26T00:05:21.372Z",
+ "_pulledUtc": "2026-10-26T00:36:16.044Z",
  "week": 7,
  "games": [
+  {
+   "id": "401873022",
+   "name": "KC @ SEA",
+   "dateUtc": "2026-10-26T00:20Z",
+   "market": null,
+   "indoor": false,
+   "state": "in",
+   "completed": false,
+   "detail": "8:02 - 1st",
+   "period": 1,
+   "clock": "8:02",
+   "clockSec": 482.0,
+   "teams": [
+    {
+     "abbrev": "SEA",
+     "id": 26,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "KC",
+     "id": 12,
+     "home": false,
+     "score": 0
+    }
+   ],
+   "sit": {
+    "poss": 26,
+    "rz": false
+   }
+  },
   {
    "id": "401873011",
    "name": "PIT VS NO",
@@ -301,42 +332,6 @@
    ]
   },
   {
-   "id": "401873022",
-   "name": "KC @ SEA",
-   "dateUtc": "2026-10-26T00:20Z",
-   "market": {
-    "total": 43.5,
-    "favorite": "SEA",
-    "spread": 3.0,
-    "implied": {
-     "SEA": 23.25,
-     "KC": 20.25
-    },
-    "provider": "Draft Kings"
-   },
-   "indoor": false,
-   "state": "pre",
-   "completed": false,
-   "detail": "10/25 - 8:20 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "SEA",
-     "id": 26,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "KC",
-     "id": 12,
-     "home": false,
-     "score": 0
-    }
-   ]
-  },
-  {
    "id": "401873010",
    "name": "NE @ CHI",
    "dateUtc": "2026-10-23T00:15Z",
@@ -375,7 +370,7 @@
      "PHI": 19.5,
      "DAL": 24.0
     },
-    "provider": "Draft Kings"
+    "provider": "DraftKings"
    },
    "indoor": false,
    "state": "pre",
