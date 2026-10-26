@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-26T14:05:18Z",
+ "_pulledUtc": "2026-10-26T14:41:16Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -1115,7 +1115,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-26T13:38:08Z",
+ "injuriesUtc": "2026-10-26T14:41:17Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2031,7 +2031,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-26T13:01Z",
+    "date": "2026-10-26T14:20Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2633,13 +2633,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-26T13:01Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-26T14:20Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4361093,
@@ -4442,6 +4442,30 @@
   ],
   "GB": [
    {
+    "id": 3124005,
+    "name": "Zaire Franklin",
+    "pos": "LB",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-26T14:20Z",
+    "body": "Shin",
+    "side": "Not Specified",
+    "returnDate": "2026-10-29",
+    "fantasy": "DOUBTFUL"
+   },
+   {
+    "id": 4426411,
+    "name": "Sean Rhyan",
+    "pos": "G",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-26T13:51Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-10-29",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 4429023,
     "name": "MarShawn Lloyd",
     "pos": "RB",
@@ -4526,28 +4550,16 @@
     "fantasy": null
    },
    {
-    "id": 4426411,
-    "name": "Sean Rhyan",
-    "pos": "G",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T22:11Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-10-29",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4428037,
     "name": "Jacob Monk",
     "pos": "C",
-    "status": "Questionable",
-    "abbr": "Q",
+    "status": "Doubtful",
+    "abbr": "D",
     "date": "2026-10-25T20:50Z",
     "body": "Quadriceps",
     "side": "Not Specified",
     "returnDate": "2026-10-29",
-    "fantasy": "QUESTIONABLE"
+    "fantasy": "DOUBTFUL"
    },
    {
     "id": 4242390,
@@ -4617,18 +4629,6 @@
     "abbr": "O",
     "date": "2026-10-25T18:58Z",
     "body": "Coach's Decision",
-    "side": "Not Specified",
-    "returnDate": "2026-10-29",
-    "fantasy": "INACTIVE"
-   },
-   {
-    "id": 3124005,
-    "name": "Zaire Franklin",
-    "pos": "LB",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-25T18:58Z",
-    "body": "Shin",
     "side": "Not Specified",
     "returnDate": "2026-10-29",
     "fantasy": "INACTIVE"
@@ -8066,6 +8066,18 @@
   ],
   "NYG": [
    {
+    "id": 4696981,
+    "name": "Cam Skattebo",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T14:09Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4361050,
     "name": "Isaiah Likely",
     "pos": "TE",
@@ -8136,18 +8148,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4696981,
-    "name": "Cam Skattebo",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T21:16Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-11-08",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4360516,
@@ -10180,6 +10180,18 @@
   ],
   "TEN": [
    {
+    "id": 3915398,
+    "name": "Tommy Townsend",
+    "pos": "P",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T13:35Z",
+    "body": "Knee",
+    "side": "Left",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4569587,
     "name": "Wan'Dale Robinson",
     "pos": "WR",
@@ -10250,18 +10262,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3915398,
-    "name": "Tommy Townsend",
-    "pos": "P",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T19:01Z",
-    "body": "Knee",
-    "side": "Left",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4685555,
