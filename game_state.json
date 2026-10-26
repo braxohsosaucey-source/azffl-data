@@ -1,101 +1,8 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-25T23:26:15.082Z",
+ "_pulledUtc": "2026-10-26T00:05:21.372Z",
  "week": 7,
  "games": [
-  {
-   "id": "401873019",
-   "name": "DEN @ ARI",
-   "dateUtc": "2026-10-25T20:05Z",
-   "market": null,
-   "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "0:59 - 4th",
-   "period": 4,
-   "clock": "0:59",
-   "clockSec": 59.0,
-   "teams": [
-    {
-     "abbrev": "ARI",
-     "id": 22,
-     "home": true,
-     "score": 16
-    },
-    {
-     "abbrev": "DEN",
-     "id": 7,
-     "home": false,
-     "score": 30
-    }
-   ],
-   "sit": {
-    "poss": 22,
-    "rz": true
-   }
-  },
-  {
-   "id": "401873020",
-   "name": "GB @ DET",
-   "dateUtc": "2026-10-25T20:25Z",
-   "market": null,
-   "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "1:54 - 4th",
-   "period": 4,
-   "clock": "1:54",
-   "clockSec": 114.0,
-   "teams": [
-    {
-     "abbrev": "DET",
-     "id": 8,
-     "home": true,
-     "score": 17
-    },
-    {
-     "abbrev": "GB",
-     "id": 9,
-     "home": false,
-     "score": 17
-    }
-   ],
-   "sit": {
-    "poss": 8,
-    "rz": true
-   }
-  },
-  {
-   "id": "401873021",
-   "name": "LAR @ LV",
-   "dateUtc": "2026-10-25T20:25Z",
-   "market": null,
-   "indoor": true,
-   "state": "in",
-   "completed": false,
-   "detail": "4:03 - 4th",
-   "period": 4,
-   "clock": "4:03",
-   "clockSec": 243.0,
-   "teams": [
-    {
-     "abbrev": "LV",
-     "id": 13,
-     "home": true,
-     "score": 21
-    },
-    {
-     "abbrev": "LAR",
-     "id": 14,
-     "home": false,
-     "score": 35
-    }
-   ],
-   "sit": {
-    "poss": 14,
-    "rz": false
-   }
-  },
   {
    "id": "401873011",
    "name": "PIT VS NO",
@@ -313,6 +220,87 @@
    ]
   },
   {
+   "id": "401873019",
+   "name": "DEN @ ARI",
+   "dateUtc": "2026-10-25T20:05Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "ARI",
+     "id": 22,
+     "home": true,
+     "score": 16
+    },
+    {
+     "abbrev": "DEN",
+     "id": 7,
+     "home": false,
+     "score": 30
+    }
+   ]
+  },
+  {
+   "id": "401873020",
+   "name": "GB @ DET",
+   "dateUtc": "2026-10-25T20:25Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "DET",
+     "id": 8,
+     "home": true,
+     "score": 20
+    },
+    {
+     "abbrev": "GB",
+     "id": 9,
+     "home": false,
+     "score": 17
+    }
+   ]
+  },
+  {
+   "id": "401873021",
+   "name": "LAR @ LV",
+   "dateUtc": "2026-10-25T20:25Z",
+   "market": null,
+   "indoor": true,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "LV",
+     "id": 13,
+     "home": true,
+     "score": 21
+    },
+    {
+     "abbrev": "LAR",
+     "id": 14,
+     "home": false,
+     "score": 35
+    }
+   ]
+  },
+  {
    "id": "401873022",
    "name": "KC @ SEA",
    "dateUtc": "2026-10-26T00:20Z",
@@ -324,7 +312,7 @@
      "SEA": 23.25,
      "KC": 20.25
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
@@ -387,7 +375,7 @@
      "PHI": 19.5,
      "DAL": 24.0
     },
-    "provider": "DraftKings"
+    "provider": "Draft Kings"
    },
    "indoor": false,
    "state": "pre",
