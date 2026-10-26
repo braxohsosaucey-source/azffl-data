@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-26T15:18:18Z",
+ "_pulledUtc": "2026-10-26T16:20:18Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -39,9 +39,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 43.5,
-     "over": -112,
-     "under": -108
+     "line": 44.5,
+     "over": -102,
+     "under": -118
     },
     "totalOpen": {
      "line": 48.5,
@@ -1115,7 +1115,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-26T14:41:17Z",
+ "injuriesUtc": "2026-10-26T16:20:18Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2031,7 +2031,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-26T14:20Z",
+    "date": "2026-10-26T16:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2635,7 +2635,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-26T14:20Z",
+    "date": "2026-10-26T16:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -7160,6 +7160,18 @@
   ],
   "MIN": [
    {
+    "id": 3042519,
+    "name": "Aaron Jones Sr.",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T15:15Z",
+    "body": "Knee",
+    "side": "Left",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3886598,
     "name": "Jauan Jennings",
     "pos": "WR",
@@ -7242,18 +7254,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3042519,
-    "name": "Aaron Jones Sr.",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T20:33Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4430656,
@@ -7461,6 +7461,18 @@
    }
   ],
   "NE": [
+   {
+    "id": 4240545,
+    "name": "Bryce Baringer",
+    "pos": "P",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T14:56Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4241720,
     "name": "Marcus Jones",
@@ -7748,18 +7760,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4565293,
-    "name": "Marcus Bryant",
-    "pos": "OT",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-21T00:30Z",
-    "body": "Ankle",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "IR-R"
    }
   ],
   "NO": [
@@ -8066,6 +8066,18 @@
   ],
   "NYG": [
    {
+    "id": 4360516,
+    "name": "Tyrone Tracy Jr.",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T15:12Z",
+    "body": "Hamstring",
+    "side": "Left",
+    "returnDate": "2026-11-08",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4696981,
     "name": "Cam Skattebo",
     "pos": "RB",
@@ -8148,18 +8160,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4360516,
-    "name": "Tyrone Tracy Jr.",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T18:21Z",
-    "body": "Hamstring",
-    "side": "Left",
-    "returnDate": "2026-11-08",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4243322,
