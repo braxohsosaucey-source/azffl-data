@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-26T13:28:17Z",
+ "_pulledUtc": "2026-10-26T14:05:18Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -13,10 +13,10 @@
    "home": "PHI",
    "kickoffUtc": "2026-10-27T00:15Z",
    "state": "pre",
-   "book": "DraftKings",
+   "book": "Draft Kings",
    "lines": {
     "src": "scoreboard",
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "details": "DAL -4.5",
     "moneyline": {
      "away": -205,
@@ -1115,7 +1115,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-26T12:34:12Z",
+ "injuriesUtc": "2026-10-26T13:38:08Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2031,7 +2031,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-26T12:01Z",
+    "date": "2026-10-26T13:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2635,7 +2635,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-26T12:01Z",
+    "date": "2026-10-26T13:01Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8670,6 +8670,18 @@
   ],
   "PHI": [
    {
+    "id": 3929630,
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T13:22Z",
+    "body": "Hamstring",
+    "side": "Right",
+    "returnDate": "2026-10-26",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4582836,
     "name": "Willie Lampkin",
     "pos": "C",
@@ -8800,18 +8812,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "OUT"
-   },
-   {
-    "id": 3929630,
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-24T19:58Z",
-    "body": "Hamstring",
-    "side": "Right",
-    "returnDate": "2026-10-26",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 3121023,
