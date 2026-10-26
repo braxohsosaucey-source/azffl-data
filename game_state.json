@@ -1,8 +1,71 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-26T03:45:16.512Z",
+ "_pulledUtc": "2026-10-26T04:21:16.542Z",
  "week": 7,
  "games": [
+  {
+   "id": "401873009",
+   "name": "DAL @ PHI",
+   "dateUtc": "2026-10-27T00:15Z",
+   "market": {
+    "total": 43.5,
+    "favorite": "DAL",
+    "spread": 4.5,
+    "implied": {
+     "PHI": 19.5,
+     "DAL": 24.0
+    },
+    "provider": "Draft Kings"
+   },
+   "indoor": false,
+   "state": "pre",
+   "completed": false,
+   "detail": "10/26 - 8:15 PM EDT",
+   "period": 0,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "PHI",
+     "id": 21,
+     "home": true,
+     "score": 0
+    },
+    {
+     "abbrev": "DAL",
+     "id": 6,
+     "home": false,
+     "score": 0
+    }
+   ]
+  },
+  {
+   "id": "401873010",
+   "name": "NE @ CHI",
+   "dateUtc": "2026-10-23T00:15Z",
+   "market": null,
+   "indoor": false,
+   "state": "post",
+   "completed": true,
+   "detail": "Final",
+   "period": 4,
+   "clock": "0:00",
+   "clockSec": 0.0,
+   "teams": [
+    {
+     "abbrev": "CHI",
+     "id": 3,
+     "home": true,
+     "score": 30
+    },
+    {
+     "abbrev": "NE",
+     "id": 17,
+     "home": false,
+     "score": 24
+    }
+   ]
+  },
   {
    "id": "401873011",
    "name": "PIT VS NO",
@@ -324,69 +387,6 @@
      "id": 12,
      "home": false,
      "score": 3
-    }
-   ]
-  },
-  {
-   "id": "401873010",
-   "name": "NE @ CHI",
-   "dateUtc": "2026-10-23T00:15Z",
-   "market": null,
-   "indoor": false,
-   "state": "post",
-   "completed": true,
-   "detail": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "CHI",
-     "id": 3,
-     "home": true,
-     "score": 30
-    },
-    {
-     "abbrev": "NE",
-     "id": 17,
-     "home": false,
-     "score": 24
-    }
-   ]
-  },
-  {
-   "id": "401873009",
-   "name": "DAL @ PHI",
-   "dateUtc": "2026-10-27T00:15Z",
-   "market": {
-    "total": 43.5,
-    "favorite": "DAL",
-    "spread": 4.5,
-    "implied": {
-     "PHI": 19.5,
-     "DAL": 24.0
-    },
-    "provider": "Draft Kings"
-   },
-   "indoor": false,
-   "state": "pre",
-   "completed": false,
-   "detail": "10/26 - 8:15 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
-   "teams": [
-    {
-     "abbrev": "PHI",
-     "id": 21,
-     "home": true,
-     "score": 0
-    },
-    {
-     "abbrev": "DAL",
-     "id": 6,
-     "home": false,
-     "score": 0
     }
    ]
   }
