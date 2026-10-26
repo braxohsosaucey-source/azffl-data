@@ -1,12 +1,189 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-26T03:45:15Z",
+ "_pulledUtc": "2026-10-26T04:21:14Z",
  "week": 7,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
+  {
+   "id": "401873009",
+   "away": "DAL",
+   "home": "PHI",
+   "kickoffUtc": "2026-10-27T00:15Z",
+   "state": "pre",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "scoreboard",
+    "book": "Draft Kings",
+    "details": "DAL -4.5",
+    "moneyline": {
+     "away": -218,
+     "home": 180
+    },
+    "moneylineOpen": {
+     "away": 136,
+     "home": -162
+    },
+    "spread": {
+     "away": -4.5,
+     "home": 4.5,
+     "awayOdds": -108,
+     "homeOdds": -112
+    },
+    "spreadOpen": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 43.5,
+     "over": -115,
+     "under": -105
+    },
+    "totalOpen": {
+     "line": 48.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.657475,
+    "home": 0.342525,
+    "hold": 0.042677,
+    "fairAway": -191.95,
+    "fairHome": 191.95
+   },
+   "noVigOpen": {
+    "away": 0.40663,
+    "home": 0.59337,
+    "hold": 0.042049,
+    "fairAway": 145.92,
+    "fairHome": -145.92
+   },
+   "venue": {
+    "id": "3806",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": {
+    "text": "Mostly clear",
+    "tempF": 59
+   },
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-27T00:00",
+     "tempF": 57.6,
+     "windMph": 5.4,
+     "gustMph": 11.4,
+     "precipIn": 0.0,
+     "precipProb": 1
+    },
+    "game": {
+     "maxWindMph": 5.4,
+     "maxGustMph": 12.5,
+     "precipIn": 0.0,
+     "maxPrecipProb": 1
+    },
+    "src": "open-meteo",
+    "lat": 39.95238,
+    "lon": -75.16362,
+    "t": "2026-10-26T03:06:18Z"
+   },
+   "wxNote": null
+  },
+  {
+   "id": "401873010",
+   "away": "NE",
+   "home": "CHI",
+   "kickoffUtc": "2026-10-23T00:15Z",
+   "state": "post",
+   "book": "Draft Kings",
+   "lines": {
+    "src": "core",
+    "book": "Draft Kings",
+    "details": "CHI -3",
+    "moneyline": {
+     "away": 130,
+     "home": -155
+    },
+    "moneylineOpen": {
+     "away": 100,
+     "home": -120
+    },
+    "spread": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -112,
+     "homeOdds": -108
+    },
+    "spreadOpen": {
+     "away": 1.5,
+     "home": -1.5,
+     "awayOdds": -115,
+     "homeOdds": -105
+    },
+    "total": {
+     "line": 50.5,
+     "over": -122,
+     "under": 102
+    },
+    "totalOpen": {
+     "line": 47.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.417007,
+    "home": 0.582993,
+    "hold": 0.042626,
+    "fairAway": 139.8,
+    "fairHome": -139.8
+   },
+   "noVigOpen": {
+    "away": 0.478261,
+    "home": 0.521739,
+    "hold": 0.045455,
+    "fairAway": 109.09,
+    "fairHome": -109.09
+   },
+   "venue": {
+    "id": "3933",
+    "name": "Soldier Field",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-23T00:00",
+     "tempF": 57.2,
+     "windMph": 4.6,
+     "gustMph": 9.6,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 6.1,
+     "maxGustMph": 10.7,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 41.85003,
+    "lon": -87.65005,
+    "t": "2026-10-22T23:51:15Z"
+   },
+   "wxNote": null
+  },
   {
    "id": "401873011",
    "away": "PIT",
@@ -936,186 +1113,9 @@
     "t": "2026-10-26T00:06:15Z"
    },
    "wxNote": null
-  },
-  {
-   "id": "401873010",
-   "away": "NE",
-   "home": "CHI",
-   "kickoffUtc": "2026-10-23T00:15Z",
-   "state": "post",
-   "book": "Draft Kings",
-   "lines": {
-    "src": "core",
-    "book": "Draft Kings",
-    "details": "CHI -3",
-    "moneyline": {
-     "away": 130,
-     "home": -155
-    },
-    "moneylineOpen": {
-     "away": 100,
-     "home": -120
-    },
-    "spread": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": -112,
-     "homeOdds": -108
-    },
-    "spreadOpen": {
-     "away": 1.5,
-     "home": -1.5,
-     "awayOdds": -115,
-     "homeOdds": -105
-    },
-    "total": {
-     "line": 50.5,
-     "over": -122,
-     "under": 102
-    },
-    "totalOpen": {
-     "line": 47.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.417007,
-    "home": 0.582993,
-    "hold": 0.042626,
-    "fairAway": 139.8,
-    "fairHome": -139.8
-   },
-   "noVigOpen": {
-    "away": 0.478261,
-    "home": 0.521739,
-    "hold": 0.045455,
-    "fairAway": 109.09,
-    "fairHome": -109.09
-   },
-   "venue": {
-    "id": "3933",
-    "name": "Soldier Field",
-    "city": "Chicago",
-    "state": "IL",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": null,
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-23T00:00",
-     "tempF": 57.2,
-     "windMph": 4.6,
-     "gustMph": 9.6,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 6.1,
-     "maxGustMph": 10.7,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 41.85003,
-    "lon": -87.65005,
-    "t": "2026-10-22T23:51:15Z"
-   },
-   "wxNote": null
-  },
-  {
-   "id": "401873009",
-   "away": "DAL",
-   "home": "PHI",
-   "kickoffUtc": "2026-10-27T00:15Z",
-   "state": "pre",
-   "book": "Draft Kings",
-   "lines": {
-    "src": "scoreboard",
-    "book": "Draft Kings",
-    "details": "DAL -4.5",
-    "moneyline": {
-     "away": -225,
-     "home": 185
-    },
-    "moneylineOpen": {
-     "away": 136,
-     "home": -162
-    },
-    "spread": {
-     "away": -4.5,
-     "home": 4.5,
-     "awayOdds": -112,
-     "homeOdds": -108
-    },
-    "spreadOpen": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 43.5,
-     "over": -118,
-     "under": null
-    },
-    "totalOpen": {
-     "line": 48.5,
-     "over": -110,
-     "under": null
-    }
-   },
-   "noVig": {
-    "away": 0.663648,
-    "home": 0.336352,
-    "hold": 0.043185,
-    "fairAway": -197.31,
-    "fairHome": 197.31
-   },
-   "noVigOpen": {
-    "away": 0.40663,
-    "home": 0.59337,
-    "hold": 0.042049,
-    "fairAway": 145.92,
-    "fairHome": -145.92
-   },
-   "venue": {
-    "id": "3806",
-    "name": "Lincoln Financial Field",
-    "city": "Philadelphia",
-    "state": "PA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": {
-    "text": "Mostly clear",
-    "tempF": 59
-   },
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-27T00:00",
-     "tempF": 57.6,
-     "windMph": 5.4,
-     "gustMph": 11.4,
-     "precipIn": 0.0,
-     "precipProb": 1
-    },
-    "game": {
-     "maxWindMph": 5.4,
-     "maxGustMph": 12.5,
-     "precipIn": 0.0,
-     "maxPrecipProb": 1
-    },
-    "src": "open-meteo",
-    "lat": 39.95238,
-    "lon": -75.16362,
-    "t": "2026-10-26T03:06:18Z"
-   },
-   "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-26T02:54:13Z",
+ "injuriesUtc": "2026-10-26T04:03:15Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2031,7 +2031,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-26T02:14Z",
+    "date": "2026-10-26T03:29Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2635,7 +2635,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-26T02:51Z",
+    "date": "2026-10-26T03:29Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -5650,6 +5650,18 @@
   ],
   "KC": [
    {
+    "id": 4567048,
+    "name": "Kenneth Walker III",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T03:36Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4040432,
     "name": "L'Jarius Sneed",
     "pos": "CB",
@@ -5936,21 +5948,33 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
+   }
+  ],
+  "LV": [
    {
-    "id": 3139477,
-    "name": "Patrick Mahomes",
-    "pos": "QB",
+    "id": 4428718,
+    "name": "Tre Tucker",
+    "pos": "WR",
     "status": "Active",
     "abbr": "A",
-    "date": "2026-10-19T00:51Z",
+    "date": "2026-10-26T02:54Z",
     "body": null,
     "side": null,
     "returnDate": null,
     "fantasy": null
-   }
-  ],
-  "LV": [
+   },
+   {
+    "id": 14880,
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T02:51Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4429086,
     "name": "Michael Mayer",
@@ -6222,30 +6246,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-20T02:36Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 14880,
-    "name": "Kirk Cousins",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T09:51Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4382466,
-    "name": "Jalen Nailor",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T03:25Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -6556,6 +6556,30 @@
   ],
   "LAR": [
    {
+    "id": 12483,
+    "name": "Matthew Stafford",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T03:11Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4429096,
+    "name": "Blake Corum",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T02:45Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4242557,
     "name": "Colby Parkinson",
     "pos": "TE",
@@ -6830,30 +6854,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 2573401,
-    "name": "Tyler Higbee",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-20T00:11Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4259619,
-    "name": "Blake Grupe",
-    "pos": "PK",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-19T22:01Z",
-    "body": "Knee - ACL",
-    "side": "Not Specified",
-    "returnDate": "2027-02-15",
-    "fantasy": "IR"
    }
   ],
   "MIA": [
@@ -7160,6 +7160,18 @@
   ],
   "MIN": [
    {
+    "id": 3886598,
+    "name": "Jauan Jennings",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T02:51Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4036133,
     "name": "T.J. Hockenson",
     "pos": "TE",
@@ -7370,18 +7382,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-22T21:51Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3886598,
-    "name": "Jauan Jennings",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-13T00:43Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -7764,6 +7764,18 @@
   ],
   "NO": [
    {
+    "id": 3929645,
+    "name": "Juwan Johnson",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T02:53Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4569559,
     "name": "Devaughn Vele",
     "pos": "WR",
@@ -8046,18 +8058,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T23:50Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3929645,
-    "name": "Juwan Johnson",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T02:49Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8368,6 +8368,18 @@
   ],
   "NYJ": [
    {
+    "id": 5083315,
+    "name": "Kenyon Sadiq",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T03:01Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3124679,
     "name": "Jason Sanders",
     "pos": "PK",
@@ -8626,18 +8638,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:12Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 5083315,
-    "name": "Kenyon Sadiq",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T03:29Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8972,6 +8972,18 @@
   ],
   "PIT": [
    {
+    "id": 4361411,
+    "name": "Pat Freiermuth",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T02:58Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 17372,
     "name": "Chris Boswell",
     "pos": "PK",
@@ -9254,18 +9266,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4361411,
-    "name": "Pat Freiermuth",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T03:26Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9576,15 +9576,63 @@
   ],
   "SEA": [
    {
+    "id": 4887558,
+    "name": "Emanuel Wilson",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T03:37Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4430878,
+    "name": "Jaxon Smith-Njigba",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T03:35Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4426376,
+    "name": "Charles Cross",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T03:18Z",
+    "body": "Ankle",
+    "side": "Not Specified",
+    "returnDate": "2026-11-02",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4035693,
+    "name": "Velus Jones Jr.",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-26T02:57Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-11-02",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4032473,
     "name": "Rashid Shaheed",
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-26T02:13Z",
+    "date": "2026-10-26T02:50Z",
     "body": "Knee",
-    "side": null,
-    "returnDate": "2026-10-25",
+    "side": "Not Specified",
+    "returnDate": "2026-11-02",
     "fantasy": "QUESTIONABLE"
    },
    {
@@ -9756,18 +9804,6 @@
     "fantasy": null
    },
    {
-    "id": 4887558,
-    "name": "Emanuel Wilson",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-23T21:54Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4678006,
     "name": "Elijah Arroyo",
     "pos": "TE",
@@ -9816,18 +9852,6 @@
     "fantasy": null
    },
    {
-    "id": 4035693,
-    "name": "Velus Jones Jr.",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-17T16:14Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4597703,
     "name": "Tory Horton",
     "pos": "WR",
@@ -9850,33 +9874,21 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 2473037,
-    "name": "Jason Myers",
-    "pos": "PK",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-17T03:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 2977187,
-    "name": "Cooper Kupp",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-17T00:41Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "TB": [
+   {
+    "id": 4243331,
+    "name": "Cade Otton",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T03:05Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 4430871,
     "name": "Sean Tucker",
@@ -10160,18 +10172,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-21T02:36Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4686884,
-    "name": "Luke Haggard",
-    "pos": "G",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T17:18Z",
     "body": null,
     "side": null,
     "returnDate": null,
