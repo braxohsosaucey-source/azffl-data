@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-27T15:48:16Z",
+ "_pulledUtc": "2026-10-27T16:30:21Z",
  "week": 8,
  "books": [
   "DraftKings"
@@ -38,9 +38,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 47.5,
-     "over": -118,
-     "under": -102
+     "line": 48.5,
+     "over": -105,
+     "under": -115
     },
     "totalOpen": {
      "line": 45.5,
@@ -81,18 +81,18 @@
      "windMph": 8.5,
      "gustMph": 20.1,
      "precipIn": 0.0,
-     "precipProb": 2
+     "precipProb": 0
     },
     "game": {
      "maxWindMph": 8.5,
      "maxGustMph": 20.1,
      "precipIn": 0.0,
-     "maxPrecipProb": 2
+     "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 44.51916,
     "lon": -88.01983,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -168,18 +168,18 @@
      "windMph": 5.7,
      "gustMph": 9.6,
      "precipIn": 0.0,
-     "precipProb": 8
+     "precipProb": 6
     },
     "game": {
      "maxWindMph": 5.7,
      "maxGustMph": 9.6,
      "precipIn": 0.0,
-     "maxPrecipProb": 18
+     "maxPrecipProb": 10
     },
     "src": "open-meteo",
     "lat": 42.76756,
     "lon": -78.74392,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -249,7 +249,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 63
+    "tempF": 64
    },
    "weather": {
     "kickoff": {
@@ -258,18 +258,18 @@
      "windMph": 9.3,
      "gustMph": 28.4,
      "precipIn": 0.051,
-     "precipProb": 55
+     "precipProb": 40
     },
     "game": {
      "maxWindMph": 9.3,
      "maxGustMph": 31.3,
      "precipIn": 0.3,
-     "maxPrecipProb": 55
+     "maxPrecipProb": 45
     },
     "src": "open-meteo",
     "lat": 39.12711,
     "lon": -84.51439,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -356,8 +356,8 @@
     "book": "DraftKings",
     "details": "DET -3",
     "moneyline": {
-     "away": 140,
-     "home": -166
+     "away": 142,
+     "home": -170
     },
     "moneylineOpen": {
      "away": 185,
@@ -366,8 +366,8 @@
     "spread": {
      "away": 3.0,
      "home": -3.0,
-     "awayOdds": -108,
-     "homeOdds": -112
+     "awayOdds": 100,
+     "homeOdds": -120
     },
     "spreadOpen": {
      "away": 4.5,
@@ -387,11 +387,11 @@
     }
    },
    "noVig": {
-    "away": 0.400361,
-    "home": 0.599639,
-    "hold": 0.040727,
-    "fairAway": 149.77,
-    "fairHome": -149.77
+    "away": 0.396243,
+    "home": 0.603757,
+    "hold": 0.042853,
+    "fairAway": 152.37,
+    "fairHome": -152.37
    },
    "noVigOpen": {
     "away": 0.336352,
@@ -410,7 +410,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 63
+    "tempF": 65
    },
    "weather": null,
    "wxNote": "indoor"
@@ -490,18 +490,18 @@
      "windMph": 7.5,
      "gustMph": 9.6,
      "precipIn": 0.0,
-     "precipProb": 3
+     "precipProb": 2
     },
     "game": {
      "maxWindMph": 7.7,
      "maxGustMph": 10.1,
      "precipIn": 0.0,
-     "maxPrecipProb": 9
+     "maxPrecipProb": 3
     },
     "src": "open-meteo",
     "lat": 40.83399,
     "lon": -74.09709,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -570,8 +570,8 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Cloudy",
-    "tempF": 64
+    "text": "Mostly cloudy",
+    "tempF": 66
    },
    "weather": {
     "kickoff": {
@@ -580,18 +580,18 @@
      "windMph": 2.3,
      "gustMph": 4.9,
      "precipIn": 0.0,
-     "precipProb": 28
+     "precipProb": 8
     },
     "game": {
      "maxWindMph": 3.9,
      "maxGustMph": 10.3,
      "precipIn": 0.0,
-     "maxPrecipProb": 43
+     "maxPrecipProb": 29
     },
     "src": "open-meteo",
     "lat": 40.44062,
     "lon": -79.99589,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -660,28 +660,28 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Partly sunny w/ t-storms",
-    "tempF": 81
+    "text": "Thunderstorms",
+    "tempF": 84
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
      "tempF": 81.1,
      "windMph": 10.2,
-     "gustMph": 12.3,
+     "gustMph": 13.0,
      "precipIn": 0.043,
-     "precipProb": 8
+     "precipProb": 23
     },
     "game": {
      "maxWindMph": 10.2,
-     "maxGustMph": 12.3,
+     "maxGustMph": 13.0,
      "precipIn": 0.091,
-     "maxPrecipProb": 40
+     "maxPrecipProb": 52
     },
     "src": "open-meteo",
     "lat": 27.94752,
     "lon": -82.45843,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -751,27 +751,27 @@
    "indoor": false,
    "espnWeather": {
     "text": "Thunderstorms",
-    "tempF": 80
+    "tempF": 78
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
      "tempF": 79.1,
      "windMph": 11.1,
-     "gustMph": 16.1,
+     "gustMph": 17.4,
      "precipIn": 0.02,
-     "precipProb": 33
+     "precipProb": 46
     },
     "game": {
      "maxWindMph": 12.1,
-     "maxGustMph": 16.1,
+     "maxGustMph": 20.6,
      "precipIn": 0.02,
-     "maxPrecipProb": 47
+     "maxPrecipProb": 50
     },
     "src": "open-meteo",
     "lat": 30.33218,
     "lon": -81.65565,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -840,28 +840,28 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Cloudy",
-    "tempF": 73
+    "text": "Mostly cloudy",
+    "tempF": 70
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T21:00",
      "tempF": 68.7,
      "windMph": 13.2,
-     "gustMph": 3.4,
+     "gustMph": 13.2,
      "precipIn": 0.0,
-     "precipProb": 24
+     "precipProb": 23
     },
     "game": {
      "maxWindMph": 13.2,
-     "maxGustMph": 8.7,
+     "maxGustMph": 13.2,
      "precipIn": 0.0,
-     "maxPrecipProb": 24
+     "maxPrecipProb": 23
     },
     "src": "open-meteo",
     "lat": 33.96168,
     "lon": -118.35313,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -931,27 +931,27 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly cloudy",
-    "tempF": 64
+    "tempF": 61
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T21:00",
      "tempF": 64.8,
      "windMph": 1.9,
-     "gustMph": 3.4,
+     "gustMph": 8.7,
      "precipIn": 0.0,
-     "precipProb": 22
+     "precipProb": 8
     },
     "game": {
      "maxWindMph": 5.2,
-     "maxGustMph": 10.1,
+     "maxGustMph": 11.4,
      "precipIn": 0.0,
-     "maxPrecipProb": 22
+     "maxPrecipProb": 8
     },
     "src": "open-meteo",
     "lat": 39.73915,
     "lon": -104.9847,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -1020,7 +1020,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Intermittent clouds",
+    "text": "Thunderstorms",
     "tempF": 83
    },
    "weather": {
@@ -1030,18 +1030,18 @@
      "windMph": 11.3,
      "gustMph": 10.1,
      "precipIn": 0.0,
-     "precipProb": 36
+     "precipProb": 44
     },
     "game": {
      "maxWindMph": 11.3,
      "maxGustMph": 10.1,
      "precipIn": 0.0,
-     "maxPrecipProb": 36
+     "maxPrecipProb": 44
     },
     "src": "open-meteo",
     "lat": 25.94204,
     "lon": -80.2456,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -1120,18 +1120,18 @@
      "windMph": 6.5,
      "gustMph": 19.5,
      "precipIn": 0.0,
-     "precipProb": 39
+     "precipProb": 27
     },
     "game": {
      "maxWindMph": 7.0,
      "maxGustMph": 21.9,
      "precipIn": 0.0,
-     "maxPrecipProb": 39
+     "maxPrecipProb": 27
     },
     "src": "open-meteo",
     "lat": 38.934,
     "lon": -76.89664,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   },
@@ -1200,33 +1200,33 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Hazy moonlight",
-    "tempF": 49
+    "text": "Mostly cloudy",
+    "tempF": 51
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-03T01:00",
      "tempF": 47.2,
      "windMph": 6.9,
-     "gustMph": 11.9,
+     "gustMph": 13.2,
      "precipIn": 0.0,
-     "precipProb": 6
+     "precipProb": 4
     },
     "game": {
      "maxWindMph": 6.9,
-     "maxGustMph": 12.1,
+     "maxGustMph": 13.2,
      "precipIn": 0.0,
-     "maxPrecipProb": 6
+     "maxPrecipProb": 4
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-27T13:21:17Z"
+    "t": "2026-10-27T16:30:21Z"
    },
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-27T15:27:09Z",
+ "injuriesUtc": "2026-10-27T16:30:27Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2142,7 +2142,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-27T15:10Z",
+    "date": "2026-10-27T16:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2746,7 +2746,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-27T15:10Z",
+    "date": "2026-10-27T16:01Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -8781,6 +8781,18 @@
   ],
   "PHI": [
    {
+    "id": 3929630,
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-27T15:38Z",
+    "body": "Back",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4360238,
     "name": "Dameon Pierce",
     "pos": "RB",
@@ -8887,18 +8899,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 3929630,
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-27T04:09Z",
-    "body": "Back",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4685201,
