@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-27T09:11:17Z",
+ "_pulledUtc": "2026-10-27T10:12:17Z",
  "week": 8,
  "books": [
   "Draft Kings"
@@ -81,18 +81,18 @@
      "windMph": 9.8,
      "gustMph": 22.6,
      "precipIn": 0.0,
-     "precipProb": 11
+     "precipProb": 2
     },
     "game": {
      "maxWindMph": 9.8,
      "maxGustMph": 22.6,
      "precipIn": 0.0,
-     "maxPrecipProb": 11
+     "maxPrecipProb": 2
     },
     "src": "open-meteo",
     "lat": 44.51916,
     "lon": -88.01983,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -168,18 +168,18 @@
      "windMph": 9.6,
      "gustMph": 19.0,
      "precipIn": 0.0,
-     "precipProb": 12
+     "precipProb": 8
     },
     "game": {
      "maxWindMph": 9.9,
      "maxGustMph": 22.4,
      "precipIn": 0.0,
-     "maxPrecipProb": 25
+     "maxPrecipProb": 18
     },
     "src": "open-meteo",
     "lat": 42.76756,
     "lon": -78.74392,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -249,7 +249,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 67
+    "tempF": 63
    },
    "weather": {
     "kickoff": {
@@ -258,18 +258,18 @@
      "windMph": 7.6,
      "gustMph": 20.6,
      "precipIn": 0.0,
-     "precipProb": 54
+     "precipProb": 55
     },
     "game": {
      "maxWindMph": 7.6,
      "maxGustMph": 20.6,
      "precipIn": 0.0,
-     "maxPrecipProb": 54
+     "maxPrecipProb": 55
     },
     "src": "open-meteo",
     "lat": 39.12711,
     "lon": -84.51439,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -496,12 +496,12 @@
      "maxWindMph": 8.6,
      "maxGustMph": 11.2,
      "precipIn": 0.0,
-     "maxPrecipProb": 8
+     "maxPrecipProb": 9
     },
     "src": "open-meteo",
     "lat": 40.83399,
     "lon": -74.09709,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -580,18 +580,18 @@
      "windMph": 5.2,
      "gustMph": 15.7,
      "precipIn": 0.016,
-     "precipProb": 23
+     "precipProb": 28
     },
     "game": {
      "maxWindMph": 8.7,
      "maxGustMph": 24.6,
      "precipIn": 0.121,
-     "maxPrecipProb": 38
+     "maxPrecipProb": 43
     },
     "src": "open-meteo",
     "lat": 40.44062,
     "lon": -79.99589,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -670,18 +670,18 @@
      "windMph": 9.3,
      "gustMph": 12.3,
      "precipIn": 0.012,
-     "precipProb": 5
+     "precipProb": 8
     },
     "game": {
      "maxWindMph": 9.5,
      "maxGustMph": 12.3,
      "precipIn": 0.201,
-     "maxPrecipProb": 22
+     "maxPrecipProb": 40
     },
     "src": "open-meteo",
     "lat": 27.94752,
     "lon": -82.45843,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -760,18 +760,18 @@
      "windMph": 11.6,
      "gustMph": 16.1,
      "precipIn": 0.0,
-     "precipProb": 25
+     "precipProb": 33
     },
     "game": {
      "maxWindMph": 11.6,
      "maxGustMph": 16.1,
      "precipIn": 0.084,
-     "maxPrecipProb": 43
+     "maxPrecipProb": 47
     },
     "src": "open-meteo",
     "lat": 30.33218,
     "lon": -81.65565,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -861,7 +861,7 @@
     "src": "open-meteo",
     "lat": 33.96168,
     "lon": -118.35313,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -940,18 +940,18 @@
      "windMph": 2.1,
      "gustMph": 3.4,
      "precipIn": 0.0,
-     "precipProb": 30
+     "precipProb": 22
     },
     "game": {
      "maxWindMph": 3.8,
      "maxGustMph": 10.1,
      "precipIn": 0.0,
-     "maxPrecipProb": 30
+     "maxPrecipProb": 22
     },
     "src": "open-meteo",
     "lat": 39.73915,
     "lon": -104.9847,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -1030,18 +1030,18 @@
      "windMph": 10.8,
      "gustMph": 9.2,
      "precipIn": 0.0,
-     "precipProb": 39
+     "precipProb": 36
     },
     "game": {
      "maxWindMph": 10.8,
      "maxGustMph": 9.2,
      "precipIn": 0.0,
-     "maxPrecipProb": 39
+     "maxPrecipProb": 36
     },
     "src": "open-meteo",
     "lat": 25.94204,
     "lon": -80.2456,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -1120,18 +1120,18 @@
      "windMph": 7.1,
      "gustMph": 21.9,
      "precipIn": 0.0,
-     "precipProb": 37
+     "precipProb": 39
     },
     "game": {
      "maxWindMph": 7.1,
      "maxGustMph": 25.3,
      "precipIn": 0.0,
-     "maxPrecipProb": 37
+     "maxPrecipProb": 39
     },
     "src": "open-meteo",
     "lat": 38.934,
     "lon": -76.89664,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   },
@@ -1210,23 +1210,23 @@
      "windMph": 6.0,
      "gustMph": 11.9,
      "precipIn": 0.0,
-     "precipProb": 7
+     "precipProb": 6
     },
     "game": {
      "maxWindMph": 6.0,
      "maxGustMph": 12.1,
      "precipIn": 0.0,
-     "maxPrecipProb": 7
+     "maxPrecipProb": 6
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-27T07:07:15Z"
+    "t": "2026-10-27T10:12:17Z"
    },
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-27T09:11:11Z",
+ "injuriesUtc": "2026-10-27T10:12:24Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2142,7 +2142,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-27T09:00Z",
+    "date": "2026-10-27T10:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2744,13 +2744,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-27T09:00Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-27T10:01Z",
     "body": "Undisclosed",
-    "side": "Not Specified",
+    "side": null,
     "returnDate": "2026-10-18",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4372576,
