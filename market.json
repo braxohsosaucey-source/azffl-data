@@ -1,99 +1,12 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-27T03:30:15Z",
+ "_pulledUtc": "2026-10-27T04:07:15Z",
  "week": 7,
  "books": [
   "Draft Kings",
   "DraftKings"
  ],
  "games": [
-  {
-   "id": "401873009",
-   "away": "DAL",
-   "home": "PHI",
-   "kickoffUtc": "2026-10-27T00:15Z",
-   "state": "post",
-   "book": "DraftKings",
-   "lines": {
-    "src": "core",
-    "book": "DraftKings",
-    "details": "DAL -4.5",
-    "moneyline": {
-     "away": -225,
-     "home": 185
-    },
-    "moneylineOpen": {
-     "away": 136,
-     "home": -162
-    },
-    "spread": {
-     "away": -4.5,
-     "home": 4.5,
-     "awayOdds": -105,
-     "homeOdds": -115
-    },
-    "spreadOpen": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": -110,
-     "homeOdds": -110
-    },
-    "total": {
-     "line": 43.5,
-     "over": -112,
-     "under": -108
-    },
-    "totalOpen": {
-     "line": 48.5,
-     "over": -110,
-     "under": -110
-    }
-   },
-   "noVig": {
-    "away": 0.663648,
-    "home": 0.336352,
-    "hold": 0.043185,
-    "fairAway": -197.31,
-    "fairHome": 197.31
-   },
-   "noVigOpen": {
-    "away": 0.40663,
-    "home": 0.59337,
-    "hold": 0.042049,
-    "fairAway": 145.92,
-    "fairHome": -145.92
-   },
-   "venue": {
-    "id": "3806",
-    "name": "Lincoln Financial Field",
-    "city": "Philadelphia",
-    "state": "PA",
-    "country": "USA"
-   },
-   "indoor": false,
-   "espnWeather": null,
-   "weather": {
-    "kickoff": {
-     "hourUtc": "2026-10-27T00:00",
-     "tempF": 58.4,
-     "windMph": 4.8,
-     "gustMph": 11.2,
-     "precipIn": 0.0,
-     "precipProb": 0
-    },
-    "game": {
-     "maxWindMph": 4.8,
-     "maxGustMph": 11.2,
-     "precipIn": 0.0,
-     "maxPrecipProb": 0
-    },
-    "src": "open-meteo",
-    "lat": 39.95238,
-    "lon": -75.16362,
-    "t": "2026-10-26T21:46:16Z"
-   },
-   "wxNote": null
-  },
   {
    "id": "401873010",
    "away": "NE",
@@ -1110,9 +1023,96 @@
     "t": "2026-10-26T00:06:15Z"
    },
    "wxNote": null
+  },
+  {
+   "id": "401873009",
+   "away": "DAL",
+   "home": "PHI",
+   "kickoffUtc": "2026-10-27T00:15Z",
+   "state": "post",
+   "book": "DraftKings",
+   "lines": {
+    "src": "core",
+    "book": "DraftKings",
+    "details": "DAL -4.5",
+    "moneyline": {
+     "away": -225,
+     "home": 185
+    },
+    "moneylineOpen": {
+     "away": 136,
+     "home": -162
+    },
+    "spread": {
+     "away": -4.5,
+     "home": 4.5,
+     "awayOdds": -105,
+     "homeOdds": -115
+    },
+    "spreadOpen": {
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -110,
+     "homeOdds": -110
+    },
+    "total": {
+     "line": 43.5,
+     "over": -112,
+     "under": -108
+    },
+    "totalOpen": {
+     "line": 48.5,
+     "over": -110,
+     "under": -110
+    }
+   },
+   "noVig": {
+    "away": 0.663648,
+    "home": 0.336352,
+    "hold": 0.043185,
+    "fairAway": -197.31,
+    "fairHome": 197.31
+   },
+   "noVigOpen": {
+    "away": 0.40663,
+    "home": 0.59337,
+    "hold": 0.042049,
+    "fairAway": 145.92,
+    "fairHome": -145.92
+   },
+   "venue": {
+    "id": "3806",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA"
+   },
+   "indoor": false,
+   "espnWeather": null,
+   "weather": {
+    "kickoff": {
+     "hourUtc": "2026-10-27T00:00",
+     "tempF": 58.4,
+     "windMph": 4.8,
+     "gustMph": 11.2,
+     "precipIn": 0.0,
+     "precipProb": 0
+    },
+    "game": {
+     "maxWindMph": 4.8,
+     "maxGustMph": 11.2,
+     "precipIn": 0.0,
+     "maxPrecipProb": 0
+    },
+    "src": "open-meteo",
+    "lat": 39.95238,
+    "lon": -75.16362,
+    "t": "2026-10-26T21:46:16Z"
+   },
+   "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-27T02:56:14Z",
+ "injuriesUtc": "2026-10-27T03:58:12Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2028,7 +2028,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-27T02:43Z",
+    "date": "2026-10-27T03:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2630,13 +2630,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-27T02:43Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-27T03:00Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4372576,
@@ -3533,6 +3533,30 @@
   ],
   "DAL": [
    {
+    "id": 2577417,
+    "name": "Dak Prescott",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T03:45Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4241389,
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T03:39Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4362478,
     "name": "Emari Demercado",
     "pos": "RB",
@@ -3761,18 +3785,6 @@
     "fantasy": null
    },
    {
-    "id": 2577417,
-    "name": "Dak Prescott",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T04:22Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 5083754,
     "name": "Ryan Flournoy",
     "pos": "WR",
@@ -3791,18 +3803,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T04:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4241389,
-    "name": "CeeDee Lamb",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T03:55Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8667,6 +8667,18 @@
   ],
   "PHI": [
    {
+    "id": 3929630,
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-27T02:50Z",
+    "body": "Back",
+    "side": null,
+    "returnDate": "2026-10-26",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3926231,
     "name": "Britain Covey",
     "pos": "WR",
@@ -8821,18 +8833,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 3929630,
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-26T22:48Z",
-    "body": "Back",
-    "side": null,
-    "returnDate": "2026-10-26",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4241555,
