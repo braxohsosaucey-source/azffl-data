@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-27T01:56:16.883Z",
+ "_pulledUtc": "2026-10-27T02:28:15.986Z",
  "week": 7,
  "games": [
   {
@@ -11,24 +11,28 @@
    "indoor": false,
    "state": "in",
    "completed": false,
-   "detail": "Halftime",
-   "period": 2,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "1:30 - 3rd",
+   "period": 3,
+   "clock": "1:30",
+   "clockSec": 90.0,
    "teams": [
     {
      "abbrev": "PHI",
      "id": 21,
      "home": true,
-     "score": 14
+     "score": 21
     },
     {
      "abbrev": "DAL",
      "id": 6,
      "home": false,
-     "score": 20
+     "score": 28
     }
-   ]
+   ],
+   "sit": {
+    "poss": 6,
+    "rz": true
+   }
   },
   {
    "id": "401873010",
