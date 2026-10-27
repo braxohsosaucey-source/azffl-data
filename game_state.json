@@ -1,29 +1,20 @@
 {
  "_source": "ESPN scoreboard, server-side (GitHub runner) \u2014 pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-26T23:50:18.632Z",
+ "_pulledUtc": "2026-10-27T00:22:15.938Z",
  "week": 7,
  "games": [
   {
    "id": "401873009",
    "name": "DAL @ PHI",
    "dateUtc": "2026-10-27T00:15Z",
-   "market": {
-    "total": 43.5,
-    "favorite": "DAL",
-    "spread": 4.5,
-    "implied": {
-     "PHI": 19.5,
-     "DAL": 24.0
-    },
-    "provider": "Draft Kings"
-   },
+   "market": null,
    "indoor": false,
-   "state": "pre",
+   "state": "in",
    "completed": false,
-   "detail": "10/26 - 8:15 PM EDT",
-   "period": 0,
-   "clock": "0:00",
-   "clockSec": 0.0,
+   "detail": "12:30 - 1st",
+   "period": 1,
+   "clock": "12:30",
+   "clockSec": 750.0,
    "teams": [
     {
      "abbrev": "PHI",
@@ -35,7 +26,7 @@
      "abbrev": "DAL",
      "id": 6,
      "home": false,
-     "score": 0
+     "score": 3
     }
    ]
   },
