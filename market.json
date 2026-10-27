@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-27T04:43:15Z",
+ "_pulledUtc": "2026-10-27T05:19:16Z",
  "week": 7,
  "books": [
   "Draft Kings",
@@ -1112,7 +1112,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-27T03:58:12Z",
+ "injuriesUtc": "2026-10-27T05:01:11Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2028,7 +2028,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-27T03:00Z",
+    "date": "2026-10-27T04:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2632,7 +2632,7 @@
     "pos": "S",
     "status": "Out",
     "abbr": "O",
-    "date": "2026-10-27T03:00Z",
+    "date": "2026-10-27T04:01Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-10-18",
@@ -3533,6 +3533,42 @@
   ],
   "DAL": [
    {
+    "id": 5083754,
+    "name": "Ryan Flournoy",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:19Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4426354,
+    "name": "George Pickens",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:00Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4361579,
+    "name": "Javonte Williams",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T03:53Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 2577417,
     "name": "Dak Prescott",
     "pos": "QB",
@@ -3677,18 +3713,6 @@
     "fantasy": null
    },
    {
-    "id": 4426354,
-    "name": "George Pickens",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-23T20:34Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4362088,
     "name": "DeMarvion Overshown",
     "pos": "LB",
@@ -3767,30 +3791,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T16:31Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4361579,
-    "name": "Javonte Williams",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T04:23Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 5083754,
-    "name": "Ryan Flournoy",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-19T04:20Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8667,16 +8667,76 @@
   ],
   "PHI": [
    {
+    "id": 4360238,
+    "name": "Dameon Pierce",
+    "pos": "RB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:26Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4241372,
+    "name": "Hollywood Brown",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:22Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3121023,
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:15Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4870795,
+    "name": "Makai Lemon",
+    "pos": "WR",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:11Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3929630,
     "name": "Saquon Barkley",
     "pos": "RB",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-27T02:50Z",
+    "date": "2026-10-27T04:09Z",
     "body": "Back",
     "side": null,
     "returnDate": "2026-10-26",
     "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4685201,
+    "name": "Tanner McKee",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T04:06Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 3926231,
@@ -8749,18 +8809,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4360238,
-    "name": "Dameon Pierce",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-26T22:55Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 15797,
@@ -8913,54 +8961,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-24T20:23Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4362116,
-    "name": "Moro Ojomo",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-24T20:23Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3121023,
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-24T19:57Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4567802,
-    "name": "Drew Kendall",
-    "pos": "C",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-23T22:20Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4682618,
-    "name": "Cooper DeJean",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-22T02:11Z",
     "body": null,
     "side": null,
     "returnDate": null,
