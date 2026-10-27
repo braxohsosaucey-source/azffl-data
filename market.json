@@ -1,9 +1,9 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-27T15:06:16Z",
+ "_pulledUtc": "2026-10-27T15:48:16Z",
  "week": 8,
  "books": [
-  "Draft Kings"
+  "DraftKings"
  ],
  "games": [
   {
@@ -12,10 +12,10 @@
    "home": "GB",
    "kickoffUtc": "2026-10-30T00:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "GB -3.5",
     "moneyline": {
      "away": 154,
@@ -72,7 +72,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly cloudy",
-    "tempF": 55
+    "tempF": 54
    },
    "weather": {
     "kickoff": {
@@ -102,14 +102,14 @@
    "home": "BUF",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "BUF -3.5",
     "moneyline": {
-     "away": 154,
-     "home": -185
+     "away": 160,
+     "home": -192
     },
     "moneylineOpen": {
      "away": 114,
@@ -139,11 +139,11 @@
     }
    },
    "noVig": {
-    "away": 0.377533,
-    "home": 0.622467,
-    "hold": 0.042824,
-    "fairAway": 164.88,
-    "fairHome": -164.88
+    "away": 0.36906,
+    "home": 0.63094,
+    "hold": 0.04215,
+    "fairAway": 170.96,
+    "fairHome": -170.96
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -189,14 +189,14 @@
    "home": "CIN",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CIN -10",
     "moneyline": {
-     "away": 455,
-     "home": -625
+     "away": 470,
+     "home": -650
     },
     "moneylineOpen": {
      "away": 220,
@@ -226,11 +226,11 @@
     }
    },
    "noVig": {
-    "away": 0.172876,
-    "home": 0.827124,
-    "hold": 0.042249,
-    "fairAway": 478.45,
-    "fairHome": -478.45
+    "away": 0.16835,
+    "home": 0.83165,
+    "hold": 0.042105,
+    "fairAway": 494.0,
+    "fairHome": -494.0
    },
    "noVigOpen": {
     "away": 0.299838,
@@ -279,24 +279,24 @@
    "home": "DAL",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
-    "details": "DAL -6",
+    "book": "DraftKings",
+    "details": "DAL -6.5",
     "moneyline": {
-     "away": 230,
-     "home": -285
+     "away": 260,
+     "home": -325
     },
     "moneylineOpen": {
      "away": 380,
      "home": -500
     },
     "spread": {
-     "away": 6.0,
-     "home": -6.0,
-     "awayOdds": -110,
-     "homeOdds": -110
+     "away": 6.5,
+     "home": -6.5,
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 10.5,
@@ -316,11 +316,11 @@
     }
    },
    "noVig": {
-    "away": 0.290456,
-    "home": 0.709544,
-    "hold": 0.04329,
-    "fairAway": 244.29,
-    "fairHome": -244.29
+    "away": 0.266458,
+    "home": 0.733542,
+    "hold": 0.042484,
+    "fairAway": 275.29,
+    "fairHome": -275.29
    },
    "noVigOpen": {
     "away": 0.2,
@@ -350,10 +350,10 @@
    "home": "DET",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DET -3",
     "moneyline": {
      "away": 140,
@@ -377,8 +377,8 @@
     },
     "total": {
      "line": 46.5,
-     "over": -110,
-     "under": -110
+     "over": 100,
+     "under": -120
     },
     "totalOpen": {
      "line": 47.5,
@@ -421,10 +421,10 @@
    "home": "NYJ",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "LV -1.5",
     "moneyline": {
      "away": -110,
@@ -480,7 +480,7 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Partly sunny",
+    "text": "Sunny",
     "tempF": 66
    },
    "weather": {
@@ -511,10 +511,10 @@
    "home": "PIT",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "PIT -3.5",
     "moneyline": {
      "away": 150,
@@ -601,10 +601,10 @@
    "home": "TB",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "TB -2.5",
     "moneyline": {
      "away": 114,
@@ -628,8 +628,8 @@
     },
     "total": {
      "line": 46.5,
-     "over": -108,
-     "under": -112
+     "over": -105,
+     "under": -115
     },
     "totalOpen": {
      "line": 46.5,
@@ -691,10 +691,10 @@
    "home": "JAX",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "JAX -7.5",
     "moneyline": {
      "away": 310,
@@ -781,10 +781,10 @@
    "home": "LAR",
    "kickoffUtc": "2026-11-01T21:05Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "LAR -6.5",
     "moneyline": {
      "away": 235,
@@ -871,10 +871,10 @@
    "home": "DEN",
    "kickoffUtc": "2026-11-01T21:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "KC -1.5",
     "moneyline": {
      "away": -125,
@@ -961,10 +961,10 @@
    "home": "MIA",
    "kickoffUtc": "2026-11-01T21:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NE -7.5",
     "moneyline": {
      "away": -395,
@@ -1051,10 +1051,10 @@
    "home": "WSH",
    "kickoffUtc": "2026-11-02T01:20Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "WSH -4.5",
     "moneyline": {
      "away": 170,
@@ -1141,24 +1141,24 @@
    "home": "SEA",
    "kickoffUtc": "2026-11-03T01:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
-    "details": "SEA -3.5",
+    "book": "DraftKings",
+    "details": "SEA -3",
     "moneyline": {
-     "away": 142,
-     "home": -170
+     "away": 140,
+     "home": -166
     },
     "moneylineOpen": {
      "away": 180,
      "home": -218
     },
     "spread": {
-     "away": 3.5,
-     "home": -3.5,
-     "awayOdds": -118,
-     "homeOdds": -102
+     "away": 3.0,
+     "home": -3.0,
+     "awayOdds": -105,
+     "homeOdds": -115
     },
     "spreadOpen": {
      "away": 4.5,
@@ -1178,11 +1178,11 @@
     }
    },
    "noVig": {
-    "away": 0.396243,
-    "home": 0.603757,
-    "hold": 0.042853,
-    "fairAway": 152.37,
-    "fairHome": -152.37
+    "away": 0.400361,
+    "home": 0.599639,
+    "hold": 0.040727,
+    "fairAway": 149.77,
+    "fairHome": -149.77
    },
    "noVigOpen": {
     "away": 0.342525,
@@ -1226,7 +1226,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-27T14:24:18Z",
+ "injuriesUtc": "2026-10-27T15:27:09Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1835,6 +1835,18 @@
   ],
   "BAL": [
    {
+    "id": 4832793,
+    "name": "Olaivavega Ioane",
+    "pos": "G",
+    "status": "Doubtful",
+    "abbr": "D",
+    "date": "2026-10-27T14:34Z",
+    "body": "Knee - MCL",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "DOUBTFUL"
+   },
+   {
     "id": 3915837,
     "name": "Broderick Washington Jr.",
     "pos": "DT",
@@ -2015,18 +2027,6 @@
     "fantasy": null
    },
    {
-    "id": 4832793,
-    "name": "Olaivavega Ioane",
-    "pos": "G",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T18:45Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4690179,
     "name": "Tavius Robinson",
     "pos": "LB",
@@ -2142,7 +2142,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-27T14:00Z",
+    "date": "2026-10-27T15:10Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2744,13 +2744,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-27T14:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-27T15:10Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4372576,
@@ -3647,6 +3647,30 @@
   ],
   "DAL": [
    {
+    "id": 4372096,
+    "name": "Luke Schoonmaker",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T14:56Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4360967,
+    "name": "Brevyn Spann-Ford",
+    "pos": "TE",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-27T14:48Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4428914,
     "name": "Dee Winters",
     "pos": "LB",
@@ -3917,30 +3941,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T04:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4426506,
-    "name": "Joey Porter Jr.",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T23:09Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4870960,
-    "name": "LT Overton",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T22:55Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -4652,13 +4652,13 @@
     "id": 4426411,
     "name": "Sean Rhyan",
     "pos": "G",
-    "status": "Doubtful",
-    "abbr": "D",
+    "status": "Out",
+    "abbr": "O",
     "date": "2026-10-26T21:50Z",
     "body": "Ankle",
     "side": "Not Specified",
-    "returnDate": "2026-10-29",
-    "fantasy": "DOUBTFUL"
+    "returnDate": "2026-11-25",
+    "fantasy": "OUT"
    },
    {
     "id": 4701936,
@@ -5349,6 +5349,18 @@
     "fantasy": null
    },
    {
+    "id": 3917792,
+    "name": "Daniel Jones",
+    "pos": "QB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-26T18:24Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4571557,
     "name": "Spencer Shrader",
     "pos": "PK",
@@ -5367,18 +5379,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-25T21:31Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3917792,
-    "name": "Daniel Jones",
-    "pos": "QB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-25T21:19Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -8781,6 +8781,18 @@
   ],
   "PHI": [
    {
+    "id": 4360238,
+    "name": "Dameon Pierce",
+    "pos": "RB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-27T14:28Z",
+    "body": "Undisclosed",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4428850,
     "name": "Dontayvion Wicks",
     "pos": "WR",
@@ -8841,18 +8853,6 @@
     "fantasy": null
    },
    {
-    "id": 4360238,
-    "name": "Dameon Pierce",
-    "pos": "RB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-27T04:26Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4241372,
     "name": "Hollywood Brown",
     "pos": "WR",
@@ -8896,7 +8896,7 @@
     "abbr": "Q",
     "date": "2026-10-27T04:09Z",
     "body": "Back",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
    },
