@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-26T23:50:18.345Z",
+ "_pulledUtc": "2026-10-27T00:22:15.861Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 7,
@@ -834,7 +834,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.03,
      "start": 58.35,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 14.54,
      "projSeason": 133.58,
      "actSeason": 22.0,
@@ -847,7 +847,7 @@
        "23": 280.0,
        "210": 16.0
       },
-      "week": null
+      "week": {}
      }
     },
     {
@@ -862,7 +862,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.92,
      "start": 99.12,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 16.77,
      "projSeason": 169.5,
      "actSeason": 119.1
@@ -1888,10 +1888,10 @@
      "acqUtc": "2026-10-22T22:54:28.287000Z",
      "own": 18.33,
      "start": 14.96,
-     "livePts": null,
+     "livePts": 10.0,
      "weekProj": 6.36,
      "projSeason": 50.04,
-     "actSeason": 4.0
+     "actSeason": 14.0
     },
     {
      "name": "Wil Lutz",
@@ -2110,10 +2110,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 93.87,
      "start": 86.51,
-     "livePts": null,
+     "livePts": 5.5,
      "weekProj": 8.38,
      "projSeason": 87.09,
-     "actSeason": 46.05
+     "actSeason": 51.55
     },
     {
      "name": "Texans D/ST",
@@ -3043,7 +3043,7 @@
      "acqUtc": "2026-10-14T07:52:19.375000Z",
      "own": 85.07,
      "start": 53.96,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 10.06,
      "projSeason": 93.2,
      "actSeason": 42.75
@@ -3222,10 +3222,10 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 89.91,
      "start": 56.13,
-     "livePts": null,
+     "livePts": 0.2,
      "weekProj": 16.49,
      "projSeason": 163.87,
-     "actSeason": 103.61
+     "actSeason": 103.81
     },
     {
      "name": "J.K. Dobbins",
@@ -3335,7 +3335,7 @@
      "acqUtc": "2026-09-24T18:58:57.905000Z",
      "own": 97.37,
      "start": 19.55,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 0.0,
      "projSeason": 135.05,
      "actSeason": 62.5
@@ -3352,20 +3352,23 @@
      "acqUtc": "2026-09-24T18:58:57.905000Z",
      "own": 99.34,
      "start": 94.17,
-     "livePts": null,
+     "livePts": 2.3,
      "weekProj": 16.18,
      "projSeason": 157.66,
-     "actSeason": 104.25,
+     "actSeason": 106.55,
      "usage": {
       "season": {
-       "23": 85.0,
-       "210": 6.0
+       "23": 88.0,
+       "210": 7.0
       },
       "prior": {
        "23": 252.0,
        "210": 16.0
       },
-      "week": null
+      "week": {
+       "23": 3.0,
+       "210": 1.0
+      }
      }
     },
     {
@@ -3576,7 +3579,7 @@
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 98.88,
      "start": 82.48,
-     "livePts": null,
+     "livePts": 0.0,
      "weekProj": 11.93,
      "projSeason": 120.61,
      "actSeason": 73.55
@@ -4120,7 +4123,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 119.27,
-    "homeLive": 77.62
+    "homeLive": 83.12
    },
    {
     "away": 4,
@@ -4130,7 +4133,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 162.77,
-    "homeLive": 97.93
+    "homeLive": 107.93
    },
    {
     "away": 1,
@@ -4140,7 +4143,7 @@
     "winner": "UNDECIDED",
     "tier": "NONE",
     "awayLive": 130.83,
-    "homeLive": 67.95
+    "homeLive": 70.45
    }
   ],
   "8": [
