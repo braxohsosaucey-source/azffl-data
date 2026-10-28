@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-28T20:42:28.853Z",
+ "_pulledUtc": "2026-10-28T21:24:19.033Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 8,
@@ -389,8 +389,8 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 15,
-    "drops": 12,
+    "acquisitions": 16,
+    "drops": 13,
     "trades": 1,
     "moveToActive": 49,
     "acquisitionBudgetSpent": 100,
@@ -401,7 +401,8 @@
      "4": 2,
      "5": 3,
      "6": 1,
-     "7": 3
+     "7": 3,
+     "8": 1
     }
    },
    "roster": [
@@ -626,7 +627,7 @@
      "slotId": 20,
      "proTeamId": 2,
      "id": 4385690,
-     "injury": "ACTIVE",
+     "injury": "QUESTIONABLE",
      "acq": "ADD",
      "acqUtc": "2026-09-24T07:32:10.323000Z",
      "own": 77.49,
@@ -705,23 +706,6 @@
      "actSeason": 5.25
     },
     {
-     "name": "Keon Coleman",
-     "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 2,
-     "id": 4635008,
-     "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-10-07T13:48:20.331000Z",
-     "own": 28.04,
-     "start": 3.66,
-     "livePts": null,
-     "weekProj": 6.12,
-     "projSeason": 65.16,
-     "actSeason": 60.55
-    },
-    {
      "name": "Antonio Williams",
      "pos": "WR",
      "slot": "BE",
@@ -762,6 +746,31 @@
       "prior": {
        "23": 176.0,
        "210": 15.0
+      },
+      "week": null
+     }
+    },
+    {
+     "name": "Jaydon Blue",
+     "pos": "RB",
+     "slot": "BE",
+     "slotId": 20,
+     "proTeamId": 0,
+     "id": 4685279,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-28T21:20:30.064000Z",
+     "own": 0.17,
+     "start": 0.02,
+     "livePts": null,
+     "weekProj": 0.0,
+     "projSeason": 0.0,
+     "actSeason": 0.0,
+     "usage": {
+      "season": {},
+      "prior": {
+       "23": 38.0,
+       "210": 5.0
       },
       "week": null
      }
@@ -1935,7 +1944,7 @@
      "slotId": 23,
      "proTeamId": 13,
      "id": 4432665,
-     "injury": "ACTIVE",
+     "injury": "QUESTIONABLE",
      "acq": "DRAFT",
      "acqUtc": "2026-09-09T03:19:42.913000Z",
      "own": 99.87,
@@ -3303,7 +3312,7 @@
      "slotId": 23,
      "proTeamId": 21,
      "id": 4360238,
-     "injury": "QUESTIONABLE",
+     "injury": "INJURY_RESERVE",
      "acq": "ADD",
      "acqUtc": "2026-10-28T18:43:44.035000Z",
      "own": 40.24,
