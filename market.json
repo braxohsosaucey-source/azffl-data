@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-28T15:06:18Z",
+ "_pulledUtc": "2026-10-28T15:48:19Z",
  "week": 8,
  "books": [
   "DraftKings"
@@ -129,8 +129,8 @@
     },
     "total": {
      "line": 54.5,
-     "over": -105,
-     "under": -115
+     "over": -108,
+     "under": -112
     },
     "totalOpen": {
      "line": 51.5,
@@ -1060,8 +1060,8 @@
     "book": "DraftKings",
     "details": "WSH -5.5",
     "moneyline": {
-     "away": 180,
-     "home": -218
+     "away": 195,
+     "home": -238
     },
     "moneylineOpen": {
      "away": -135,
@@ -1070,8 +1070,8 @@
     "spread": {
      "away": 5.5,
      "home": -5.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -108,
+     "homeOdds": -112
     },
     "spreadOpen": {
      "away": -2.5,
@@ -1091,11 +1091,11 @@
     }
    },
    "noVig": {
-    "away": 0.342525,
-    "home": 0.657475,
-    "hold": 0.042677,
-    "fairAway": 191.95,
-    "fairHome": -191.95
+    "away": 0.324969,
+    "home": 0.675031,
+    "hold": 0.043125,
+    "fairAway": 207.72,
+    "fairHome": -207.72
    },
    "noVigOpen": {
     "away": 0.551441,
@@ -1204,7 +1204,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "Intermittent clouds",
-    "tempF": 52
+    "tempF": 55
    },
    "weather": {
     "kickoff": {
@@ -1229,7 +1229,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-28T14:24:18Z",
+ "injuriesUtc": "2026-10-28T15:27:15Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2145,7 +2145,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-28T14:01Z",
+    "date": "2026-10-28T15:19Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2747,13 +2747,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-28T14:01Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-28T15:15Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4257364,
