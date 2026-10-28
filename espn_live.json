@@ -1,6 +1,6 @@
 {
  "_source": "ESPN live pull, server-side (GitHub runner) — pipeline/espn_fetch.py",
- "_pulledUtc": "2026-10-28T18:36:19.526Z",
+ "_pulledUtc": "2026-10-28T19:18:18.990Z",
  "_method": "league-atomic",
  "seasonId": 2026,
  "scoringPeriodId": 8,
@@ -2962,10 +2962,10 @@
    },
    "rosterComplete": true,
    "tx": {
-    "acquisitions": 16,
-    "drops": 14,
+    "acquisitions": 18,
+    "drops": 16,
     "trades": 1,
-    "moveToActive": 63,
+    "moveToActive": 68,
     "acquisitionBudgetSpent": 48,
     "matchupAcquisitionTotals": {
      "2": 3,
@@ -2973,7 +2973,8 @@
      "4": 4,
      "5": 2,
      "6": 1,
-     "7": 4
+     "7": 4,
+     "8": 2
     }
    },
    "roster": [
@@ -3087,8 +3088,8 @@
     {
      "name": "J.K. Dobbins",
      "pos": "RB",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 7,
      "id": 4241985,
      "injury": "ACTIVE",
@@ -3160,8 +3161,8 @@
     {
      "name": "Cam Little",
      "pos": "K",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "K",
+     "slotId": 17,
      "proTeamId": 30,
      "id": 4686361,
      "injury": "ACTIVE",
@@ -3177,8 +3178,8 @@
     {
      "name": "DeVonta Smith",
      "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
+     "slot": "FLEX",
+     "slotId": 23,
      "proTeamId": 21,
      "id": 4241478,
      "injury": "QUESTIONABLE",
@@ -3239,8 +3240,8 @@
     {
      "name": "Devaughn Vele",
      "pos": "WR",
-     "slot": "WR",
-     "slotId": 4,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 18,
      "id": 4569559,
      "injury": "ACTIVE",
@@ -3256,8 +3257,8 @@
     {
      "name": "Marvin Harrison Jr.",
      "pos": "WR",
-     "slot": "FLEX",
-     "slotId": 23,
+     "slot": "BE",
+     "slotId": 20,
      "proTeamId": 34,
      "id": 4432708,
      "injury": "ACTIVE",
@@ -3269,23 +3270,6 @@
      "weekProj": 0.0,
      "projSeason": 64.85,
      "actSeason": 31.25
-    },
-    {
-     "name": "Chris Boswell",
-     "pos": "K",
-     "slot": "K",
-     "slotId": 17,
-     "proTeamId": 23,
-     "id": 17372,
-     "injury": "ACTIVE",
-     "acq": "ADD",
-     "acqUtc": "2026-10-21T08:00:26.334000Z",
-     "own": 73.17,
-     "start": 69.05,
-     "livePts": null,
-     "weekProj": 10.84,
-     "projSeason": 108.06,
-     "actSeason": 74.6
     },
     {
      "name": "James Conner",
@@ -3313,21 +3297,49 @@
      }
     },
     {
-     "name": "Jaylin Noel",
-     "pos": "WR",
-     "slot": "BE",
-     "slotId": 20,
-     "proTeamId": 34,
-     "id": 4586312,
+     "name": "Dameon Pierce",
+     "pos": "RB",
+     "slot": "FLEX",
+     "slotId": 23,
+     "proTeamId": 21,
+     "id": 4360238,
      "injury": "QUESTIONABLE",
      "acq": "ADD",
-     "acqUtc": "2026-10-23T02:59:56.083000Z",
-     "own": 17.93,
-     "start": 3.62,
+     "acqUtc": "2026-10-28T18:43:44.035000Z",
+     "own": 40.3,
+     "start": 9.59,
      "livePts": null,
-     "weekProj": 0.0,
-     "projSeason": 52.19,
-     "actSeason": 61.95
+     "weekProj": 8.45,
+     "projSeason": 82.78,
+     "actSeason": 28.25,
+     "usage": {
+      "season": {
+       "23": 37.0,
+       "210": 3.0
+      },
+      "prior": {
+       "23": 14.0,
+       "210": 5.0
+      },
+      "week": null
+     }
+    },
+    {
+     "name": "Jakobi Meyers",
+     "pos": "WR",
+     "slot": "WR",
+     "slotId": 4,
+     "proTeamId": 30,
+     "id": 3916433,
+     "injury": "ACTIVE",
+     "acq": "ADD",
+     "acqUtc": "2026-10-28T18:51:35.769000Z",
+     "own": 68.48,
+     "start": 12.02,
+     "livePts": null,
+     "weekProj": 9.94,
+     "projSeason": 110.51,
+     "actSeason": 55.7
     }
    ]
   },
