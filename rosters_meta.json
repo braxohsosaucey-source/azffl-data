@@ -1,6 +1,6 @@
 {
  "_source": "ESPN rosters (mRoster: ownership, injury, lineup slot), mPositionalRatings and proTeamSchedules_wl — written by every pass (pipeline/league_meta.py); data only",
- "_pulledUtc": "2026-10-28T20:42:28.853Z",
+ "_pulledUtc": "2026-10-28T21:24:19.033Z",
  "week": 8,
  "players": [
   {
@@ -349,7 +349,7 @@
    "slot": "BE",
    "slotId": 20,
    "proTeamId": 2,
-   "injury": "ACTIVE",
+   "injury": "QUESTIONABLE",
    "own": 77.49,
    "start": 19.44,
    "bye": 7
@@ -407,19 +407,6 @@
    "bye": 8
   },
   {
-   "id": 4635008,
-   "name": "Keon Coleman",
-   "tid": 2,
-   "pos": "WR",
-   "slot": "BE",
-   "slotId": 20,
-   "proTeamId": 2,
-   "injury": "ACTIVE",
-   "own": 28.04,
-   "start": 3.66,
-   "bye": 7
-  },
-  {
    "id": 5081432,
    "name": "Antonio Williams",
    "tid": 2,
@@ -444,6 +431,19 @@
    "own": 8.7,
    "start": 1.18,
    "bye": 8
+  },
+  {
+   "id": 4685279,
+   "name": "Jaydon Blue",
+   "tid": 2,
+   "pos": "RB",
+   "slot": "BE",
+   "slotId": 20,
+   "proTeamId": 0,
+   "injury": "ACTIVE",
+   "own": 0.17,
+   "start": 0.02,
+   "bye": null
   },
   {
    "id": 3929630,
@@ -1103,7 +1103,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 13,
-   "injury": "ACTIVE",
+   "injury": "QUESTIONABLE",
    "own": 99.87,
    "start": 97.04,
    "bye": 13
@@ -1896,7 +1896,7 @@
    "slot": "FLEX",
    "slotId": 23,
    "proTeamId": 21,
-   "injury": "QUESTIONABLE",
+   "injury": "INJURY_RESERVE",
    "own": 40.24,
    "start": 9.56,
    "bye": 10
