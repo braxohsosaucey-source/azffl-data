@@ -1,7 +1,7 @@
 {
  "_what": "AZFFL FAAB tracker. Season-to-date budget state per manager, read straight off ESPN's transactionCounter by the scheduled pass (v73.1).",
  "_source": "ESPN lm-api-reads view=mTeam&view=mSettings (transactionCounter, acquisitionSettings) on the GitHub runner — pipeline/tick.faab_for",
- "_pulledUtc": "2026-10-28T18:36:19.526Z",
+ "_pulledUtc": "2026-10-28T19:18:18.990Z",
  "_matchupPeriod": 8,
  "_scoringPeriodId": 8,
  "_budget": 100,
@@ -14,9 +14,9 @@
  "leagueTotals": {
   "spent": 461,
   "remaining": 539,
-  "acquisitionsSeason": 134,
-  "dropsSeason": 120,
-  "acquisitionsThisPeriod": 6,
+  "acquisitionsSeason": 136,
+  "dropsSeason": 122,
+  "acquisitionsThisPeriod": 8,
   "managersWhoHaveSpent": 9
  },
  "teams": [
@@ -179,16 +179,17 @@
    "manager": "Max Willoughby",
    "spent": 48,
    "remaining": 52,
-   "acquisitionsSeason": 16,
-   "dropsSeason": 14,
-   "acquisitionsThisPeriod": 0,
+   "acquisitionsSeason": 18,
+   "dropsSeason": 16,
+   "acquisitionsThisPeriod": 2,
    "acquisitionsByMatchupPeriod": {
     "2": 3,
     "3": 2,
     "4": 4,
     "5": 2,
     "6": 1,
-    "7": 4
+    "7": 4,
+    "8": 2
    }
   },
   {
