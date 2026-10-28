@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-28T08:02:15Z",
+ "_pulledUtc": "2026-10-28T09:03:16Z",
  "week": 8,
  "books": [
   "DraftKings"
@@ -72,27 +72,27 @@
    "indoor": false,
    "espnWeather": {
     "text": "Mostly cloudy",
-    "tempF": 55
+    "tempF": 53
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-10-30T00:00",
-     "tempF": 50.7,
-     "windMph": 7.6,
-     "gustMph": 19.0,
+     "tempF": 51.8,
+     "windMph": 6.8,
+     "gustMph": 14.5,
      "precipIn": 0.0,
      "precipProb": 0
     },
     "game": {
-     "maxWindMph": 8.0,
-     "maxGustMph": 20.4,
+     "maxWindMph": 6.8,
+     "maxGustMph": 14.5,
      "precipIn": 0.0,
      "maxPrecipProb": 0
     },
     "src": "open-meteo",
     "lat": 44.51916,
     "lon": -88.01983,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -160,26 +160,29 @@
     "country": "USA"
    },
    "indoor": false,
-   "espnWeather": null,
+   "espnWeather": {
+    "text": "Intermittent clouds",
+    "tempF": 62
+   },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
-     "tempF": 67.0,
-     "windMph": 4.8,
-     "gustMph": 7.4,
+     "tempF": 65.9,
+     "windMph": 3.8,
+     "gustMph": 6.7,
      "precipIn": 0.0,
-     "precipProb": 5
+     "precipProb": 3
     },
     "game": {
-     "maxWindMph": 4.8,
-     "maxGustMph": 7.4,
+     "maxWindMph": 4.3,
+     "maxGustMph": 6.9,
      "precipIn": 0.0,
-     "maxPrecipProb": 5
+     "maxPrecipProb": 3
     },
     "src": "open-meteo",
     "lat": 42.76756,
     "lon": -78.74392,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -249,27 +252,27 @@
    "indoor": false,
    "espnWeather": {
     "text": "Cloudy",
-    "tempF": 63
+    "tempF": 64
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
-     "tempF": 56.1,
-     "windMph": 9.5,
-     "gustMph": 27.1,
-     "precipIn": 0.0,
-     "precipProb": 42
+     "tempF": 55.3,
+     "windMph": 7.6,
+     "gustMph": 23.3,
+     "precipIn": 0.031,
+     "precipProb": 36
     },
     "game": {
      "maxWindMph": 9.5,
-     "maxGustMph": 27.1,
-     "precipIn": 0.06,
-     "maxPrecipProb": 49
+     "maxGustMph": 27.3,
+     "precipIn": 0.176,
+     "maxPrecipProb": 40
     },
     "src": "open-meteo",
     "lat": 39.12711,
     "lon": -84.51439,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -339,7 +342,7 @@
    "indoor": true,
    "espnWeather": {
     "text": "Hazy sunshine",
-    "tempF": 74
+    "tempF": 75
    },
    "weather": null,
    "wxNote": "indoor"
@@ -486,22 +489,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
-     "tempF": 63.9,
-     "windMph": 7.3,
-     "gustMph": 10.5,
+     "tempF": 62.5,
+     "windMph": 4.9,
+     "gustMph": 6.9,
      "precipIn": 0.0,
      "precipProb": 1
     },
     "game": {
-     "maxWindMph": 8.3,
-     "maxGustMph": 10.7,
+     "maxWindMph": 6.4,
+     "maxGustMph": 7.8,
      "precipIn": 0.0,
-     "maxPrecipProb": 2
+     "maxPrecipProb": 1
     },
     "src": "open-meteo",
     "lat": 40.83399,
     "lon": -74.09709,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -576,22 +579,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
-     "tempF": 67.0,
-     "windMph": 5.8,
-     "gustMph": 10.1,
+     "tempF": 64.2,
+     "windMph": 4.8,
+     "gustMph": 7.2,
      "precipIn": 0.0,
-     "precipProb": 3
+     "precipProb": 5
     },
     "game": {
-     "maxWindMph": 5.8,
-     "maxGustMph": 10.1,
+     "maxWindMph": 4.8,
+     "maxGustMph": 7.8,
      "precipIn": 0.0,
-     "maxPrecipProb": 12
+     "maxPrecipProb": 7
     },
     "src": "open-meteo",
     "lat": 40.44062,
     "lon": -79.99589,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -660,28 +663,28 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Thunderstorms",
-    "tempF": 80
+    "text": "Cloudy",
+    "tempF": 84
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
-     "tempF": 83.4,
-     "windMph": 10.4,
-     "gustMph": 13.4,
-     "precipIn": 0.02,
-     "precipProb": 14
+     "tempF": 84.9,
+     "windMph": 6.5,
+     "gustMph": 8.1,
+     "precipIn": 0.016,
+     "precipProb": 28
     },
     "game": {
-     "maxWindMph": 10.4,
-     "maxGustMph": 13.4,
-     "precipIn": 0.08,
-     "maxPrecipProb": 56
+     "maxWindMph": 6.5,
+     "maxGustMph": 8.1,
+     "precipIn": 0.055,
+     "maxPrecipProb": 65
     },
     "src": "open-meteo",
     "lat": 27.94752,
     "lon": -82.45843,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -697,8 +700,8 @@
     "book": "DraftKings",
     "details": "JAX -9.5",
     "moneyline": {
-     "away": 330,
-     "home": -425
+     "away": 340,
+     "home": -440
     },
     "moneylineOpen": {
      "away": 180,
@@ -728,11 +731,11 @@
     }
    },
    "noVig": {
-    "away": 0.223167,
-    "home": 0.776833,
-    "hold": 0.042082,
-    "fairAway": 348.1,
-    "fairHome": -348.1
+    "away": 0.218094,
+    "home": 0.781906,
+    "hold": 0.042088,
+    "fairAway": 358.52,
+    "fairHome": -358.52
    },
    "noVigOpen": {
     "away": 0.342525,
@@ -756,22 +759,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T18:00",
-     "tempF": 81.8,
-     "windMph": 14.7,
-     "gustMph": 19.9,
+     "tempF": 77.5,
+     "windMph": 11.1,
+     "gustMph": 18.8,
      "precipIn": 0.004,
-     "precipProb": 40
+     "precipProb": 55
     },
     "game": {
-     "maxWindMph": 14.8,
-     "maxGustMph": 19.9,
-     "precipIn": 0.064,
-     "maxPrecipProb": 47
+     "maxWindMph": 11.1,
+     "maxGustMph": 20.8,
+     "precipIn": 0.271,
+     "maxPrecipProb": 55
     },
     "src": "open-meteo",
     "lat": 30.33218,
     "lon": -81.65565,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -847,21 +850,21 @@
     "kickoff": {
      "hourUtc": "2026-11-01T21:00",
      "tempF": 66.2,
-     "windMph": 12.1,
-     "gustMph": 17.2,
-     "precipIn": 0.012,
-     "precipProb": 24
+     "windMph": 9.8,
+     "gustMph": 10.3,
+     "precipIn": 0.0,
+     "precipProb": 32
     },
     "game": {
-     "maxWindMph": 13.2,
-     "maxGustMph": 17.4,
-     "precipIn": 0.012,
-     "maxPrecipProb": 24
+     "maxWindMph": 9.8,
+     "maxGustMph": 10.3,
+     "precipIn": 0.0,
+     "maxPrecipProb": 32
     },
     "src": "open-meteo",
     "lat": 33.96168,
     "lon": -118.35313,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -936,22 +939,22 @@
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T21:00",
-     "tempF": 65.5,
-     "windMph": 4.7,
-     "gustMph": 3.8,
+     "tempF": 64.3,
+     "windMph": 7.4,
+     "gustMph": 6.5,
      "precipIn": 0.0,
-     "precipProb": 12
+     "precipProb": 8
     },
     "game": {
-     "maxWindMph": 6.8,
-     "maxGustMph": 11.9,
+     "maxWindMph": 9.3,
+     "maxGustMph": 13.0,
      "precipIn": 0.0,
-     "maxPrecipProb": 12
+     "maxPrecipProb": 8
     },
     "src": "open-meteo",
     "lat": 39.73915,
     "lon": -104.9847,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -1020,28 +1023,28 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Thunderstorms",
-    "tempF": 81
+    "text": "Intermittent clouds",
+    "tempF": 83
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-01T21:00",
-     "tempF": 85.2,
-     "windMph": 11.1,
-     "gustMph": 9.8,
+     "tempF": 84.5,
+     "windMph": 9.6,
+     "gustMph": 8.3,
      "precipIn": 0.0,
-     "precipProb": 53
+     "precipProb": 59
     },
     "game": {
-     "maxWindMph": 11.1,
-     "maxGustMph": 9.8,
+     "maxWindMph": 9.6,
+     "maxGustMph": 8.3,
      "precipIn": 0.0,
-     "maxPrecipProb": 53
+     "maxPrecipProb": 59
     },
     "src": "open-meteo",
     "lat": 25.94204,
     "lon": -80.2456,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -1110,28 +1113,28 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly cloudy",
-    "tempF": 56
+    "text": "Partly cloudy",
+    "tempF": 55
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-02T01:00",
-     "tempF": 59.4,
-     "windMph": 6.9,
-     "gustMph": 18.6,
+     "tempF": 55.6,
+     "windMph": 5.2,
+     "gustMph": 16.8,
      "precipIn": 0.0,
-     "precipProb": 14
+     "precipProb": 8
     },
     "game": {
-     "maxWindMph": 7.0,
-     "maxGustMph": 20.6,
+     "maxWindMph": 5.2,
+     "maxGustMph": 17.7,
      "precipIn": 0.0,
-     "maxPrecipProb": 14
+     "maxPrecipProb": 8
     },
     "src": "open-meteo",
     "lat": 38.934,
     "lon": -76.89664,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   },
@@ -1200,33 +1203,33 @@
    },
    "indoor": false,
    "espnWeather": {
-    "text": "Mostly cloudy",
+    "text": "Intermittent clouds",
     "tempF": 52
    },
    "weather": {
     "kickoff": {
      "hourUtc": "2026-11-03T01:00",
-     "tempF": 46.2,
-     "windMph": 4.5,
-     "gustMph": 6.5,
+     "tempF": 48.7,
+     "windMph": 4.0,
+     "gustMph": 8.5,
      "precipIn": 0.0,
-     "precipProb": 8
+     "precipProb": 9
     },
     "game": {
-     "maxWindMph": 4.5,
-     "maxGustMph": 6.5,
+     "maxWindMph": 4.3,
+     "maxGustMph": 8.5,
      "precipIn": 0.0,
-     "maxPrecipProb": 8
+     "maxPrecipProb": 9
     },
     "src": "open-meteo",
     "lat": 47.60621,
     "lon": -122.33207,
-    "t": "2026-10-28T05:09:16Z"
+    "t": "2026-10-28T09:03:16Z"
    },
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-28T08:02:14Z",
+ "injuriesUtc": "2026-10-28T09:03:19Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2142,11 +2145,11 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-28T07:00Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
+    "date": "2026-10-28T08:01Z",
+    "body": "Suspension",
+    "side": "Not Specified",
+    "returnDate": "2026-11-09",
+    "fantasy": "RESERVE-SUS"
    },
    {
     "id": 4044133,
@@ -2746,7 +2749,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-28T07:00Z",
+    "date": "2026-10-28T08:01Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
