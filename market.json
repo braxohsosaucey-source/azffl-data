@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-28T03:44:14Z",
+ "_pulledUtc": "2026-10-28T04:26:17Z",
  "week": 8,
  "books": [
   "DraftKings"
@@ -106,20 +106,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "DraftKings",
-    "details": "BUF -3",
+    "details": "BUF -3.5",
     "moneyline": {
-     "away": 145,
-     "home": -175
+     "away": 154,
+     "home": -185
     },
     "moneylineOpen": {
      "away": 114,
      "home": -135
     },
     "spread": {
-     "away": 3.0,
-     "home": -3.0,
-     "awayOdds": 100,
-     "homeOdds": -120
+     "away": 3.5,
+     "home": -3.5,
+     "awayOdds": -122,
+     "homeOdds": 102
     },
     "spreadOpen": {
      "away": 2.5,
@@ -139,11 +139,11 @@
     }
    },
    "noVig": {
-    "away": 0.390764,
-    "home": 0.609236,
-    "hold": 0.044527,
-    "fairAway": 155.91,
-    "fairHome": -155.91
+    "away": 0.377533,
+    "home": 0.622467,
+    "hold": 0.042824,
+    "fairAway": 164.88,
+    "fairHome": -164.88
    },
    "noVigOpen": {
     "away": 0.448559,
@@ -967,8 +967,8 @@
     "book": "DraftKings",
     "details": "NE -7",
     "moneyline": {
-     "away": -325,
-     "home": 260
+     "away": -340,
+     "home": 270
     },
     "moneylineOpen": {
      "away": -325,
@@ -987,9 +987,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 44.5,
-     "over": -105,
-     "under": -115
+     "line": 43.5,
+     "over": -118,
+     "under": -102
     },
     "totalOpen": {
      "line": 45.5,
@@ -998,11 +998,11 @@
     }
    },
    "noVig": {
-    "away": 0.733542,
-    "home": 0.266458,
-    "hold": 0.042484,
-    "fairAway": -275.29,
-    "fairHome": 275.29
+    "away": 0.740872,
+    "home": 0.259128,
+    "hold": 0.042998,
+    "fairAway": -285.91,
+    "fairHome": 285.91
    },
    "noVigOpen": {
     "away": 0.733542,
@@ -1226,7 +1226,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-28T03:02:12Z",
+ "injuriesUtc": "2026-10-28T04:05:09Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1533,6 +1533,54 @@
   ],
   "ATL": [
    {
+    "id": 4431005,
+    "name": "Xavier Watts",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:39Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3919512,
+    "name": "Jessie Bates III",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:31Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4685502,
+    "name": "Harold Perkins Jr.",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:25Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4595343,
+    "name": "Kendal Daniels",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:20Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 3917914,
     "name": "Olamide Zaccheaus",
     "pos": "WR",
@@ -1761,18 +1809,6 @@
     "fantasy": null
    },
    {
-    "id": 4595343,
-    "name": "Kendal Daniels",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-25T16:04Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4240596,
     "name": "C.J. Henderson",
     "pos": "CB",
@@ -1791,42 +1827,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-25T15:41Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 5209093,
-    "name": "Michael Jerrell",
-    "pos": "OT",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-24T23:44Z",
-    "body": "Biceps",
-    "side": "Not Specified",
-    "returnDate": "2026-11-29",
-    "fantasy": "IR"
-   },
-   {
-    "id": 4431210,
-    "name": "Beaux Collins",
-    "pos": "WR",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-24T20:26Z",
-    "body": "Hip",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "IR-R"
-   },
-   {
-    "id": 4239995,
-    "name": "A.J. Terrell Jr.",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-24T20:15Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -2142,7 +2142,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-28T02:00Z",
+    "date": "2026-10-28T04:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2744,13 +2744,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-28T02:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-28T03:01Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4257364,
@@ -3647,6 +3647,18 @@
   ],
   "DAL": [
    {
+    "id": 4362088,
+    "name": "DeMarvion Overshown",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T02:59Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4870706,
     "name": "Caleb Downs",
     "pos": "S",
@@ -3869,18 +3881,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-23T20:40Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4362088,
-    "name": "DeMarvion Overshown",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-23T00:02Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -6667,6 +6667,18 @@
   ],
   "LAR": [
    {
+    "id": 4242154,
+    "name": "Kam Curl",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T02:47Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4249128,
     "name": "Quentin Lake",
     "pos": "S",
@@ -6929,18 +6941,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-25",
     "fantasy": "IR"
-   },
-   {
-    "id": 4242154,
-    "name": "Kam Curl",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-21T03:00Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 3125114,
@@ -8479,6 +8479,54 @@
   ],
   "NYJ": [
    {
+    "id": 14958,
+    "name": "Demario Davis",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:09Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4361331,
+    "name": "Jamien Sherwood",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T02:58Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4426686,
+    "name": "Dane Belton",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T02:53Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3925345,
+    "name": "Minkah Fitzpatrick",
+    "pos": "S",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T02:46Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4243375,
     "name": "Dylan Parham",
     "pos": "G",
@@ -8719,60 +8767,12 @@
     "fantasy": null
    },
    {
-    "id": 4361331,
-    "name": "Jamien Sherwood",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-21T01:47Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4426686,
-    "name": "Dane Belton",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-21T01:40Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4570470,
     "name": "Nahshon Wright",
     "pos": "CB",
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:12Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4569371,
-    "name": "Isaiah Williams",
-    "pos": "WR",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-17T00:22Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4574142,
-    "name": "Nate Lynn",
-    "pos": "DE",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-12T19:32Z",
     "body": null,
     "side": null,
     "returnDate": null,
@@ -9385,6 +9385,30 @@
   ],
   "SF": [
    {
+    "id": 3916903,
+    "name": "Dre Greenlaw",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:46Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 3138826,
+    "name": "Fred Warner",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-28T03:42Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4693337,
     "name": "Marques Sigle",
     "pos": "S",
@@ -9655,30 +9679,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-24T01:19Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 5086161,
-    "name": "Jaden Dugger",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-24T01:05Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 3858271,
-    "name": "Ashtyn Davis",
-    "pos": "S",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-23T21:44Z",
     "body": null,
     "side": null,
     "returnDate": null,
