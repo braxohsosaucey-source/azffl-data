@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-29T02:20:14Z",
+ "_pulledUtc": "2026-10-29T03:02:14Z",
  "week": 8,
  "books": [
   "DraftKings"
@@ -18,8 +18,8 @@
     "book": "DraftKings",
     "details": "GB -3.5",
     "moneyline": {
-     "away": 164,
-     "home": -198
+     "away": 160,
+     "home": -192
     },
     "moneylineOpen": {
      "away": 260,
@@ -49,11 +49,11 @@
     }
    },
    "noVig": {
-    "away": 0.363096,
-    "home": 0.636904,
-    "hold": 0.043217,
-    "fairAway": 175.41,
-    "fairHome": -175.41
+    "away": 0.36906,
+    "home": 0.63094,
+    "hold": 0.04215,
+    "fairAway": 170.96,
+    "fairHome": -170.96
    },
    "noVigOpen": {
     "away": 0.266458,
@@ -1229,7 +1229,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-29T01:59:14Z",
+ "injuriesUtc": "2026-10-29T03:02:11Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2145,7 +2145,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-29T01:00Z",
+    "date": "2026-10-29T02:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2749,7 +2749,7 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-29T01:00Z",
+    "date": "2026-10-29T02:00Z",
     "body": "Undisclosed",
     "side": null,
     "returnDate": "2026-10-18",
@@ -5764,6 +5764,18 @@
   ],
   "KC": [
    {
+    "id": 4043041,
+    "name": "Jaylon Moore",
+    "pos": "OT",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-29T01:55Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4591008,
     "name": "Omarr Norman-Lott",
     "pos": "DT",
@@ -5870,18 +5882,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4043041,
-    "name": "Jaylon Moore",
-    "pos": "OT",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-27T13:11Z",
-    "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 5093923,
@@ -6065,6 +6065,18 @@
    }
   ],
   "LV": [
+   {
+    "id": 4243916,
+    "name": "Patrick Johnson",
+    "pos": "DE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-29T01:49Z",
+    "body": "Neck",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
    {
     "id": 4045305,
     "name": "Ian Thomas",
@@ -6330,18 +6342,6 @@
     "fantasy": null
    },
    {
-    "id": 4243916,
-    "name": "Patrick Johnson",
-    "pos": "DE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T23:17Z",
-    "body": "Neck",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4260394,
     "name": "Aidan O'Connell",
     "pos": "QB",
@@ -6367,6 +6367,18 @@
    }
   ],
   "LAC": [
+   {
+    "id": 2576702,
+    "name": "Bud Dupree",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-29T02:02Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
    {
     "id": 2579621,
     "name": "Denzel Perryman",
@@ -6450,18 +6462,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 2576702,
-    "name": "Bud Dupree",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-28T22:22Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4430870,
