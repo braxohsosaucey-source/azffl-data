@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-29T03:44:14Z",
+ "_pulledUtc": "2026-10-29T04:26:16Z",
  "week": 8,
  "books": [
   "Draft Kings"
@@ -1229,7 +1229,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-29T03:02:11Z",
+ "injuriesUtc": "2026-10-29T04:05:09Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2145,7 +2145,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-29T02:00Z",
+    "date": "2026-10-29T03:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2747,13 +2747,13 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-29T02:00Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-29T04:00Z",
     "body": "Undisclosed",
-    "side": null,
+    "side": "Not Specified",
     "returnDate": "2026-10-18",
-    "fantasy": "IR"
+    "fantasy": "OUT"
    },
    {
     "id": 4239094,
@@ -10294,6 +10294,18 @@
   ],
   "TEN": [
    {
+    "id": 4373956,
+    "name": "Jonah Laulu",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-29T00:34Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4428557,
     "name": "Tyjae Spears",
     "pos": "RB",
@@ -10576,18 +10588,6 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:18Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4917635,
-    "name": "Joshua Williams",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-18T02:44Z",
     "body": null,
     "side": null,
     "returnDate": null,
