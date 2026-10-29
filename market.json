@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-29T15:07:18Z",
+ "_pulledUtc": "2026-10-29T15:49:53Z",
  "week": 8,
  "books": [
   "Draft Kings"
@@ -196,20 +196,20 @@
    "lines": {
     "src": "scoreboard",
     "book": "Draft Kings",
-    "details": "CIN -10.5",
+    "details": "CIN -11.5",
     "moneyline": {
-     "away": 425,
-     "home": -575
+     "away": 455,
+     "home": -625
     },
     "moneylineOpen": {
      "away": 220,
      "home": -270
     },
     "spread": {
-     "away": 10.5,
-     "home": -10.5,
-     "awayOdds": -105,
-     "homeOdds": -115
+     "away": 11.5,
+     "home": -11.5,
+     "awayOdds": -112,
+     "homeOdds": -108
     },
     "spreadOpen": {
      "away": 6.5,
@@ -229,11 +229,11 @@
     }
    },
    "noVig": {
-    "away": 0.182741,
-    "home": 0.817259,
-    "hold": 0.042328,
-    "fairAway": 447.22,
-    "fairHome": -447.22
+    "away": 0.172876,
+    "home": 0.827124,
+    "hold": 0.042249,
+    "fairAway": 478.45,
+    "fairHome": -478.45
    },
    "noVigOpen": {
     "away": 0.299838,
@@ -430,8 +430,8 @@
     "book": "Draft Kings",
     "details": "NYJ -1.5",
     "moneyline": {
-     "away": 105,
-     "home": -125
+     "away": 102,
+     "home": -122
     },
     "moneylineOpen": {
      "away": 105,
@@ -461,11 +461,11 @@
     }
    },
    "noVig": {
-    "away": 0.467532,
-    "home": 0.532468,
-    "hold": 0.04336,
-    "fairAway": 113.89,
-    "fairHome": -113.89
+    "away": 0.473913,
+    "home": 0.526087,
+    "hold": 0.044599,
+    "fairAway": 111.01,
+    "fairHome": -111.01
    },
    "noVigOpen": {
     "away": 0.467532,
@@ -614,8 +614,8 @@
     "spread": {
      "away": 2.5,
      "home": -2.5,
-     "awayOdds": -112,
-     "homeOdds": -108
+     "awayOdds": -110,
+     "homeOdds": -110
     },
     "spreadOpen": {
      "away": 4.5,
@@ -772,8 +772,8 @@
     "book": "Draft Kings",
     "details": "LAR -6.5",
     "moneyline": {
-     "away": 230,
-     "home": -285
+     "away": 225,
+     "home": -278
     },
     "moneylineOpen": {
      "away": 160,
@@ -803,11 +803,11 @@
     }
    },
    "noVig": {
-    "away": 0.290456,
-    "home": 0.709544,
-    "hold": 0.04329,
-    "fairAway": 244.29,
-    "fairHome": -244.29
+    "away": 0.294967,
+    "home": 0.705033,
+    "hold": 0.043142,
+    "fairAway": 239.02,
+    "fairHome": -239.02
    },
    "noVigOpen": {
     "away": 0.36906,
@@ -1211,7 +1211,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-29T14:24:12Z",
+ "injuriesUtc": "2026-10-29T15:28:16Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -2127,7 +2127,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-29T14:01Z",
+    "date": "2026-10-29T15:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2729,13 +2729,25 @@
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-29T14:16Z",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-29T15:01Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-11-08",
-    "fantasy": "IR"
+    "fantasy": "OUT"
+   },
+   {
+    "id": 4035369,
+    "name": "Jeffery Simmons",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-29T14:38Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
    },
    {
     "id": 4239094,
@@ -3012,18 +3024,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-02",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4426374,
-    "name": "Tyrique Stevenson Sr.",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-22T23:21Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    }
   ],
   "CIN": [
@@ -3033,7 +3033,7 @@
     "pos": "WR",
     "status": "Questionable",
     "abbr": "Q",
-    "date": "2026-10-28T20:22Z",
+    "date": "2026-10-29T14:14Z",
     "body": "Ankle",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
@@ -10336,18 +10336,6 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 4035369,
-    "name": "Jeffery Simmons",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-28T01:39Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
     "id": 4036134,
     "name": "Amani Hooker",
     "pos": "S",
@@ -10570,6 +10558,18 @@
     "status": "Active",
     "abbr": "A",
     "date": "2026-10-19T17:18Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
+    "id": 4917635,
+    "name": "Joshua Williams",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-18T02:44Z",
     "body": null,
     "side": null,
     "returnDate": null,
