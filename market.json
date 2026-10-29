@@ -1,6 +1,6 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-29T13:42:16Z",
+ "_pulledUtc": "2026-10-29T14:24:20Z",
  "week": 8,
  "books": [
   "DraftKings"
@@ -38,9 +38,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 47.5,
-     "over": -105,
-     "under": -115
+     "line": 46.5,
+     "over": -120,
+     "under": 100
     },
     "totalOpen": {
      "line": 45.5,
@@ -973,8 +973,8 @@
     },
     "total": {
      "line": 43.5,
-     "over": -115,
-     "under": -105
+     "over": -110,
+     "under": -110
     },
     "totalOpen": {
      "line": 45.5,
@@ -1211,7 +1211,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-29T13:21:23Z",
+ "injuriesUtc": "2026-10-29T14:24:12Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1820,6 +1820,18 @@
   ],
   "BAL": [
    {
+    "id": 3916387,
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-29T14:01Z",
+    "body": "Ankle",
+    "side": "Left",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3915189,
     "name": "Roquan Smith",
     "pos": "LB",
@@ -1852,18 +1864,6 @@
     "date": "2026-10-29T01:00Z",
     "body": "Knee",
     "side": "Right",
-    "returnDate": "2026-10-28",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3916387,
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-28T21:40Z",
-    "body": "Ankle",
-    "side": "Left",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
    },
@@ -2127,7 +2127,7 @@
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-29T13:00Z",
+    "date": "2026-10-29T14:01Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2731,10 +2731,10 @@
     "pos": "S",
     "status": "Injured Reserve",
     "abbr": "IR",
-    "date": "2026-10-29T13:00Z",
+    "date": "2026-10-29T14:16Z",
     "body": "Undisclosed",
-    "side": null,
-    "returnDate": "2026-10-18",
+    "side": "Not Specified",
+    "returnDate": "2026-11-08",
     "fantasy": "IR"
    },
    {
@@ -4538,6 +4538,18 @@
   ],
   "GB": [
    {
+    "id": 4701936,
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-29T14:10Z",
+    "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-10-29",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4361904,
     "name": "Travis Glover",
     "pos": "OT",
@@ -4596,18 +4608,6 @@
     "side": "Left",
     "returnDate": "2026-11-08",
     "fantasy": "PUP-R"
-   },
-   {
-    "id": 4701936,
-    "name": "Matthew Golden",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-28T19:12Z",
-    "body": "Shoulder",
-    "side": "Not Specified",
-    "returnDate": "2026-10-29",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4242390,
