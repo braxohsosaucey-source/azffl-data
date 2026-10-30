@@ -1,9 +1,10 @@
 {
  "_source": "ESPN scoreboard + core odds (DraftKings as ESPN carries it), ESPN NFL injuries, Open-Meteo — written by every pass (pipeline/market.py); data only, read by the model by name",
- "_pulledUtc": "2026-10-30T00:32:16Z",
+ "_pulledUtc": "2026-10-30T01:02:16Z",
  "week": 8,
  "books": [
-  "Draft Kings"
+  "Draft Kings",
+  "DraftKings"
  ],
  "games": [
   {
@@ -72,7 +73,7 @@
    "indoor": false,
    "espnWeather": {
     "text": "33",
-    "tempF": 53
+    "tempF": 52
    },
    "weather": {
     "kickoff": {
@@ -102,10 +103,10 @@
    "home": "BUF",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "BUF -3",
     "moneyline": {
      "away": 142,
@@ -192,10 +193,10 @@
    "home": "CIN",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "CIN -11.5",
     "moneyline": {
      "away": 455,
@@ -282,10 +283,10 @@
    "home": "DAL",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DAL -7",
     "moneyline": {
      "away": 250,
@@ -353,10 +354,10 @@
    "home": "DET",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "DET -3",
     "moneyline": {
      "away": 142,
@@ -424,10 +425,10 @@
    "home": "NYJ",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NYJ -1.5",
     "moneyline": {
      "away": 102,
@@ -514,10 +515,10 @@
    "home": "PIT",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "PIT -3.5",
     "moneyline": {
      "away": 160,
@@ -604,10 +605,10 @@
    "home": "TB",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "TB -2.5",
     "moneyline": null,
     "moneylineOpen": null,
@@ -624,9 +625,9 @@
      "homeOdds": -110
     },
     "total": {
-     "line": 44.5,
-     "over": -102,
-     "under": -118
+     "line": 43.5,
+     "over": -118,
+     "under": -102
     },
     "totalOpen": {
      "line": 46.5,
@@ -676,10 +677,10 @@
    "home": "JAX",
    "kickoffUtc": "2026-11-01T18:00Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "JAX -10",
     "moneyline": {
      "away": 380,
@@ -766,10 +767,10 @@
    "home": "LAR",
    "kickoffUtc": "2026-11-01T21:05Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "LAR -6.5",
     "moneyline": {
      "away": 220,
@@ -856,10 +857,10 @@
    "home": "DEN",
    "kickoffUtc": "2026-11-01T21:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "KC -1.5",
     "moneyline": {
      "away": -118,
@@ -946,10 +947,10 @@
    "home": "MIA",
    "kickoffUtc": "2026-11-01T21:25Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "NE -7",
     "moneyline": {
      "away": -325,
@@ -1036,10 +1037,10 @@
    "home": "WSH",
    "kickoffUtc": "2026-11-02T01:20Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "WSH -6",
     "moneyline": {
      "away": 205,
@@ -1126,10 +1127,10 @@
    "home": "SEA",
    "kickoffUtc": "2026-11-03T01:15Z",
    "state": "pre",
-   "book": "Draft Kings",
+   "book": "DraftKings",
    "lines": {
     "src": "scoreboard",
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "details": "SEA -3",
     "moneyline": {
      "away": 142,
@@ -1211,7 +1212,7 @@
    "wxNote": null
   }
  ],
- "injuriesUtc": "2026-10-29T23:50:13Z",
+ "injuriesUtc": "2026-10-30T00:50:12Z",
  "injuriesErr": null,
  "injuries": {
   "ARI": [
@@ -1820,6 +1821,30 @@
   ],
   "BAL": [
    {
+    "id": 3915189,
+    "name": "Roquan Smith",
+    "pos": "LB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:36Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4575517,
+    "name": "Kyle Hamilton",
+    "pos": "S",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:30Z",
+    "body": "Knee",
+    "side": "Right",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3916387,
     "name": "Lamar Jackson",
     "pos": "QB",
@@ -1892,18 +1917,6 @@
     "fantasy": "QUESTIONABLE"
    },
    {
-    "id": 3915189,
-    "name": "Roquan Smith",
-    "pos": "LB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T01:03Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4685526,
     "name": "Adam Randall",
     "pos": "RB",
@@ -1914,18 +1927,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "IR-R"
-   },
-   {
-    "id": 4575517,
-    "name": "Kyle Hamilton",
-    "pos": "S",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T01:00Z",
-    "body": "Knee",
-    "side": "Right",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4035479,
@@ -2122,12 +2123,24 @@
   ],
   "BUF": [
    {
+    "id": 4039303,
+    "name": "Ed Oliver",
+    "pos": "DT",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-30T00:19Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4034953,
     "name": "C.J. Gardner-Johnson",
     "pos": "S",
     "status": "Suspension",
     "abbr": "SUSP",
-    "date": "2026-10-29T23:22Z",
+    "date": "2026-10-30T00:00Z",
     "body": "Suspension",
     "side": "Not Specified",
     "returnDate": "2026-11-09",
@@ -2192,18 +2205,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4039303,
-    "name": "Ed Oliver",
-    "pos": "DT",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-29T00:27Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4241476,
@@ -2424,6 +2425,18 @@
   ],
   "CAR": [
    {
+    "id": 4244607,
+    "name": "Akayleb Evans",
+    "pos": "CB",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-30T00:13Z",
+    "body": "Triceps",
+    "side": "Not Specified",
+    "returnDate": "2026-11-30",
+    "fantasy": "IR"
+   },
+   {
     "id": 4372518,
     "name": "Bobby Brown III",
     "pos": "DT",
@@ -2494,18 +2507,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-08",
     "fantasy": "INACTIVE"
-   },
-   {
-    "id": 4244607,
-    "name": "Akayleb Evans",
-    "pos": "CB",
-    "status": "Injured Reserve",
-    "abbr": "IR",
-    "date": "2026-10-28T23:47Z",
-    "body": "Triceps",
-    "side": "Not Specified",
-    "returnDate": "2026-11-30",
-    "fantasy": "IR"
    },
    {
     "id": 4242975,
@@ -2726,16 +2727,28 @@
   ],
   "CHI": [
    {
+    "id": 3121544,
+    "name": "T.J. Edwards",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-30T00:07Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4361748,
     "name": "Anthony Johnson Jr.",
     "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-29T23:22Z",
+    "status": "Injured Reserve",
+    "abbr": "IR",
+    "date": "2026-10-30T00:00Z",
     "body": "Undisclosed",
     "side": "Not Specified",
     "returnDate": "2026-11-08",
-    "fantasy": "OUT"
+    "fantasy": "IR"
    },
    {
     "id": 4608686,
@@ -2760,18 +2773,6 @@
     "side": null,
     "returnDate": "2026-11-02",
     "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 3121544,
-    "name": "T.J. Edwards",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-29T20:13Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4035369,
@@ -3934,6 +3935,18 @@
   ],
   "DEN": [
    {
+    "id": 3915282,
+    "name": "Zach Allen",
+    "pos": "DE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:41Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4686472,
     "name": "Marvin Mims Jr.",
     "pos": "WR",
@@ -4162,18 +4175,6 @@
     "fantasy": null
    },
    {
-    "id": 3915282,
-    "name": "Zach Allen",
-    "pos": "DE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-25T23:45Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
     "id": 4241820,
     "name": "Sam Ehlinger",
     "pos": "QB",
@@ -4236,6 +4237,18 @@
   ],
   "DET": [
    {
+    "id": 4360383,
+    "name": "Kerby Joseph",
+    "pos": "S",
+    "status": "Out",
+    "abbr": "O",
+    "date": "2026-10-30T00:15Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "PUP-R"
+   },
+   {
     "id": 4431615,
     "name": "Tyleik Williams",
     "pos": "DT",
@@ -4282,18 +4295,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4360383,
-    "name": "Kerby Joseph",
-    "pos": "S",
-    "status": "Out",
-    "abbr": "O",
-    "date": "2026-10-28T23:32Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "PUP-R"
    },
    {
     "id": 4569465,
@@ -5142,6 +5143,42 @@
   ],
   "IND": [
    {
+    "id": 4429684,
+    "name": "Anthony Gould",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:07Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4722908,
+    "name": "Drew Ogletree",
+    "pos": "TE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:01Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4427250,
+    "name": "Sauce Gardner",
+    "pos": "CB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-29T23:49Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4431459,
     "name": "Tyler Warren",
     "pos": "TE",
@@ -5188,42 +5225,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4427250,
-    "name": "Sauce Gardner",
-    "pos": "CB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-29T00:15Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
-   },
-   {
-    "id": 4722908,
-    "name": "Drew Ogletree",
-    "pos": "TE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:12Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4429684,
-    "name": "Anthony Gould",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:08Z",
-    "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4870598,
@@ -6048,6 +6049,18 @@
   ],
   "LV": [
    {
+    "id": 4045305,
+    "name": "Ian Thomas",
+    "pos": "TE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:25Z",
+    "body": "Shoulder",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4603186,
     "name": "Jack Bech",
     "pos": "WR",
@@ -6103,18 +6116,6 @@
     "abbr": "Q",
     "date": "2026-10-29T01:49Z",
     "body": "Neck",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4045305,
-    "name": "Ian Thomas",
-    "pos": "TE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:43Z",
-    "body": "Shoulder",
     "side": "Not Specified",
     "returnDate": "2026-11-01",
     "fantasy": "QUESTIONABLE"
@@ -6954,6 +6955,42 @@
   ],
   "MIA": [
    {
+    "id": 4430681,
+    "name": "Jared Wayne",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:26Z",
+    "body": "Knee",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4880236,
+    "name": "Will Kacmarek",
+    "pos": "TE",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:18Z",
+    "body": "Hamstring",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
+    "id": 4360488,
+    "name": "JuJu Brents",
+    "pos": "CB",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:09Z",
+    "body": "Concussion",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 4367209,
     "name": "Greg Dulcich",
     "pos": "TE",
@@ -7012,42 +7049,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4430681,
-    "name": "Jared Wayne",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:33Z",
-    "body": "Knee",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4880236,
-    "name": "Will Kacmarek",
-    "pos": "TE",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:27Z",
-    "body": "Hamstring",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
-   },
-   {
-    "id": 4360488,
-    "name": "JuJu Brents",
-    "pos": "CB",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:24Z",
-    "body": "Concussion",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4682745,
@@ -9068,6 +9069,18 @@
   ],
   "PIT": [
    {
+    "id": 4035656,
+    "name": "Ben Skowronek",
+    "pos": "WR",
+    "status": "Questionable",
+    "abbr": "Q",
+    "date": "2026-10-30T00:01Z",
+    "body": "Calf",
+    "side": "Not Specified",
+    "returnDate": "2026-11-01",
+    "fantasy": "QUESTIONABLE"
+   },
+   {
     "id": 3045373,
     "name": "Jalen Ramsey",
     "pos": "CB",
@@ -9078,18 +9091,6 @@
     "side": null,
     "returnDate": null,
     "fantasy": null
-   },
-   {
-    "id": 4035656,
-    "name": "Ben Skowronek",
-    "pos": "WR",
-    "status": "Questionable",
-    "abbr": "Q",
-    "date": "2026-10-29T00:52Z",
-    "body": "Calf",
-    "side": "Not Specified",
-    "returnDate": "2026-11-01",
-    "fantasy": "QUESTIONABLE"
    },
    {
     "id": 4037333,
@@ -9974,6 +9975,18 @@
   ],
   "TB": [
    {
+    "id": 4870998,
+    "name": "Josiah Trotter",
+    "pos": "LB",
+    "status": "Active",
+    "abbr": "A",
+    "date": "2026-10-29T23:51Z",
+    "body": null,
+    "side": null,
+    "returnDate": null,
+    "fantasy": null
+   },
+   {
     "id": 4567750,
     "name": "Emeka Egbuka",
     "pos": "WR",
@@ -10020,18 +10033,6 @@
     "side": "Not Specified",
     "returnDate": "2026-11-22",
     "fantasy": "IR-R"
-   },
-   {
-    "id": 4870998,
-    "name": "Josiah Trotter",
-    "pos": "LB",
-    "status": "Active",
-    "abbr": "A",
-    "date": "2026-10-29T00:19Z",
-    "body": null,
-    "side": null,
-    "returnDate": null,
-    "fantasy": null
    },
    {
     "id": 4034790,
